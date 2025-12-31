@@ -1,0 +1,395 @@
+{
+  "success": true,
+  "creator": "zhadevv",
+  "data": {
+    "mode": "image",
+    "title": "Anime Lists",
+    "applied_filters": {
+      "genres": [
+        "action",
+        "adventure"
+      ],
+      "status": "ongoing",
+      "order": "latest"
+    },
+    "lists": [
+      {
+        "title": "Sword and Fairy 3",
+        "slug": "sword-and-fairy-3",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/Sword-and-Fairy-3.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "28743",
+        "url": "https://anichin.cafe/seri/sword-and-fairy-3/"
+      },
+      {
+        "title": "Beyond Time’s Gaze",
+        "slug": "beyond-times-gaze",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/Beyond-Times-Gaze.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "28702",
+        "url": "https://anichin.cafe/seri/beyond-times-gaze/"
+      },
+      {
+        "title": "Threads of Fate: A War Untold",
+        "slug": "threads-of-fate-a-war-untold",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/Threads-of-Fate-A-War-Untold.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "28688",
+        "url": "https://anichin.cafe/seri/threads-of-fate-a-war-untold/"
+      },
+      {
+        "title": "Sword of Coming Season 2",
+        "slug": "sword-of-coming-season-2",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/Sword-of-Coming-Season-2.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "28649",
+        "url": "https://anichin.cafe/seri/sword-of-coming-season-2/"
+      },
+      {
+        "title": "Transcend Evolution",
+        "slug": "transcend-evolution",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/Transcend-Evolution.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "28637",
+        "url": "https://anichin.cafe/seri/transcend-evolution/"
+      },
+      {
+        "title": "IMMORTALITY SEASON 5",
+        "slug": "immortality-season-5",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/IMMORTALITY-SEASON-5.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "28582",
+        "url": "https://anichin.cafe/seri/immortality-season-5/"
+      },
+      {
+        "title": "The Daily Life of the Immortal King Season 5",
+        "slug": "the-daily-life-of-the-immortal-king-season-5",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/The-Daily-Life-of-the-Immortal-King-Season-5.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "28462",
+        "url": "https://anichin.cafe/seri/the-daily-life-of-the-immortal-king-season-5/"
+      },
+      {
+        "title": "THE DRAGON SOUL",
+        "slug": "the-dragon-soul",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/THE-DRAGON-SOUL.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "28274",
+        "url": "https://anichin.cafe/seri/the-dragon-soul/"
+      },
+      {
+        "title": "The Alchemist’s Rise",
+        "slug": "the-alchemists-rise",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/The-Alchemists-Rise.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "28226",
+        "url": "https://anichin.cafe/seri/the-alchemists-rise/"
+      },
+      {
+        "title": "The Gate of Mystical Realm",
+        "slug": "the-gate-of-mystical-realm",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/11/The-Gate-of-Mystical-Realm.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "28146",
+        "url": "https://anichin.cafe/seri/the-gate-of-mystical-realm/"
+      },
+      {
+        "title": "Ascendants of the Nine Suns",
+        "slug": "ascendants-of-the-nine-suns",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/11/Ascendants-of-the-Nine-Suns.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "28053",
+        "url": "https://anichin.cafe/seri/ascendants-of-the-nine-suns/"
+      },
+      {
+        "title": "Eat Around the Mortal World",
+        "slug": "eat-around-the-mortal-world",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/11/Eat-Around-the-Mortal-World.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "27967",
+        "url": "https://anichin.cafe/seri/eat-around-the-mortal-world/"
+      },
+      {
+        "title": "The Ethereal Sword Immortal",
+        "slug": "the-ethereal-sword-immortal",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/11/The-Ethereal-Sword-Immortal.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "27867",
+        "url": "https://anichin.cafe/seri/the-ethereal-sword-immortal/"
+      },
+      {
+        "title": "Return of The Immortal Emperor",
+        "slug": "return-of-the-immortal-emperor",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/Return-of-The-Immortal-Emperor.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "27626",
+        "url": "https://anichin.cafe/seri/return-of-the-immortal-emperor/"
+      },
+      {
+        "title": "The Last Dynasty",
+        "slug": "the-last-dynasty",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/The-Last-Dynasty-1.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "27342",
+        "url": "https://anichin.cafe/seri/the-last-dynasty/"
+      },
+      {
+        "title": "Divine Manifestation",
+        "slug": "divine-manifestation",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/Divine-Manifestation.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "27391",
+        "url": "https://anichin.cafe/seri/divine-manifestation/"
+      },
+      {
+        "title": "The Supreme Dantian",
+        "slug": "the-supreme-dantian",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/The-Supreme-Dantian.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "27203",
+        "url": "https://anichin.cafe/seri/the-supreme-dantian/"
+      },
+      {
+        "title": "I Collect Waste in Heaven",
+        "slug": "i-collect-waste-in-heaven",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/I-Collect-Waste-in-Heaven.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "27151",
+        "url": "https://anichin.cafe/seri/i-collect-waste-in-heaven/"
+      },
+      {
+        "title": "Peerless Divine Emperor",
+        "slug": "peerless-divine-emperor",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/Peerless-Divine-Emperor.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "27147",
+        "url": "https://anichin.cafe/seri/peerless-divine-emperor/"
+      },
+      {
+        "title": "Wind of the Tang Dynasty",
+        "slug": "wind-of-the-tang-dynasty",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/Wind-of-the-Tang-Dynasty.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "27102",
+        "url": "https://anichin.cafe/seri/wind-of-the-tang-dynasty/"
+      }
+    ],
+    "pagination": {
+      "current_page": 1,
+      "total_pages": 1,
+      "has_prev": false,
+      "has_next": true,
+      "prev": {
+        "url": "",
+        "text": ""
+      },
+      "next": {
+        "url": "https://anichin.cafe/?page=2&genres%5B0%5D=action&genres%5B1%5D=adventure&status=ongoing&order=latest",
+        "text": "Next"
+      },
+      "pages": []
+    }
+  },
+  "metadata": {},
+  "message": null
+}

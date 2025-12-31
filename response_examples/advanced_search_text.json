@@ -1,0 +1,3000 @@
+{
+  "success": true,
+  "creator": "zhadevv",
+  "data": {
+    "mode": "text",
+    "title": "Anime Lists",
+    "results": {
+      "hash": [
+        {
+          "title": "100.000 Years of Refining Qi",
+          "slug": "100-000-years-of-refining-qi",
+          "rel_id": "201",
+          "url": "https://anichin.cafe/seri/100-000-years-of-refining-qi/"
+        },
+        {
+          "title": "36 Cavalry",
+          "slug": "36-cavalry",
+          "rel_id": "4670",
+          "url": "https://anichin.cafe/seri/36-cavalry/"
+        },
+        {
+          "title": "4 Cut Hero",
+          "slug": "4-cut-hero",
+          "rel_id": "4012",
+          "url": "https://anichin.cafe/seri/4-cut-hero/"
+        }
+      ],
+      "A": [
+        {
+          "title": "A Moment but Forever",
+          "slug": "a-momment-but-forever",
+          "rel_id": "17865",
+          "url": "https://anichin.cafe/seri/a-momment-but-forever/"
+        },
+        {
+          "title": "A Portrait of Jianghu: Bu Liang Ren Season 1",
+          "slug": "a-portrait-of-jianghu-bu-liang-ren-season-1",
+          "rel_id": "4014",
+          "url": "https://anichin.cafe/seri/a-portrait-of-jianghu-bu-liang-ren-season-1/"
+        },
+        {
+          "title": "A Portrait of Jianghu: Bu Liang Ren Season 2",
+          "slug": "a-portrait-of-jianghu-bu-liang-ren-season-2",
+          "rel_id": "4016",
+          "url": "https://anichin.cafe/seri/a-portrait-of-jianghu-bu-liang-ren-season-2/"
+        },
+        {
+          "title": "A Portrait of Jianghu: Bu Liang Ren Season 3",
+          "slug": "a-portrait-of-jianghu-bu-liang-ren-season-3",
+          "rel_id": "4018",
+          "url": "https://anichin.cafe/seri/a-portrait-of-jianghu-bu-liang-ren-season-3/"
+        },
+        {
+          "title": "A Portrait of Jianghu: Bu Liang Ren Season 4",
+          "slug": "a-portrait-of-jianghu-bu-liang-ren-season-4",
+          "rel_id": "4020",
+          "url": "https://anichin.cafe/seri/a-portrait-of-jianghu-bu-liang-ren-season-4/"
+        },
+        {
+          "title": "A Portrait of Jianghu: Bu Liang Ren Season 5",
+          "slug": "a-portrait-of-jianghu-bu-liang-ren-season-5",
+          "rel_id": "4022",
+          "url": "https://anichin.cafe/seri/a-portrait-of-jianghu-bu-liang-ren-season-5/"
+        },
+        {
+          "title": "A Portrait of Jianghu: Bu Liang Ren Season 6",
+          "slug": "a-portrait-of-jianghu-bu-liang-ren-season-6",
+          "rel_id": "4024",
+          "url": "https://anichin.cafe/seri/a-portrait-of-jianghu-bu-liang-ren-season-6/"
+        },
+        {
+          "title": "A Portrait of Jianghu: Bu Liang Ren Season 7",
+          "slug": "a-portrait-of-jianghu-bu-liang-ren-season-7",
+          "rel_id": "23490",
+          "url": "https://anichin.cafe/seri/a-portrait-of-jianghu-bu-liang-ren-season-7/"
+        },
+        {
+          "title": "A Portrait of Jianghu: Spirit Master",
+          "slug": "a-portrait-of-jianghu-spirit-master",
+          "rel_id": "4034",
+          "url": "https://anichin.cafe/seri/a-portrait-of-jianghu-spirit-master/"
+        },
+        {
+          "title": "A Record of A Mortal’s Journey to Immortality",
+          "slug": "a-record-of-a-mortals-journey-to-immortality",
+          "rel_id": "487",
+          "url": "https://anichin.cafe/seri/a-record-of-a-mortals-journey-to-immortality/"
+        },
+        {
+          "title": "A Record of a Mortal’s Journey to Immortality Season 1",
+          "slug": "a-record-of-a-mortals-journey-to-immortality-season-1",
+          "rel_id": "228",
+          "url": "https://anichin.cafe/seri/a-record-of-a-mortals-journey-to-immortality-season-1/"
+        },
+        {
+          "title": "A World Worth Protecting",
+          "slug": "a-world-worth-protecting",
+          "rel_id": "4036",
+          "url": "https://anichin.cafe/seri/a-world-worth-protecting/"
+        },
+        {
+          "title": "Adventures in Subduing the Demons",
+          "slug": "adventures-in-subduing-the-demons",
+          "rel_id": "20275",
+          "url": "https://anichin.cafe/seri/adventures-in-subduing-the-demons/"
+        },
+        {
+          "title": "Against the Gods",
+          "slug": "against-the-gods",
+          "rel_id": "3580",
+          "url": "https://anichin.cafe/seri/against-the-gods/"
+        },
+        {
+          "title": "Against the Sky Supreme",
+          "slug": "against-the-sky-supreme",
+          "rel_id": "266",
+          "url": "https://anichin.cafe/seri/against-the-sky-supreme/"
+        },
+        {
+          "title": "Age of Gunslingers",
+          "slug": "age-of-gunslingers",
+          "rel_id": "4053",
+          "url": "https://anichin.cafe/seri/age-of-gunslingers/"
+        },
+        {
+          "title": "Agents in Otherworld",
+          "slug": "agents-in-otherworld",
+          "rel_id": "4055",
+          "url": "https://anichin.cafe/seri/agents-in-otherworld/"
+        },
+        {
+          "title": "Aku Bukan Lagi Protagonis Wanita",
+          "slug": "aku-bukan-lagi-protagonis-wanita",
+          "rel_id": "4666",
+          "url": "https://anichin.cafe/seri/aku-bukan-lagi-protagonis-wanita/"
+        },
+        {
+          "title": "Ancient Lords",
+          "slug": "ancient-lords",
+          "rel_id": "14226",
+          "url": "https://anichin.cafe/seri/ancient-lords/"
+        },
+        {
+          "title": "Ancient Myth",
+          "slug": "ancient-myth",
+          "rel_id": "321",
+          "url": "https://anichin.cafe/seri/ancient-myth/"
+        },
+        {
+          "title": "Ancient Star Divine Technique",
+          "slug": "ancient-star-divine-technique",
+          "rel_id": "13390",
+          "url": "https://anichin.cafe/seri/ancient-star-divine-technique/"
+        },
+        {
+          "title": "Ancient Supremacy",
+          "slug": "ancient-supremacy",
+          "rel_id": "259",
+          "url": "https://anichin.cafe/seri/ancient-supremacy/"
+        },
+        {
+          "title": "Ancient Vengeance: Windbreaker Arc",
+          "slug": "ancient-vengeance-windbreaker-arc",
+          "rel_id": "26863",
+          "url": "https://anichin.cafe/seri/ancient-vengeance-windbreaker-arc/"
+        },
+        {
+          "title": "Ancient War Soul",
+          "slug": "ancient-war-soul",
+          "rel_id": "23782",
+          "url": "https://anichin.cafe/seri/ancient-war-soul/"
+        },
+        {
+          "title": "Apotheosis",
+          "slug": "apotheosis",
+          "rel_id": "199",
+          "url": "https://anichin.cafe/seri/apotheosis/"
+        },
+        {
+          "title": "ARCANE | League of Legends: Battle of the Two Cities",
+          "slug": "arcane-league-of-legends-battle-of-the-two-cities",
+          "rel_id": "4057",
+          "url": "https://anichin.cafe/seri/arcane-league-of-legends-battle-of-the-two-cities/"
+        },
+        {
+          "title": "ARCANE 2",
+          "slug": "arcane-2",
+          "rel_id": "20384",
+          "url": "https://anichin.cafe/seri/arcane-2/"
+        },
+        {
+          "title": "Ascendants of the Nine Suns",
+          "slug": "ascendants-of-the-nine-suns",
+          "rel_id": "28053",
+          "url": "https://anichin.cafe/seri/ascendants-of-the-nine-suns/"
+        },
+        {
+          "title": "Azure Legacy",
+          "slug": "azure-legacy",
+          "rel_id": "243",
+          "url": "https://anichin.cafe/seri/azure-legacy/"
+        }
+      ],
+      "B": [
+        {
+          "title": "Back to the Great Ming",
+          "slug": "back-to-the-great-ming",
+          "rel_id": "15761",
+          "url": "https://anichin.cafe/seri/back-to-the-great-ming/"
+        },
+        {
+          "title": "Battle Through the Heavens Season 1 + Special",
+          "slug": "battle-through-the-heavens-season-1-special",
+          "rel_id": "424",
+          "url": "https://anichin.cafe/seri/battle-through-the-heavens-season-1-special/"
+        },
+        {
+          "title": "Battle Through the Heavens Season 2 + Special",
+          "slug": "battle-through-the-heavens-season-2-special",
+          "rel_id": "426",
+          "url": "https://anichin.cafe/seri/battle-through-the-heavens-season-2-special/"
+        },
+        {
+          "title": "Battle Through the Heavens Season 3",
+          "slug": "battle-through-the-heavens-season-3",
+          "rel_id": "428",
+          "url": "https://anichin.cafe/seri/battle-through-the-heavens-season-3/"
+        },
+        {
+          "title": "Battle Through the Heavens Season 4",
+          "slug": "battle-through-the-heavens-season-4",
+          "rel_id": "430",
+          "url": "https://anichin.cafe/seri/battle-through-the-heavens-season-4/"
+        },
+        {
+          "title": "Battle Through the Heavens Season 5",
+          "slug": "battle-through-the-heavens-season-5",
+          "rel_id": "77",
+          "url": "https://anichin.cafe/seri/battle-through-the-heavens-season-5/"
+        },
+        {
+          "title": "Battle Through the Heavens: The Origin",
+          "slug": "battle-through-the-heavens-the-origin",
+          "rel_id": "434",
+          "url": "https://anichin.cafe/seri/battle-through-the-heavens-the-origin/"
+        },
+        {
+          "title": "Battle Through the Heavens: Three Year Agreement",
+          "slug": "battle-through-the-heavens-three-year-agreement",
+          "rel_id": "432",
+          "url": "https://anichin.cafe/seri/battle-through-the-heavens-three-year-agreement/"
+        },
+        {
+          "title": "Beyond the Ocean Season 1",
+          "slug": "beyond-the-ocean-season-1",
+          "rel_id": "4059",
+          "url": "https://anichin.cafe/seri/beyond-the-ocean-season-1/"
+        },
+        {
+          "title": "Beyond the Ocean Season 2",
+          "slug": "beyond-the-ocean-season-2",
+          "rel_id": "4061",
+          "url": "https://anichin.cafe/seri/beyond-the-ocean-season-2/"
+        },
+        {
+          "title": "Beyond Time’s Gaze",
+          "slug": "beyond-times-gaze",
+          "rel_id": "28702",
+          "url": "https://anichin.cafe/seri/beyond-times-gaze/"
+        },
+        {
+          "title": "Blade of Guardians",
+          "slug": "blade-of-guardians",
+          "rel_id": "245",
+          "url": "https://anichin.cafe/seri/blade-of-guardians/"
+        },
+        {
+          "title": "Blader Soul: Origin",
+          "slug": "blader-soul-prolog",
+          "rel_id": "14500",
+          "url": "https://anichin.cafe/seri/blader-soul-prolog/"
+        },
+        {
+          "title": "Bu Liang Ren: The Legend of Yuan Tiangang",
+          "slug": "bu-liang-ren-the-legend-of-yuan-tiangang",
+          "rel_id": "13571",
+          "url": "https://anichin.cafe/seri/bu-liang-ren-the-legend-of-yuan-tiangang/"
+        },
+        {
+          "title": "Bureau of Paranormal Investigation",
+          "slug": "bureau-of-paranormal-investigation",
+          "rel_id": "9994",
+          "url": "https://anichin.cafe/seri/bureau-of-paranormal-investigation/"
+        }
+      ],
+      "C": [
+        {
+          "title": "Candle in the Tomb: Return to the South Sea",
+          "slug": "candle-in-the-tomb-return-to-the-south-sea",
+          "rel_id": "26520",
+          "url": "https://anichin.cafe/seri/candle-in-the-tomb-return-to-the-south-sea/"
+        },
+        {
+          "title": "Carpenter Assassin",
+          "slug": "carpenter-assassin",
+          "rel_id": "4756",
+          "url": "https://anichin.cafe/seri/carpenter-assassin/"
+        },
+        {
+          "title": "Chang An Huan Jie",
+          "slug": "chang-an-huan-jie",
+          "rel_id": "4063",
+          "url": "https://anichin.cafe/seri/chang-an-huan-jie/"
+        },
+        {
+          "title": "Charm of Soul Pets",
+          "slug": "charm-of-soul-pets",
+          "rel_id": "16242",
+          "url": "https://anichin.cafe/seri/charm-of-soul-pets/"
+        },
+        {
+          "title": "Chinesse Mystery Man",
+          "slug": "chinesse-mystery-man",
+          "rel_id": "4068",
+          "url": "https://anichin.cafe/seri/chinesse-mystery-man/"
+        },
+        {
+          "title": "Close Combat Mage",
+          "slug": "close-combat-mage",
+          "rel_id": "6723",
+          "url": "https://anichin.cafe/seri/close-combat-mage/"
+        },
+        {
+          "title": "Core Sense",
+          "slug": "core-sense",
+          "rel_id": "4070",
+          "url": "https://anichin.cafe/seri/core-sense/"
+        },
+        {
+          "title": "Cupid’s Chocolates Season 1",
+          "slug": "cupids-chocolates-season-1",
+          "rel_id": "4072",
+          "url": "https://anichin.cafe/seri/cupids-chocolates-season-1/"
+        },
+        {
+          "title": "Cupid’s Chocolates Season 2",
+          "slug": "cupids-chocolates-season-2",
+          "rel_id": "4074",
+          "url": "https://anichin.cafe/seri/cupids-chocolates-season-2/"
+        }
+      ],
+      "D": [
+        {
+          "title": "Deep Se",
+          "slug": "deep-se",
+          "rel_id": "12634",
+          "url": "https://anichin.cafe/seri/deep-se/"
+        },
+        {
+          "title": "Defense Fully Open",
+          "slug": "defense-fully-open",
+          "rel_id": "4120",
+          "url": "https://anichin.cafe/seri/defense-fully-open/"
+        },
+        {
+          "title": "Demigod Realm",
+          "slug": "demigod-realm",
+          "rel_id": "241",
+          "url": "https://anichin.cafe/seri/demigod-realm/"
+        },
+        {
+          "title": "Demon Spirit Seed Manual",
+          "slug": "demon-spirit-seed-manual",
+          "rel_id": "4122",
+          "url": "https://anichin.cafe/seri/demon-spirit-seed-manual/"
+        },
+        {
+          "title": "Divine Dao Emperor",
+          "slug": "divine-dao-emperor",
+          "rel_id": "19817",
+          "url": "https://anichin.cafe/seri/divine-dao-emperor/"
+        },
+        {
+          "title": "Divine Manifestation",
+          "slug": "divine-manifestation",
+          "rel_id": "27391",
+          "url": "https://anichin.cafe/seri/divine-manifestation/"
+        },
+        {
+          "title": "Don’t Give Up",
+          "slug": "dont-give-up",
+          "rel_id": "17391",
+          "url": "https://anichin.cafe/seri/dont-give-up/"
+        },
+        {
+          "title": "Douluo Continent [Soul Land Live Action]",
+          "slug": "douluo-continent-soul-land-live-action",
+          "rel_id": "12644",
+          "url": "https://anichin.cafe/seri/douluo-continent-soul-land-live-action/"
+        },
+        {
+          "title": "Douluo Dalu: Jiandao Chen Xin",
+          "slug": "douluo-dalu-jiandao-chen-xin",
+          "rel_id": "25581",
+          "url": "https://anichin.cafe/seri/douluo-dalu-jiandao-chen-xin/"
+        },
+        {
+          "title": "Dragon Prince Yuan",
+          "slug": "dragon-prince-yuan",
+          "rel_id": "16280",
+          "url": "https://anichin.cafe/seri/dragon-prince-yuan/"
+        },
+        {
+          "title": "Dragon Raja",
+          "slug": "dragon-raja",
+          "rel_id": "4124",
+          "url": "https://anichin.cafe/seri/dragon-raja/"
+        },
+        {
+          "title": "Dragon Raja Season 2",
+          "slug": "dragon-raja-season-2",
+          "rel_id": "25832",
+          "url": "https://anichin.cafe/seri/dragon-raja-season-2/"
+        },
+        {
+          "title": "Dragon Star Master",
+          "slug": "dragon-star-master",
+          "rel_id": "13255",
+          "url": "https://anichin.cafe/seri/dragon-star-master/"
+        },
+        {
+          "title": "Dragon’s Disciple",
+          "slug": "dragons-disciple",
+          "rel_id": "4126",
+          "url": "https://anichin.cafe/seri/dragons-disciple/"
+        },
+        {
+          "title": "Dream Tower: Snow Mystery City Season 2",
+          "slug": "dream-tower-snow-mystery-city-season-2",
+          "rel_id": "10181",
+          "url": "https://anichin.cafe/seri/dream-tower-snow-mystery-city-season-2/"
+        },
+        {
+          "title": "Drowning Sorrows in Raging Fire",
+          "slug": "drowning-sorrows-in-raging-fire",
+          "rel_id": "4128",
+          "url": "https://anichin.cafe/seri/drowning-sorrows-in-raging-fire/"
+        },
+        {
+          "title": "Dubu Xiaoyao",
+          "slug": "dubu-xiaoyao",
+          "rel_id": "270",
+          "url": "https://anichin.cafe/seri/dubu-xiaoyao/"
+        }
+      ],
+      "E": [
+        {
+          "title": "Eat Around the Mortal World",
+          "slug": "eat-around-the-mortal-world",
+          "rel_id": "27967",
+          "url": "https://anichin.cafe/seri/eat-around-the-mortal-world/"
+        },
+        {
+          "title": "Eclipse of Illusion",
+          "slug": "eclipse-of-illusion",
+          "rel_id": "25425",
+          "url": "https://anichin.cafe/seri/eclipse-of-illusion/"
+        },
+        {
+          "title": "EMBERS",
+          "slug": "embers",
+          "rel_id": "25032",
+          "url": "https://anichin.cafe/seri/embers/"
+        },
+        {
+          "title": "Endless God Realm",
+          "slug": "endless-god-realm",
+          "rel_id": "18255",
+          "url": "https://anichin.cafe/seri/endless-god-realm/"
+        },
+        {
+          "title": "Epic of Divinity Light",
+          "slug": "epic-of-divinity-light",
+          "rel_id": "4130",
+          "url": "https://anichin.cafe/seri/epic-of-divinity-light/"
+        },
+        {
+          "title": "Eudemon Quest",
+          "slug": "eudemon-quest",
+          "rel_id": "4132",
+          "url": "https://anichin.cafe/seri/eudemon-quest/"
+        },
+        {
+          "title": "Everlasting God of Sword",
+          "slug": "everlasting-god-of-sword",
+          "rel_id": "4134",
+          "url": "https://anichin.cafe/seri/everlasting-god-of-sword/"
+        },
+        {
+          "title": "Everything Is Fine With The Emperor",
+          "slug": "everything-is-fine-with-the-emperor",
+          "rel_id": "22648",
+          "url": "https://anichin.cafe/seri/everything-is-fine-with-the-emperor/"
+        }
+      ],
+      "F": [
+        {
+          "title": "Face on Lie",
+          "slug": "face-on-lie",
+          "rel_id": "4384",
+          "url": "https://anichin.cafe/seri/face-on-lie/"
+        },
+        {
+          "title": "Fairy Mountain",
+          "slug": "fairy-mountain",
+          "rel_id": "4386",
+          "url": "https://anichin.cafe/seri/fairy-mountain/"
+        },
+        {
+          "title": "Fallen Mystic Master",
+          "slug": "fallen-mystic-master",
+          "rel_id": "234",
+          "url": "https://anichin.cafe/seri/fallen-mystic-master/"
+        },
+        {
+          "title": "Fengwu Demon Chef",
+          "slug": "fengwu-demon-chef",
+          "rel_id": "22226",
+          "url": "https://anichin.cafe/seri/fengwu-demon-chef/"
+        },
+        {
+          "title": "Fight For The Throne",
+          "slug": "fight-for-the-throne",
+          "rel_id": "22116",
+          "url": "https://anichin.cafe/seri/fight-for-the-throne/"
+        },
+        {
+          "title": "Five Elements God Of War",
+          "slug": "five-elements-god-of-war",
+          "rel_id": "182",
+          "url": "https://anichin.cafe/seri/five-elements-god-of-war/"
+        },
+        {
+          "title": "Foreordination",
+          "slug": "foreordination",
+          "rel_id": "4388",
+          "url": "https://anichin.cafe/seri/foreordination/"
+        },
+        {
+          "title": "Forty Millenniums of Cultivation",
+          "slug": "forty-millenniums-of-cultivation",
+          "rel_id": "4391",
+          "url": "https://anichin.cafe/seri/forty-millenniums-of-cultivation/"
+        },
+        {
+          "title": "Fox Spirit Matchmaker Season 1 – 4",
+          "slug": "fox-spirit-matchmaker-season-1-4",
+          "rel_id": "4408",
+          "url": "https://anichin.cafe/seri/fox-spirit-matchmaker-season-1-4/"
+        },
+        {
+          "title": "Fox Spirit Matchmaker Season 5",
+          "slug": "fox-spirit-matchmaker-season-5",
+          "rel_id": "4410",
+          "url": "https://anichin.cafe/seri/fox-spirit-matchmaker-season-5/"
+        },
+        {
+          "title": "Fox Spirit Matchmaker Season 6",
+          "slug": "fox-spirit-matchmaker-season-6",
+          "rel_id": "4412",
+          "url": "https://anichin.cafe/seri/fox-spirit-matchmaker-season-6/"
+        },
+        {
+          "title": "Fox Spirit Matchmaker Season 7",
+          "slug": "fox-spirit-matchmaker-season-7",
+          "rel_id": "4414",
+          "url": "https://anichin.cafe/seri/fox-spirit-matchmaker-season-7/"
+        },
+        {
+          "title": "Fox Spirit Matchmaker Season 8",
+          "slug": "fox-spirit-matchmaker-season-8",
+          "rel_id": "4418",
+          "url": "https://anichin.cafe/seri/fox-spirit-matchmaker-season-8/"
+        },
+        {
+          "title": "Fox Spirit Matchmaker Season 9",
+          "slug": "fox-spirit-matchmaker-season-9",
+          "rel_id": "4425",
+          "url": "https://anichin.cafe/seri/fox-spirit-matchmaker-season-9/"
+        }
+      ],
+      "G": [
+        {
+          "title": "Glorious Revenge of Ye Feng",
+          "slug": "glorious-revenge-of-ye-feng",
+          "rel_id": "4157",
+          "url": "https://anichin.cafe/seri/glorious-revenge-of-ye-feng/"
+        },
+        {
+          "title": "God of Deception",
+          "slug": "god-of-deception",
+          "rel_id": "4508",
+          "url": "https://anichin.cafe/seri/god-of-deception/"
+        },
+        {
+          "title": "God of Magical World",
+          "slug": "god-of-magical-world",
+          "rel_id": "4510",
+          "url": "https://anichin.cafe/seri/god-of-magical-world/"
+        },
+        {
+          "title": "God of War Alliance",
+          "slug": "god-of-war-alliance",
+          "rel_id": "21593",
+          "url": "https://anichin.cafe/seri/god-of-war-alliance/"
+        },
+        {
+          "title": "Golden Guards: The Wind Rises From Jinling",
+          "slug": "golden-guards-the-wind-rises-from-jinling",
+          "rel_id": "16053",
+          "url": "https://anichin.cafe/seri/golden-guards-the-wind-rises-from-jinling/"
+        },
+        {
+          "title": "GoWest: Overworked",
+          "slug": "gowest-overworked",
+          "rel_id": "24477",
+          "url": "https://anichin.cafe/seri/gowest-overworked/"
+        },
+        {
+          "title": "Great Desolation Spirit Sovereign",
+          "slug": "great-desolation-spirit-sovereign",
+          "rel_id": "2976",
+          "url": "https://anichin.cafe/seri/great-desolation-spirit-sovereign/"
+        },
+        {
+          "title": "Great Doctor Miss Nine",
+          "slug": "great-doctor-miss-nine",
+          "rel_id": "4512",
+          "url": "https://anichin.cafe/seri/great-doctor-miss-nine/"
+        },
+        {
+          "title": "Guan Hai Ce",
+          "slug": "guan-hai-ce",
+          "rel_id": "4514",
+          "url": "https://anichin.cafe/seri/guan-hai-ce/"
+        },
+        {
+          "title": "Guomin Laogong Dai Huijia",
+          "slug": "guomin-laogong-dai-huijia",
+          "rel_id": "4516",
+          "url": "https://anichin.cafe/seri/guomin-laogong-dai-huijia/"
+        },
+        {
+          "title": "Guomin Laogong Dai Huijia Season 2",
+          "slug": "guomin-laogong-dai-huijia-season-2",
+          "rel_id": "4518",
+          "url": "https://anichin.cafe/seri/guomin-laogong-dai-huijia-season-2/"
+        },
+        {
+          "title": "Guomin Laogong Dai Huijia Season 3",
+          "slug": "guomin-laogong-dai-huijia-season-3",
+          "rel_id": "4521",
+          "url": "https://anichin.cafe/seri/guomin-laogong-dai-huijia-season-3/"
+        },
+        {
+          "title": "Guomin Laogong Dai Huijia Season 4",
+          "slug": "guomin-laogong-dai-huijia-season-4",
+          "rel_id": "4523",
+          "url": "https://anichin.cafe/seri/guomin-laogong-dai-huijia-season-4/"
+        }
+      ],
+      "H": [
+        {
+          "title": "Heaven Official’s Blessing",
+          "slug": "heaven-officials-blessing",
+          "rel_id": "4543",
+          "url": "https://anichin.cafe/seri/heaven-officials-blessing/"
+        },
+        {
+          "title": "Heaven Official’s Blessing Season 2",
+          "slug": "heaven-officials-blessing-season-2",
+          "rel_id": "5690",
+          "url": "https://anichin.cafe/seri/heaven-officials-blessing-season-2/"
+        },
+        {
+          "title": "Heaven Official’s Blessing Special",
+          "slug": "heaven-officials-blessing-special",
+          "rel_id": "4545",
+          "url": "https://anichin.cafe/seri/heaven-officials-blessing-special/"
+        },
+        {
+          "title": "Heaven Shadow",
+          "slug": "heaven-shadow",
+          "rel_id": "20325",
+          "url": "https://anichin.cafe/seri/heaven-shadow/"
+        },
+        {
+          "title": "Heaven Swallowing Record",
+          "slug": "heaven-swallowing-record",
+          "rel_id": "24560",
+          "url": "https://anichin.cafe/seri/heaven-swallowing-record/"
+        },
+        {
+          "title": "Heavenly Brick Knight",
+          "slug": "heavenly-brick-knight",
+          "rel_id": "16639",
+          "url": "https://anichin.cafe/seri/heavenly-brick-knight/"
+        },
+        {
+          "title": "Heibai Wushuang Season 1",
+          "slug": "heibai-wushuang-season-1",
+          "rel_id": "4551",
+          "url": "https://anichin.cafe/seri/heibai-wushuang-season-1/"
+        },
+        {
+          "title": "Heibai Wushuang Season 2",
+          "slug": "heibai-wushuang-season-2",
+          "rel_id": "4575",
+          "url": "https://anichin.cafe/seri/heibai-wushuang-season-2/"
+        },
+        {
+          "title": "Heibai Wushuang Season 3",
+          "slug": "heibai-wushuang-season-3",
+          "rel_id": "4577",
+          "url": "https://anichin.cafe/seri/heibai-wushuang-season-3/"
+        },
+        {
+          "title": "Hero Return",
+          "slug": "hero-return",
+          "rel_id": "4579",
+          "url": "https://anichin.cafe/seri/hero-return/"
+        },
+        {
+          "title": "Hidden Sect Leader",
+          "slug": "hidden-sect-leader",
+          "rel_id": "14920",
+          "url": "https://anichin.cafe/seri/hidden-sect-leader/"
+        },
+        {
+          "title": "Hitori no Shita: The Outcast Season 1",
+          "slug": "hitori-no-shita-the-outcast-season-1",
+          "rel_id": "4581",
+          "url": "https://anichin.cafe/seri/hitori-no-shita-the-outcast-season-1/"
+        },
+        {
+          "title": "Hitori no Shita: The Outcast Season 2",
+          "slug": "hitori-no-shita-the-outcast-season-2",
+          "rel_id": "4583",
+          "url": "https://anichin.cafe/seri/hitori-no-shita-the-outcast-season-2/"
+        },
+        {
+          "title": "Hitori no Shita: The Outcast Season 3",
+          "slug": "hitori-no-shita-the-outcast-season-3",
+          "rel_id": "4585",
+          "url": "https://anichin.cafe/seri/hitori-no-shita-the-outcast-season-3/"
+        },
+        {
+          "title": "Hitori no Shita: The Outcast Season 4",
+          "slug": "hitori-no-shita-the-outcast-season-4",
+          "rel_id": "4587",
+          "url": "https://anichin.cafe/seri/hitori-no-shita-the-outcast-season-4/"
+        },
+        {
+          "title": "Hitori no Shita: The Outcast Season 5",
+          "slug": "hitori-no-shita-the-outcast-season-5",
+          "rel_id": "4589",
+          "url": "https://anichin.cafe/seri/hitori-no-shita-the-outcast-season-5/"
+        },
+        {
+          "title": "Hitori No Shita: The Return of Tetsumaru",
+          "slug": "hitori-no-shita-the-return-of-tetsumaru",
+          "rel_id": "26981",
+          "url": "https://anichin.cafe/seri/hitori-no-shita-the-return-of-tetsumaru/"
+        },
+        {
+          "title": "Honor of Kings: Destiny Arc",
+          "slug": "honor-of-kings-destiny-arc",
+          "rel_id": "24771",
+          "url": "https://anichin.cafe/seri/honor-of-kings-destiny-arc/"
+        },
+        {
+          "title": "Honor of Kings: Glory Arc",
+          "slug": "honor-of-kings-glory-arc",
+          "rel_id": "13004",
+          "url": "https://anichin.cafe/seri/honor-of-kings-glory-arc/"
+        }
+      ],
+      "I": [
+        {
+          "title": "I Am The Blade",
+          "slug": "i-am-the-blade",
+          "rel_id": "25516",
+          "url": "https://anichin.cafe/seri/i-am-the-blade/"
+        },
+        {
+          "title": "I Am Ying Tai",
+          "slug": "i-am-ying-tai",
+          "rel_id": "26391",
+          "url": "https://anichin.cafe/seri/i-am-ying-tai/"
+        },
+        {
+          "title": "I Can Have Infinite Enlightenment",
+          "slug": "i-can-have-infinite-enlightenment",
+          "rel_id": "21748",
+          "url": "https://anichin.cafe/seri/i-can-have-infinite-enlightenment/"
+        },
+        {
+          "title": "I Collect Waste in Heaven",
+          "slug": "i-collect-waste-in-heaven",
+          "rel_id": "27151",
+          "url": "https://anichin.cafe/seri/i-collect-waste-in-heaven/"
+        },
+        {
+          "title": "I Have Refined Qi For 3000 Years!",
+          "slug": "i-have-refined-qi-for-3000-years",
+          "rel_id": "4591",
+          "url": "https://anichin.cafe/seri/i-have-refined-qi-for-3000-years/"
+        },
+        {
+          "title": "I Picked Up An Attribute",
+          "slug": "i-picked-up-an-attribute",
+          "rel_id": "4593",
+          "url": "https://anichin.cafe/seri/i-picked-up-an-attribute/"
+        },
+        {
+          "title": "Immemorial Love For You",
+          "slug": "immemorial-love-for-you",
+          "rel_id": "4595",
+          "url": "https://anichin.cafe/seri/immemorial-love-for-you/"
+        },
+        {
+          "title": "Immemorial Love For You Season 2",
+          "slug": "immemorial-love-for-you-season-2",
+          "rel_id": "4597",
+          "url": "https://anichin.cafe/seri/immemorial-love-for-you-season-2/"
+        },
+        {
+          "title": "Immortal Tomb",
+          "slug": "immortal-tomb",
+          "rel_id": "4623",
+          "url": "https://anichin.cafe/seri/immortal-tomb/"
+        },
+        {
+          "title": "IMMORTALITY Season 1",
+          "slug": "immortality-season-1",
+          "rel_id": "255",
+          "url": "https://anichin.cafe/seri/immortality-season-1/"
+        },
+        {
+          "title": "IMMORTALITY Season 2",
+          "slug": "immortality-season-2",
+          "rel_id": "253",
+          "url": "https://anichin.cafe/seri/immortality-season-2/"
+        },
+        {
+          "title": "IMMORTALITY SEASON 3",
+          "slug": "immortality-season-3",
+          "rel_id": "15384",
+          "url": "https://anichin.cafe/seri/immortality-season-3/"
+        },
+        {
+          "title": "IMMORTALITY SEASON 4",
+          "slug": "immortality-season-4",
+          "rel_id": "17801",
+          "url": "https://anichin.cafe/seri/immortality-season-4/"
+        },
+        {
+          "title": "IMMORTALITY SEASON 5",
+          "slug": "immortality-season-5",
+          "rel_id": "28582",
+          "url": "https://anichin.cafe/seri/immortality-season-5/"
+        },
+        {
+          "title": "Incomparable Demon King",
+          "slug": "incomparable-demon-king",
+          "rel_id": "4625",
+          "url": "https://anichin.cafe/seri/incomparable-demon-king/"
+        }
+      ],
+      "J": [
+        {
+          "title": "Jade Dynasty",
+          "slug": "jade-dynasty",
+          "rel_id": "4627",
+          "url": "https://anichin.cafe/seri/jade-dynasty/"
+        },
+        {
+          "title": "Jun You Yun",
+          "slug": "jun-you-yun",
+          "rel_id": "4629",
+          "url": "https://anichin.cafe/seri/jun-you-yun/"
+        },
+        {
+          "title": "Jun You Yun Season 2",
+          "slug": "jun-you-yun-season-2",
+          "rel_id": "24735",
+          "url": "https://anichin.cafe/seri/jun-you-yun-season-2/"
+        }
+      ],
+      "K": [
+        {
+          "title": "Kai Feng Qitan: Zhege Baogong Bu Taixing",
+          "slug": "kai-feng-qitan-zhege-baogong-bu-taixing",
+          "rel_id": "4631",
+          "url": "https://anichin.cafe/seri/kai-feng-qitan-zhege-baogong-bu-taixing/"
+        },
+        {
+          "title": "Keyboard Immortal",
+          "slug": "keyboard-immortal",
+          "rel_id": "16995",
+          "url": "https://anichin.cafe/seri/keyboard-immortal/"
+        },
+        {
+          "title": "Killer Seven Season 1",
+          "slug": "killer-seven-season-1",
+          "rel_id": "4633",
+          "url": "https://anichin.cafe/seri/killer-seven-season-1/"
+        },
+        {
+          "title": "Killer Seven Season 2",
+          "slug": "killer-seven-season-2",
+          "rel_id": "4635",
+          "url": "https://anichin.cafe/seri/killer-seven-season-2/"
+        },
+        {
+          "title": "Killer Seven Season 3",
+          "slug": "killer-seven-season-3",
+          "rel_id": "4637",
+          "url": "https://anichin.cafe/seri/killer-seven-season-3/"
+        },
+        {
+          "title": "Killer Seven Season 4",
+          "slug": "killer-seven-season-4",
+          "rel_id": "4639",
+          "url": "https://anichin.cafe/seri/killer-seven-season-4/"
+        },
+        {
+          "title": "King of Loose Cultivators",
+          "slug": "king-of-loose-cultivators",
+          "rel_id": "15009",
+          "url": "https://anichin.cafe/seri/king-of-loose-cultivators/"
+        },
+        {
+          "title": "Knights on Debris",
+          "slug": "knights-on-debris",
+          "rel_id": "4641",
+          "url": "https://anichin.cafe/seri/knights-on-debris/"
+        }
+      ],
+      "L": [
+        {
+          "title": "Law of the Devil",
+          "slug": "law-of-the-devil",
+          "rel_id": "4110",
+          "url": "https://anichin.cafe/seri/law-of-the-devil/"
+        },
+        {
+          "title": "Left-Hand Layup!",
+          "slug": "left-hand-layup",
+          "rel_id": "4643",
+          "url": "https://anichin.cafe/seri/left-hand-layup/"
+        },
+        {
+          "title": "Legend of Deification",
+          "slug": "legend-of-deification",
+          "rel_id": "12630",
+          "url": "https://anichin.cafe/seri/legend-of-deification/"
+        },
+        {
+          "title": "Legend of Dragon Soldier",
+          "slug": "legend-of-dragon-soldier",
+          "rel_id": "12607",
+          "url": "https://anichin.cafe/seri/legend-of-dragon-soldier/"
+        },
+        {
+          "title": "Legend of Exorcism Season 1",
+          "slug": "legend-of-exorcism-season-1",
+          "rel_id": "12603",
+          "url": "https://anichin.cafe/seri/legend-of-exorcism-season-1/"
+        },
+        {
+          "title": "Legend of Exorcism Season 2",
+          "slug": "legend-of-exorcism-season-2",
+          "rel_id": "12605",
+          "url": "https://anichin.cafe/seri/legend-of-exorcism-season-2/"
+        },
+        {
+          "title": "Legend of Lotus Fairy Sword",
+          "slug": "legend-of-lotus-fairy-sword",
+          "rel_id": "38",
+          "url": "https://anichin.cafe/seri/legend-of-lotus-fairy-sword/"
+        },
+        {
+          "title": "Legend of Martial Immortal",
+          "slug": "legend-of-martial-immortal",
+          "rel_id": "21",
+          "url": "https://anichin.cafe/seri/legend-of-martial-immortal/"
+        },
+        {
+          "title": "Legend of Sho",
+          "slug": "legend-of-sho",
+          "rel_id": "12601",
+          "url": "https://anichin.cafe/seri/legend-of-sho/"
+        },
+        {
+          "title": "Legend of Soldier",
+          "slug": "legend-of-soldier",
+          "rel_id": "15888",
+          "url": "https://anichin.cafe/seri/legend-of-soldier/"
+        },
+        {
+          "title": "Legend of the Maestro",
+          "slug": "legend-of-the-maestro",
+          "rel_id": "11059",
+          "url": "https://anichin.cafe/seri/legend-of-the-maestro/"
+        },
+        {
+          "title": "Legendary Twins",
+          "slug": "legendary-twins",
+          "rel_id": "12571",
+          "url": "https://anichin.cafe/seri/legendary-twins/"
+        },
+        {
+          "title": "Legendary Twins: Beyond the Sky",
+          "slug": "legendary-twins-beyond-the-sky",
+          "rel_id": "26867",
+          "url": "https://anichin.cafe/seri/legendary-twins-beyond-the-sky/"
+        },
+        {
+          "title": "Leveling Up In A Fantasy World",
+          "slug": "leveling-up-in-a-fantasy-world",
+          "rel_id": "12563",
+          "url": "https://anichin.cafe/seri/leveling-up-in-a-fantasy-world/"
+        },
+        {
+          "title": "Ling Feng Zhe",
+          "slug": "ling-feng-zhe",
+          "rel_id": "12561",
+          "url": "https://anichin.cafe/seri/ling-feng-zhe/"
+        },
+        {
+          "title": "Lingwu Continent",
+          "slug": "lingwu-continent",
+          "rel_id": "17635",
+          "url": "https://anichin.cafe/seri/lingwu-continent/"
+        },
+        {
+          "title": "Link Click Season 1",
+          "slug": "link-click-season-1",
+          "rel_id": "12557",
+          "url": "https://anichin.cafe/seri/link-click-season-1/"
+        },
+        {
+          "title": "Link Click Season 2",
+          "slug": "link-click-season-2",
+          "rel_id": "12559",
+          "url": "https://anichin.cafe/seri/link-click-season-2/"
+        },
+        {
+          "title": "LINK CLICK: BRIDON ARC",
+          "slug": "link-click-bridon-arc",
+          "rel_id": "21541",
+          "url": "https://anichin.cafe/seri/link-click-bridon-arc/"
+        },
+        {
+          "title": "Little Fairy Yao",
+          "slug": "little-fairy-yao",
+          "rel_id": "23989",
+          "url": "https://anichin.cafe/seri/little-fairy-yao/"
+        },
+        {
+          "title": "Long Sword",
+          "slug": "long-sword",
+          "rel_id": "12555",
+          "url": "https://anichin.cafe/seri/long-sword/"
+        },
+        {
+          "title": "Lord of Destiny",
+          "slug": "lord-of-destiny",
+          "rel_id": "22021",
+          "url": "https://anichin.cafe/seri/lord-of-destiny/"
+        },
+        {
+          "title": "Lord of Planet",
+          "slug": "lord-of-planet",
+          "rel_id": "12553",
+          "url": "https://anichin.cafe/seri/lord-of-planet/"
+        },
+        {
+          "title": "Lord of the Ancient God Grave",
+          "slug": "lord-of-the-ancient-god-grave",
+          "rel_id": "370",
+          "url": "https://anichin.cafe/seri/lord-of-the-ancient-god-grave/"
+        },
+        {
+          "title": "Lord of The Mysteries",
+          "slug": "lord-of-the-mysteries",
+          "rel_id": "25277",
+          "url": "https://anichin.cafe/seri/lord-of-the-mysteries/"
+        },
+        {
+          "title": "Lord of the Universe Season 1",
+          "slug": "lord-of-the-universe-season-1",
+          "rel_id": "12524",
+          "url": "https://anichin.cafe/seri/lord-of-the-universe-season-1/"
+        },
+        {
+          "title": "Lord of the Universe Season 2",
+          "slug": "lord-of-the-universe-season-2",
+          "rel_id": "12526",
+          "url": "https://anichin.cafe/seri/lord-of-the-universe-season-2/"
+        },
+        {
+          "title": "Lord of the Universe Season 3",
+          "slug": "lord-of-the-universe-season-3",
+          "rel_id": "12528",
+          "url": "https://anichin.cafe/seri/lord-of-the-universe-season-3/"
+        },
+        {
+          "title": "Lord Xue Ying Season 1",
+          "slug": "lord-xue-ying-season-1",
+          "rel_id": "3177",
+          "url": "https://anichin.cafe/seri/lord-xue-ying-season-1/"
+        },
+        {
+          "title": "Lord Xue Ying Season 2",
+          "slug": "lord-xue-ying-season-2",
+          "rel_id": "3260",
+          "url": "https://anichin.cafe/seri/lord-xue-ying-season-2/"
+        },
+        {
+          "title": "Lord Xue Ying Season 3",
+          "slug": "lord-xue-ying-season-3",
+          "rel_id": "4962",
+          "url": "https://anichin.cafe/seri/lord-xue-ying-season-3/"
+        },
+        {
+          "title": "Love Between Fairy and Devil",
+          "slug": "love-between-fairy-and-devil",
+          "rel_id": "12522",
+          "url": "https://anichin.cafe/seri/love-between-fairy-and-devil/"
+        },
+        {
+          "title": "Luoyang Divine Youth",
+          "slug": "luoyang-divine-youth",
+          "rel_id": "12520",
+          "url": "https://anichin.cafe/seri/luoyang-divine-youth/"
+        }
+      ],
+      "M": [
+        {
+          "title": "M&S Organization",
+          "slug": "ms-organization",
+          "rel_id": "280",
+          "url": "https://anichin.cafe/seri/ms-organization/"
+        },
+        {
+          "title": "Magic Chef of Fire and Ice",
+          "slug": "magic-chef-of-fire-and-ice",
+          "rel_id": "367",
+          "url": "https://anichin.cafe/seri/magic-chef-of-fire-and-ice/"
+        },
+        {
+          "title": "Make Money To Be King",
+          "slug": "make-money-to-be-king",
+          "rel_id": "12516",
+          "url": "https://anichin.cafe/seri/make-money-to-be-king/"
+        },
+        {
+          "title": "Manual of Hundred Demons Season 1",
+          "slug": "manual-of-hundred-demons-season-1",
+          "rel_id": "12510",
+          "url": "https://anichin.cafe/seri/manual-of-hundred-demons-season-1/"
+        },
+        {
+          "title": "Manual of Hundred Demons Season 2",
+          "slug": "manual-of-hundred-demons-season-2",
+          "rel_id": "12512",
+          "url": "https://anichin.cafe/seri/manual-of-hundred-demons-season-2/"
+        },
+        {
+          "title": "Manual of Hundred Demons Season 3",
+          "slug": "manual-of-hundred-demons-season-3",
+          "rel_id": "12514",
+          "url": "https://anichin.cafe/seri/manual-of-hundred-demons-season-3/"
+        },
+        {
+          "title": "Martial Conqueror of the Cosmos",
+          "slug": "martial-conqueror-of-the-cosmos",
+          "rel_id": "26256",
+          "url": "https://anichin.cafe/seri/martial-conqueror-of-the-cosmos/"
+        },
+        {
+          "title": "Martial God Asura",
+          "slug": "martial-god-asura",
+          "rel_id": "4004",
+          "url": "https://anichin.cafe/seri/martial-god-asura/"
+        },
+        {
+          "title": "Martial Inverse",
+          "slug": "martial-inverse",
+          "rel_id": "20180",
+          "url": "https://anichin.cafe/seri/martial-inverse/"
+        },
+        {
+          "title": "Martial Master",
+          "slug": "martial-master",
+          "rel_id": "405",
+          "url": "https://anichin.cafe/seri/martial-master/"
+        },
+        {
+          "title": "Martial Peak",
+          "slug": "martial-peak",
+          "rel_id": "20923",
+          "url": "https://anichin.cafe/seri/martial-peak/"
+        },
+        {
+          "title": "Master of the Star Origin",
+          "slug": "master-of-the-star-origin",
+          "rel_id": "12508",
+          "url": "https://anichin.cafe/seri/master-of-the-star-origin/"
+        },
+        {
+          "title": "Matchless Emperor",
+          "slug": "matchless-emperor",
+          "rel_id": "257",
+          "url": "https://anichin.cafe/seri/matchless-emperor/"
+        },
+        {
+          "title": "Meng Qi Shi Shen Season 1",
+          "slug": "meng-qi-shi-shen-season-1",
+          "rel_id": "12488",
+          "url": "https://anichin.cafe/seri/meng-qi-shi-shen-season-1/"
+        },
+        {
+          "title": "Meng Qi Shi Shen Season 2",
+          "slug": "meng-qi-shi-shen-season-2",
+          "rel_id": "12494",
+          "url": "https://anichin.cafe/seri/meng-qi-shi-shen-season-2/"
+        },
+        {
+          "title": "Meng Qi Shi Shen Season 3",
+          "slug": "meng-qi-shi-shen-season-3",
+          "rel_id": "12498",
+          "url": "https://anichin.cafe/seri/meng-qi-shi-shen-season-3/"
+        },
+        {
+          "title": "Millenniums Of Warring States",
+          "slug": "millenniums-of-warring-states",
+          "rel_id": "12480",
+          "url": "https://anichin.cafe/seri/millenniums-of-warring-states/"
+        },
+        {
+          "title": "Mo Dao Zu Shi Season 1",
+          "slug": "mo-dao-zu-shi-season-1",
+          "rel_id": "12474",
+          "url": "https://anichin.cafe/seri/mo-dao-zu-shi-season-1/"
+        },
+        {
+          "title": "Mo Dao Zu Shi Season 2",
+          "slug": "mo-dao-zu-shi-season-2",
+          "rel_id": "12476",
+          "url": "https://anichin.cafe/seri/mo-dao-zu-shi-season-2/"
+        },
+        {
+          "title": "Mo Dao Zu Shi Season 3",
+          "slug": "mo-dao-zu-shi-season-3",
+          "rel_id": "12478",
+          "url": "https://anichin.cafe/seri/mo-dao-zu-shi-season-3/"
+        },
+        {
+          "title": "Mom, I’m Sorry",
+          "slug": "mom-im-sorry",
+          "rel_id": "16329",
+          "url": "https://anichin.cafe/seri/mom-im-sorry/"
+        },
+        {
+          "title": "Mortal Kombat Legends: Scorpions Revenge",
+          "slug": "mortal-kombat-legends-scorpions-revenge",
+          "rel_id": "12442",
+          "url": "https://anichin.cafe/seri/mortal-kombat-legends-scorpions-revenge/"
+        },
+        {
+          "title": "My Cultivator Girlfriend",
+          "slug": "my-cultivator-girlfriend",
+          "rel_id": "12440",
+          "url": "https://anichin.cafe/seri/my-cultivator-girlfriend/"
+        },
+        {
+          "title": "My Heroic Husband",
+          "slug": "my-heroic-husband",
+          "rel_id": "12433",
+          "url": "https://anichin.cafe/seri/my-heroic-husband/"
+        },
+        {
+          "title": "My Heroic Husband Season 2",
+          "slug": "my-heroic-husband-season-2",
+          "rel_id": "17846",
+          "url": "https://anichin.cafe/seri/my-heroic-husband-season-2/"
+        },
+        {
+          "title": "My Holy Weapon",
+          "slug": "my-holy-weapon",
+          "rel_id": "12431",
+          "url": "https://anichin.cafe/seri/my-holy-weapon/"
+        },
+        {
+          "title": "My Journey to Another World",
+          "slug": "my-journey-to-another-world",
+          "rel_id": "12429",
+          "url": "https://anichin.cafe/seri/my-journey-to-another-world/"
+        },
+        {
+          "title": "My Sectarian Members Are Spies",
+          "slug": "my-sectarian-members-are-spies",
+          "rel_id": "19657",
+          "url": "https://anichin.cafe/seri/my-sectarian-members-are-spies/"
+        },
+        {
+          "title": "My Senior Brother Is Too Steady",
+          "slug": "my-senior-brother-is-too-steady",
+          "rel_id": "11913",
+          "url": "https://anichin.cafe/seri/my-senior-brother-is-too-steady/"
+        },
+        {
+          "title": "My Senior Brother Is Too Strong",
+          "slug": "my-senior-brother-is-too-strong",
+          "rel_id": "23624",
+          "url": "https://anichin.cafe/seri/my-senior-brother-is-too-strong/"
+        },
+        {
+          "title": "My WeChat Connects to the Dragon Palace",
+          "slug": "my-wechat-connects-to-the-dragon-palace",
+          "rel_id": "18091",
+          "url": "https://anichin.cafe/seri/my-wechat-connects-to-the-dragon-palace/"
+        }
+      ],
+      "N": [
+        {
+          "title": "Nirvana of Storm Riders",
+          "slug": "nirvana-of-storm-riders",
+          "rel_id": "16015",
+          "url": "https://anichin.cafe/seri/nirvana-of-storm-riders/"
+        },
+        {
+          "title": "Novoland Eagle Flag",
+          "slug": "novoland-eagle-flag",
+          "rel_id": "12406",
+          "url": "https://anichin.cafe/seri/novoland-eagle-flag/"
+        }
+      ],
+      "O": [
+        {
+          "title": "Otherworldly Evil Monarch",
+          "slug": "otherworldly-evil-monarch",
+          "rel_id": "13600",
+          "url": "https://anichin.cafe/seri/otherworldly-evil-monarch/"
+        },
+        {
+          "title": "Over Goddess",
+          "slug": "over-goddess",
+          "rel_id": "19896",
+          "url": "https://anichin.cafe/seri/over-goddess/"
+        },
+        {
+          "title": "Over the Divine Kingdom",
+          "slug": "over-the-divine-kingdom",
+          "rel_id": "25069",
+          "url": "https://anichin.cafe/seri/over-the-divine-kingdom/"
+        }
+      ],
+      "P": [
+        {
+          "title": "Peak of True Martial Arts",
+          "slug": "peak-of-true-martial-arts",
+          "rel_id": "190",
+          "url": "https://anichin.cafe/seri/peak-of-true-martial-arts/"
+        },
+        {
+          "title": "Peerless Battle Spirit",
+          "slug": "peerless-battle-spirit",
+          "rel_id": "15604",
+          "url": "https://anichin.cafe/seri/peerless-battle-spirit/"
+        },
+        {
+          "title": "Peerless Divine Emperor",
+          "slug": "peerless-divine-emperor",
+          "rel_id": "27147",
+          "url": "https://anichin.cafe/seri/peerless-divine-emperor/"
+        },
+        {
+          "title": "Peerless Martial Spirit",
+          "slug": "peerless-martial-spirit",
+          "rel_id": "272",
+          "url": "https://anichin.cafe/seri/peerless-martial-spirit/"
+        },
+        {
+          "title": "Perfect World",
+          "slug": "perfect-world",
+          "rel_id": "194",
+          "url": "https://anichin.cafe/seri/perfect-world/"
+        },
+        {
+          "title": "Perfect World Movie: Ashes of Fire",
+          "slug": "perfect-world-movie-ashes-of-fire",
+          "rel_id": "18896",
+          "url": "https://anichin.cafe/seri/perfect-world-movie-ashes-of-fire/"
+        },
+        {
+          "title": "Player Sultan",
+          "slug": "player-sultan",
+          "rel_id": "24975",
+          "url": "https://anichin.cafe/seri/player-sultan/"
+        },
+        {
+          "title": "Prince, Don’t Do This!",
+          "slug": "prince-dont-do-this",
+          "rel_id": "12403",
+          "url": "https://anichin.cafe/seri/prince-dont-do-this/"
+        },
+        {
+          "title": "Proud Swordsman",
+          "slug": "proud-swordsman",
+          "rel_id": "12401",
+          "url": "https://anichin.cafe/seri/proud-swordsman/"
+        },
+        {
+          "title": "Purgatory Walkers",
+          "slug": "purgatory-walkers",
+          "rel_id": "16559",
+          "url": "https://anichin.cafe/seri/purgatory-walkers/"
+        },
+        {
+          "title": "Purple River",
+          "slug": "purple-river",
+          "rel_id": "12399",
+          "url": "https://anichin.cafe/seri/purple-river/"
+        },
+        {
+          "title": "Purple River Season 2",
+          "slug": "purple-river-season-2",
+          "rel_id": "25935",
+          "url": "https://anichin.cafe/seri/purple-river-season-2/"
+        }
+      ],
+      "Q": [
+        {
+          "title": "Qin Xia",
+          "slug": "qin-xia",
+          "rel_id": "12397",
+          "url": "https://anichin.cafe/seri/qin-xia/"
+        },
+        {
+          "title": "Qin’s Moon: Nine Songs of the Moving Heavens Season 1",
+          "slug": "qins-moon-nine-songs-of-the-moving-heavens-season-1",
+          "rel_id": "12392",
+          "url": "https://anichin.cafe/seri/qins-moon-nine-songs-of-the-moving-heavens-season-1/"
+        },
+        {
+          "title": "Qin’s Moon: Nine Songs of the Moving Heavens Season 2",
+          "slug": "qins-moon-nine-songs-of-the-moving-heavens-season-2",
+          "rel_id": "12394",
+          "url": "https://anichin.cafe/seri/qins-moon-nine-songs-of-the-moving-heavens-season-2/"
+        },
+        {
+          "title": "Quanzhi Fashi Season 1",
+          "slug": "quanzhi-fashi-season-1",
+          "rel_id": "6040",
+          "url": "https://anichin.cafe/seri/quanzhi-fashi-season-1/"
+        },
+        {
+          "title": "Quanzhi Fashi Season 2",
+          "slug": "quanzhi-fashi-season-2",
+          "rel_id": "6336",
+          "url": "https://anichin.cafe/seri/quanzhi-fashi-season-2/"
+        },
+        {
+          "title": "Quanzhi Fashi Season 3",
+          "slug": "quanzhi-fashi-season-3",
+          "rel_id": "6374",
+          "url": "https://anichin.cafe/seri/quanzhi-fashi-season-3/"
+        },
+        {
+          "title": "Quanzhi Fashi Season 4",
+          "slug": "quanzhi-fashi-season-4",
+          "rel_id": "6431",
+          "url": "https://anichin.cafe/seri/quanzhi-fashi-season-4/"
+        },
+        {
+          "title": "Quanzhi Fashi Season 5",
+          "slug": "quanzhi-fashi-season-5",
+          "rel_id": "6433",
+          "url": "https://anichin.cafe/seri/quanzhi-fashi-season-5/"
+        },
+        {
+          "title": "Quanzhi Fashi Season 6",
+          "slug": "quanzhi-fashi-season-6",
+          "rel_id": "6435",
+          "url": "https://anichin.cafe/seri/quanzhi-fashi-season-6/"
+        },
+        {
+          "title": "Quanzhi Gaoshou Movie：For the Glory",
+          "slug": "quanzhi-gaoshou-movie%ef%bc%9afor-the-glory",
+          "rel_id": "12371",
+          "url": "https://anichin.cafe/seri/quanzhi-gaoshou-movie%ef%bc%9afor-the-glory/"
+        },
+        {
+          "title": "Quanzhi Gaoshou Season 1",
+          "slug": "quanzhi-gaoshou-season-1",
+          "rel_id": "12365",
+          "url": "https://anichin.cafe/seri/quanzhi-gaoshou-season-1/"
+        },
+        {
+          "title": "Quanzhi Gaoshou Season 2",
+          "slug": "quanzhi-gaoshou-season-2",
+          "rel_id": "12369",
+          "url": "https://anichin.cafe/seri/quanzhi-gaoshou-season-2/"
+        },
+        {
+          "title": "Quanzhi Gaoshou Season 3",
+          "slug": "quanzhi-gaoshou-season-3",
+          "rel_id": "16321",
+          "url": "https://anichin.cafe/seri/quanzhi-gaoshou-season-3/"
+        }
+      ],
+      "R": [
+        {
+          "title": "Rakshasa Street Season 1",
+          "slug": "rakshasa-street-season-1",
+          "rel_id": "12359",
+          "url": "https://anichin.cafe/seri/rakshasa-street-season-1/"
+        },
+        {
+          "title": "Rakshasa Street Season 2",
+          "slug": "rakshasa-street-season-2",
+          "rel_id": "12363",
+          "url": "https://anichin.cafe/seri/rakshasa-street-season-2/"
+        },
+        {
+          "title": "Rakshasa Street Season 3",
+          "slug": "rakshasa-street-season-3",
+          "rel_id": "4668",
+          "url": "https://anichin.cafe/seri/rakshasa-street-season-3/"
+        },
+        {
+          "title": "Rebirth of the Sword Patriarch",
+          "slug": "rebirth-of-the-sword-patriarch",
+          "rel_id": "21295",
+          "url": "https://anichin.cafe/seri/rebirth-of-the-sword-patriarch/"
+        },
+        {
+          "title": "Renegade Immortal",
+          "slug": "renegade-immortal",
+          "rel_id": "3818",
+          "url": "https://anichin.cafe/seri/renegade-immortal/"
+        },
+        {
+          "title": "Renegade Immortal Movie: Battle Of The Gods",
+          "slug": "renegade-immortal-movie-battle-of-the-gods",
+          "rel_id": "24758",
+          "url": "https://anichin.cafe/seri/renegade-immortal-movie-battle-of-the-gods/"
+        },
+        {
+          "title": "Return of The Immortal Emperor",
+          "slug": "return-of-the-immortal-emperor",
+          "rel_id": "27626",
+          "url": "https://anichin.cafe/seri/return-of-the-immortal-emperor/"
+        },
+        {
+          "title": "Revelation Online Season 1",
+          "slug": "revelation-online-season-1",
+          "rel_id": "12351",
+          "url": "https://anichin.cafe/seri/revelation-online-season-1/"
+        },
+        {
+          "title": "Revelation Online Season 2",
+          "slug": "revelation-online-season-2",
+          "rel_id": "12353",
+          "url": "https://anichin.cafe/seri/revelation-online-season-2/"
+        },
+        {
+          "title": "Reversal Dimension : AI Rise",
+          "slug": "reversal-dimension-ai-rise",
+          "rel_id": "12357",
+          "url": "https://anichin.cafe/seri/reversal-dimension-ai-rise/"
+        },
+        {
+          "title": "Rise of the Dragon",
+          "slug": "rise-of-the-dragon",
+          "rel_id": "12349",
+          "url": "https://anichin.cafe/seri/rise-of-the-dragon/"
+        }
+      ],
+      "S": [
+        {
+          "title": "Sage Ancestor",
+          "slug": "sage-ancestor",
+          "rel_id": "13344",
+          "url": "https://anichin.cafe/seri/sage-ancestor/"
+        },
+        {
+          "title": "Scumbag System",
+          "slug": "scumbag-system",
+          "rel_id": "12343",
+          "url": "https://anichin.cafe/seri/scumbag-system/"
+        },
+        {
+          "title": "Shadow of the Void",
+          "slug": "shadow-of-the-void",
+          "rel_id": "16490",
+          "url": "https://anichin.cafe/seri/shadow-of-the-void/"
+        },
+        {
+          "title": "Shanghai Melody",
+          "slug": "shanghai-melody",
+          "rel_id": "12341",
+          "url": "https://anichin.cafe/seri/shanghai-melody/"
+        },
+        {
+          "title": "Shao Nian Ge Xing Season 1",
+          "slug": "shao-nian-ge-xing-season-1",
+          "rel_id": "12323",
+          "url": "https://anichin.cafe/seri/shao-nian-ge-xing-season-1/"
+        },
+        {
+          "title": "Shao Nian Ge Xing Season 2",
+          "slug": "shao-nian-ge-xing-season-2",
+          "rel_id": "12325",
+          "url": "https://anichin.cafe/seri/shao-nian-ge-xing-season-2/"
+        },
+        {
+          "title": "Shao Nian Ge Xing Season 3",
+          "slug": "shao-nian-ge-xing-season-3",
+          "rel_id": "5688",
+          "url": "https://anichin.cafe/seri/shao-nian-ge-xing-season-3/"
+        },
+        {
+          "title": "Shao Nian Ge Xing Season 4",
+          "slug": "shao-nian-ge-xing-season-4",
+          "rel_id": "21792",
+          "url": "https://anichin.cafe/seri/shao-nian-ge-xing-season-4/"
+        },
+        {
+          "title": "Shrouding the Heavens",
+          "slug": "shrouding-the-heavens",
+          "rel_id": "239",
+          "url": "https://anichin.cafe/seri/shrouding-the-heavens/"
+        },
+        {
+          "title": "Since The Red Moon Appeared",
+          "slug": "since-the-red-moon-appeared",
+          "rel_id": "12455",
+          "url": "https://anichin.cafe/seri/since-the-red-moon-appeared/"
+        },
+        {
+          "title": "Slay the Gods",
+          "slug": "slay-the-gods",
+          "rel_id": "17737",
+          "url": "https://anichin.cafe/seri/slay-the-gods/"
+        },
+        {
+          "title": "Soul Land 2: The Unrivaled Tang Sect",
+          "slug": "soul-land-2-the-unrivaled-tang-sect",
+          "rel_id": "203",
+          "url": "https://anichin.cafe/seri/soul-land-2-the-unrivaled-tang-sect/"
+        },
+        {
+          "title": "Soul Land Movie: Battle of The Gods Director’s Cut",
+          "slug": "soul-land-movie-battle-of-the-gods-directors-cut",
+          "rel_id": "11415",
+          "url": "https://anichin.cafe/seri/soul-land-movie-battle-of-the-gods-directors-cut/"
+        },
+        {
+          "title": "Soul Land Season 1",
+          "slug": "soul-land",
+          "rel_id": "2952",
+          "url": "https://anichin.cafe/seri/soul-land/"
+        },
+        {
+          "title": "Soul Land Season 2",
+          "slug": "soul-land-season-2",
+          "rel_id": "187",
+          "url": "https://anichin.cafe/seri/soul-land-season-2/"
+        },
+        {
+          "title": "Soul Land Season 2 (Live Action)",
+          "slug": "soul-land-season-2-live-action",
+          "rel_id": "20677",
+          "url": "https://anichin.cafe/seri/soul-land-season-2-live-action/"
+        },
+        {
+          "title": "Soul Of Light",
+          "slug": "soul-of-light",
+          "rel_id": "461",
+          "url": "https://anichin.cafe/seri/soul-of-light/"
+        },
+        {
+          "title": "Space Time Rift",
+          "slug": "space-time-rift",
+          "rel_id": "12321",
+          "url": "https://anichin.cafe/seri/space-time-rift/"
+        },
+        {
+          "title": "Spare Me, Great Lord! Season 1",
+          "slug": "spare-me-great-lord",
+          "rel_id": "12316",
+          "url": "https://anichin.cafe/seri/spare-me-great-lord/"
+        },
+        {
+          "title": "Spare Me, Great Lord! Season 2",
+          "slug": "spare-me-great-lord-season-2",
+          "rel_id": "12945",
+          "url": "https://anichin.cafe/seri/spare-me-great-lord-season-2/"
+        },
+        {
+          "title": "Spirit Cage: Incarnation Season 1",
+          "slug": "spirit-cage-incarnation-season-1",
+          "rel_id": "8021",
+          "url": "https://anichin.cafe/seri/spirit-cage-incarnation-season-1/"
+        },
+        {
+          "title": "Spirit Cage: Incarnation Season 2",
+          "slug": "spirit-cage-incarnation-season-2",
+          "rel_id": "8057",
+          "url": "https://anichin.cafe/seri/spirit-cage-incarnation-season-2/"
+        },
+        {
+          "title": "Spirit Guardians Season 1",
+          "slug": "spirit-guardians-season-1",
+          "rel_id": "12306",
+          "url": "https://anichin.cafe/seri/spirit-guardians-season-1/"
+        },
+        {
+          "title": "Spirit Guardians Season 2",
+          "slug": "spirit-guardians-season-2",
+          "rel_id": "12308",
+          "url": "https://anichin.cafe/seri/spirit-guardians-season-2/"
+        },
+        {
+          "title": "Spirit Guardians Season 3",
+          "slug": "spirit-guardians-season-3",
+          "rel_id": "12310",
+          "url": "https://anichin.cafe/seri/spirit-guardians-season-3/"
+        },
+        {
+          "title": "Spirit Guardians Season 4",
+          "slug": "spirit-guardians-season-4",
+          "rel_id": "12312",
+          "url": "https://anichin.cafe/seri/spirit-guardians-season-4/"
+        },
+        {
+          "title": "Spirit Guardians Season 5",
+          "slug": "spirit-guardians-season-5",
+          "rel_id": "12314",
+          "url": "https://anichin.cafe/seri/spirit-guardians-season-5/"
+        },
+        {
+          "title": "Spirit of the Book Season 1",
+          "slug": "spirit-of-the-book-season-1",
+          "rel_id": "12293",
+          "url": "https://anichin.cafe/seri/spirit-of-the-book-season-1/"
+        },
+        {
+          "title": "Spirit of the Book Season 2",
+          "slug": "spirit-of-the-book-season-2",
+          "rel_id": "12295",
+          "url": "https://anichin.cafe/seri/spirit-of-the-book-season-2/"
+        },
+        {
+          "title": "Spirit Sword Sovereign Season 1",
+          "slug": "spirit-sword-sovereign-season-1",
+          "rel_id": "12288",
+          "url": "https://anichin.cafe/seri/spirit-sword-sovereign-season-1/"
+        },
+        {
+          "title": "Spirit Sword Sovereign Season 2",
+          "slug": "spirit-sword-sovereign-season-2",
+          "rel_id": "12290",
+          "url": "https://anichin.cafe/seri/spirit-sword-sovereign-season-2/"
+        },
+        {
+          "title": "Spirit Sword Sovereign Season 3",
+          "slug": "spirit-sword-sovereign-season-3",
+          "rel_id": "12291",
+          "url": "https://anichin.cafe/seri/spirit-sword-sovereign-season-3/"
+        },
+        {
+          "title": "Spirit Sword Sovereign Season 4",
+          "slug": "spirit-sword-sovereign-season-4",
+          "rel_id": "276",
+          "url": "https://anichin.cafe/seri/spirit-sword-sovereign-season-4/"
+        },
+        {
+          "title": "Spirits In Chinese Brushes",
+          "slug": "spirits-in-chinese-brushes",
+          "rel_id": "6145",
+          "url": "https://anichin.cafe/seri/spirits-in-chinese-brushes/"
+        },
+        {
+          "title": "Spiritual Domain Live Action",
+          "slug": "spiritual-domain-live-action",
+          "rel_id": "12280",
+          "url": "https://anichin.cafe/seri/spiritual-domain-live-action/"
+        },
+        {
+          "title": "Spiritual Domain Season 1",
+          "slug": "spiritual-domain-season-1",
+          "rel_id": "12261",
+          "url": "https://anichin.cafe/seri/spiritual-domain-season-1/"
+        },
+        {
+          "title": "Spiritual Domain Season 2",
+          "slug": "spiritual-domain-season-2",
+          "rel_id": "12263",
+          "url": "https://anichin.cafe/seri/spiritual-domain-season-2/"
+        },
+        {
+          "title": "Spiritual Domain Season 3",
+          "slug": "spiritual-domain-season-3",
+          "rel_id": "12272",
+          "url": "https://anichin.cafe/seri/spiritual-domain-season-3/"
+        },
+        {
+          "title": "Spiritual Domain Season 4",
+          "slug": "spiritual-domain-season-4",
+          "rel_id": "12274",
+          "url": "https://anichin.cafe/seri/spiritual-domain-season-4/"
+        },
+        {
+          "title": "Spiritual Domain Season 5",
+          "slug": "spiritual-domain-season-5",
+          "rel_id": "12276",
+          "url": "https://anichin.cafe/seri/spiritual-domain-season-5/"
+        },
+        {
+          "title": "Spiritual Domain Season 6",
+          "slug": "spiritual-domain-season-6",
+          "rel_id": "12278",
+          "url": "https://anichin.cafe/seri/spiritual-domain-season-6/"
+        },
+        {
+          "title": "Star Martial God Technique Season 1",
+          "slug": "star-martial-god-technique-season-1",
+          "rel_id": "12255",
+          "url": "https://anichin.cafe/seri/star-martial-god-technique-season-1/"
+        },
+        {
+          "title": "Star Martial God Technique Season 2",
+          "slug": "star-martial-god-technique-season-2",
+          "rel_id": "12257",
+          "url": "https://anichin.cafe/seri/star-martial-god-technique-season-2/"
+        },
+        {
+          "title": "Start to Be a Star Today",
+          "slug": "start-to-be-a-star-today",
+          "rel_id": "12245",
+          "url": "https://anichin.cafe/seri/start-to-be-a-star-today/"
+        },
+        {
+          "title": "Start to be a Star Today Season 2",
+          "slug": "start-to-be-a-star-today-season-2",
+          "rel_id": "12247",
+          "url": "https://anichin.cafe/seri/start-to-be-a-star-today-season-2/"
+        },
+        {
+          "title": "Stellar Transformation Season 1",
+          "slug": "stellar-transformation-season-1",
+          "rel_id": "209",
+          "url": "https://anichin.cafe/seri/stellar-transformation-season-1/"
+        },
+        {
+          "title": "Stellar Transformation Season 2",
+          "slug": "stellar-transformation-season-2",
+          "rel_id": "211",
+          "url": "https://anichin.cafe/seri/stellar-transformation-season-2/"
+        },
+        {
+          "title": "Stellar Transformation Season 3",
+          "slug": "stellar-transformation-season-3",
+          "rel_id": "215",
+          "url": "https://anichin.cafe/seri/stellar-transformation-season-3/"
+        },
+        {
+          "title": "Stellar Transformation Season 4",
+          "slug": "stellar-transformation-season-4",
+          "rel_id": "217",
+          "url": "https://anichin.cafe/seri/stellar-transformation-season-4/"
+        },
+        {
+          "title": "Stellar Transformation Season 5",
+          "slug": "stellar-transformation-season-5",
+          "rel_id": "206",
+          "url": "https://anichin.cafe/seri/stellar-transformation-season-5/"
+        },
+        {
+          "title": "Stellar Transformation Season 6",
+          "slug": "stellar-transformation-season-6",
+          "rel_id": "22324",
+          "url": "https://anichin.cafe/seri/stellar-transformation-season-6/"
+        },
+        {
+          "title": "Strongest Immortal of Seven Realms",
+          "slug": "strongest-immortal-of-seven-realms",
+          "rel_id": "348",
+          "url": "https://anichin.cafe/seri/strongest-immortal-of-seven-realms/"
+        },
+        {
+          "title": "Summer Punch",
+          "slug": "summer-punch",
+          "rel_id": "12200",
+          "url": "https://anichin.cafe/seri/summer-punch/"
+        },
+        {
+          "title": "Super Cube",
+          "slug": "super-cube",
+          "rel_id": "23377",
+          "url": "https://anichin.cafe/seri/super-cube/"
+        },
+        {
+          "title": "Super Xiang",
+          "slug": "super-xiang",
+          "rel_id": "15715",
+          "url": "https://anichin.cafe/seri/super-xiang/"
+        },
+        {
+          "title": "Supreme Above The Sky",
+          "slug": "supreme-above-the-sky",
+          "rel_id": "25366",
+          "url": "https://anichin.cafe/seri/supreme-above-the-sky/"
+        },
+        {
+          "title": "Supreme Alchemy",
+          "slug": "supreme-alchemy",
+          "rel_id": "12386",
+          "url": "https://anichin.cafe/seri/supreme-alchemy/"
+        },
+        {
+          "title": "Supreme Galaxy Season 1",
+          "slug": "supreme-galaxy-season-1",
+          "rel_id": "12233",
+          "url": "https://anichin.cafe/seri/supreme-galaxy-season-1/"
+        },
+        {
+          "title": "Supreme Galaxy Season 2",
+          "slug": "supreme-galaxy-season-2",
+          "rel_id": "12235",
+          "url": "https://anichin.cafe/seri/supreme-galaxy-season-2/"
+        },
+        {
+          "title": "Supreme God Emperor",
+          "slug": "supreme-god-emperor",
+          "rel_id": "264",
+          "url": "https://anichin.cafe/seri/supreme-god-emperor/"
+        },
+        {
+          "title": "Supreme Sword God",
+          "slug": "supreme-sword-god",
+          "rel_id": "12228",
+          "url": "https://anichin.cafe/seri/supreme-sword-god/"
+        },
+        {
+          "title": "Swallowed Star",
+          "slug": "swallowed-star",
+          "rel_id": "2720",
+          "url": "https://anichin.cafe/seri/swallowed-star/"
+        },
+        {
+          "title": "Swallowed Star Movie: Blood River Continent",
+          "slug": "swallowed-star-movie-blood-river-continent",
+          "rel_id": "21068",
+          "url": "https://anichin.cafe/seri/swallowed-star-movie-blood-river-continent/"
+        },
+        {
+          "title": "Swallowed Star Season 2 dan 3",
+          "slug": "swallowed-star-season-2",
+          "rel_id": "196",
+          "url": "https://anichin.cafe/seri/swallowed-star-season-2/"
+        },
+        {
+          "title": "Swallowed Star Season 4",
+          "slug": "swallowed-star-season-4",
+          "rel_id": "4328",
+          "url": "https://anichin.cafe/seri/swallowed-star-season-4/"
+        },
+        {
+          "title": "SWARM",
+          "slug": "swarm",
+          "rel_id": "12222",
+          "url": "https://anichin.cafe/seri/swarm/"
+        },
+        {
+          "title": "Sword and Fairy 3",
+          "slug": "sword-and-fairy-3",
+          "rel_id": "28743",
+          "url": "https://anichin.cafe/seri/sword-and-fairy-3/"
+        },
+        {
+          "title": "Sword Bone",
+          "slug": "sword-bone",
+          "rel_id": "237",
+          "url": "https://anichin.cafe/seri/sword-bone/"
+        },
+        {
+          "title": "Sword Dynasty",
+          "slug": "sword-dynasty",
+          "rel_id": "12214",
+          "url": "https://anichin.cafe/seri/sword-dynasty/"
+        },
+        {
+          "title": "Sword of Coming",
+          "slug": "sword-of-coming",
+          "rel_id": "18105",
+          "url": "https://anichin.cafe/seri/sword-of-coming/"
+        },
+        {
+          "title": "Sword of Coming Season 2",
+          "slug": "sword-of-coming-season-2",
+          "rel_id": "28649",
+          "url": "https://anichin.cafe/seri/sword-of-coming-season-2/"
+        },
+        {
+          "title": "Sword Quest",
+          "slug": "sword-quest",
+          "rel_id": "12212",
+          "url": "https://anichin.cafe/seri/sword-quest/"
+        },
+        {
+          "title": "Sword Saint of Heavenly Realm",
+          "slug": "sword-saint-of-heavenly-realm",
+          "rel_id": "250",
+          "url": "https://anichin.cafe/seri/sword-saint-of-heavenly-realm/"
+        }
+      ],
+      "T": [
+        {
+          "title": "Tales Of Dark River",
+          "slug": "tales-of-dark-river",
+          "rel_id": "2154",
+          "url": "https://anichin.cafe/seri/tales-of-dark-river/"
+        },
+        {
+          "title": "Tales of Demons and Gods Season 1",
+          "slug": "tales-of-demons-and-gods-season-1",
+          "rel_id": "7152",
+          "url": "https://anichin.cafe/seri/tales-of-demons-and-gods-season-1/"
+        },
+        {
+          "title": "Tales of Demons and Gods Season 2",
+          "slug": "tales-of-demons-and-gods-season-2",
+          "rel_id": "7246",
+          "url": "https://anichin.cafe/seri/tales-of-demons-and-gods-season-2/"
+        },
+        {
+          "title": "Tales of Demons and Gods Season 3",
+          "slug": "tales-of-demons-and-gods-season-3",
+          "rel_id": "7337",
+          "url": "https://anichin.cafe/seri/tales-of-demons-and-gods-season-3/"
+        },
+        {
+          "title": "Tales of Demons and Gods Season 4",
+          "slug": "tales-of-demons-and-gods-season-4",
+          "rel_id": "7441",
+          "url": "https://anichin.cafe/seri/tales-of-demons-and-gods-season-4/"
+        },
+        {
+          "title": "Tales of Demons and Gods Season 5 & 6",
+          "slug": "tales-of-demons-and-gods-season-5-6",
+          "rel_id": "7576",
+          "url": "https://anichin.cafe/seri/tales-of-demons-and-gods-season-5-6/"
+        },
+        {
+          "title": "Tales of Demons and Gods Season 7",
+          "slug": "tales-of-demons-and-gods-season-7",
+          "rel_id": "192",
+          "url": "https://anichin.cafe/seri/tales-of-demons-and-gods-season-7/"
+        },
+        {
+          "title": "Tales of Demons and Gods Season 8",
+          "slug": "tales-of-demons-and-gods-season-8",
+          "rel_id": "15569",
+          "url": "https://anichin.cafe/seri/tales-of-demons-and-gods-season-8/"
+        },
+        {
+          "title": "Tales of Demons and Gods Season 9",
+          "slug": "tales-of-demons-and-gods-season-9",
+          "rel_id": "25655",
+          "url": "https://anichin.cafe/seri/tales-of-demons-and-gods-season-9/"
+        },
+        {
+          "title": "Tales of Herding Gods",
+          "slug": "tales-of-herding-gods",
+          "rel_id": "19870",
+          "url": "https://anichin.cafe/seri/tales-of-herding-gods/"
+        },
+        {
+          "title": "The Abyss Game",
+          "slug": "the-abyss-game",
+          "rel_id": "11909",
+          "url": "https://anichin.cafe/seri/the-abyss-game/"
+        },
+        {
+          "title": "The Adventure’s of Yang Chen",
+          "slug": "the-adventures-of-yang-chen",
+          "rel_id": "232",
+          "url": "https://anichin.cafe/seri/the-adventures-of-yang-chen/"
+        },
+        {
+          "title": "The Age of Cosmos Exploration",
+          "slug": "the-age-of-cosmos-exploration",
+          "rel_id": "13607",
+          "url": "https://anichin.cafe/seri/the-age-of-cosmos-exploration/"
+        },
+        {
+          "title": "The Alchemist’s Rise",
+          "slug": "the-alchemists-rise",
+          "rel_id": "28226",
+          "url": "https://anichin.cafe/seri/the-alchemists-rise/"
+        },
+        {
+          "title": "The All-Devouring Whale: Homecoming",
+          "slug": "the-all-devouring-whale-homecoming",
+          "rel_id": "24327",
+          "url": "https://anichin.cafe/seri/the-all-devouring-whale-homecoming/"
+        },
+        {
+          "title": "The Black Troop",
+          "slug": "the-black-troop",
+          "rel_id": "12206",
+          "url": "https://anichin.cafe/seri/the-black-troop/"
+        },
+        {
+          "title": "The Black Troop 2: The Arrival of Deities",
+          "slug": "the-black-troop-2-the-arrival-of-deities",
+          "rel_id": "12208",
+          "url": "https://anichin.cafe/seri/the-black-troop-2-the-arrival-of-deities/"
+        },
+        {
+          "title": "The Black Troop 3: Leiting Wan Jun",
+          "slug": "the-black-troop-3-leiting-wan-jun",
+          "rel_id": "12210",
+          "url": "https://anichin.cafe/seri/the-black-troop-3-leiting-wan-jun/"
+        },
+        {
+          "title": "The Chaos History of War",
+          "slug": "the-chaos-history-of-war",
+          "rel_id": "345",
+          "url": "https://anichin.cafe/seri/the-chaos-history-of-war/"
+        },
+        {
+          "title": "The Daily Life of The Immortal King Season 1",
+          "slug": "the-daily-life-of-the-immortal-king-season-1",
+          "rel_id": "5741",
+          "url": "https://anichin.cafe/seri/the-daily-life-of-the-immortal-king-season-1/"
+        },
+        {
+          "title": "The Daily Life of The Immortal King Season 2",
+          "slug": "the-daily-life-of-the-immortal-king-season-2",
+          "rel_id": "5791",
+          "url": "https://anichin.cafe/seri/the-daily-life-of-the-immortal-king-season-2/"
+        },
+        {
+          "title": "The Daily Life of the Immortal King Season 3",
+          "slug": "the-daily-life-of-the-immortal-king-season-3",
+          "rel_id": "5823",
+          "url": "https://anichin.cafe/seri/the-daily-life-of-the-immortal-king-season-3/"
+        },
+        {
+          "title": "The Daily Life of the Immortal King Season 4",
+          "slug": "the-daily-life-of-the-immortal-king-season-4",
+          "rel_id": "12059",
+          "url": "https://anichin.cafe/seri/the-daily-life-of-the-immortal-king-season-4/"
+        },
+        {
+          "title": "The Daily Life of the Immortal King Season 5",
+          "slug": "the-daily-life-of-the-immortal-king-season-5",
+          "rel_id": "28462",
+          "url": "https://anichin.cafe/seri/the-daily-life-of-the-immortal-king-season-5/"
+        },
+        {
+          "title": "The Defective",
+          "slug": "the-defective",
+          "rel_id": "12192",
+          "url": "https://anichin.cafe/seri/the-defective/"
+        },
+        {
+          "title": "The Demon King Who Lost His Job",
+          "slug": "the-demon-king-who-lost-his-job",
+          "rel_id": "22793",
+          "url": "https://anichin.cafe/seri/the-demon-king-who-lost-his-job/"
+        },
+        {
+          "title": "The Divine Emperor of Destiny",
+          "slug": "the-divine-emperor-of-destiny",
+          "rel_id": "26859",
+          "url": "https://anichin.cafe/seri/the-divine-emperor-of-destiny/"
+        },
+        {
+          "title": "THE DRAGON SOUL",
+          "slug": "the-dragon-soul",
+          "rel_id": "28274",
+          "url": "https://anichin.cafe/seri/the-dragon-soul/"
+        },
+        {
+          "title": "The Emperor of Myriad Realms",
+          "slug": "the-emperor-of-myriad-realms",
+          "rel_id": "4617",
+          "url": "https://anichin.cafe/seri/the-emperor-of-myriad-realms/"
+        },
+        {
+          "title": "The Eternal Strife",
+          "slug": "the-eternal-strife",
+          "rel_id": "8852",
+          "url": "https://anichin.cafe/seri/the-eternal-strife/"
+        },
+        {
+          "title": "The Ethereal Sword Immortal",
+          "slug": "the-ethereal-sword-immortal",
+          "rel_id": "27867",
+          "url": "https://anichin.cafe/seri/the-ethereal-sword-immortal/"
+        },
+        {
+          "title": "The Fate of Arad Season 1",
+          "slug": "the-fate-of-arad-season-1",
+          "rel_id": "12176",
+          "url": "https://anichin.cafe/seri/the-fate-of-arad-season-1/"
+        },
+        {
+          "title": "The Fate of Arad Season 2",
+          "slug": "the-fate-of-arad-season-2",
+          "rel_id": "12178",
+          "url": "https://anichin.cafe/seri/the-fate-of-arad-season-2/"
+        },
+        {
+          "title": "The First Order",
+          "slug": "the-first-order",
+          "rel_id": "323",
+          "url": "https://anichin.cafe/seri/the-first-order/"
+        },
+        {
+          "title": "The First Son-In-Law Vanguard of All Time",
+          "slug": "the-first-son-in-law-vanguard-of-all-time",
+          "rel_id": "2630",
+          "url": "https://anichin.cafe/seri/the-first-son-in-law-vanguard-of-all-time/"
+        },
+        {
+          "title": "The Flame Imperial Guards",
+          "slug": "the-flame-imperial-guards",
+          "rel_id": "12174",
+          "url": "https://anichin.cafe/seri/the-flame-imperial-guards/"
+        },
+        {
+          "title": "The Gate of Mystical Realm",
+          "slug": "the-gate-of-mystical-realm",
+          "rel_id": "28146",
+          "url": "https://anichin.cafe/seri/the-gate-of-mystical-realm/"
+        },
+        {
+          "title": "The Gerent Saga Prologue",
+          "slug": "the-gerent-saga-prologue",
+          "rel_id": "12170",
+          "url": "https://anichin.cafe/seri/the-gerent-saga-prologue/"
+        },
+        {
+          "title": "The Girl Downstairs",
+          "slug": "the-girl-downstairs",
+          "rel_id": "12168",
+          "url": "https://anichin.cafe/seri/the-girl-downstairs/"
+        },
+        {
+          "title": "The Golden Wug",
+          "slug": "the-golden-wug",
+          "rel_id": "16714",
+          "url": "https://anichin.cafe/seri/the-golden-wug/"
+        },
+        {
+          "title": "The Great Ruler",
+          "slug": "the-great-ruler",
+          "rel_id": "12131",
+          "url": "https://anichin.cafe/seri/the-great-ruler/"
+        },
+        {
+          "title": "The Great Ruler 3D",
+          "slug": "the-great-ruler-3d",
+          "rel_id": "247",
+          "url": "https://anichin.cafe/seri/the-great-ruler-3d/"
+        },
+        {
+          "title": "The Guardian Legend",
+          "slug": "the-guardian-legend",
+          "rel_id": "9992",
+          "url": "https://anichin.cafe/seri/the-guardian-legend/"
+        },
+        {
+          "title": "The Infinitors",
+          "slug": "the-infinitors",
+          "rel_id": "12113",
+          "url": "https://anichin.cafe/seri/the-infinitors/"
+        },
+        {
+          "title": "The Invincible",
+          "slug": "the-invincible",
+          "rel_id": "7920",
+          "url": "https://anichin.cafe/seri/the-invincible/"
+        },
+        {
+          "title": "The Island of Siliang",
+          "slug": "the-island-of-siliang",
+          "rel_id": "12106",
+          "url": "https://anichin.cafe/seri/the-island-of-siliang/"
+        },
+        {
+          "title": "The Island of Siliang Season 2",
+          "slug": "the-island-of-siliang-season-2",
+          "rel_id": "16359",
+          "url": "https://anichin.cafe/seri/the-island-of-siliang-season-2/"
+        },
+        {
+          "title": "The Land of Miracles Season 1",
+          "slug": "the-land-of-miracles-season-1",
+          "rel_id": "5926",
+          "url": "https://anichin.cafe/seri/the-land-of-miracles-season-1/"
+        },
+        {
+          "title": "The Land of Miracles Season 2",
+          "slug": "the-land-of-miracles-season-2",
+          "rel_id": "5962",
+          "url": "https://anichin.cafe/seri/the-land-of-miracles-season-2/"
+        },
+        {
+          "title": "The Land of Miracles Season 3",
+          "slug": "the-land-of-miracles-season-3",
+          "rel_id": "359",
+          "url": "https://anichin.cafe/seri/the-land-of-miracles-season-3/"
+        },
+        {
+          "title": "The Last Dynasty",
+          "slug": "the-last-dynasty",
+          "rel_id": "27342",
+          "url": "https://anichin.cafe/seri/the-last-dynasty/"
+        },
+        {
+          "title": "The Last Summoner",
+          "slug": "the-last-summoner",
+          "rel_id": "12104",
+          "url": "https://anichin.cafe/seri/the-last-summoner/"
+        },
+        {
+          "title": "The Legend of Magic Outfit",
+          "slug": "the-legend-of-magic-outfit",
+          "rel_id": "847",
+          "url": "https://anichin.cafe/seri/the-legend-of-magic-outfit/"
+        },
+        {
+          "title": "The Legend of Princess Chang-Ge",
+          "slug": "the-legend-of-princess-chang-ge",
+          "rel_id": "23083",
+          "url": "https://anichin.cafe/seri/the-legend-of-princess-chang-ge/"
+        },
+        {
+          "title": "The Legend of Sky Lord 3D",
+          "slug": "the-legend-of-sky-lord-3d",
+          "rel_id": "17608",
+          "url": "https://anichin.cafe/seri/the-legend-of-sky-lord-3d/"
+        },
+        {
+          "title": "The Legend of Sword Domain",
+          "slug": "the-legend-of-sword-domain",
+          "rel_id": "6095",
+          "url": "https://anichin.cafe/seri/the-legend-of-sword-domain/"
+        },
+        {
+          "title": "The Legend Of The Greatest Sword Immortal",
+          "slug": "the-legend-of-the-greatest-sword-immortal",
+          "rel_id": "5275",
+          "url": "https://anichin.cafe/seri/the-legend-of-the-greatest-sword-immortal/"
+        },
+        {
+          "title": "The Little Master’s Better Life",
+          "slug": "the-little-masters-better-life",
+          "rel_id": "6727",
+          "url": "https://anichin.cafe/seri/the-little-masters-better-life/"
+        },
+        {
+          "title": "The Lord of Rogue Devil",
+          "slug": "the-lord-of-rogue-devil",
+          "rel_id": "12102",
+          "url": "https://anichin.cafe/seri/the-lord-of-rogue-devil/"
+        },
+        {
+          "title": "The Metaverse",
+          "slug": "the-metaverse",
+          "rel_id": "14462",
+          "url": "https://anichin.cafe/seri/the-metaverse/"
+        },
+        {
+          "title": "The Mirage House in the Clouds",
+          "slug": "the-mirage-house-in-the-clouds",
+          "rel_id": "13198",
+          "url": "https://anichin.cafe/seri/the-mirage-house-in-the-clouds/"
+        },
+        {
+          "title": "The Mirror 1: Twin Cities Prologue",
+          "slug": "the-mirror-1-twin-cities-prologue",
+          "rel_id": "12080",
+          "url": "https://anichin.cafe/seri/the-mirror-1-twin-cities-prologue/"
+        },
+        {
+          "title": "The Mirror 2: Twin Cities",
+          "slug": "the-mirror-2-twin-cities",
+          "rel_id": "12082",
+          "url": "https://anichin.cafe/seri/the-mirror-2-twin-cities/"
+        },
+        {
+          "title": "The Path Toward Heaven",
+          "slug": "the-path-toward-heaven",
+          "rel_id": "19607",
+          "url": "https://anichin.cafe/seri/the-path-toward-heaven/"
+        },
+        {
+          "title": "The Proud Emperor of Eternity",
+          "slug": "the-proud-emperor-of-eternity",
+          "rel_id": "12710",
+          "url": "https://anichin.cafe/seri/the-proud-emperor-of-eternity/"
+        },
+        {
+          "title": "The Ravages of Time",
+          "slug": "the-ravages-of-time",
+          "rel_id": "12078",
+          "url": "https://anichin.cafe/seri/the-ravages-of-time/"
+        },
+        {
+          "title": "The Ravages of Time Season 2",
+          "slug": "the-ravages-of-time-season-2",
+          "rel_id": "22040",
+          "url": "https://anichin.cafe/seri/the-ravages-of-time-season-2/"
+        },
+        {
+          "title": "The Richest Man In Game",
+          "slug": "the-richest-man-in-game",
+          "rel_id": "13716",
+          "url": "https://anichin.cafe/seri/the-richest-man-in-game/"
+        },
+        {
+          "title": "The Rise of the Weak",
+          "slug": "the-rise-of-the-weak",
+          "rel_id": "268",
+          "url": "https://anichin.cafe/seri/the-rise-of-the-weak/"
+        },
+        {
+          "title": "The Rule of Burning Sun I",
+          "slug": "the-rule-of-burning-sun-i",
+          "rel_id": "12045",
+          "url": "https://anichin.cafe/seri/the-rule-of-burning-sun-i/"
+        },
+        {
+          "title": "The Rule of Burning Sun II",
+          "slug": "the-rule-of-burning-sun-ii",
+          "rel_id": "12049",
+          "url": "https://anichin.cafe/seri/the-rule-of-burning-sun-ii/"
+        },
+        {
+          "title": "The Shape of the Wind 1: Galaxy Arc",
+          "slug": "the-shape-of-the-wind-1-galaxy-arc",
+          "rel_id": "12041",
+          "url": "https://anichin.cafe/seri/the-shape-of-the-wind-1-galaxy-arc/"
+        },
+        {
+          "title": "The Shape of the Wind 2: Siam Era",
+          "slug": "the-shape-of-the-wind-2-siam-era",
+          "rel_id": "12043",
+          "url": "https://anichin.cafe/seri/the-shape-of-the-wind-2-siam-era/"
+        },
+        {
+          "title": "The Soul of Soldier Master",
+          "slug": "the-soul-of-soldier-master",
+          "rel_id": "12039",
+          "url": "https://anichin.cafe/seri/the-soul-of-soldier-master/"
+        },
+        {
+          "title": "The Strongest Male Hero Ever",
+          "slug": "the-strongest-male-hero-ever",
+          "rel_id": "12032",
+          "url": "https://anichin.cafe/seri/the-strongest-male-hero-ever/"
+        },
+        {
+          "title": "The Success Of Empyrean Xuan Emperor",
+          "slug": "the-success-of-empyrean-xuan-emperor",
+          "rel_id": "840",
+          "url": "https://anichin.cafe/seri/the-success-of-empyrean-xuan-emperor/"
+        },
+        {
+          "title": "The Supreme Dantian",
+          "slug": "the-supreme-dantian",
+          "rel_id": "27203",
+          "url": "https://anichin.cafe/seri/the-supreme-dantian/"
+        },
+        {
+          "title": "The Sword Of Dawn",
+          "slug": "the-sword-of-dawn",
+          "rel_id": "12030",
+          "url": "https://anichin.cafe/seri/the-sword-of-dawn/"
+        },
+        {
+          "title": "The Three-Body Problem",
+          "slug": "the-three-body-problem",
+          "rel_id": "514",
+          "url": "https://anichin.cafe/seri/the-three-body-problem/"
+        },
+        {
+          "title": "The War of Cards",
+          "slug": "the-war-of-cards",
+          "rel_id": "20907",
+          "url": "https://anichin.cafe/seri/the-war-of-cards/"
+        },
+        {
+          "title": "The Young Brewmaster’s Adventure",
+          "slug": "the-young-brewmasters-adventure",
+          "rel_id": "12028",
+          "url": "https://anichin.cafe/seri/the-young-brewmasters-adventure/"
+        },
+        {
+          "title": "The Young Brewmaster’s Adventure Season 2",
+          "slug": "the-young-brewmasters-adventure-season-2",
+          "rel_id": "17389",
+          "url": "https://anichin.cafe/seri/the-young-brewmasters-adventure-season-2/"
+        },
+        {
+          "title": "The Young Imperial Guards Season 1",
+          "slug": "the-young-imperial-guards-season-1",
+          "rel_id": "12024",
+          "url": "https://anichin.cafe/seri/the-young-imperial-guards-season-1/"
+        },
+        {
+          "title": "The Young Imperial Guards Season 2",
+          "slug": "the-young-imperial-guards-season-2",
+          "rel_id": "12026",
+          "url": "https://anichin.cafe/seri/the-young-imperial-guards-season-2/"
+        },
+        {
+          "title": "Thousand Autumns",
+          "slug": "thousand-autumns",
+          "rel_id": "12021",
+          "url": "https://anichin.cafe/seri/thousand-autumns/"
+        },
+        {
+          "title": "Threads of Fate: A War Untold",
+          "slug": "threads-of-fate-a-war-untold",
+          "rel_id": "28688",
+          "url": "https://anichin.cafe/seri/threads-of-fate-a-war-untold/"
+        },
+        {
+          "title": "Three Swordsman: Half Face",
+          "slug": "three-swordsman-half-face",
+          "rel_id": "12650",
+          "url": "https://anichin.cafe/seri/three-swordsman-half-face/"
+        },
+        {
+          "title": "Throne of Seal",
+          "slug": "throne-of-seal",
+          "rel_id": "184",
+          "url": "https://anichin.cafe/seri/throne-of-seal/"
+        },
+        {
+          "title": "Throne of Seal Movie: Electrolux",
+          "slug": "throne-of-seal-movie-electrolux",
+          "rel_id": "24171",
+          "url": "https://anichin.cafe/seri/throne-of-seal-movie-electrolux/"
+        },
+        {
+          "title": "Tian Huang Zhen Shen",
+          "slug": "tian-huang-zhen-shen",
+          "rel_id": "12019",
+          "url": "https://anichin.cafe/seri/tian-huang-zhen-shen/"
+        },
+        {
+          "title": "Tiger Crane",
+          "slug": "tiger-crane",
+          "rel_id": "19465",
+          "url": "https://anichin.cafe/seri/tiger-crane/"
+        },
+        {
+          "title": "Time Prisoner",
+          "slug": "time-prisoner",
+          "rel_id": "12003",
+          "url": "https://anichin.cafe/seri/time-prisoner/"
+        },
+        {
+          "title": "To Be Hero X",
+          "slug": "to-be-hero-x",
+          "rel_id": "23818",
+          "url": "https://anichin.cafe/seri/to-be-hero-x/"
+        },
+        {
+          "title": "Tomb of Fallen Gods",
+          "slug": "tomb-of-fallen-gods",
+          "rel_id": "5702",
+          "url": "https://anichin.cafe/seri/tomb-of-fallen-gods/"
+        },
+        {
+          "title": "Tomb of Fallen Gods Season 2",
+          "slug": "tomb-of-fallen-gods-season-2",
+          "rel_id": "18062",
+          "url": "https://anichin.cafe/seri/tomb-of-fallen-gods-season-2/"
+        },
+        {
+          "title": "Tomb of Fallen Gods Season 3",
+          "slug": "tomb-of-fallen-gods-season-3",
+          "rel_id": "26119",
+          "url": "https://anichin.cafe/seri/tomb-of-fallen-gods-season-3/"
+        },
+        {
+          "title": "Tong Ling Fei",
+          "slug": "tong-ling-fei",
+          "rel_id": "12001",
+          "url": "https://anichin.cafe/seri/tong-ling-fei/"
+        },
+        {
+          "title": "Transcend Evolution",
+          "slug": "transcend-evolution",
+          "rel_id": "28637",
+          "url": "https://anichin.cafe/seri/transcend-evolution/"
+        },
+        {
+          "title": "Transcending the Nine Heavens",
+          "slug": "transcending-the-nine-heavens",
+          "rel_id": "4374",
+          "url": "https://anichin.cafe/seri/transcending-the-nine-heavens/"
+        },
+        {
+          "title": "Twin Martial Souls",
+          "slug": "twin-martial-souls",
+          "rel_id": "25810",
+          "url": "https://anichin.cafe/seri/twin-martial-souls/"
+        },
+        {
+          "title": "Twin Moons",
+          "slug": "twin-moons",
+          "rel_id": "11996",
+          "url": "https://anichin.cafe/seri/twin-moons/"
+        }
+      ],
+      "U": [
+        {
+          "title": "Urban Ancient Immortal Doctor",
+          "slug": "urban-ancient-immortal-doctor",
+          "rel_id": "19259",
+          "url": "https://anichin.cafe/seri/urban-ancient-immortal-doctor/"
+        }
+      ],
+      "V": [
+        {
+          "title": "Villain Initialization",
+          "slug": "villain-initialization",
+          "rel_id": "15625",
+          "url": "https://anichin.cafe/seri/villain-initialization/"
+        }
+      ],
+      "W": [
+        {
+          "title": "Wan Jie Chun Qiu",
+          "slug": "wan-jie-chun-qiu",
+          "rel_id": "11994",
+          "url": "https://anichin.cafe/seri/wan-jie-chun-qiu/"
+        },
+        {
+          "title": "Wangu Xian Qiong",
+          "slug": "wangu-xian-qiong",
+          "rel_id": "11990",
+          "url": "https://anichin.cafe/seri/wangu-xian-qiong/"
+        },
+        {
+          "title": "Wangu Xian Qiong Season 2",
+          "slug": "wangu-xian-qiong-season-2",
+          "rel_id": "12652",
+          "url": "https://anichin.cafe/seri/wangu-xian-qiong-season-2/"
+        },
+        {
+          "title": "War God System! I’m Counting On You!",
+          "slug": "war-god-system-im-counting-on-you",
+          "rel_id": "11986",
+          "url": "https://anichin.cafe/seri/war-god-system-im-counting-on-you/"
+        },
+        {
+          "title": "Wei Wo Du Shen",
+          "slug": "wei-wo-du-shen",
+          "rel_id": "11984",
+          "url": "https://anichin.cafe/seri/wei-wo-du-shen/"
+        },
+        {
+          "title": "White Snake 2: The Tribulation of the Green Snake",
+          "slug": "white-snake-2-the-tribulation-of-the-green-snake",
+          "rel_id": "6886",
+          "url": "https://anichin.cafe/seri/white-snake-2-the-tribulation-of-the-green-snake/"
+        },
+        {
+          "title": "White Snake: The Origin",
+          "slug": "white-snake-the-origin",
+          "rel_id": "6884",
+          "url": "https://anichin.cafe/seri/white-snake-the-origin/"
+        },
+        {
+          "title": "Wind of the Tang Dynasty",
+          "slug": "wind-of-the-tang-dynasty",
+          "rel_id": "27102",
+          "url": "https://anichin.cafe/seri/wind-of-the-tang-dynasty/"
+        },
+        {
+          "title": "Wing of the World",
+          "slug": "wing-of-the-world",
+          "rel_id": "11982",
+          "url": "https://anichin.cafe/seri/wing-of-the-world/"
+        },
+        {
+          "title": "Wo Shi Da Shenxian Season 1 dan 2",
+          "slug": "wo-shi-da-shenxian",
+          "rel_id": "11980",
+          "url": "https://anichin.cafe/seri/wo-shi-da-shenxian/"
+        },
+        {
+          "title": "Wo Shi Da Shenxian Season 3",
+          "slug": "wo-shi-da-shenxian-season-3",
+          "rel_id": "19957",
+          "url": "https://anichin.cafe/seri/wo-shi-da-shenxian-season-3/"
+        },
+        {
+          "title": "Wonderland Season 1",
+          "slug": "wonderland-season-1",
+          "rel_id": "11893",
+          "url": "https://anichin.cafe/seri/wonderland-season-1/"
+        },
+        {
+          "title": "Wonderland Season 2",
+          "slug": "wonderland-season-2",
+          "rel_id": "11895",
+          "url": "https://anichin.cafe/seri/wonderland-season-2/"
+        },
+        {
+          "title": "Wonderland Season 3",
+          "slug": "wonderland-season-3",
+          "rel_id": "11897",
+          "url": "https://anichin.cafe/seri/wonderland-season-3/"
+        },
+        {
+          "title": "Wonderland Season 4",
+          "slug": "wonderland-season-4",
+          "rel_id": "11901",
+          "url": "https://anichin.cafe/seri/wonderland-season-4/"
+        },
+        {
+          "title": "Wonderland Season 5",
+          "slug": "wonderland-season-5",
+          "rel_id": "262",
+          "url": "https://anichin.cafe/seri/wonderland-season-5/"
+        },
+        {
+          "title": "World of Immortals",
+          "slug": "world-of-immortals",
+          "rel_id": "19909",
+          "url": "https://anichin.cafe/seri/world-of-immortals/"
+        },
+        {
+          "title": "Wu Dong Qian Kun Season 1",
+          "slug": "wu-dong-qian-kun-season-1",
+          "rel_id": "3046",
+          "url": "https://anichin.cafe/seri/wu-dong-qian-kun-season-1/"
+        },
+        {
+          "title": "Wu Dong Qian Kun Season 2",
+          "slug": "wu-dong-qian-kun-season-2",
+          "rel_id": "3077",
+          "url": "https://anichin.cafe/seri/wu-dong-qian-kun-season-2/"
+        },
+        {
+          "title": "Wu Dong Qian Kun Season 3",
+          "slug": "wu-dong-qian-kun-season-3",
+          "rel_id": "3117",
+          "url": "https://anichin.cafe/seri/wu-dong-qian-kun-season-3/"
+        },
+        {
+          "title": "Wu Dong Qian Kun Season 4",
+          "slug": "wu-dong-qian-kun-season-4",
+          "rel_id": "10002",
+          "url": "https://anichin.cafe/seri/wu-dong-qian-kun-season-4/"
+        },
+        {
+          "title": "Wu Dong Qian Kun Season 5",
+          "slug": "wu-dong-qian-kun-season-5",
+          "rel_id": "21575",
+          "url": "https://anichin.cafe/seri/wu-dong-qian-kun-season-5/"
+        },
+        {
+          "title": "Wu Dong Qian Kun Season 6",
+          "slug": "wu-dong-qian-kun-season-6",
+          "rel_id": "27993",
+          "url": "https://anichin.cafe/seri/wu-dong-qian-kun-season-6/"
+        },
+        {
+          "title": "Wu Geng Ji Season 1",
+          "slug": "wu-geng-ji-season-1",
+          "rel_id": "8539",
+          "url": "https://anichin.cafe/seri/wu-geng-ji-season-1/"
+        },
+        {
+          "title": "Wu Geng Ji Season 2",
+          "slug": "wu-geng-ji-season-2",
+          "rel_id": "8608",
+          "url": "https://anichin.cafe/seri/wu-geng-ji-season-2/"
+        },
+        {
+          "title": "Wu Geng Ji Season 3",
+          "slug": "wu-geng-ji-season-3",
+          "rel_id": "8714",
+          "url": "https://anichin.cafe/seri/wu-geng-ji-season-3/"
+        },
+        {
+          "title": "Wu Geng Ji Season 4",
+          "slug": "wu-geng-ji-season-4",
+          "rel_id": "8717",
+          "url": "https://anichin.cafe/seri/wu-geng-ji-season-4/"
+        },
+        {
+          "title": "WUKONG",
+          "slug": "wukong",
+          "rel_id": "24814",
+          "url": "https://anichin.cafe/seri/wukong/"
+        }
+      ],
+      "X": [
+        {
+          "title": "X-Epoch of Dragon",
+          "slug": "x-epoch-of-dragon",
+          "rel_id": "319",
+          "url": "https://anichin.cafe/seri/x-epoch-of-dragon/"
+        },
+        {
+          "title": "Xi Xing Ji Asura: Mad King",
+          "slug": "xi-xing-ji-asura-mad-king",
+          "rel_id": "14362",
+          "url": "https://anichin.cafe/seri/xi-xing-ji-asura-mad-king/"
+        },
+        {
+          "title": "Xi Xing Ji Movie 1 : Goodbye Wukong",
+          "slug": "xi-xing-ji-movie-1-goodbye-wukong",
+          "rel_id": "11880",
+          "url": "https://anichin.cafe/seri/xi-xing-ji-movie-1-goodbye-wukong/"
+        },
+        {
+          "title": "Xi Xing Ji Movie 2 : The Fantasy Cave",
+          "slug": "xi-xing-ji-movie-2-the-fantasy-cave",
+          "rel_id": "11884",
+          "url": "https://anichin.cafe/seri/xi-xing-ji-movie-2-the-fantasy-cave/"
+        },
+        {
+          "title": "Xi Xing Ji Movie 3 : Shadow Demon City",
+          "slug": "xi-xing-ji-movie-3-shadow-demon-city",
+          "rel_id": "11889",
+          "url": "https://anichin.cafe/seri/xi-xing-ji-movie-3-shadow-demon-city/"
+        },
+        {
+          "title": "Xi Xing Ji Season 1",
+          "slug": "xi-xing-ji-season-1",
+          "rel_id": "11868",
+          "url": "https://anichin.cafe/seri/xi-xing-ji-season-1/"
+        },
+        {
+          "title": "Xi Xing Ji Season 2",
+          "slug": "xi-xing-ji-season-2",
+          "rel_id": "11873",
+          "url": "https://anichin.cafe/seri/xi-xing-ji-season-2/"
+        },
+        {
+          "title": "Xi Xing Ji Season 3",
+          "slug": "xi-xing-ji-season-3",
+          "rel_id": "11875",
+          "url": "https://anichin.cafe/seri/xi-xing-ji-season-3/"
+        },
+        {
+          "title": "Xi Xing Ji Season 4",
+          "slug": "xi-xing-ji-season-4",
+          "rel_id": "11877",
+          "url": "https://anichin.cafe/seri/xi-xing-ji-season-4/"
+        },
+        {
+          "title": "Xi Xing Ji Season 5",
+          "slug": "xi-xing-ji-season-5",
+          "rel_id": "282",
+          "url": "https://anichin.cafe/seri/xi-xing-ji-season-5/"
+        },
+        {
+          "title": "XI XING JI: WU KONG",
+          "slug": "xi-xing-ji-wu-kong",
+          "rel_id": "18626",
+          "url": "https://anichin.cafe/seri/xi-xing-ji-wu-kong/"
+        },
+        {
+          "title": "Xi Zitang Seizes the Whole Country Power",
+          "slug": "xi-zitang-seizes-the-whole-country-power",
+          "rel_id": "11856",
+          "url": "https://anichin.cafe/seri/xi-zitang-seizes-the-whole-country-power/"
+        },
+        {
+          "title": "Xiao Li the Innocent Girl",
+          "slug": "xiao-li-the-innocent-girl",
+          "rel_id": "11854",
+          "url": "https://anichin.cafe/seri/xiao-li-the-innocent-girl/"
+        },
+        {
+          "title": "Xie Wang Zhui Qi",
+          "slug": "xie-wang-zhui-qi",
+          "rel_id": "11852",
+          "url": "https://anichin.cafe/seri/xie-wang-zhui-qi/"
+        }
+      ],
+      "Y": [
+        {
+          "title": "Yi Nian Yong Heng",
+          "slug": "yi-nian-yong-heng",
+          "rel_id": "6548",
+          "url": "https://anichin.cafe/seri/yi-nian-yong-heng/"
+        },
+        {
+          "title": "Yi Nian Yong Heng Season 3",
+          "slug": "yi-nian-yong-heng-season-3",
+          "rel_id": "17701",
+          "url": "https://anichin.cafe/seri/yi-nian-yong-heng-season-3/"
+        },
+        {
+          "title": "You Are My Glory (2021)",
+          "slug": "you-are-my-glory-2021",
+          "rel_id": "11846",
+          "url": "https://anichin.cafe/seri/you-are-my-glory-2021/"
+        },
+        {
+          "title": "You’re A Genius!",
+          "slug": "youre-a-genius",
+          "rel_id": "11844",
+          "url": "https://anichin.cafe/seri/youre-a-genius/"
+        },
+        {
+          "title": "Yuan Long Season 1",
+          "slug": "yuan-long-season-1",
+          "rel_id": "3147",
+          "url": "https://anichin.cafe/seri/yuan-long-season-1/"
+        },
+        {
+          "title": "Yuan Long Season 2",
+          "slug": "yuan-long-season-2",
+          "rel_id": "3149",
+          "url": "https://anichin.cafe/seri/yuan-long-season-2/"
+        },
+        {
+          "title": "Yuan Long Season 3",
+          "slug": "yuan-long-season-3",
+          "rel_id": "3151",
+          "url": "https://anichin.cafe/seri/yuan-long-season-3/"
+        }
+      ],
+      "Z": [
+        {
+          "title": "Ze Tian Ji Season 1",
+          "slug": "ze-tian-ji-season-1",
+          "rel_id": "11810",
+          "url": "https://anichin.cafe/seri/ze-tian-ji-season-1/"
+        },
+        {
+          "title": "Ze Tian Ji Season 2",
+          "slug": "ze-tian-ji-season-2",
+          "rel_id": "11816",
+          "url": "https://anichin.cafe/seri/ze-tian-ji-season-2/"
+        },
+        {
+          "title": "Ze Tian Ji Season 3",
+          "slug": "ze-tian-ji-season-3",
+          "rel_id": "11838",
+          "url": "https://anichin.cafe/seri/ze-tian-ji-season-3/"
+        },
+        {
+          "title": "Ze Tian Ji Season 4",
+          "slug": "ze-tian-ji-season-4",
+          "rel_id": "11840",
+          "url": "https://anichin.cafe/seri/ze-tian-ji-season-4/"
+        },
+        {
+          "title": "Ze Tian Ji Season 5",
+          "slug": "ze-tian-ji-season-5",
+          "rel_id": "11842",
+          "url": "https://anichin.cafe/seri/ze-tian-ji-season-5/"
+        },
+        {
+          "title": "Zhu Tian Ji",
+          "slug": "zhu-tian-ji",
+          "rel_id": "220",
+          "url": "https://anichin.cafe/seri/zhu-tian-ji/"
+        }
+      ]
+    }
+  },
+  "metadata": {},
+  "message": null
+}

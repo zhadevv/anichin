@@ -1,0 +1,1723 @@
+{
+  "success": true,
+  "creator": "zhadevv",
+  "data": {
+    "quick_filter": {
+      "checkbox_filters": {
+        "genre": {
+          "label": "Genre All",
+          "type": "checkbox",
+          "multiple": true,
+          "items": [
+            {
+              "value": "action",
+              "label": "Action",
+              "checked": false
+            },
+            {
+              "value": "action-drama",
+              "label": "Action Drama",
+              "checked": false
+            },
+            {
+              "value": "actions",
+              "label": "Actions",
+              "checked": false
+            },
+            {
+              "value": "adventure",
+              "label": "Adventure",
+              "checked": false
+            },
+            {
+              "value": "comedy",
+              "label": "Comedy",
+              "checked": false
+            },
+            {
+              "value": "crossdressing",
+              "label": "Crossdressing",
+              "checked": false
+            },
+            {
+              "value": "cultivation",
+              "label": "Cultivation",
+              "checked": false
+            },
+            {
+              "value": "demons",
+              "label": "Demons",
+              "checked": false
+            },
+            {
+              "value": "drama",
+              "label": "Drama",
+              "checked": false
+            },
+            {
+              "value": "e-school",
+              "label": "e School",
+              "checked": false
+            },
+            {
+              "value": "ecchi",
+              "label": "Ecchi",
+              "checked": false
+            },
+            {
+              "value": "fantasy",
+              "label": "Fantasy",
+              "checked": false
+            },
+            {
+              "value": "friendship",
+              "label": "Friendship",
+              "checked": false
+            },
+            {
+              "value": "game",
+              "label": "Game",
+              "checked": false
+            },
+            {
+              "value": "gore",
+              "label": "Gore",
+              "checked": false
+            },
+            {
+              "value": "gourmet",
+              "label": "Gourmet",
+              "checked": false
+            },
+            {
+              "value": "harem",
+              "label": "Harem",
+              "checked": false
+            },
+            {
+              "value": "historical",
+              "label": "Historical",
+              "checked": false
+            },
+            {
+              "value": "horror",
+              "label": "Horror",
+              "checked": false
+            },
+            {
+              "value": "isekai",
+              "label": "Isekai",
+              "checked": false
+            },
+            {
+              "value": "life",
+              "label": "Life",
+              "checked": false
+            },
+            {
+              "value": "magic",
+              "label": "Magic",
+              "checked": false
+            },
+            {
+              "value": "martial-arts",
+              "label": "Martial Arts",
+              "checked": false
+            },
+            {
+              "value": "mecha",
+              "label": "Mecha",
+              "checked": false
+            },
+            {
+              "value": "military",
+              "label": "Military",
+              "checked": false
+            },
+            {
+              "value": "music",
+              "label": "Music",
+              "checked": false
+            },
+            {
+              "value": "mystery",
+              "label": "Mystery",
+              "checked": false
+            },
+            {
+              "value": "mythology",
+              "label": "Mythology",
+              "checked": false
+            },
+            {
+              "value": "psychological",
+              "label": "Psychological",
+              "checked": false
+            },
+            {
+              "value": "reincaranation",
+              "label": "Reincaranation",
+              "checked": false
+            },
+            {
+              "value": "reincarnation",
+              "label": "Reincarnation",
+              "checked": false
+            },
+            {
+              "value": "romanc",
+              "label": "Romanc",
+              "checked": false
+            },
+            {
+              "value": "romance",
+              "label": "Romance",
+              "checked": false
+            },
+            {
+              "value": "school",
+              "label": "School",
+              "checked": false
+            },
+            {
+              "value": "sci-fi",
+              "label": "Sci-Fi",
+              "checked": false
+            },
+            {
+              "value": "shoujo",
+              "label": "Shoujo",
+              "checked": false
+            },
+            {
+              "value": "shounen",
+              "label": "Shounen",
+              "checked": false
+            },
+            {
+              "value": "slice-of-life",
+              "label": "Slice of Life",
+              "checked": false
+            },
+            {
+              "value": "space",
+              "label": "Space",
+              "checked": false
+            },
+            {
+              "value": "sports",
+              "label": "Sports",
+              "checked": false
+            },
+            {
+              "value": "super-power",
+              "label": "Super Power",
+              "checked": false
+            },
+            {
+              "value": "supernatural",
+              "label": "Supernatural",
+              "checked": false
+            },
+            {
+              "value": "suspense",
+              "label": "Suspense",
+              "checked": false
+            },
+            {
+              "value": "team-sports",
+              "label": "Team Sports",
+              "checked": false
+            },
+            {
+              "value": "thriller",
+              "label": "Thriller",
+              "checked": false
+            },
+            {
+              "value": "urban-fantasy",
+              "label": "Urban Fantasy",
+              "checked": false
+            }
+          ]
+        },
+        "studio": {
+          "label": "Studio All",
+          "type": "checkbox",
+          "multiple": true,
+          "items": [
+            {
+              "value": "210-am-animation",
+              "label": "2:10 AM Animation",
+              "checked": false
+            },
+            {
+              "value": "210-animation",
+              "label": "2:10 Animatión",
+              "checked": false
+            },
+            {
+              "value": "aha-entertainment",
+              "label": "AHA Entertainment",
+              "checked": false
+            },
+            {
+              "value": "ask-animation-studio",
+              "label": "ASK Animation Studio",
+              "checked": false
+            },
+            {
+              "value": "aurora",
+              "label": "Aurora",
+              "checked": false
+            },
+            {
+              "value": "axis-studios",
+              "label": "Axis Studios",
+              "checked": false
+            },
+            {
+              "value": "azure-sea-studios",
+              "label": "Azure Sea Studios",
+              "checked": false
+            },
+            {
+              "value": "b-cmay-pictures",
+              "label": "B.CMAY PICTURES",
+              "checked": false
+            },
+            {
+              "value": "beijing-enlight-pictures",
+              "label": "Beijing Enlight Pictures",
+              "checked": false
+            },
+            {
+              "value": "betobe",
+              "label": "BETOBE",
+              "checked": false
+            },
+            {
+              "value": "big-firebird-cultural-media",
+              "label": "Big Firebird Cultural Media",
+              "checked": false
+            },
+            {
+              "value": "big-firebird-culture",
+              "label": "Big Firebird Culture",
+              "checked": false
+            },
+            {
+              "value": "bigbigsun",
+              "label": "BigBigSun",
+              "checked": false
+            },
+            {
+              "value": "bilibili",
+              "label": "Bilibili",
+              "checked": false
+            },
+            {
+              "value": "bluearc-animation-studio",
+              "label": "BlueArc Animation Studio",
+              "checked": false
+            },
+            {
+              "value": "borutong",
+              "label": "Borutong",
+              "checked": false
+            },
+            {
+              "value": "boyan-pictures",
+              "label": "Boyan Pictures",
+              "checked": false
+            },
+            {
+              "value": "build-dream",
+              "label": "BUILD DREAM",
+              "checked": false
+            },
+            {
+              "value": "byment",
+              "label": "BYMENT",
+              "checked": false
+            },
+            {
+              "value": "cg-year",
+              "label": "CG Year",
+              "checked": false
+            },
+            {
+              "value": "chongzhuo-animation",
+              "label": "Chongzhuo Animation",
+              "checked": false
+            },
+            {
+              "value": "chosen",
+              "label": "Chosen",
+              "checked": false
+            },
+            {
+              "value": "chosen-studio",
+              "label": "Chosen Studio",
+              "checked": false
+            },
+            {
+              "value": "cloud-art",
+              "label": "Cloud Art",
+              "checked": false
+            },
+            {
+              "value": "cloud-culture",
+              "label": "Cloud Culture",
+              "checked": false
+            },
+            {
+              "value": "cmc-media",
+              "label": "CMC Media",
+              "checked": false
+            },
+            {
+              "value": "coastline-animation-studio",
+              "label": "Coastline Animation Studio",
+              "checked": false
+            },
+            {
+              "value": "colored-pencil-animation",
+              "label": "Colored Pencil Animation",
+              "checked": false
+            },
+            {
+              "value": "colored-pencil-animation-design",
+              "label": "Colored-Pencil Animation Design",
+              "checked": false
+            },
+            {
+              "value": "d-rock-art",
+              "label": "D.ROCK-ART",
+              "checked": false
+            },
+            {
+              "value": "da-yu",
+              "label": "Da Yu",
+              "checked": false
+            },
+            {
+              "value": "dangun-pictures",
+              "label": "Dangun Pictures",
+              "checked": false
+            },
+            {
+              "value": "dc-entertainment",
+              "label": "DC Entertainment",
+              "checked": false
+            },
+            {
+              "value": "dc-impression-vision",
+              "label": "DC Impression Vision",
+              "checked": false
+            },
+            {
+              "value": "djinn-power",
+              "label": "Djinn Power",
+              "checked": false
+            },
+            {
+              "value": "emt-squared",
+              "label": "EMT Squared",
+              "checked": false
+            },
+            {
+              "value": "escape-velocity-animation",
+              "label": "Escape Velocity Animation",
+              "checked": false
+            },
+            {
+              "value": "fengyun-animation",
+              "label": "Fengyun Animation",
+              "checked": false
+            },
+            {
+              "value": "flying-fish-studio",
+              "label": "Flying Fish Studio",
+              "checked": false
+            },
+            {
+              "value": "foch-film",
+              "label": "Foch Film",
+              "checked": false
+            },
+            {
+              "value": "foch-films",
+              "label": "Foch Films",
+              "checked": false
+            },
+            {
+              "value": "g-h-y-culture-media",
+              "label": "G.H.Y. Culture & Media",
+              "checked": false
+            },
+            {
+              "value": "garden-culture",
+              "label": "Garden Culture",
+              "checked": false
+            },
+            {
+              "value": "green-planet-studio",
+              "label": "Green Planet Studio",
+              "checked": false
+            },
+            {
+              "value": "haoliners-animation-league",
+              "label": "Haoliners Animation League",
+              "checked": false
+            },
+            {
+              "value": "he-zhou-culture",
+              "label": "He Zhou Culture",
+              "checked": false
+            },
+            {
+              "value": "heart-soul-animation",
+              "label": "Heart & Soul Animation",
+              "checked": false
+            },
+            {
+              "value": "high-energy-studio",
+              "label": "High Energy Studio",
+              "checked": false
+            },
+            {
+              "value": "hm-heros",
+              "label": "HM Heros",
+              "checked": false
+            },
+            {
+              "value": "honglu-technology",
+              "label": "Honglu Technology",
+              "checked": false
+            },
+            {
+              "value": "hua-dream",
+              "label": "Hua Dream",
+              "checked": false
+            },
+            {
+              "value": "iqiyi",
+              "label": "iQIYI",
+              "checked": false
+            },
+            {
+              "value": "ji-man-wen-hua",
+              "label": "Ji Man Wen Hua",
+              "checked": false
+            },
+            {
+              "value": "joicy-studio",
+              "label": "Joicy Studio",
+              "checked": false
+            },
+            {
+              "value": "kio-studio",
+              "label": "KIO STUDIO",
+              "checked": false
+            },
+            {
+              "value": "kjj-animation",
+              "label": "KJJ Animation",
+              "checked": false
+            },
+            {
+              "value": "kunjing-culture",
+              "label": "Kunjing Culture",
+              "checked": false
+            },
+            {
+              "value": "l%c2%b2studio",
+              "label": "L²Studio",
+              "checked": false
+            },
+            {
+              "value": "lan-studio",
+              "label": "LAN Studio",
+              "checked": false
+            },
+            {
+              "value": "left-pocket-studio",
+              "label": "Left Pocket Studio",
+              "checked": false
+            },
+            {
+              "value": "lidenfilms",
+              "label": "LIDENFILMS",
+              "checked": false
+            },
+            {
+              "value": "light-chaser-animation-studios",
+              "label": "Light Chaser Animation Studios",
+              "checked": false
+            },
+            {
+              "value": "lingsanwu-animation",
+              "label": "Lingsanwu Animation",
+              "checked": false
+            },
+            {
+              "value": "liyu-culture",
+              "label": "Liyu Culture",
+              "checked": false
+            },
+            {
+              "value": "long-zhi-gu-wenhua",
+              "label": "Long Zhi Gu Wenhua",
+              "checked": false
+            },
+            {
+              "value": "lx-animation-studio",
+              "label": "Lx Animation Studio",
+              "checked": false
+            },
+            {
+              "value": "majestic-studio",
+              "label": "Majestic Studio",
+              "checked": false
+            },
+            {
+              "value": "mandrill-picture-corp",
+              "label": "Mandrill Picture Corp",
+              "checked": false
+            },
+            {
+              "value": "martial-arts-reincaranation",
+              "label": "Martial Arts Reincaranation",
+              "checked": false
+            },
+            {
+              "value": "medo",
+              "label": "Medo",
+              "checked": false
+            },
+            {
+              "value": "midway-games",
+              "label": "Midway Games",
+              "checked": false
+            },
+            {
+              "value": "mili-digital",
+              "label": "Mili Digital",
+              "checked": false
+            },
+            {
+              "value": "mili-pictures",
+              "label": "Mili Pictures",
+              "checked": false
+            },
+            {
+              "value": "mokai-technology",
+              "label": "Mokai Technology",
+              "checked": false
+            },
+            {
+              "value": "motion-magic",
+              "label": "Motion Magic",
+              "checked": false
+            },
+            {
+              "value": "namu-animation",
+              "label": "Namu Animation",
+              "checked": false
+            },
+            {
+              "value": "october-media",
+              "label": "October Media",
+              "checked": false
+            },
+            {
+              "value": "oriental-creative-color",
+              "label": "Oriental Creative Color",
+              "checked": false
+            },
+            {
+              "value": "original-force",
+              "label": "Original Force",
+              "checked": false
+            },
+            {
+              "value": "painted-edge",
+              "label": "Painted Edge",
+              "checked": false
+            },
+            {
+              "value": "paper-plane-animation-studio",
+              "label": "Paper Plane Animation Studio",
+              "checked": false
+            },
+            {
+              "value": "passion-paint-animation",
+              "label": "Passion Paint Animation",
+              "checked": false
+            },
+            {
+              "value": "pb-animation-co-ltd",
+              "label": "Pb Animation Co. Ltd.",
+              "checked": false
+            },
+            {
+              "value": "phantom",
+              "label": "Phantom",
+              "checked": false
+            },
+            {
+              "value": "qing-xiang",
+              "label": "Qing Xiang",
+              "checked": false
+            },
+            {
+              "value": "qingxiang-culture",
+              "label": "Qingxiang Culture",
+              "checked": false
+            },
+            {
+              "value": "qiyuan-yinghua",
+              "label": "Qiyuan Yinghua",
+              "checked": false
+            },
+            {
+              "value": "quyue-technology",
+              "label": "Quyue Technology",
+              "checked": false
+            },
+            {
+              "value": "red-dog-culture-house",
+              "label": "Red Dog Culture House",
+              "checked": false
+            },
+            {
+              "value": "rocen",
+              "label": "Rocen",
+              "checked": false
+            },
+            {
+              "value": "ruo-hong-culture",
+              "label": "Ruo Hong Culture",
+              "checked": false
+            },
+            {
+              "value": "shanghai-foch-film",
+              "label": "Shanghai Foch Film",
+              "checked": false
+            },
+            {
+              "value": "shanghai-foch-film-culture-investment",
+              "label": "Shanghai Foch Film Culture Investment",
+              "checked": false
+            },
+            {
+              "value": "shanghai-motion-magic",
+              "label": "Shanghai Motion Magic",
+              "checked": false
+            },
+            {
+              "value": "sharefun-studio",
+              "label": "Sharefun Studio",
+              "checked": false
+            },
+            {
+              "value": "shengying-animation",
+              "label": "Shengying Animation",
+              "checked": false
+            },
+            {
+              "value": "shenman-entertainment",
+              "label": "Shenman Entertainment",
+              "checked": false
+            },
+            {
+              "value": "shenying-animation",
+              "label": "Shenying Animation",
+              "checked": false
+            },
+            {
+              "value": "sjynexcus",
+              "label": "SJYNEXCUS",
+              "checked": false
+            },
+            {
+              "value": "skyloong",
+              "label": "Skyloong",
+              "checked": false
+            },
+            {
+              "value": "soda-bear-animation",
+              "label": "Soda Bear Animation",
+              "checked": false
+            },
+            {
+              "value": "soyep",
+              "label": "Soyep",
+              "checked": false
+            },
+            {
+              "value": "sparkly-key-animation-studio",
+              "label": "Sparkly Key Animation Studio",
+              "checked": false
+            },
+            {
+              "value": "star-hunter-animation",
+              "label": "Star Hunter Animation",
+              "checked": false
+            },
+            {
+              "value": "studio-goindol",
+              "label": "Studio Goindol",
+              "checked": false
+            },
+            {
+              "value": "studio-lan",
+              "label": "Studio LAN",
+              "checked": false
+            },
+            {
+              "value": "success-corp",
+              "label": "Success Corp.",
+              "checked": false
+            },
+            {
+              "value": "suoyi-technology",
+              "label": "Suoyi Technology",
+              "checked": false
+            },
+            {
+              "value": "taikong-works",
+              "label": "Taikong Works",
+              "checked": false
+            },
+            {
+              "value": "tang-kirin-culture",
+              "label": "Tang Kirin Culture",
+              "checked": false
+            },
+            {
+              "value": "three-realms-animation",
+              "label": "Three Realms Animation",
+              "checked": false
+            },
+            {
+              "value": "tong-ming-xuan",
+              "label": "Tong Ming Xuan",
+              "checked": false
+            },
+            {
+              "value": "transcendence-picture",
+              "label": "Transcendence Picture",
+              "checked": false
+            },
+            {
+              "value": "triopen-studio",
+              "label": "TrioPen Studio",
+              "checked": false
+            },
+            {
+              "value": "warner-bros-animation",
+              "label": "Warner Bros. Animation",
+              "checked": false
+            },
+            {
+              "value": "wawayu-animation",
+              "label": "Wawayu Animation",
+              "checked": false
+            },
+            {
+              "value": "wonder-cat-animation",
+              "label": "Wonder Cat Animation",
+              "checked": false
+            },
+            {
+              "value": "wu-zhi-guanying-dongman",
+              "label": "Wu Zhi Guanying Dongman",
+              "checked": false
+            },
+            {
+              "value": "xiaoming-taiji",
+              "label": "Xiaoming Taiji",
+              "checked": false
+            },
+            {
+              "value": "xing-yi-kai-chen",
+              "label": "Xing Yi Kai Chen",
+              "checked": false
+            },
+            {
+              "value": "xmov",
+              "label": "XMOV",
+              "checked": false
+            },
+            {
+              "value": "xuan-yuan",
+              "label": "Xuan Yuan",
+              "checked": false
+            },
+            {
+              "value": "xuni-pictures",
+              "label": "Xuni Pictures",
+              "checked": false
+            },
+            {
+              "value": "xuni-ying-ye",
+              "label": "Xuni Ying Ye",
+              "checked": false
+            },
+            {
+              "value": "year-young-culture",
+              "label": "Year Young Culture",
+              "checked": false
+            },
+            {
+              "value": "yhkt-entertainment",
+              "label": "YHKT Entertainment",
+              "checked": false
+            },
+            {
+              "value": "yi-chen-animation",
+              "label": "Yi Chen Animation",
+              "checked": false
+            },
+            {
+              "value": "yien-animation-studio",
+              "label": "Yien Animation Studio",
+              "checked": false
+            },
+            {
+              "value": "yofox-culture",
+              "label": "Yofox Culture",
+              "checked": false
+            },
+            {
+              "value": "yosep",
+              "label": "Yosep",
+              "checked": false
+            }
+          ]
+        },
+        "season": {
+          "label": "Season All",
+          "type": "checkbox",
+          "multiple": true,
+          "items": [
+            {
+              "value": "2014",
+              "label": "2014",
+              "checked": false
+            },
+            {
+              "value": "2015",
+              "label": "2015",
+              "checked": false
+            },
+            {
+              "value": "2016",
+              "label": "2016",
+              "checked": false
+            },
+            {
+              "value": "2017",
+              "label": "2017",
+              "checked": false
+            },
+            {
+              "value": "2018",
+              "label": "2018",
+              "checked": false
+            },
+            {
+              "value": "2019",
+              "label": "2019",
+              "checked": false
+            },
+            {
+              "value": "2020",
+              "label": "2020",
+              "checked": false
+            },
+            {
+              "value": "2021",
+              "label": "2021",
+              "checked": false
+            },
+            {
+              "value": "2022",
+              "label": "2022",
+              "checked": false
+            },
+            {
+              "value": "2023",
+              "label": "2023",
+              "checked": false
+            },
+            {
+              "value": "2024",
+              "label": "2024",
+              "checked": false
+            },
+            {
+              "value": "2025",
+              "label": "2025",
+              "checked": false
+            },
+            {
+              "value": "2026",
+              "label": "2026",
+              "checked": false
+            },
+            {
+              "value": "spring-2022",
+              "label": "Spring 2022",
+              "checked": false
+            },
+            {
+              "value": "spring-2023",
+              "label": "Spring 2023",
+              "checked": false
+            },
+            {
+              "value": "summer-2022",
+              "label": "Summer 2022",
+              "checked": false
+            },
+            {
+              "value": "summer-2023",
+              "label": "Summer 2023",
+              "checked": false
+            },
+            {
+              "value": "winter-2023",
+              "label": "Winter 2023",
+              "checked": false
+            }
+          ]
+        }
+      },
+      "radio_filters": {
+        "status": {
+          "label": "Status All",
+          "type": "radio",
+          "multiple": false,
+          "items": [
+            {
+              "value": "",
+              "label": "All",
+              "checked": true
+            },
+            {
+              "value": "ongoing",
+              "label": "Ongoing",
+              "checked": false
+            },
+            {
+              "value": "completed",
+              "label": "Completed",
+              "checked": false
+            },
+            {
+              "value": "upcoming",
+              "label": "Upcoming",
+              "checked": false
+            },
+            {
+              "value": "hiatus",
+              "label": "Hiatus",
+              "checked": false
+            }
+          ]
+        },
+        "type": {
+          "label": "Type All",
+          "type": "radio",
+          "multiple": false,
+          "items": [
+            {
+              "value": "",
+              "label": "All",
+              "checked": true
+            },
+            {
+              "value": "anime",
+              "label": "Anime",
+              "checked": false
+            },
+            {
+              "value": "ova",
+              "label": "OVA",
+              "checked": false
+            },
+            {
+              "value": "movie",
+              "label": "Movie",
+              "checked": false
+            },
+            {
+              "value": "live action",
+              "label": "Live Action",
+              "checked": false
+            },
+            {
+              "value": "special",
+              "label": "Special",
+              "checked": false
+            },
+            {
+              "value": "bd",
+              "label": "BD",
+              "checked": false
+            },
+            {
+              "value": "ona",
+              "label": "ONA",
+              "checked": false
+            },
+            {
+              "value": "music",
+              "label": "Music",
+              "checked": false
+            },
+            {
+              "value": "donghua",
+              "label": "Donghua",
+              "checked": false
+            }
+          ]
+        },
+        "order": {
+          "label": "Order by All",
+          "type": "radio",
+          "multiple": false,
+          "items": [
+            {
+              "value": "",
+              "label": "Default",
+              "checked": true
+            },
+            {
+              "value": "title",
+              "label": "A-Z",
+              "checked": false
+            },
+            {
+              "value": "titlereverse",
+              "label": "Z-A",
+              "checked": false
+            },
+            {
+              "value": "update",
+              "label": "Latest Update",
+              "checked": false
+            },
+            {
+              "value": "latest",
+              "label": "Latest Added",
+              "checked": false
+            },
+            {
+              "value": "popular",
+              "label": "Popular",
+              "checked": false
+            },
+            {
+              "value": "rating",
+              "label": "Rating",
+              "checked": false
+            }
+          ]
+        }
+      }
+    },
+    "ongoing_series": [],
+    "popular_series": {
+      "weekly": [
+        {
+          "top": "1",
+          "title": "Renegade Immortal",
+          "slug": "renegade-immortal",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/09/Renegade-Immortal-sub-indo.webp",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+          ],
+          "rating": "8.83",
+          "url": "https://anichin.cafe/seri/renegade-immortal/"
+        },
+        {
+          "top": "2",
+          "title": "Battle Through the Heavens Season 5",
+          "slug": "battle-through-the-heavens-season-5",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2022/12/BTTH.webp",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+          ],
+          "rating": "9.20",
+          "url": "https://anichin.cafe/seri/battle-through-the-heavens-season-5/"
+        },
+        {
+          "top": "3",
+          "title": "Tales of Herding Gods",
+          "slug": "tales-of-herding-gods",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/10/Tales-of-Hearding-God.webp",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Historical"
+          ],
+          "rating": "",
+          "url": "https://anichin.cafe/seri/tales-of-herding-gods/"
+        },
+        {
+          "top": "4",
+          "title": "Perfect World",
+          "slug": "perfect-world",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2021/04/Perfect-World.webp",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+          ],
+          "rating": "8.00",
+          "url": "https://anichin.cafe/seri/perfect-world/"
+        },
+        {
+          "top": "5",
+          "title": "Sword of Coming Season 2",
+          "slug": "sword-of-coming-season-2",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/Sword-of-Coming-Season-2.webp",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Historical",
+            "Martial Arts"
+          ],
+          "rating": "8.83",
+          "url": "https://anichin.cafe/seri/sword-of-coming-season-2/"
+        }
+      ],
+      "monthly": [
+        {
+          "top": "1",
+          "title": "Renegade Immortal",
+          "slug": "renegade-immortal",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/09/Renegade-Immortal-sub-indo.webp",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+          ],
+          "rating": "8.83",
+          "url": "https://anichin.cafe/seri/renegade-immortal/"
+        },
+        {
+          "top": "2",
+          "title": "Battle Through the Heavens Season 5",
+          "slug": "battle-through-the-heavens-season-5",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2022/12/BTTH.webp",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+          ],
+          "rating": "9.20",
+          "url": "https://anichin.cafe/seri/battle-through-the-heavens-season-5/"
+        },
+        {
+          "top": "3",
+          "title": "Wu Dong Qian Kun Season 6",
+          "slug": "wu-dong-qian-kun-season-6",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/11/WU-DONG-QIAN-KUN-SEASON-6.webp",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Historical",
+            "Martial Arts",
+            "Romance"
+          ],
+          "rating": "9.60",
+          "url": "https://anichin.cafe/seri/wu-dong-qian-kun-season-6/"
+        },
+        {
+          "top": "4",
+          "title": "Tales of Herding Gods",
+          "slug": "tales-of-herding-gods",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/10/Tales-of-Hearding-God.webp",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Historical"
+          ],
+          "rating": "",
+          "url": "https://anichin.cafe/seri/tales-of-herding-gods/"
+        },
+        {
+          "top": "5",
+          "title": "Perfect World",
+          "slug": "perfect-world",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2021/04/Perfect-World.webp",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+          ],
+          "rating": "8.00",
+          "url": "https://anichin.cafe/seri/perfect-world/"
+        }
+      ],
+      "all_time": [
+        {
+          "top": "1",
+          "title": "Battle Through the Heavens Season 5",
+          "slug": "battle-through-the-heavens-season-5",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2022/12/BTTH.webp",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+          ],
+          "rating": "9.20",
+          "url": "https://anichin.cafe/seri/battle-through-the-heavens-season-5/"
+        },
+        {
+          "top": "2",
+          "title": "Renegade Immortal",
+          "slug": "renegade-immortal",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/09/Renegade-Immortal-sub-indo.webp",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+          ],
+          "rating": "8.83",
+          "url": "https://anichin.cafe/seri/renegade-immortal/"
+        },
+        {
+          "top": "3",
+          "title": "Perfect World",
+          "slug": "perfect-world",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2021/04/Perfect-World.webp",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+          ],
+          "rating": "8.00",
+          "url": "https://anichin.cafe/seri/perfect-world/"
+        },
+        {
+          "top": "4",
+          "title": "Tales of Herding Gods",
+          "slug": "tales-of-herding-gods",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/10/Tales-of-Hearding-God.webp",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Historical"
+          ],
+          "rating": "",
+          "url": "https://anichin.cafe/seri/tales-of-herding-gods/"
+        },
+        {
+          "top": "5",
+          "title": "Soul Land 2: The Unrivaled Tang Sect",
+          "slug": "soul-land-2-the-unrivaled-tang-sect",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/06/Soul-Land-2-The-Unrivaled-Tang-Sect-1.webp",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+          ],
+          "rating": "8.83",
+          "url": "https://anichin.cafe/seri/soul-land-2-the-unrivaled-tang-sect/"
+        }
+      ]
+    },
+    "new_movie": [
+      {
+        "title": "Hitori No Shita: The Return of Tetsumaru",
+        "slug": "hitori-no-shita-the-return-of-tetsumaru",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/09/Yi-Ren-Zhi-Xia-Xiu-Tie-Chong-Xian.webp",
+        "release_date": "Feb 15, 2024",
+        "genres": [
+          {
+            "name": "Action",
+            "slug": "action"
+          },
+          {
+            "name": "Martial Arts",
+            "slug": "martial-arts"
+          },
+          {
+            "name": "Mystery",
+            "slug": "mystery"
+          },
+          {
+            "name": "Psychological",
+            "slug": "psychological"
+          },
+          {
+            "name": "Super Power",
+            "slug": "super-power"
+          },
+          {
+            "name": "Supernatural",
+            "slug": "supernatural"
+          },
+          {
+            "name": "Urban Fantasy",
+            "slug": "urban-fantasy"
+          }
+        ],
+        "url": "https://anichin.cafe/seri/hitori-no-shita-the-return-of-tetsumaru/"
+      },
+      {
+        "title": "Legendary Twins: Beyond the Sky",
+        "slug": "legendary-twins-beyond-the-sky",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/09/Legendary-Twins-Beyond-the-Sky.webp",
+        "release_date": "Dec 02, 2024",
+        "genres": [
+          {
+            "name": "Action",
+            "slug": "action"
+          },
+          {
+            "name": "Adventure",
+            "slug": "adventure"
+          },
+          {
+            "name": "Martial Arts",
+            "slug": "martial-arts"
+          }
+        ],
+        "url": "https://anichin.cafe/seri/legendary-twins-beyond-the-sky/"
+      },
+      {
+        "title": "Douluo Dalu: Jiandao Chen Xin",
+        "slug": "douluo-dalu-jiandao-chen-xin",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/07/Soul-Land-Movie-Sword-Dao-Chen-Xin.webp",
+        "release_date": "Jul 12, 2025",
+        "genres": [
+          {
+            "name": "Action",
+            "slug": "action"
+          },
+          {
+            "name": "Adventure",
+            "slug": "adventure"
+          },
+          {
+            "name": "Cultivation",
+            "slug": "cultivation"
+          },
+          {
+            "name": "Fantasy",
+            "slug": "fantasy"
+          }
+        ],
+        "url": "https://anichin.cafe/seri/douluo-dalu-jiandao-chen-xin/"
+      },
+      {
+        "title": "Renegade Immortal Movie: Battle Of The Gods",
+        "slug": "renegade-immortal-movie-battle-of-the-gods",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/05/Renegade-Immortal-Movie.webp",
+        "release_date": "May 30, 2025",
+        "genres": [
+          {
+            "name": "Action",
+            "slug": "action"
+          },
+          {
+            "name": "Adventure",
+            "slug": "adventure"
+          },
+          {
+            "name": "Drama",
+            "slug": "drama"
+          },
+          {
+            "name": "Fantasy",
+            "slug": "fantasy"
+          },
+          {
+            "name": "Historical",
+            "slug": "historical"
+          },
+          {
+            "name": "Romance",
+            "slug": "romance"
+          }
+        ],
+        "url": "https://anichin.cafe/seri/renegade-immortal-movie-battle-of-the-gods/"
+      },
+      {
+        "title": "Swallowed Star Movie: Blood River Continent",
+        "slug": "swallowed-star-movie-blood-river-continent",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/12/Swallowed-Star-Movie-Blood-River-Continent.webp",
+        "release_date": "Dec 7, 2024",
+        "genres": [
+          {
+            "name": "Action",
+            "slug": "action"
+          },
+          {
+            "name": "Adventure",
+            "slug": "adventure"
+          },
+          {
+            "name": "Fantasy",
+            "slug": "fantasy"
+          },
+          {
+            "name": "Martial Arts",
+            "slug": "martial-arts"
+          },
+          {
+            "name": "Sci-Fi",
+            "slug": "sci-fi"
+          }
+        ],
+        "url": "https://anichin.cafe/seri/swallowed-star-movie-blood-river-continent/"
+      }
+    ],
+    "genres": [
+      {
+        "title": "Action",
+        "slug": "action",
+        "url": "https://anichin.cafe/genres/action/"
+      },
+      {
+        "title": "Action Drama",
+        "slug": "action-drama",
+        "url": "https://anichin.cafe/genres/action-drama/"
+      },
+      {
+        "title": "Actions",
+        "slug": "actions",
+        "url": "https://anichin.cafe/genres/actions/"
+      },
+      {
+        "title": "Adventure",
+        "slug": "adventure",
+        "url": "https://anichin.cafe/genres/adventure/"
+      },
+      {
+        "title": "Comedy",
+        "slug": "comedy",
+        "url": "https://anichin.cafe/genres/comedy/"
+      },
+      {
+        "title": "Crossdressing",
+        "slug": "crossdressing",
+        "url": "https://anichin.cafe/genres/crossdressing/"
+      },
+      {
+        "title": "Cultivation",
+        "slug": "cultivation",
+        "url": "https://anichin.cafe/genres/cultivation/"
+      },
+      {
+        "title": "Demons",
+        "slug": "demons",
+        "url": "https://anichin.cafe/genres/demons/"
+      },
+      {
+        "title": "Drama",
+        "slug": "drama",
+        "url": "https://anichin.cafe/genres/drama/"
+      },
+      {
+        "title": "Ecchi",
+        "slug": "ecchi",
+        "url": "https://anichin.cafe/genres/ecchi/"
+      },
+      {
+        "title": "Fantasy",
+        "slug": "fantasy",
+        "url": "https://anichin.cafe/genres/fantasy/"
+      },
+      {
+        "title": "Friendship",
+        "slug": "friendship",
+        "url": "https://anichin.cafe/genres/friendship/"
+      },
+      {
+        "title": "Game",
+        "slug": "game",
+        "url": "https://anichin.cafe/genres/game/"
+      },
+      {
+        "title": "Gore",
+        "slug": "gore",
+        "url": "https://anichin.cafe/genres/gore/"
+      },
+      {
+        "title": "Gourmet",
+        "slug": "gourmet",
+        "url": "https://anichin.cafe/genres/gourmet/"
+      },
+      {
+        "title": "Harem",
+        "slug": "harem",
+        "url": "https://anichin.cafe/genres/harem/"
+      },
+      {
+        "title": "Historical",
+        "slug": "historical",
+        "url": "https://anichin.cafe/genres/historical/"
+      },
+      {
+        "title": "Horror",
+        "slug": "horror",
+        "url": "https://anichin.cafe/genres/horror/"
+      },
+      {
+        "title": "Isekai",
+        "slug": "isekai",
+        "url": "https://anichin.cafe/genres/isekai/"
+      },
+      {
+        "title": "Life",
+        "slug": "life",
+        "url": "https://anichin.cafe/genres/life/"
+      },
+      {
+        "title": "Magic",
+        "slug": "magic",
+        "url": "https://anichin.cafe/genres/magic/"
+      },
+      {
+        "title": "Martial Arts",
+        "slug": "martial-arts",
+        "url": "https://anichin.cafe/genres/martial-arts/"
+      },
+      {
+        "title": "Mecha",
+        "slug": "mecha",
+        "url": "https://anichin.cafe/genres/mecha/"
+      },
+      {
+        "title": "Military",
+        "slug": "military",
+        "url": "https://anichin.cafe/genres/military/"
+      },
+      {
+        "title": "Music",
+        "slug": "music",
+        "url": "https://anichin.cafe/genres/music/"
+      },
+      {
+        "title": "Mystery",
+        "slug": "mystery",
+        "url": "https://anichin.cafe/genres/mystery/"
+      },
+      {
+        "title": "Mythology",
+        "slug": "mythology",
+        "url": "https://anichin.cafe/genres/mythology/"
+      },
+      {
+        "title": "Psychological",
+        "slug": "psychological",
+        "url": "https://anichin.cafe/genres/psychological/"
+      },
+      {
+        "title": "Reincaranation",
+        "slug": "reincaranation",
+        "url": "https://anichin.cafe/genres/reincaranation/"
+      },
+      {
+        "title": "Reincarnation",
+        "slug": "reincarnation",
+        "url": "https://anichin.cafe/genres/reincarnation/"
+      },
+      {
+        "title": "Romanc",
+        "slug": "romanc",
+        "url": "https://anichin.cafe/genres/romanc/"
+      },
+      {
+        "title": "Romance",
+        "slug": "romance",
+        "url": "https://anichin.cafe/genres/romance/"
+      },
+      {
+        "title": "School",
+        "slug": "school",
+        "url": "https://anichin.cafe/genres/school/"
+      },
+      {
+        "title": "Sci-Fi",
+        "slug": "sci-fi",
+        "url": "https://anichin.cafe/genres/sci-fi/"
+      },
+      {
+        "title": "Shoujo",
+        "slug": "shoujo",
+        "url": "https://anichin.cafe/genres/shoujo/"
+      },
+      {
+        "title": "Shounen",
+        "slug": "shounen",
+        "url": "https://anichin.cafe/genres/shounen/"
+      },
+      {
+        "title": "Slice of Life",
+        "slug": "slice-of-life",
+        "url": "https://anichin.cafe/genres/slice-of-life/"
+      },
+      {
+        "title": "Space",
+        "slug": "space",
+        "url": "https://anichin.cafe/genres/space/"
+      },
+      {
+        "title": "Sports",
+        "slug": "sports",
+        "url": "https://anichin.cafe/genres/sports/"
+      },
+      {
+        "title": "Super Power",
+        "slug": "super-power",
+        "url": "https://anichin.cafe/genres/super-power/"
+      },
+      {
+        "title": "Supernatural",
+        "slug": "supernatural",
+        "url": "https://anichin.cafe/genres/supernatural/"
+      },
+      {
+        "title": "Suspense",
+        "slug": "suspense",
+        "url": "https://anichin.cafe/genres/suspense/"
+      },
+      {
+        "title": "Team Sports",
+        "slug": "team-sports",
+        "url": "https://anichin.cafe/genres/team-sports/"
+      },
+      {
+        "title": "Thriller",
+        "slug": "thriller",
+        "url": "https://anichin.cafe/genres/thriller/"
+      },
+      {
+        "title": "Urban Fantasy",
+        "slug": "urban-fantasy",
+        "url": "https://anichin.cafe/genres/urban-fantasy/"
+      }
+    ],
+    "seasons": []
+  },
+  "metadata": {},
+  "message": null
+}

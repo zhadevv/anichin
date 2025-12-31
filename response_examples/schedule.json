@@ -1,0 +1,1828 @@
+{
+  "success": true,
+  "creator": "zhadevv",
+  "data": {
+    "schedule": {
+      "title": "Schedule",
+      "notice": "This schedule is only an estimate based on the last update last week. So there is a chance that this week's episode will release early or late.",
+      "days": {
+        "monday": {
+          "title": "Monday",
+          "lists": [
+            {
+              "title": "IMMORTALITY SEASON 5",
+              "slug": "immortality-season-5",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/IMMORTALITY-SEASON-5.webp",
+              "current_episode": "5",
+              "url": "https://anichin.cafe/seri/immortality-season-5/",
+              "countdown": {
+                "raw": "424349",
+                "text": "at 03:04",
+                "timestamp": "1767582267",
+                "formatted": "at 03:04"
+              },
+              "release_time": {
+                "raw": "1767582267",
+                "formatted": "1/5/2026, 10:04:27 AM"
+              }
+            },
+            {
+              "title": "THE DRAGON SOUL",
+              "slug": "the-dragon-soul",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/THE-DRAGON-SOUL.webp",
+              "current_episode": "7",
+              "url": "https://anichin.cafe/seri/the-dragon-soul/",
+              "countdown": {
+                "raw": "426665",
+                "text": "at 03:43",
+                "timestamp": "1767584583",
+                "formatted": "at 03:43"
+              },
+              "release_time": {
+                "raw": "1767584583",
+                "formatted": "1/5/2026, 10:43:03 AM"
+              }
+            },
+            {
+              "title": "Supreme God Emperor",
+              "slug": "supreme-god-emperor",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2020/05/Supreme-God-Emperor.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/supreme-god-emperor/",
+              "countdown": {
+                "raw": "428632",
+                "text": "at 04:15",
+                "timestamp": "1767586550",
+                "formatted": "at 04:15"
+              },
+              "release_time": {
+                "raw": "1767586550",
+                "formatted": "1/5/2026, 11:15:50 AM"
+              }
+            },
+            {
+              "title": "Wonderland Season 5",
+              "slug": "wonderland-season-5",
+              "thumbnail": "https://i1.wp.com/anichin.cafe/wp-content/uploads/2023/08/Wonderland-S5-Ye-Xingyun.jpg?resize=247,350",
+              "current_episode": "1",
+              "url": "https://anichin.cafe/seri/wonderland-season-5/",
+              "countdown": {
+                "raw": "430397",
+                "text": "at 04:45",
+                "timestamp": "1767588315",
+                "formatted": "at 04:45"
+              },
+              "release_time": {
+                "raw": "1767588315",
+                "formatted": "1/5/2026, 11:45:15 AM"
+              }
+            },
+            {
+              "title": "Against the Sky Supreme",
+              "slug": "against-the-sky-supreme",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2021/07/Against-the-Sky-Supreme.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/against-the-sky-supreme/",
+              "countdown": {
+                "raw": "431135",
+                "text": "at 04:57",
+                "timestamp": "1767589053",
+                "formatted": "at 04:57"
+              },
+              "release_time": {
+                "raw": "1767589053",
+                "formatted": "1/5/2026, 11:57:33 AM"
+              }
+            },
+            {
+              "title": "The Legend of Sword Domain",
+              "slug": "the-legend-of-sword-domain",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/10/Sword-Domain.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/the-legend-of-sword-domain/",
+              "countdown": {
+                "raw": "433299",
+                "text": "at 05:33",
+                "timestamp": "1767591217",
+                "formatted": "at 05:33"
+              },
+              "release_time": {
+                "raw": "1767591217",
+                "formatted": "1/5/2026, 12:33:37 PM"
+              }
+            },
+            {
+              "title": "Purgatory Walkers",
+              "slug": "purgatory-walkers",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/06/Purgatory-Walkers.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/purgatory-walkers/",
+              "countdown": {
+                "raw": "434466",
+                "text": "at 05:53",
+                "timestamp": "1767592384",
+                "formatted": "at 05:53"
+              },
+              "release_time": {
+                "raw": "1767592384",
+                "formatted": "1/5/2026, 12:53:04 PM"
+              }
+            },
+            {
+              "title": "Proud Swordsman",
+              "slug": "proud-swordsman",
+              "thumbnail": "https://i1.wp.com/anichin.cafe/wp-content/uploads/2023/12/Proud-Swordsman.jpg?resize=247,350",
+              "current_episode": "69",
+              "url": "https://anichin.cafe/seri/proud-swordsman/",
+              "countdown": {
+                "raw": "439633",
+                "text": "at 07:19",
+                "timestamp": "1767597551",
+                "formatted": "at 07:19"
+              },
+              "release_time": {
+                "raw": "1767597551",
+                "formatted": "1/5/2026, 2:19:11 PM"
+              }
+            },
+            {
+              "title": "Adventures in Subduing the Demons",
+              "slug": "adventures-in-subduing-the-demons",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/11/Adventures-in-Subduing-the-Demons.webp",
+              "current_episode": "8",
+              "url": "https://anichin.cafe/seri/adventures-in-subduing-the-demons/",
+              "countdown": {
+                "raw": "441507",
+                "text": "at 07:50",
+                "timestamp": "1767599425",
+                "formatted": "at 07:50"
+              },
+              "release_time": {
+                "raw": "1767599425",
+                "formatted": "1/5/2026, 2:50:25 PM"
+              }
+            },
+            {
+              "title": "Blader Soul: Origin",
+              "slug": "blader-soul-prolog",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/03/Blader-Soul-Subtitle-Indonesia.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/blader-soul-prolog/",
+              "countdown": {
+                "raw": "447304",
+                "text": "at 09:27",
+                "timestamp": "1767605222",
+                "formatted": "at 09:27"
+              },
+              "release_time": {
+                "raw": "1767605222",
+                "formatted": "1/5/2026, 4:27:02 PM"
+              }
+            },
+            {
+              "title": "Wind of the Tang Dynasty",
+              "slug": "wind-of-the-tang-dynasty",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/Wind-of-the-Tang-Dynasty.webp",
+              "current_episode": "7",
+              "url": "https://anichin.cafe/seri/wind-of-the-tang-dynasty/",
+              "countdown": {
+                "raw": "448544",
+                "text": "at 09:47",
+                "timestamp": "1767606462",
+                "formatted": "at 09:47"
+              },
+              "release_time": {
+                "raw": "1767606462",
+                "formatted": "1/5/2026, 4:47:42 PM"
+              }
+            },
+            {
+              "title": "Lingwu Continent",
+              "slug": "lingwu-continent",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/07/Lingwu-Continent.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/lingwu-continent/",
+              "countdown": {
+                "raw": "452786",
+                "text": "at 10:58",
+                "timestamp": "1767610704",
+                "formatted": "at 10:58"
+              },
+              "release_time": {
+                "raw": "1767610704",
+                "formatted": "1/5/2026, 5:58:24 PM"
+              }
+            },
+            {
+              "title": "Swallowed Star Season 4",
+              "slug": "swallowed-star-season-4",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/10/Swallowed-Star-Season-3-atau-4.webp",
+              "current_episode": "205",
+              "url": "https://anichin.cafe/seri/swallowed-star-season-4/",
+              "countdown": {
+                "raw": "458311",
+                "text": "at 12:30",
+                "timestamp": "1767616229",
+                "formatted": "at 12:30"
+              },
+              "release_time": {
+                "raw": "1767616229",
+                "formatted": "1/5/2026, 7:30:29 PM"
+              }
+            },
+            {
+              "title": "Super Xiang",
+              "slug": "super-xiang",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/05/Super-Xiang.webp",
+              "current_episode": "7",
+              "url": "https://anichin.cafe/seri/super-xiang/",
+              "countdown": {
+                "raw": "458775",
+                "text": "at 12:38",
+                "timestamp": "1767616693",
+                "formatted": "at 12:38"
+              },
+              "release_time": {
+                "raw": "1767616693",
+                "formatted": "1/5/2026, 7:38:13 PM"
+              }
+            }
+          ]
+        },
+        "tuesday": {
+          "title": "Tuesday",
+          "lists": [
+            {
+              "title": "I Can Have Infinite Enlightenment",
+              "slug": "i-can-have-infinite-enlightenment",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/01/I-Can-Have-Infinite-Enlightenment.webp",
+              "current_episode": "2",
+              "url": "https://anichin.cafe/seri/i-can-have-infinite-enlightenment/",
+              "countdown": {
+                "raw": "508972",
+                "text": "at 02:34",
+                "timestamp": "1767666890",
+                "formatted": "at 02:34"
+              },
+              "release_time": {
+                "raw": "1767666890",
+                "formatted": "1/6/2026, 9:34:50 AM"
+              }
+            },
+            {
+              "title": "Nirvana of Storm Riders",
+              "slug": "nirvana-of-storm-riders",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/05/Nirvana-of-Storm-Riders-Subtitle-Indonesia.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/nirvana-of-storm-riders/",
+              "countdown": {
+                "raw": "509279",
+                "text": "at 02:39",
+                "timestamp": "1767667197",
+                "formatted": "at 02:39"
+              },
+              "release_time": {
+                "raw": "1767667197",
+                "formatted": "1/6/2026, 9:39:57 AM"
+              }
+            },
+            {
+              "title": "Tales of Demons and Gods Season 8",
+              "slug": "tales-of-demons-and-gods-season-8",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/04/Tales-of-Demons-and-Gods-Season-8.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/tales-of-demons-and-gods-season-8/",
+              "countdown": {
+                "raw": "513893",
+                "text": "at 03:56",
+                "timestamp": "1767671811",
+                "formatted": "at 03:56"
+              },
+              "release_time": {
+                "raw": "1767671811",
+                "formatted": "1/6/2026, 10:56:51 AM"
+              }
+            },
+            {
+              "title": "My Sectarian Members Are Spies",
+              "slug": "my-sectarian-members-are-spies",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/10/My-Sectarian-Members-Are-Spies.webp",
+              "current_episode": "109",
+              "url": "https://anichin.cafe/seri/my-sectarian-members-are-spies/",
+              "countdown": {
+                "raw": "517859",
+                "text": "at 05:02",
+                "timestamp": "1767675777",
+                "formatted": "at 05:02"
+              },
+              "release_time": {
+                "raw": "1767675777",
+                "formatted": "1/6/2026, 12:02:57 PM"
+              }
+            },
+            {
+              "title": "The Last Dynasty",
+              "slug": "the-last-dynasty",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/The-Last-Dynasty-1.webp",
+              "current_episode": "16",
+              "url": "https://anichin.cafe/seri/the-last-dynasty/",
+              "countdown": {
+                "raw": "519035",
+                "text": "at 05:22",
+                "timestamp": "1767676953",
+                "formatted": "at 05:22"
+              },
+              "release_time": {
+                "raw": "1767676953",
+                "formatted": "1/6/2026, 12:22:33 PM"
+              }
+            },
+            {
+              "title": "I Collect Waste in Heaven",
+              "slug": "i-collect-waste-in-heaven",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/I-Collect-Waste-in-Heaven.webp",
+              "current_episode": "29",
+              "url": "https://anichin.cafe/seri/i-collect-waste-in-heaven/",
+              "countdown": {
+                "raw": "520315",
+                "text": "at 05:43",
+                "timestamp": "1767678233",
+                "formatted": "at 05:43"
+              },
+              "release_time": {
+                "raw": "1767678233",
+                "formatted": "1/6/2026, 12:43:53 PM"
+              }
+            },
+            {
+              "title": "Apotheosis",
+              "slug": "apotheosis",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2022/11/Apotheosis-Season-2.webp",
+              "current_episode": "110",
+              "url": "https://anichin.cafe/seri/apotheosis/",
+              "countdown": {
+                "raw": "521327",
+                "text": "at 06:00",
+                "timestamp": "1767679245",
+                "formatted": "at 06:00"
+              },
+              "release_time": {
+                "raw": "1767679245",
+                "formatted": "1/6/2026, 1:00:45 PM"
+              }
+            },
+            {
+              "title": "Supreme Alchemy",
+              "slug": "supreme-alchemy",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/12/Supreme-Alchemy.webp",
+              "current_episode": "169",
+              "url": "https://anichin.cafe/seri/supreme-alchemy/",
+              "countdown": {
+                "raw": "522335",
+                "text": "at 06:17",
+                "timestamp": "1767680253",
+                "formatted": "at 06:17"
+              },
+              "release_time": {
+                "raw": "1767680253",
+                "formatted": "1/6/2026, 1:17:33 PM"
+              }
+            },
+            {
+              "title": "Lord of the Ancient God Grave",
+              "slug": "lord-of-the-ancient-god-grave",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2021/04/Lord-of-the-Ancient-God-Grave-indo.webp",
+              "current_episode": "397",
+              "url": "https://anichin.cafe/seri/lord-of-the-ancient-god-grave/",
+              "countdown": {
+                "raw": "523057",
+                "text": "at 06:29",
+                "timestamp": "1767680975",
+                "formatted": "at 06:29"
+              },
+              "release_time": {
+                "raw": "1767680975",
+                "formatted": "1/6/2026, 1:29:35 PM"
+              }
+            },
+            {
+              "title": "Martial Master",
+              "slug": "martial-master",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/08/Wushen-Zhuzai.webp",
+              "current_episode": "1",
+              "url": "https://anichin.cafe/seri/martial-master/",
+              "countdown": {
+                "raw": "523966",
+                "text": "at 06:44",
+                "timestamp": "1767681884",
+                "formatted": "at 06:44"
+              },
+              "release_time": {
+                "raw": "1767681884",
+                "formatted": "1/6/2026, 1:44:44 PM"
+              }
+            },
+            {
+              "title": "The Alchemist’s Rise",
+              "slug": "the-alchemists-rise",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/The-Alchemists-Rise.webp",
+              "current_episode": "8",
+              "url": "https://anichin.cafe/seri/the-alchemists-rise/",
+              "countdown": {
+                "raw": "525420",
+                "text": "at 07:08",
+                "timestamp": "1767683338",
+                "formatted": "at 07:08"
+              },
+              "release_time": {
+                "raw": "1767683338",
+                "formatted": "1/6/2026, 2:08:58 PM"
+              }
+            },
+            {
+              "title": "Transcend Evolution",
+              "slug": "transcend-evolution",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/Transcend-Evolution.webp",
+              "current_episode": "5",
+              "url": "https://anichin.cafe/seri/transcend-evolution/",
+              "countdown": {
+                "raw": "526549",
+                "text": "at 07:27",
+                "timestamp": "1767684467",
+                "formatted": "at 07:27"
+              },
+              "release_time": {
+                "raw": "1767684467",
+                "formatted": "1/6/2026, 2:27:47 PM"
+              }
+            },
+            {
+              "title": "100.000 Years of Refining Qi",
+              "slug": "100-000-years-of-refining-qi",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/06/100.000-Years-of-Refining-Qi.webp",
+              "current_episode": "1",
+              "url": "https://anichin.cafe/seri/100-000-years-of-refining-qi/",
+              "countdown": {
+                "raw": "527716",
+                "text": "at 07:47",
+                "timestamp": "1767685634",
+                "formatted": "at 07:47"
+              },
+              "release_time": {
+                "raw": "1767685634",
+                "formatted": "1/6/2026, 2:47:14 PM"
+              }
+            },
+            {
+              "title": "Sword and Fairy 3",
+              "slug": "sword-and-fairy-3",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/Sword-and-Fairy-3.webp",
+              "current_episode": "4",
+              "url": "https://anichin.cafe/seri/sword-and-fairy-3/",
+              "countdown": {
+                "raw": "531584",
+                "text": "at 08:51",
+                "timestamp": "1767689502",
+                "formatted": "at 08:51"
+              },
+              "release_time": {
+                "raw": "1767689502",
+                "formatted": "1/6/2026, 3:51:42 PM"
+              }
+            },
+            {
+              "title": "Peerless Battle Spirit",
+              "slug": "peerless-battle-spirit",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/05/Peerless-Battle-Spirit.webp",
+              "current_episode": "158",
+              "url": "https://anichin.cafe/seri/peerless-battle-spirit/",
+              "countdown": {
+                "raw": "539763",
+                "text": "at 11:08",
+                "timestamp": "1767697681",
+                "formatted": "at 11:08"
+              },
+              "release_time": {
+                "raw": "1767697681",
+                "formatted": "1/6/2026, 6:08:01 PM"
+              }
+            },
+            {
+              "title": "Shrouding the Heavens",
+              "slug": "shrouding-the-heavens",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/05/Shrouding.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/shrouding-the-heavens/",
+              "countdown": {
+                "raw": "542586",
+                "text": "at 11:55",
+                "timestamp": "1767700504",
+                "formatted": "at 11:55"
+              },
+              "release_time": {
+                "raw": "1767700504",
+                "formatted": "1/6/2026, 6:55:04 PM"
+              }
+            },
+            {
+              "title": "The Legend Of The Greatest Sword Immortal",
+              "slug": "the-legend-of-the-greatest-sword-immortal",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/10/Ti-Yi-Jian-Xian-Chuan.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/the-legend-of-the-greatest-sword-immortal/",
+              "countdown": {
+                "raw": "543696",
+                "text": "at 12:13",
+                "timestamp": "1767701614",
+                "formatted": "at 12:13"
+              },
+              "release_time": {
+                "raw": "1767701614",
+                "formatted": "1/6/2026, 7:13:34 PM"
+              }
+            },
+            {
+              "title": "Divine Manifestation",
+              "slug": "divine-manifestation",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/Divine-Manifestation.webp",
+              "current_episode": "14",
+              "url": "https://anichin.cafe/seri/divine-manifestation/",
+              "countdown": {
+                "raw": "555846",
+                "text": "at 15:36",
+                "timestamp": "1767713764",
+                "formatted": "at 15:36"
+              },
+              "release_time": {
+                "raw": "1767713764",
+                "formatted": "1/6/2026, 10:36:04 PM"
+              }
+            }
+          ]
+        },
+        "wednesday": {
+          "title": "Wednesday",
+          "lists": [
+            {
+              "title": "Slay the Gods",
+              "slug": "slay-the-gods",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/08/Slay-the-Gods.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/slay-the-gods/",
+              "countdown": {
+                "raw": "-1493",
+                "text": "at 04:47",
+                "timestamp": "",
+                "formatted": "at 04:47"
+              },
+              "release_time": {
+                "raw": "",
+                "formatted": ""
+              }
+            },
+            {
+              "title": "My WeChat Connects to the Dragon Palace",
+              "slug": "my-wechat-connects-to-the-dragon-palace",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/08/My-WeChat-Connects-to-the-Dragon-Palace.webp",
+              "current_episode": "12",
+              "url": "https://anichin.cafe/seri/my-wechat-connects-to-the-dragon-palace/",
+              "countdown": {
+                "raw": "-2229",
+                "text": "at 04:34",
+                "timestamp": "",
+                "formatted": "at 04:34"
+              },
+              "release_time": {
+                "raw": "",
+                "formatted": ""
+              }
+            },
+            {
+              "title": "Xi Xing Ji Asura: Mad King",
+              "slug": "xi-xing-ji-asura-mad-king",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/02/Xi-Xing-Ji-Asura-Mad-King-Subtitle-Indonesia.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/xi-xing-ji-asura-mad-king/",
+              "countdown": {
+                "raw": "-5460",
+                "text": "at 03:40",
+                "timestamp": "",
+                "formatted": "at 03:40"
+              },
+              "release_time": {
+                "raw": "",
+                "formatted": ""
+              }
+            },
+            {
+              "title": "The Legend of Magic Outfit",
+              "slug": "the-legend-of-magic-outfit",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/08/Mo-Zhuang-Chuanshuo.webp",
+              "current_episode": "32",
+              "url": "https://anichin.cafe/seri/the-legend-of-magic-outfit/",
+              "countdown": {
+                "raw": "3112",
+                "text": "at 06:03",
+                "timestamp": "1767161030",
+                "formatted": "at 06:03"
+              },
+              "release_time": {
+                "raw": "1767161030",
+                "formatted": "12/31/2025, 1:03:50 PM"
+              }
+            },
+            {
+              "title": "A Moment but Forever",
+              "slug": "a-momment-but-forever",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/08/A-Momment-But-Forever.webp",
+              "current_episode": "14",
+              "url": "https://anichin.cafe/seri/a-momment-but-forever/",
+              "countdown": {
+                "raw": "9245",
+                "text": "at 07:46",
+                "timestamp": "1767167163",
+                "formatted": "at 07:46"
+              },
+              "release_time": {
+                "raw": "1767167163",
+                "formatted": "12/31/2025, 2:46:03 PM"
+              }
+            },
+            {
+              "title": "Shao Nian Ge Xing Season 3",
+              "slug": "shao-nian-ge-xing-season-3",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/10/Shao-Nian-Ge-Xing-S3.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/shao-nian-ge-xing-season-3/",
+              "countdown": {
+                "raw": "10641",
+                "text": "at 08:09",
+                "timestamp": "1767168559",
+                "formatted": "at 08:09"
+              },
+              "release_time": {
+                "raw": "1767168559",
+                "formatted": "12/31/2025, 3:09:19 PM"
+              }
+            },
+            {
+              "title": "Close Combat Mage",
+              "slug": "close-combat-mage",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/11/Jin-Zhan-Fashi.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/close-combat-mage/",
+              "countdown": {
+                "raw": "11136",
+                "text": "at 08:17",
+                "timestamp": "1767169054",
+                "formatted": "at 08:17"
+              },
+              "release_time": {
+                "raw": "1767169054",
+                "formatted": "12/31/2025, 3:17:34 PM"
+              }
+            },
+            {
+              "title": "Hidden Sect Leader",
+              "slug": "hidden-sect-leader",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/03/Hidden-Sect-Leader-Subtitle-Indonesia-1.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/hidden-sect-leader/",
+              "countdown": {
+                "raw": "19355",
+                "text": "at 10:34",
+                "timestamp": "1767177273",
+                "formatted": "at 10:34"
+              },
+              "release_time": {
+                "raw": "1767177273",
+                "formatted": "12/31/2025, 5:34:33 PM"
+              }
+            },
+            {
+              "title": "The Island of Siliang Season 2",
+              "slug": "the-island-of-siliang-season-2",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/06/The-Island-of-Siliang-Season-2.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/the-island-of-siliang-season-2/",
+              "countdown": {
+                "raw": "21000",
+                "text": "at 11:01",
+                "timestamp": "1767178918",
+                "formatted": "at 11:01"
+              },
+              "release_time": {
+                "raw": "1767178918",
+                "formatted": "12/31/2025, 6:01:58 PM"
+              }
+            },
+            {
+              "title": "The Mirage House in the Clouds",
+              "slug": "the-mirage-house-in-the-clouds",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/01/The-Mirage-House-in-the-Clouds.webp",
+              "current_episode": "7",
+              "url": "https://anichin.cafe/seri/the-mirage-house-in-the-clouds/",
+              "countdown": {
+                "raw": "21440",
+                "text": "at 11:09",
+                "timestamp": "1767179358",
+                "formatted": "at 11:09"
+              },
+              "release_time": {
+                "raw": "1767179358",
+                "formatted": "12/31/2025, 6:09:18 PM"
+              }
+            },
+            {
+              "title": "Tales Of Dark River",
+              "slug": "tales-of-dark-river",
+              "thumbnail": "https://i1.wp.com/anichin.cafe/wp-content/uploads/2023/09/Tales-of-Dark-River.png?resize=247,350",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/tales-of-dark-river/",
+              "countdown": {
+                "raw": "22485",
+                "text": "at 11:26",
+                "timestamp": "1767180403",
+                "formatted": "at 11:26"
+              },
+              "release_time": {
+                "raw": "1767180403",
+                "formatted": "12/31/2025, 6:26:43 PM"
+              }
+            },
+            {
+              "title": "Throne of Seal",
+              "slug": "throne-of-seal",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2022/04/throne-of-seal-sub-indo.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/throne-of-seal/",
+              "countdown": {
+                "raw": "25613",
+                "text": "at 12:18",
+                "timestamp": "1767183531",
+                "formatted": "at 12:18"
+              },
+              "release_time": {
+                "raw": "1767183531",
+                "formatted": "12/31/2025, 7:18:51 PM"
+              }
+            },
+            {
+              "title": "Endless God Realm",
+              "slug": "endless-god-realm",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/08/Endless-God-Realm.webp",
+              "current_episode": "43",
+              "url": "https://anichin.cafe/seri/endless-god-realm/",
+              "countdown": {
+                "raw": "29528",
+                "text": "at 13:24",
+                "timestamp": "1767187446",
+                "formatted": "at 13:24"
+              },
+              "release_time": {
+                "raw": "1767187446",
+                "formatted": "12/31/2025, 8:24:06 PM"
+              }
+            },
+            {
+              "title": "Urban Ancient Immortal Doctor",
+              "slug": "urban-ancient-immortal-doctor",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/10/Urban-Ancient-Immortal-Doctor.webp",
+              "current_episode": "83",
+              "url": "https://anichin.cafe/seri/urban-ancient-immortal-doctor/",
+              "countdown": {
+                "raw": "31432",
+                "text": "at 13:55",
+                "timestamp": "1767189350",
+                "formatted": "at 13:55"
+              },
+              "release_time": {
+                "raw": "1767189350",
+                "formatted": "12/31/2025, 8:55:50 PM"
+              }
+            },
+            {
+              "title": "Return of The Immortal Emperor",
+              "slug": "return-of-the-immortal-emperor",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/Return-of-The-Immortal-Emperor.webp",
+              "current_episode": "12",
+              "url": "https://anichin.cafe/seri/return-of-the-immortal-emperor/"
+            },
+            {
+              "title": "Twin Martial Souls",
+              "slug": "twin-martial-souls",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/07/Twin-Martial-Souls.webp",
+              "current_episode": "55",
+              "url": "https://anichin.cafe/seri/twin-martial-souls/"
+            },
+            {
+              "title": "Supreme Above The Sky",
+              "slug": "supreme-above-the-sky",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/07/Supreme-Above-The-Sky.webp",
+              "current_episode": "56",
+              "url": "https://anichin.cafe/seri/supreme-above-the-sky/"
+            },
+            {
+              "title": "Purple River Season 2",
+              "slug": "purple-river-season-2",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/07/Purple-River-Season-2.webp",
+              "current_episode": "25",
+              "url": "https://anichin.cafe/seri/purple-river-season-2/"
+            }
+          ]
+        },
+        "thursday": {
+          "title": "Thursday",
+          "lists": [
+            {
+              "title": "My Senior Brother Is Too Steady",
+              "slug": "my-senior-brother-is-too-steady",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/12/Senior-Brother-2.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/my-senior-brother-is-too-steady/",
+              "countdown": {
+                "raw": "79206",
+                "text": "at 03:12",
+                "timestamp": "1767237124",
+                "formatted": "at 03:12"
+              },
+              "release_time": {
+                "raw": "1767237124",
+                "formatted": "1/1/2026, 10:12:04 AM"
+              }
+            },
+            {
+              "title": "The Divine Emperor of Destiny",
+              "slug": "the-divine-emperor-of-destiny",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/09/The-Divine-Emperor-of-Destiny.webp",
+              "current_episode": "28",
+              "url": "https://anichin.cafe/seri/the-divine-emperor-of-destiny/",
+              "countdown": {
+                "raw": "80594",
+                "text": "at 03:35",
+                "timestamp": "1767238512",
+                "formatted": "at 03:35"
+              },
+              "release_time": {
+                "raw": "1767238512",
+                "formatted": "1/1/2026, 10:35:12 AM"
+              }
+            },
+            {
+              "title": "Wonderland Season 5",
+              "slug": "wonderland-season-5",
+              "thumbnail": "https://i1.wp.com/anichin.cafe/wp-content/uploads/2023/08/Wonderland-S5-Ye-Xingyun.jpg?resize=247,350",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/wonderland-season-5/",
+              "countdown": {
+                "raw": "84797",
+                "text": "at 04:45",
+                "timestamp": "1767242715",
+                "formatted": "at 04:45"
+              },
+              "release_time": {
+                "raw": "1767242715",
+                "formatted": "1/1/2026, 11:45:15 AM"
+              }
+            },
+            {
+              "title": "Ancient Star Divine Technique",
+              "slug": "ancient-star-divine-technique",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/01/Ancient-Star-Divine-Technique.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/ancient-star-divine-technique/",
+              "countdown": {
+                "raw": "99630",
+                "text": "at 08:52",
+                "timestamp": "1767257548",
+                "formatted": "at 08:52"
+              },
+              "release_time": {
+                "raw": "1767257548",
+                "formatted": "1/1/2026, 3:52:28 PM"
+              }
+            },
+            {
+              "title": "Martial Conqueror of the Cosmos",
+              "slug": "martial-conqueror-of-the-cosmos",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/08/Martial-Conqueror-of-the-Cosmos.webp",
+              "current_episode": "42",
+              "url": "https://anichin.cafe/seri/martial-conqueror-of-the-cosmos/",
+              "countdown": {
+                "raw": "105757",
+                "text": "at 10:34",
+                "timestamp": "1767263675",
+                "formatted": "at 10:34"
+              },
+              "release_time": {
+                "raw": "1767263675",
+                "formatted": "1/1/2026, 5:34:35 PM"
+              }
+            },
+            {
+              "title": "X-Epoch of Dragon",
+              "slug": "x-epoch-of-dragon",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/08/X-Epoch-of-Dragon.webp",
+              "current_episode": "17",
+              "url": "https://anichin.cafe/seri/x-epoch-of-dragon/",
+              "countdown": {
+                "raw": "113413",
+                "text": "at 12:42",
+                "timestamp": "1767271331",
+                "formatted": "at 12:42"
+              },
+              "release_time": {
+                "raw": "1767271331",
+                "formatted": "1/1/2026, 7:42:11 PM"
+              }
+            },
+            {
+              "title": "Perfect World",
+              "slug": "perfect-world",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2021/04/Perfect-World.webp",
+              "current_episode": "248",
+              "url": "https://anichin.cafe/seri/perfect-world/",
+              "countdown": {
+                "raw": "113476",
+                "text": "at 12:43",
+                "timestamp": "1767271394",
+                "formatted": "at 12:43"
+              },
+              "release_time": {
+                "raw": "1767271394",
+                "formatted": "1/1/2026, 7:43:14 PM"
+              }
+            },
+            {
+              "title": "Heaven Official’s Blessing Season 2",
+              "slug": "heaven-officials-blessing-season-2",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/10/Heaven-Officials-Blessing-Season-2.webp",
+              "current_episode": "4",
+              "url": "https://anichin.cafe/seri/heaven-officials-blessing-season-2/",
+              "countdown": {
+                "raw": "115639",
+                "text": "at 13:19",
+                "timestamp": "1767273557",
+                "formatted": "at 13:19"
+              },
+              "release_time": {
+                "raw": "1767273557",
+                "formatted": "1/1/2026, 8:19:17 PM"
+              }
+            },
+            {
+              "title": "GoWest: Overworked",
+              "slug": "gowest-overworked",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/05/GoWest：Overworked.webp",
+              "current_episode": "4",
+              "url": "https://anichin.cafe/seri/gowest-overworked/",
+              "countdown": {
+                "raw": "119233",
+                "text": "at 14:19",
+                "timestamp": "1767277151",
+                "formatted": "at 14:19"
+              },
+              "release_time": {
+                "raw": "1767277151",
+                "formatted": "1/1/2026, 9:19:11 PM"
+              }
+            },
+            {
+              "title": "The Demon King Who Lost His Job",
+              "slug": "the-demon-king-who-lost-his-job",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/02/The-Demon-King-Who-Lost-His-Job.webp",
+              "current_episode": "7",
+              "url": "https://anichin.cafe/seri/the-demon-king-who-lost-his-job/",
+              "countdown": {
+                "raw": "125542",
+                "text": "at 16:04",
+                "timestamp": "1767283460",
+                "formatted": "at 16:04"
+              },
+              "release_time": {
+                "raw": "1767283460",
+                "formatted": "1/1/2026, 11:04:20 PM"
+              }
+            }
+          ]
+        },
+        "friday": {
+          "title": "Friday",
+          "lists": [
+            {
+              "title": "Keyboard Immortal",
+              "slug": "keyboard-immortal",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/06/Keyboard-Immortal.webp",
+              "current_episode": "31",
+              "url": "https://anichin.cafe/seri/keyboard-immortal/",
+              "countdown": {
+                "raw": "159096",
+                "text": "at 01:23",
+                "timestamp": "1767317014",
+                "formatted": "at 01:23"
+              },
+              "release_time": {
+                "raw": "1767317014",
+                "formatted": "1/2/2026, 8:23:34 AM"
+              }
+            },
+            {
+              "title": "Lord of Planet",
+              "slug": "lord-of-planet",
+              "thumbnail": "https://i3.wp.com/anichin.cafe/wp-content/uploads/2023/12/Lord-of-Planet.jpg?resize=247,350",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/lord-of-planet/",
+              "countdown": {
+                "raw": "160230",
+                "text": "at 01:42",
+                "timestamp": "1767318148",
+                "formatted": "at 01:42"
+              },
+              "release_time": {
+                "raw": "1767318148",
+                "formatted": "1/2/2026, 8:42:28 AM"
+              }
+            },
+            {
+              "title": "I Am The Blade",
+              "slug": "i-am-the-blade",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/07/I-Am-The-Blade.webp",
+              "current_episode": "9",
+              "url": "https://anichin.cafe/seri/i-am-the-blade/",
+              "countdown": {
+                "raw": "165099",
+                "text": "at 03:03",
+                "timestamp": "1767323017",
+                "formatted": "at 03:03"
+              },
+              "release_time": {
+                "raw": "1767323017",
+                "formatted": "1/2/2026, 10:03:37 AM"
+              }
+            },
+            {
+              "title": "Jun You Yun Season 2",
+              "slug": "jun-you-yun-season-2",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/05/Jun-You-Yun-Season-2.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/jun-you-yun-season-2/",
+              "countdown": {
+                "raw": "170795",
+                "text": "at 04:38",
+                "timestamp": "1767328713",
+                "formatted": "at 04:38"
+              },
+              "release_time": {
+                "raw": "1767328713",
+                "formatted": "1/2/2026, 11:38:33 AM"
+              }
+            },
+            {
+              "title": "Tomb of Fallen Gods Season 3",
+              "slug": "tomb-of-fallen-gods-season-3",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/08/Tomb-of-Fallen-Gods-Season-3.webp",
+              "current_episode": "23",
+              "url": "https://anichin.cafe/seri/tomb-of-fallen-gods-season-3/",
+              "countdown": {
+                "raw": "177718",
+                "text": "at 06:33",
+                "timestamp": "1767335636",
+                "formatted": "at 06:33"
+              },
+              "release_time": {
+                "raw": "1767335636",
+                "formatted": "1/2/2026, 1:33:56 PM"
+              }
+            },
+            {
+              "title": "The Gate of Mystical Realm",
+              "slug": "the-gate-of-mystical-realm",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/11/The-Gate-of-Mystical-Realm.webp",
+              "current_episode": "8",
+              "url": "https://anichin.cafe/seri/the-gate-of-mystical-realm/",
+              "countdown": {
+                "raw": "178643",
+                "text": "at 06:49",
+                "timestamp": "1767336561",
+                "formatted": "at 06:49"
+              },
+              "release_time": {
+                "raw": "1767336561",
+                "formatted": "1/2/2026, 1:49:21 PM"
+              }
+            },
+            {
+              "title": "Sword of Coming Season 2",
+              "slug": "sword-of-coming-season-2",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/Sword-of-Coming-Season-2.webp",
+              "current_episode": "4",
+              "url": "https://anichin.cafe/seri/sword-of-coming-season-2/",
+              "countdown": {
+                "raw": "180083",
+                "text": "at 07:13",
+                "timestamp": "1767338001",
+                "formatted": "at 07:13"
+              },
+              "release_time": {
+                "raw": "1767338001",
+                "formatted": "1/2/2026, 2:13:21 PM"
+              }
+            },
+            {
+              "title": "Shadow of the Void",
+              "slug": "shadow-of-the-void",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/06/Shadow-of-the-Void-Subtitle-Indonesia.webp",
+              "current_episode": "2",
+              "url": "https://anichin.cafe/seri/shadow-of-the-void/",
+              "countdown": {
+                "raw": "184417",
+                "text": "at 08:25",
+                "timestamp": "1767342335",
+                "formatted": "at 08:25"
+              },
+              "release_time": {
+                "raw": "1767342335",
+                "formatted": "1/2/2026, 3:25:35 PM"
+              }
+            },
+            {
+              "title": "Candle in the Tomb: Return to the South Sea",
+              "slug": "candle-in-the-tomb-return-to-the-south-sea",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/08/Candle-in-the-Tomb-Return-to-the-South-Sea.webp",
+              "current_episode": "10",
+              "url": "https://anichin.cafe/seri/candle-in-the-tomb-return-to-the-south-sea/",
+              "countdown": {
+                "raw": "186330",
+                "text": "at 08:57",
+                "timestamp": "1767344248",
+                "formatted": "at 08:57"
+              },
+              "release_time": {
+                "raw": "1767344248",
+                "formatted": "1/2/2026, 3:57:28 PM"
+              }
+            },
+            {
+              "title": "Soul Land 2: The Unrivaled Tang Sect",
+              "slug": "soul-land-2-the-unrivaled-tang-sect",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/06/Soul-Land-2-The-Unrivaled-Tang-Sect-1.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/soul-land-2-the-unrivaled-tang-sect/",
+              "countdown": {
+                "raw": "197798",
+                "text": "at 12:08",
+                "timestamp": "1767355716",
+                "formatted": "at 12:08"
+              },
+              "release_time": {
+                "raw": "1767355716",
+                "formatted": "1/2/2026, 7:08:36 PM"
+              }
+            }
+          ]
+        },
+        "saturday": {
+          "title": "Saturday",
+          "lists": [
+            {
+              "title": "Eat Around the Mortal World",
+              "slug": "eat-around-the-mortal-world",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/11/Eat-Around-the-Mortal-World.webp",
+              "current_episode": "8",
+              "url": "https://anichin.cafe/seri/eat-around-the-mortal-world/",
+              "countdown": {
+                "raw": "248810",
+                "text": "at 02:18",
+                "timestamp": "1767406728",
+                "formatted": "at 02:18"
+              },
+              "release_time": {
+                "raw": "1767406728",
+                "formatted": "1/3/2026, 9:18:48 AM"
+              }
+            },
+            {
+              "title": "Bureau of Paranormal Investigation",
+              "slug": "bureau-of-paranormal-investigation",
+              "thumbnail": "https://i2.wp.com/anichin.cafe/wp-content/uploads/2023/11/Bureau-of-Paranormal-Investigation.jpg?resize=247,350",
+              "current_episode": "2",
+              "url": "https://anichin.cafe/seri/bureau-of-paranormal-investigation/",
+              "countdown": {
+                "raw": "249256",
+                "text": "at 02:26",
+                "timestamp": "1767407174",
+                "formatted": "at 02:26"
+              },
+              "release_time": {
+                "raw": "1767407174",
+                "formatted": "1/3/2026, 9:26:14 AM"
+              }
+            },
+            {
+              "title": "Tales of Demons and Gods Season 8",
+              "slug": "tales-of-demons-and-gods-season-8",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/04/Tales-of-Demons-and-Gods-Season-8.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/tales-of-demons-and-gods-season-8/",
+              "countdown": {
+                "raw": "254693",
+                "text": "at 03:56",
+                "timestamp": "1767412611",
+                "formatted": "at 03:56"
+              },
+              "release_time": {
+                "raw": "1767412611",
+                "formatted": "1/3/2026, 10:56:51 AM"
+              }
+            },
+            {
+              "title": "Ascendants of the Nine Suns",
+              "slug": "ascendants-of-the-nine-suns",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/11/Ascendants-of-the-Nine-Suns.webp",
+              "current_episode": "9",
+              "url": "https://anichin.cafe/seri/ascendants-of-the-nine-suns/",
+              "countdown": {
+                "raw": "255625",
+                "text": "at 04:12",
+                "timestamp": "1767413543",
+                "formatted": "at 04:12"
+              },
+              "release_time": {
+                "raw": "1767413543",
+                "formatted": "1/3/2026, 11:12:23 AM"
+              }
+            },
+            {
+              "title": "The Ravages of Time Season 2",
+              "slug": "the-ravages-of-time-season-2",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/01/The-Ravages-of-Time-Season-2.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/the-ravages-of-time-season-2/",
+              "countdown": {
+                "raw": "255917",
+                "text": "at 04:17",
+                "timestamp": "1767413835",
+                "formatted": "at 04:17"
+              },
+              "release_time": {
+                "raw": "1767413835",
+                "formatted": "1/3/2026, 11:17:15 AM"
+              }
+            },
+            {
+              "title": "Legend of Martial Immortal",
+              "slug": "legend-of-martial-immortal",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/03/Legend-of-Martial-Immortal-Season-2.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/legend-of-martial-immortal/",
+              "countdown": {
+                "raw": "256539",
+                "text": "at 04:27",
+                "timestamp": "1767414457",
+                "formatted": "at 04:27"
+              },
+              "release_time": {
+                "raw": "1767414457",
+                "formatted": "1/3/2026, 11:27:37 AM"
+              }
+            },
+            {
+              "title": "A Record of A Mortal’s Journey to Immortality",
+              "slug": "a-record-of-a-mortals-journey-to-immortality",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/08/A-Record-of-a-Mortals-Journey-to-Immortality.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/a-record-of-a-mortals-journey-to-immortality/",
+              "countdown": {
+                "raw": "258582",
+                "text": "at 05:01",
+                "timestamp": "1767416500",
+                "formatted": "at 05:01"
+              },
+              "release_time": {
+                "raw": "1767416500",
+                "formatted": "1/3/2026, 12:01:40 PM"
+              }
+            },
+            {
+              "title": "Lord of the Ancient God Grave",
+              "slug": "lord-of-the-ancient-god-grave",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2021/04/Lord-of-the-Ancient-God-Grave-indo.webp",
+              "current_episode": "396",
+              "url": "https://anichin.cafe/seri/lord-of-the-ancient-god-grave/",
+              "countdown": {
+                "raw": "263857",
+                "text": "at 06:29",
+                "timestamp": "1767421775",
+                "formatted": "at 06:29"
+              },
+              "release_time": {
+                "raw": "1767421775",
+                "formatted": "1/3/2026, 1:29:35 PM"
+              }
+            },
+            {
+              "title": "The Legend of Sky Lord 3D",
+              "slug": "the-legend-of-sky-lord-3d",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/07/The-Legend-of-Sky-Lord-3D.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/the-legend-of-sky-lord-3d/",
+              "countdown": {
+                "raw": "265358",
+                "text": "at 06:54",
+                "timestamp": "1767423276",
+                "formatted": "at 06:54"
+              },
+              "release_time": {
+                "raw": "1767423276",
+                "formatted": "1/3/2026, 1:54:36 PM"
+              }
+            },
+            {
+              "title": "Magic Chef of Fire and Ice",
+              "slug": "magic-chef-of-fire-and-ice",
+              "thumbnail": "https://i3.wp.com/anichin.cafe/wp-content/uploads/2023/08/Magic-Chef-S2.jpg?resize=247,350",
+              "current_episode": "157",
+              "url": "https://anichin.cafe/seri/magic-chef-of-fire-and-ice/",
+              "countdown": {
+                "raw": "266209",
+                "text": "at 07:08",
+                "timestamp": "1767424127",
+                "formatted": "at 07:08"
+              },
+              "release_time": {
+                "raw": "1767424127",
+                "formatted": "1/3/2026, 2:08:47 PM"
+              }
+            },
+            {
+              "title": "The Path Toward Heaven",
+              "slug": "the-path-toward-heaven",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/10/The-Path-Toward-Heaven.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/the-path-toward-heaven/",
+              "countdown": {
+                "raw": "266686",
+                "text": "at 07:16",
+                "timestamp": "1767424604",
+                "formatted": "at 07:16"
+              },
+              "release_time": {
+                "raw": "1767424604",
+                "formatted": "1/3/2026, 2:16:44 PM"
+              }
+            },
+            {
+              "title": "The Supreme Dantian",
+              "slug": "the-supreme-dantian",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/The-Supreme-Dantian.webp",
+              "current_episode": "10",
+              "url": "https://anichin.cafe/seri/the-supreme-dantian/",
+              "countdown": {
+                "raw": "267812",
+                "text": "at 07:35",
+                "timestamp": "1767425730",
+                "formatted": "at 07:35"
+              },
+              "release_time": {
+                "raw": "1767425730",
+                "formatted": "1/3/2026, 2:35:30 PM"
+              }
+            },
+            {
+              "title": "100.000 Years of Refining Qi",
+              "slug": "100-000-years-of-refining-qi",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/06/100.000-Years-of-Refining-Qi.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/100-000-years-of-refining-qi/",
+              "countdown": {
+                "raw": "268516",
+                "text": "at 07:47",
+                "timestamp": "1767426434",
+                "formatted": "at 07:47"
+              },
+              "release_time": {
+                "raw": "1767426434",
+                "formatted": "1/3/2026, 2:47:14 PM"
+              }
+            },
+            {
+              "title": "Threads of Fate: A War Untold",
+              "slug": "threads-of-fate-a-war-untold",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/Threads-of-Fate-A-War-Untold.webp",
+              "current_episode": "3",
+              "url": "https://anichin.cafe/seri/threads-of-fate-a-war-untold/",
+              "countdown": {
+                "raw": "270800",
+                "text": "at 08:25",
+                "timestamp": "1767428718",
+                "formatted": "at 08:25"
+              },
+              "release_time": {
+                "raw": "1767428718",
+                "formatted": "1/3/2026, 3:25:18 PM"
+              }
+            },
+            {
+              "title": "Five Elements God Of War",
+              "slug": "five-elements-god-of-war",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/06/Five-Elemetns.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/five-elements-god-of-war/",
+              "countdown": {
+                "raw": "277339",
+                "text": "at 10:14",
+                "timestamp": "1767435257",
+                "formatted": "at 10:14"
+              },
+              "release_time": {
+                "raw": "1767435257",
+                "formatted": "1/3/2026, 5:14:17 PM"
+              }
+            },
+            {
+              "title": "Hidden Sect Leader",
+              "slug": "hidden-sect-leader",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/03/Hidden-Sect-Leader-Subtitle-Indonesia-1.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/hidden-sect-leader/",
+              "countdown": {
+                "raw": "278555",
+                "text": "at 10:34",
+                "timestamp": "1767436473",
+                "formatted": "at 10:34"
+              },
+              "release_time": {
+                "raw": "1767436473",
+                "formatted": "1/3/2026, 5:34:33 PM"
+              }
+            },
+            {
+              "title": "Peerless Battle Spirit",
+              "slug": "peerless-battle-spirit",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/05/Peerless-Battle-Spirit.webp",
+              "current_episode": "157",
+              "url": "https://anichin.cafe/seri/peerless-battle-spirit/",
+              "countdown": {
+                "raw": "280563",
+                "text": "at 11:08",
+                "timestamp": "1767438481",
+                "formatted": "at 11:08"
+              },
+              "release_time": {
+                "raw": "1767438481",
+                "formatted": "1/3/2026, 6:08:01 PM"
+              }
+            },
+            {
+              "title": "Tomb of Fallen Gods Season 2",
+              "slug": "tomb-of-fallen-gods-season-2",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/08/Tomb-of-Fallen-Gods-Season-2.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/tomb-of-fallen-gods-season-2/",
+              "countdown": {
+                "raw": "281370",
+                "text": "at 11:21",
+                "timestamp": "1767439288",
+                "formatted": "at 11:21"
+              },
+              "release_time": {
+                "raw": "1767439288",
+                "formatted": "1/3/2026, 6:21:28 PM"
+              }
+            },
+            {
+              "title": "Battle Through the Heavens Season 5",
+              "slug": "battle-through-the-heavens-season-5",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2022/12/BTTH.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/battle-through-the-heavens-season-5/",
+              "countdown": {
+                "raw": "283223",
+                "text": "at 11:52",
+                "timestamp": "1767441141",
+                "formatted": "at 11:52"
+              },
+              "release_time": {
+                "raw": "1767441141",
+                "formatted": "1/3/2026, 6:52:21 PM"
+              }
+            },
+            {
+              "title": "LINK CLICK: BRIDON ARC",
+              "slug": "link-click-bridon-arc",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/12/LINK-CLICK-BRIDON-ARC.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/link-click-bridon-arc/",
+              "countdown": {
+                "raw": "286451",
+                "text": "at 12:46",
+                "timestamp": "1767444369",
+                "formatted": "at 12:46"
+              },
+              "release_time": {
+                "raw": "1767444369",
+                "formatted": "1/3/2026, 7:46:09 PM"
+              }
+            },
+            {
+              "title": "Villain Initialization",
+              "slug": "villain-initialization",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/05/Villain-Initialization-Subtitle-Indonesia.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/villain-initialization/",
+              "countdown": {
+                "raw": "293721",
+                "text": "at 14:47",
+                "timestamp": "1767451639",
+                "formatted": "at 14:47"
+              },
+              "release_time": {
+                "raw": "1767451639",
+                "formatted": "1/3/2026, 9:47:19 PM"
+              }
+            },
+            {
+              "title": "Mom, I’m Sorry",
+              "slug": "mom-im-sorry",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/06/Mom-Im-Sorry.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/mom-im-sorry/",
+              "countdown": {
+                "raw": "294253",
+                "text": "at 14:56",
+                "timestamp": "1767452171",
+                "formatted": "at 14:56"
+              },
+              "release_time": {
+                "raw": "1767452171",
+                "formatted": "1/3/2026, 9:56:11 PM"
+              }
+            },
+            {
+              "title": "King of Loose Cultivators",
+              "slug": "king-of-loose-cultivators",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/04/King-of-Loose-Cultivators.webp",
+              "current_episode": "43",
+              "url": "https://anichin.cafe/seri/king-of-loose-cultivators/",
+              "countdown": {
+                "raw": "294370",
+                "text": "at 14:58",
+                "timestamp": "1767452288",
+                "formatted": "at 14:58"
+              },
+              "release_time": {
+                "raw": "1767452288",
+                "formatted": "1/3/2026, 9:58:08 PM"
+              }
+            }
+          ]
+        },
+        "sunday": {
+          "title": "Sunday",
+          "lists": [
+            {
+              "title": "God of War Alliance",
+              "slug": "god-of-war-alliance",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/01/God-of-War-Alliance.webp",
+              "current_episode": "6",
+              "url": "https://anichin.cafe/seri/god-of-war-alliance/",
+              "countdown": {
+                "raw": "331749",
+                "text": "at 01:21",
+                "timestamp": "1767489667",
+                "formatted": "at 01:21"
+              },
+              "release_time": {
+                "raw": "1767489667",
+                "formatted": "1/4/2026, 8:21:07 AM"
+              }
+            },
+            {
+              "title": "Ancient Vengeance: Windbreaker Arc",
+              "slug": "ancient-vengeance-windbreaker-arc",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/09/Ancient-Vengeance-Windbreaker-Arc.webp",
+              "current_episode": "35",
+              "url": "https://anichin.cafe/seri/ancient-vengeance-windbreaker-arc/",
+              "countdown": {
+                "raw": "337048",
+                "text": "at 02:49",
+                "timestamp": "1767494966",
+                "formatted": "at 02:49"
+              },
+              "release_time": {
+                "raw": "1767494966",
+                "formatted": "1/4/2026, 9:49:26 AM"
+              }
+            },
+            {
+              "title": "The Daily Life of the Immortal King Season 5",
+              "slug": "the-daily-life-of-the-immortal-king-season-5",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/The-Daily-Life-of-the-Immortal-King-Season-5.webp",
+              "current_episode": "5",
+              "url": "https://anichin.cafe/seri/the-daily-life-of-the-immortal-king-season-5/",
+              "countdown": {
+                "raw": "338119",
+                "text": "at 03:07",
+                "timestamp": "1767496037",
+                "formatted": "at 03:07"
+              },
+              "release_time": {
+                "raw": "1767496037",
+                "formatted": "1/4/2026, 10:07:17 AM"
+              }
+            },
+            {
+              "title": "Legend of Soldier",
+              "slug": "legend-of-soldier",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/05/Legend-of-Soldier-Subtitle-Indonesia.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/legend-of-soldier/",
+              "countdown": {
+                "raw": "340611",
+                "text": "at 03:48",
+                "timestamp": "1767498529",
+                "formatted": "at 03:48"
+              },
+              "release_time": {
+                "raw": "1767498529",
+                "formatted": "1/4/2026, 10:48:49 AM"
+              }
+            },
+            {
+              "title": "Tales of Herding Gods",
+              "slug": "tales-of-herding-gods",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/10/Tales-of-Hearding-God.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/tales-of-herding-gods/",
+              "countdown": {
+                "raw": "343790",
+                "text": "at 04:41",
+                "timestamp": "1767501708",
+                "formatted": "at 04:41"
+              },
+              "release_time": {
+                "raw": "1767501708",
+                "formatted": "1/4/2026, 11:41:48 AM"
+              }
+            },
+            {
+              "title": "Beyond Time’s Gaze",
+              "slug": "beyond-times-gaze",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/Beyond-Times-Gaze.webp",
+              "current_episode": "3",
+              "url": "https://anichin.cafe/seri/beyond-times-gaze/",
+              "countdown": {
+                "raw": "345301",
+                "text": "at 05:06",
+                "timestamp": "1767503219",
+                "formatted": "at 05:06"
+              },
+              "release_time": {
+                "raw": "1767503219",
+                "formatted": "1/4/2026, 12:06:59 PM"
+              }
+            },
+            {
+              "title": "The Ethereal Sword Immortal",
+              "slug": "the-ethereal-sword-immortal",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/11/The-Ethereal-Sword-Immortal.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/the-ethereal-sword-immortal/",
+              "countdown": {
+                "raw": "348580",
+                "text": "at 06:01",
+                "timestamp": "1767506498",
+                "formatted": "at 06:01"
+              },
+              "release_time": {
+                "raw": "1767506498",
+                "formatted": "1/4/2026, 1:01:38 PM"
+              }
+            },
+            {
+              "title": "Peerless Divine Emperor",
+              "slug": "peerless-divine-emperor",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/Peerless-Divine-Emperor.webp",
+              "current_episode": "31",
+              "url": "https://anichin.cafe/seri/peerless-divine-emperor/",
+              "countdown": {
+                "raw": "350737",
+                "text": "at 06:37",
+                "timestamp": "1767508655",
+                "formatted": "at 06:37"
+              },
+              "release_time": {
+                "raw": "1767508655",
+                "formatted": "1/4/2026, 1:37:35 PM"
+              }
+            },
+            {
+              "title": "Martial Master",
+              "slug": "martial-master",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/08/Wushen-Zhuzai.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/martial-master/",
+              "countdown": {
+                "raw": "351166",
+                "text": "at 06:44",
+                "timestamp": "1767509084",
+                "formatted": "at 06:44"
+              },
+              "release_time": {
+                "raw": "1767509084",
+                "formatted": "1/4/2026, 1:44:44 PM"
+              }
+            },
+            {
+              "title": "Ancient Supremacy",
+              "slug": "ancient-supremacy",
+              "thumbnail": "https://i1.wp.com/anichin.cafe/wp-content/uploads/2023/04/Ancient-Supremacy.jpg?resize=247,350",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/ancient-supremacy/",
+              "countdown": {
+                "raw": "365645",
+                "text": "at 10:46",
+                "timestamp": "1767523563",
+                "formatted": "at 10:46"
+              },
+              "release_time": {
+                "raw": "1767523563",
+                "formatted": "1/4/2026, 5:46:03 PM"
+              }
+            },
+            {
+              "title": "Golden Guards: The Wind Rises From Jinling",
+              "slug": "golden-guards-the-wind-rises-from-jinling",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/05/Golden-Guards-The-Wind-Rises-From-Jinling.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/golden-guards-the-wind-rises-from-jinling/",
+              "countdown": {
+                "raw": "370091",
+                "text": "at 12:00",
+                "timestamp": "1767528009",
+                "formatted": "at 12:00"
+              },
+              "release_time": {
+                "raw": "1767528009",
+                "formatted": "1/4/2026, 7:00:09 PM"
+              }
+            },
+            {
+              "title": "Renegade Immortal",
+              "slug": "renegade-immortal",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/09/Renegade-Immortal-sub-indo.webp",
+              "current_episode": "122",
+              "url": "https://anichin.cafe/seri/renegade-immortal/",
+              "countdown": {
+                "raw": "371109",
+                "text": "at 12:17",
+                "timestamp": "1767529027",
+                "formatted": "at 12:17"
+              },
+              "release_time": {
+                "raw": "1767529027",
+                "formatted": "1/4/2026, 7:17:07 PM"
+              }
+            },
+            {
+              "title": "Soul Land Season 2 (Live Action)",
+              "slug": "soul-land-season-2-live-action",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/11/Soul-Land-Live-Action-2.webp",
+              "current_episode": "11",
+              "url": "https://anichin.cafe/seri/soul-land-season-2-live-action/",
+              "countdown": {
+                "raw": "373970",
+                "text": "at 13:04",
+                "timestamp": "1767531888",
+                "formatted": "at 13:04"
+              },
+              "release_time": {
+                "raw": "1767531888",
+                "formatted": "1/4/2026, 8:04:48 PM"
+              }
+            },
+            {
+              "title": "The War of Cards",
+              "slug": "the-war-of-cards",
+              "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/12/The-War-of-Cards.webp",
+              "current_episode": "??",
+              "url": "https://anichin.cafe/seri/the-war-of-cards/",
+              "countdown": {
+                "raw": "383932",
+                "text": "at 15:50",
+                "timestamp": "1767541850",
+                "formatted": "at 15:50"
+              },
+              "release_time": {
+                "raw": "1767541850",
+                "formatted": "1/4/2026, 10:50:50 PM"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "metadata": {},
+  "message": null
+}

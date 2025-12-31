@@ -1,0 +1,232 @@
+{
+  "success": true,
+  "creator": "zhadevv",
+  "data": {
+    "page_type": "country",
+    "country": {
+      "name": "China",
+      "slug": "china",
+      "total_pages": 45
+    },
+    "lists": [
+      {
+        "title": "Sword and Fairy 3",
+        "slug": "sword-and-fairy-3",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/Sword-and-Fairy-3.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "28743",
+        "url": "https://anichin.cafe/seri/sword-and-fairy-3/"
+      },
+      {
+        "title": "Beyond Time’s Gaze",
+        "slug": "beyond-times-gaze",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/Beyond-Times-Gaze.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "28702",
+        "url": "https://anichin.cafe/seri/beyond-times-gaze/"
+      },
+      {
+        "title": "Threads of Fate: A War Untold",
+        "slug": "threads-of-fate-a-war-untold",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/Threads-of-Fate-A-War-Untold.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "28688",
+        "url": "https://anichin.cafe/seri/threads-of-fate-a-war-untold/"
+      },
+      {
+        "title": "Sword of Coming Season 2",
+        "slug": "sword-of-coming-season-2",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/Sword-of-Coming-Season-2.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "28649",
+        "url": "https://anichin.cafe/seri/sword-of-coming-season-2/"
+      },
+      {
+        "title": "Transcend Evolution",
+        "slug": "transcend-evolution",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/Transcend-Evolution.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "28637",
+        "url": "https://anichin.cafe/seri/transcend-evolution/"
+      },
+      {
+        "title": "IMMORTALITY SEASON 5",
+        "slug": "immortality-season-5",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/IMMORTALITY-SEASON-5.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "28582",
+        "url": "https://anichin.cafe/seri/immortality-season-5/"
+      },
+      {
+        "title": "The Daily Life of the Immortal King Season 5",
+        "slug": "the-daily-life-of-the-immortal-king-season-5",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/The-Daily-Life-of-the-Immortal-King-Season-5.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "28462",
+        "url": "https://anichin.cafe/seri/the-daily-life-of-the-immortal-king-season-5/"
+      },
+      {
+        "title": "THE DRAGON SOUL",
+        "slug": "the-dragon-soul",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/THE-DRAGON-SOUL.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "28274",
+        "url": "https://anichin.cafe/seri/the-dragon-soul/"
+      },
+      {
+        "title": "The Alchemist’s Rise",
+        "slug": "the-alchemists-rise",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/The-Alchemists-Rise.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "28226",
+        "url": "https://anichin.cafe/seri/the-alchemists-rise/"
+      },
+      {
+        "title": "The Gate of Mystical Realm",
+        "slug": "the-gate-of-mystical-realm",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/11/The-Gate-of-Mystical-Realm.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "28146",
+        "url": "https://anichin.cafe/seri/the-gate-of-mystical-realm/"
+      }
+    ],
+    "pagination": {
+      "current_page": 1,
+      "total_pages": 45,
+      "has_prev": false,
+      "has_next": true,
+      "prev": {
+        "url": "",
+        "text": ""
+      },
+      "next": {
+        "url": "https://anichin.cafe/country/china/page/2/",
+        "text": "Next »"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "url": "",
+          "is_current": true
+        },
+        {
+          "number": 2,
+          "url": "https://anichin.cafe/country/china/page/2/",
+          "is_current": false
+        },
+        {
+          "number": 3,
+          "url": "https://anichin.cafe/country/china/page/3/",
+          "is_current": false
+        },
+        {
+          "number": 45,
+          "url": "https://anichin.cafe/country/china/page/45/",
+          "is_current": false
+        }
+      ]
+    }
+  },
+  "metadata": {},
+  "message": null
+}

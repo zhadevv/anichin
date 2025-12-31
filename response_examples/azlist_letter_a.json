@@ -1,0 +1,370 @@
+{
+  "success": true,
+  "creator": "zhadevv",
+  "data": {
+    "page_type": "az_list",
+    "list_type": "letter",
+    "current_letter": "A",
+    "title": "AZ Lists",
+    "alphabet": {
+      "all_letters": [
+        {
+          "letter": ".",
+          "url": "https://anichin.cafe/az-lists/?show=.",
+          "is_current": false
+        },
+        {
+          "letter": "0-9",
+          "url": "https://anichin.cafe/az-lists/?show=0-9",
+          "is_current": false
+        },
+        {
+          "letter": "A",
+          "url": "https://anichin.cafe/az-lists/?show=A",
+          "is_current": false
+        },
+        {
+          "letter": "B",
+          "url": "https://anichin.cafe/az-lists/?show=B",
+          "is_current": false
+        },
+        {
+          "letter": "C",
+          "url": "https://anichin.cafe/az-lists/?show=C",
+          "is_current": false
+        },
+        {
+          "letter": "D",
+          "url": "https://anichin.cafe/az-lists/?show=D",
+          "is_current": false
+        },
+        {
+          "letter": "E",
+          "url": "https://anichin.cafe/az-lists/?show=E",
+          "is_current": false
+        },
+        {
+          "letter": "F",
+          "url": "https://anichin.cafe/az-lists/?show=F",
+          "is_current": false
+        },
+        {
+          "letter": "G",
+          "url": "https://anichin.cafe/az-lists/?show=G",
+          "is_current": false
+        },
+        {
+          "letter": "H",
+          "url": "https://anichin.cafe/az-lists/?show=H",
+          "is_current": false
+        },
+        {
+          "letter": "I",
+          "url": "https://anichin.cafe/az-lists/?show=I",
+          "is_current": false
+        },
+        {
+          "letter": "J",
+          "url": "https://anichin.cafe/az-lists/?show=J",
+          "is_current": false
+        },
+        {
+          "letter": "K",
+          "url": "https://anichin.cafe/az-lists/?show=K",
+          "is_current": false
+        },
+        {
+          "letter": "L",
+          "url": "https://anichin.cafe/az-lists/?show=L",
+          "is_current": false
+        },
+        {
+          "letter": "M",
+          "url": "https://anichin.cafe/az-lists/?show=M",
+          "is_current": false
+        },
+        {
+          "letter": "N",
+          "url": "https://anichin.cafe/az-lists/?show=N",
+          "is_current": false
+        },
+        {
+          "letter": "O",
+          "url": "https://anichin.cafe/az-lists/?show=O",
+          "is_current": false
+        },
+        {
+          "letter": "P",
+          "url": "https://anichin.cafe/az-lists/?show=P",
+          "is_current": false
+        },
+        {
+          "letter": "Q",
+          "url": "https://anichin.cafe/az-lists/?show=Q",
+          "is_current": false
+        },
+        {
+          "letter": "R",
+          "url": "https://anichin.cafe/az-lists/?show=R",
+          "is_current": false
+        },
+        {
+          "letter": "S",
+          "url": "https://anichin.cafe/az-lists/?show=S",
+          "is_current": false
+        },
+        {
+          "letter": "T",
+          "url": "https://anichin.cafe/az-lists/?show=T",
+          "is_current": false
+        },
+        {
+          "letter": "U",
+          "url": "https://anichin.cafe/az-lists/?show=U",
+          "is_current": false
+        },
+        {
+          "letter": "V",
+          "url": "https://anichin.cafe/az-lists/?show=V",
+          "is_current": false
+        },
+        {
+          "letter": "W",
+          "url": "https://anichin.cafe/az-lists/?show=W",
+          "is_current": false
+        },
+        {
+          "letter": "X",
+          "url": "https://anichin.cafe/az-lists/?show=X",
+          "is_current": false
+        },
+        {
+          "letter": "Y",
+          "url": "https://anichin.cafe/az-lists/?show=Y",
+          "is_current": false
+        },
+        {
+          "letter": "Z",
+          "url": "https://anichin.cafe/az-lists/?show=Z",
+          "is_current": false
+        }
+      ],
+      "current_letter": "A"
+    },
+    "lists": [
+      {
+        "title": "A Moment but Forever",
+        "slug": "a-momment-but-forever",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/08/A-Momment-But-Forever.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "17865",
+        "url": "https://anichin.cafe/seri/a-momment-but-forever/"
+      },
+      {
+        "title": "A Portrait of Jianghu: Bu Liang Ren Season 1",
+        "slug": "a-portrait-of-jianghu-bu-liang-ren-season-1",
+        "thumbnail": "https://i1.wp.com/anichin.cafe/wp-content/uploads/2023/09/A-Portrait-of-Jianghu-Bu-Liang-Ren.jpg?resize=247,350",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Completed"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "4014",
+        "url": "https://anichin.cafe/seri/a-portrait-of-jianghu-bu-liang-ren-season-1/"
+      },
+      {
+        "title": "A Portrait of Jianghu: Bu Liang Ren Season 2",
+        "slug": "a-portrait-of-jianghu-bu-liang-ren-season-2",
+        "thumbnail": "https://i2.wp.com/anichin.cafe/wp-content/uploads/2023/09/A-Portrait-of-Jianghu-Bu-Liang-Ren-Season-2.png?resize=247,350",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Completed"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "4016",
+        "url": "https://anichin.cafe/seri/a-portrait-of-jianghu-bu-liang-ren-season-2/"
+      },
+      {
+        "title": "A Portrait of Jianghu: Bu Liang Ren Season 3",
+        "slug": "a-portrait-of-jianghu-bu-liang-ren-season-3",
+        "thumbnail": "https://i1.wp.com/anichin.cafe/wp-content/uploads/2023/09/Bu-Liang-Ren-Season-3.jpg?resize=247,350",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Completed"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "4018",
+        "url": "https://anichin.cafe/seri/a-portrait-of-jianghu-bu-liang-ren-season-3/"
+      },
+      {
+        "title": "A Portrait of Jianghu: Bu Liang Ren Season 4",
+        "slug": "a-portrait-of-jianghu-bu-liang-ren-season-4",
+        "thumbnail": "https://i1.wp.com/anichin.cafe/wp-content/uploads/2021/04/Bu-Liang-Ren-Season-4.jpg?resize=247,350",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Completed"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "4020",
+        "url": "https://anichin.cafe/seri/a-portrait-of-jianghu-bu-liang-ren-season-4/"
+      },
+      {
+        "title": "A Portrait of Jianghu: Bu Liang Ren Season 5",
+        "slug": "a-portrait-of-jianghu-bu-liang-ren-season-5",
+        "thumbnail": "https://i1.wp.com/anichin.cafe/wp-content/uploads/2023/09/Bu-Liang-Ren-Season-5.jpg?resize=247,350",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Completed"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "4022",
+        "url": "https://anichin.cafe/seri/a-portrait-of-jianghu-bu-liang-ren-season-5/"
+      },
+      {
+        "title": "A Portrait of Jianghu: Bu Liang Ren Season 6",
+        "slug": "a-portrait-of-jianghu-bu-liang-ren-season-6",
+        "thumbnail": "https://i1.wp.com/anichin.cafe/wp-content/uploads/2023/09/Bu-Liang-Ren-Season-6.jpg?resize=247,350",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Completed"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "4024",
+        "url": "https://anichin.cafe/seri/a-portrait-of-jianghu-bu-liang-ren-season-6/"
+      },
+      {
+        "title": "A Portrait of Jianghu: Bu Liang Ren Season 7",
+        "slug": "a-portrait-of-jianghu-bu-liang-ren-season-7",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/03/A-Portrait-of-Jianghu-Bu-Liang-Ren-Season-7.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Completed"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "23490",
+        "url": "https://anichin.cafe/seri/a-portrait-of-jianghu-bu-liang-ren-season-7/"
+      },
+      {
+        "title": "A Portrait of Jianghu: Spirit Master",
+        "slug": "a-portrait-of-jianghu-spirit-master",
+        "thumbnail": "https://i1.wp.com/anichin.cafe/wp-content/uploads/2023/09/A-Portrait-of-Jianghu-Spirit-Master.jpg?resize=247,350",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Completed"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "4034",
+        "url": "https://anichin.cafe/seri/a-portrait-of-jianghu-spirit-master/"
+      },
+      {
+        "title": "A Record of A Mortal’s Journey to Immortality",
+        "slug": "a-record-of-a-mortals-journey-to-immortality",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/08/A-Record-of-a-Mortals-Journey-to-Immortality.webp",
+        "badges": [
+          {
+            "type": "episode",
+            "text": "Ongoing"
+          },
+          {
+            "type": "subtitle",
+            "text": "Sub"
+          }
+        ],
+        "type": "Donghua",
+        "rel_id": "487",
+        "url": "https://anichin.cafe/seri/a-record-of-a-mortals-journey-to-immortality/"
+      }
+    ],
+    "pagination": {
+      "current_page": 1,
+      "total_pages": 3,
+      "has_prev": false,
+      "has_next": true,
+      "prev": {
+        "url": "",
+        "text": ""
+      },
+      "next": {
+        "url": "https://anichin.cafe/az-lists/page/2/?show=A",
+        "text": "Next »"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "url": "",
+          "is_current": true
+        },
+        {
+          "number": 2,
+          "url": "https://anichin.cafe/az-lists/page/2/?show=A",
+          "is_current": false
+        },
+        {
+          "number": 3,
+          "url": "https://anichin.cafe/az-lists/page/3/?show=A",
+          "is_current": false
+        }
+      ]
+    }
+  },
+  "metadata": {},
+  "message": null
+}

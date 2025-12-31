@@ -1,0 +1,941 @@
+{
+  "success": true,
+  "creator": "zhadevv",
+  "data": {
+    "checkbox_filters": {
+      "genre": {
+        "label": "Genre All",
+        "type": "checkbox",
+        "multiple": true,
+        "items": [
+          {
+            "value": "action",
+            "label": "Action"
+          },
+          {
+            "value": "action-drama",
+            "label": "Action Drama"
+          },
+          {
+            "value": "actions",
+            "label": "Actions"
+          },
+          {
+            "value": "adventure",
+            "label": "Adventure"
+          },
+          {
+            "value": "comedy",
+            "label": "Comedy"
+          },
+          {
+            "value": "crossdressing",
+            "label": "Crossdressing"
+          },
+          {
+            "value": "cultivation",
+            "label": "Cultivation"
+          },
+          {
+            "value": "demons",
+            "label": "Demons"
+          },
+          {
+            "value": "drama",
+            "label": "Drama"
+          },
+          {
+            "value": "e-school",
+            "label": "e School"
+          },
+          {
+            "value": "ecchi",
+            "label": "Ecchi"
+          },
+          {
+            "value": "fantasy",
+            "label": "Fantasy"
+          },
+          {
+            "value": "friendship",
+            "label": "Friendship"
+          },
+          {
+            "value": "game",
+            "label": "Game"
+          },
+          {
+            "value": "gore",
+            "label": "Gore"
+          },
+          {
+            "value": "gourmet",
+            "label": "Gourmet"
+          },
+          {
+            "value": "harem",
+            "label": "Harem"
+          },
+          {
+            "value": "historical",
+            "label": "Historical"
+          },
+          {
+            "value": "horror",
+            "label": "Horror"
+          },
+          {
+            "value": "isekai",
+            "label": "Isekai"
+          },
+          {
+            "value": "life",
+            "label": "Life"
+          },
+          {
+            "value": "magic",
+            "label": "Magic"
+          },
+          {
+            "value": "martial-arts",
+            "label": "Martial Arts"
+          },
+          {
+            "value": "mecha",
+            "label": "Mecha"
+          },
+          {
+            "value": "military",
+            "label": "Military"
+          },
+          {
+            "value": "music",
+            "label": "Music"
+          },
+          {
+            "value": "mystery",
+            "label": "Mystery"
+          },
+          {
+            "value": "mythology",
+            "label": "Mythology"
+          },
+          {
+            "value": "psychological",
+            "label": "Psychological"
+          },
+          {
+            "value": "reincaranation",
+            "label": "Reincaranation"
+          },
+          {
+            "value": "reincarnation",
+            "label": "Reincarnation"
+          },
+          {
+            "value": "romanc",
+            "label": "Romanc"
+          },
+          {
+            "value": "romance",
+            "label": "Romance"
+          },
+          {
+            "value": "school",
+            "label": "School"
+          },
+          {
+            "value": "sci-fi",
+            "label": "Sci-Fi"
+          },
+          {
+            "value": "shoujo",
+            "label": "Shoujo"
+          },
+          {
+            "value": "shounen",
+            "label": "Shounen"
+          },
+          {
+            "value": "slice-of-life",
+            "label": "Slice of Life"
+          },
+          {
+            "value": "space",
+            "label": "Space"
+          },
+          {
+            "value": "sports",
+            "label": "Sports"
+          },
+          {
+            "value": "super-power",
+            "label": "Super Power"
+          },
+          {
+            "value": "supernatural",
+            "label": "Supernatural"
+          },
+          {
+            "value": "suspense",
+            "label": "Suspense"
+          },
+          {
+            "value": "team-sports",
+            "label": "Team Sports"
+          },
+          {
+            "value": "thriller",
+            "label": "Thriller"
+          },
+          {
+            "value": "urban-fantasy",
+            "label": "Urban Fantasy"
+          }
+        ]
+      },
+      "studio": {
+        "label": "Studio All",
+        "type": "checkbox",
+        "multiple": true,
+        "items": [
+          {
+            "value": "210-am-animation",
+            "label": "2:10 AM Animation"
+          },
+          {
+            "value": "210-animation",
+            "label": "2:10 Animatión"
+          },
+          {
+            "value": "aha-entertainment",
+            "label": "AHA Entertainment"
+          },
+          {
+            "value": "ask-animation-studio",
+            "label": "ASK Animation Studio"
+          },
+          {
+            "value": "aurora",
+            "label": "Aurora"
+          },
+          {
+            "value": "axis-studios",
+            "label": "Axis Studios"
+          },
+          {
+            "value": "azure-sea-studios",
+            "label": "Azure Sea Studios"
+          },
+          {
+            "value": "b-cmay-pictures",
+            "label": "B.CMAY PICTURES"
+          },
+          {
+            "value": "beijing-enlight-pictures",
+            "label": "Beijing Enlight Pictures"
+          },
+          {
+            "value": "betobe",
+            "label": "BETOBE"
+          },
+          {
+            "value": "big-firebird-cultural-media",
+            "label": "Big Firebird Cultural Media"
+          },
+          {
+            "value": "big-firebird-culture",
+            "label": "Big Firebird Culture"
+          },
+          {
+            "value": "bigbigsun",
+            "label": "BigBigSun"
+          },
+          {
+            "value": "bilibili",
+            "label": "Bilibili"
+          },
+          {
+            "value": "bluearc-animation-studio",
+            "label": "BlueArc Animation Studio"
+          },
+          {
+            "value": "borutong",
+            "label": "Borutong"
+          },
+          {
+            "value": "boyan-pictures",
+            "label": "Boyan Pictures"
+          },
+          {
+            "value": "build-dream",
+            "label": "BUILD DREAM"
+          },
+          {
+            "value": "byment",
+            "label": "BYMENT"
+          },
+          {
+            "value": "cg-year",
+            "label": "CG Year"
+          },
+          {
+            "value": "chongzhuo-animation",
+            "label": "Chongzhuo Animation"
+          },
+          {
+            "value": "chosen",
+            "label": "Chosen"
+          },
+          {
+            "value": "chosen-studio",
+            "label": "Chosen Studio"
+          },
+          {
+            "value": "cloud-art",
+            "label": "Cloud Art"
+          },
+          {
+            "value": "cloud-culture",
+            "label": "Cloud Culture"
+          },
+          {
+            "value": "cmc-media",
+            "label": "CMC Media"
+          },
+          {
+            "value": "coastline-animation-studio",
+            "label": "Coastline Animation Studio"
+          },
+          {
+            "value": "colored-pencil-animation",
+            "label": "Colored Pencil Animation"
+          },
+          {
+            "value": "colored-pencil-animation-design",
+            "label": "Colored-Pencil Animation Design"
+          },
+          {
+            "value": "d-rock-art",
+            "label": "D.ROCK-ART"
+          },
+          {
+            "value": "da-yu",
+            "label": "Da Yu"
+          },
+          {
+            "value": "dangun-pictures",
+            "label": "Dangun Pictures"
+          },
+          {
+            "value": "dc-entertainment",
+            "label": "DC Entertainment"
+          },
+          {
+            "value": "dc-impression-vision",
+            "label": "DC Impression Vision"
+          },
+          {
+            "value": "djinn-power",
+            "label": "Djinn Power"
+          },
+          {
+            "value": "emt-squared",
+            "label": "EMT Squared"
+          },
+          {
+            "value": "escape-velocity-animation",
+            "label": "Escape Velocity Animation"
+          },
+          {
+            "value": "fengyun-animation",
+            "label": "Fengyun Animation"
+          },
+          {
+            "value": "flying-fish-studio",
+            "label": "Flying Fish Studio"
+          },
+          {
+            "value": "foch-film",
+            "label": "Foch Film"
+          },
+          {
+            "value": "foch-films",
+            "label": "Foch Films"
+          },
+          {
+            "value": "g-h-y-culture-media",
+            "label": "G.H.Y. Culture & Media"
+          },
+          {
+            "value": "garden-culture",
+            "label": "Garden Culture"
+          },
+          {
+            "value": "green-planet-studio",
+            "label": "Green Planet Studio"
+          },
+          {
+            "value": "haoliners-animation-league",
+            "label": "Haoliners Animation League"
+          },
+          {
+            "value": "he-zhou-culture",
+            "label": "He Zhou Culture"
+          },
+          {
+            "value": "heart-soul-animation",
+            "label": "Heart & Soul Animation"
+          },
+          {
+            "value": "high-energy-studio",
+            "label": "High Energy Studio"
+          },
+          {
+            "value": "hm-heros",
+            "label": "HM Heros"
+          },
+          {
+            "value": "honglu-technology",
+            "label": "Honglu Technology"
+          },
+          {
+            "value": "hua-dream",
+            "label": "Hua Dream"
+          },
+          {
+            "value": "iqiyi",
+            "label": "iQIYI"
+          },
+          {
+            "value": "ji-man-wen-hua",
+            "label": "Ji Man Wen Hua"
+          },
+          {
+            "value": "joicy-studio",
+            "label": "Joicy Studio"
+          },
+          {
+            "value": "kio-studio",
+            "label": "KIO STUDIO"
+          },
+          {
+            "value": "kjj-animation",
+            "label": "KJJ Animation"
+          },
+          {
+            "value": "kunjing-culture",
+            "label": "Kunjing Culture"
+          },
+          {
+            "value": "l%c2%b2studio",
+            "label": "L²Studio"
+          },
+          {
+            "value": "lan-studio",
+            "label": "LAN Studio"
+          },
+          {
+            "value": "left-pocket-studio",
+            "label": "Left Pocket Studio"
+          },
+          {
+            "value": "lidenfilms",
+            "label": "LIDENFILMS"
+          },
+          {
+            "value": "light-chaser-animation-studios",
+            "label": "Light Chaser Animation Studios"
+          },
+          {
+            "value": "lingsanwu-animation",
+            "label": "Lingsanwu Animation"
+          },
+          {
+            "value": "liyu-culture",
+            "label": "Liyu Culture"
+          },
+          {
+            "value": "long-zhi-gu-wenhua",
+            "label": "Long Zhi Gu Wenhua"
+          },
+          {
+            "value": "lx-animation-studio",
+            "label": "Lx Animation Studio"
+          },
+          {
+            "value": "majestic-studio",
+            "label": "Majestic Studio"
+          },
+          {
+            "value": "mandrill-picture-corp",
+            "label": "Mandrill Picture Corp"
+          },
+          {
+            "value": "martial-arts-reincaranation",
+            "label": "Martial Arts Reincaranation"
+          },
+          {
+            "value": "medo",
+            "label": "Medo"
+          },
+          {
+            "value": "midway-games",
+            "label": "Midway Games"
+          },
+          {
+            "value": "mili-digital",
+            "label": "Mili Digital"
+          },
+          {
+            "value": "mili-pictures",
+            "label": "Mili Pictures"
+          },
+          {
+            "value": "mokai-technology",
+            "label": "Mokai Technology"
+          },
+          {
+            "value": "motion-magic",
+            "label": "Motion Magic"
+          },
+          {
+            "value": "namu-animation",
+            "label": "Namu Animation"
+          },
+          {
+            "value": "october-media",
+            "label": "October Media"
+          },
+          {
+            "value": "oriental-creative-color",
+            "label": "Oriental Creative Color"
+          },
+          {
+            "value": "original-force",
+            "label": "Original Force"
+          },
+          {
+            "value": "painted-edge",
+            "label": "Painted Edge"
+          },
+          {
+            "value": "paper-plane-animation-studio",
+            "label": "Paper Plane Animation Studio"
+          },
+          {
+            "value": "passion-paint-animation",
+            "label": "Passion Paint Animation"
+          },
+          {
+            "value": "pb-animation-co-ltd",
+            "label": "Pb Animation Co. Ltd."
+          },
+          {
+            "value": "phantom",
+            "label": "Phantom"
+          },
+          {
+            "value": "qing-xiang",
+            "label": "Qing Xiang"
+          },
+          {
+            "value": "qingxiang-culture",
+            "label": "Qingxiang Culture"
+          },
+          {
+            "value": "qiyuan-yinghua",
+            "label": "Qiyuan Yinghua"
+          },
+          {
+            "value": "quyue-technology",
+            "label": "Quyue Technology"
+          },
+          {
+            "value": "red-dog-culture-house",
+            "label": "Red Dog Culture House"
+          },
+          {
+            "value": "rocen",
+            "label": "Rocen"
+          },
+          {
+            "value": "ruo-hong-culture",
+            "label": "Ruo Hong Culture"
+          },
+          {
+            "value": "shanghai-foch-film",
+            "label": "Shanghai Foch Film"
+          },
+          {
+            "value": "shanghai-foch-film-culture-investment",
+            "label": "Shanghai Foch Film Culture Investment"
+          },
+          {
+            "value": "shanghai-motion-magic",
+            "label": "Shanghai Motion Magic"
+          },
+          {
+            "value": "sharefun-studio",
+            "label": "Sharefun Studio"
+          },
+          {
+            "value": "shengying-animation",
+            "label": "Shengying Animation"
+          },
+          {
+            "value": "shenman-entertainment",
+            "label": "Shenman Entertainment"
+          },
+          {
+            "value": "shenying-animation",
+            "label": "Shenying Animation"
+          },
+          {
+            "value": "sjynexcus",
+            "label": "SJYNEXCUS"
+          },
+          {
+            "value": "skyloong",
+            "label": "Skyloong"
+          },
+          {
+            "value": "soda-bear-animation",
+            "label": "Soda Bear Animation"
+          },
+          {
+            "value": "soyep",
+            "label": "Soyep"
+          },
+          {
+            "value": "sparkly-key-animation-studio",
+            "label": "Sparkly Key Animation Studio"
+          },
+          {
+            "value": "star-hunter-animation",
+            "label": "Star Hunter Animation"
+          },
+          {
+            "value": "studio-goindol",
+            "label": "Studio Goindol"
+          },
+          {
+            "value": "studio-lan",
+            "label": "Studio LAN"
+          },
+          {
+            "value": "success-corp",
+            "label": "Success Corp."
+          },
+          {
+            "value": "suoyi-technology",
+            "label": "Suoyi Technology"
+          },
+          {
+            "value": "taikong-works",
+            "label": "Taikong Works"
+          },
+          {
+            "value": "tang-kirin-culture",
+            "label": "Tang Kirin Culture"
+          },
+          {
+            "value": "three-realms-animation",
+            "label": "Three Realms Animation"
+          },
+          {
+            "value": "tong-ming-xuan",
+            "label": "Tong Ming Xuan"
+          },
+          {
+            "value": "transcendence-picture",
+            "label": "Transcendence Picture"
+          },
+          {
+            "value": "triopen-studio",
+            "label": "TrioPen Studio"
+          },
+          {
+            "value": "warner-bros-animation",
+            "label": "Warner Bros. Animation"
+          },
+          {
+            "value": "wawayu-animation",
+            "label": "Wawayu Animation"
+          },
+          {
+            "value": "wonder-cat-animation",
+            "label": "Wonder Cat Animation"
+          },
+          {
+            "value": "wu-zhi-guanying-dongman",
+            "label": "Wu Zhi Guanying Dongman"
+          },
+          {
+            "value": "xiaoming-taiji",
+            "label": "Xiaoming Taiji"
+          },
+          {
+            "value": "xing-yi-kai-chen",
+            "label": "Xing Yi Kai Chen"
+          },
+          {
+            "value": "xmov",
+            "label": "XMOV"
+          },
+          {
+            "value": "xuan-yuan",
+            "label": "Xuan Yuan"
+          },
+          {
+            "value": "xuni-pictures",
+            "label": "Xuni Pictures"
+          },
+          {
+            "value": "xuni-ying-ye",
+            "label": "Xuni Ying Ye"
+          },
+          {
+            "value": "year-young-culture",
+            "label": "Year Young Culture"
+          },
+          {
+            "value": "yhkt-entertainment",
+            "label": "YHKT Entertainment"
+          },
+          {
+            "value": "yi-chen-animation",
+            "label": "Yi Chen Animation"
+          },
+          {
+            "value": "yien-animation-studio",
+            "label": "Yien Animation Studio"
+          },
+          {
+            "value": "yofox-culture",
+            "label": "Yofox Culture"
+          },
+          {
+            "value": "yosep",
+            "label": "Yosep"
+          }
+        ]
+      },
+      "season": {
+        "label": "Season All",
+        "type": "checkbox",
+        "multiple": true,
+        "items": [
+          {
+            "value": "2014",
+            "label": "2014"
+          },
+          {
+            "value": "2015",
+            "label": "2015"
+          },
+          {
+            "value": "2016",
+            "label": "2016"
+          },
+          {
+            "value": "2017",
+            "label": "2017"
+          },
+          {
+            "value": "2018",
+            "label": "2018"
+          },
+          {
+            "value": "2019",
+            "label": "2019"
+          },
+          {
+            "value": "2020",
+            "label": "2020"
+          },
+          {
+            "value": "2021",
+            "label": "2021"
+          },
+          {
+            "value": "2022",
+            "label": "2022"
+          },
+          {
+            "value": "2023",
+            "label": "2023"
+          },
+          {
+            "value": "2024",
+            "label": "2024"
+          },
+          {
+            "value": "2025",
+            "label": "2025"
+          },
+          {
+            "value": "2026",
+            "label": "2026"
+          },
+          {
+            "value": "spring-2022",
+            "label": "Spring 2022"
+          },
+          {
+            "value": "spring-2023",
+            "label": "Spring 2023"
+          },
+          {
+            "value": "summer-2022",
+            "label": "Summer 2022"
+          },
+          {
+            "value": "summer-2023",
+            "label": "Summer 2023"
+          },
+          {
+            "value": "winter-2023",
+            "label": "Winter 2023"
+          }
+        ]
+      }
+    },
+    "radio_filters": {
+      "status": {
+        "label": "Status All",
+        "type": "radio",
+        "multiple": false,
+        "items": [
+          {
+            "value": "",
+            "label": "All"
+          },
+          {
+            "value": "ongoing",
+            "label": "Ongoing"
+          },
+          {
+            "value": "completed",
+            "label": "Completed"
+          },
+          {
+            "value": "upcoming",
+            "label": "Upcoming"
+          },
+          {
+            "value": "hiatus",
+            "label": "Hiatus"
+          }
+        ]
+      },
+      "type": {
+        "label": "Type All",
+        "type": "radio",
+        "multiple": false,
+        "items": [
+          {
+            "value": "",
+            "label": "All"
+          },
+          {
+            "value": "anime",
+            "label": "Anime"
+          },
+          {
+            "value": "ova",
+            "label": "OVA"
+          },
+          {
+            "value": "movie",
+            "label": "Movie"
+          },
+          {
+            "value": "live action",
+            "label": "Live Action"
+          },
+          {
+            "value": "special",
+            "label": "Special"
+          },
+          {
+            "value": "bd",
+            "label": "BD"
+          },
+          {
+            "value": "ona",
+            "label": "ONA"
+          },
+          {
+            "value": "music",
+            "label": "Music"
+          },
+          {
+            "value": "donghua",
+            "label": "Donghua"
+          }
+        ]
+      },
+      "order": {
+        "label": "Order by All",
+        "type": "radio",
+        "multiple": false,
+        "items": [
+          {
+            "value": "",
+            "label": "Default"
+          },
+          {
+            "value": "title",
+            "label": "A-Z"
+          },
+          {
+            "value": "titlereverse",
+            "label": "Z-A"
+          },
+          {
+            "value": "update",
+            "label": "Latest Update"
+          },
+          {
+            "value": "latest",
+            "label": "Latest Added"
+          },
+          {
+            "value": "popular",
+            "label": "Popular"
+          },
+          {
+            "value": "rating",
+            "label": "Rating"
+          }
+        ]
+      },
+      "sub": {
+        "label": "Sub All",
+        "type": "radio",
+        "multiple": false,
+        "items": [
+          {
+            "value": "",
+            "label": "All"
+          },
+          {
+            "value": "sub",
+            "label": "Sub"
+          },
+          {
+            "value": "dub",
+            "label": "Dub"
+          },
+          {
+            "value": "raw",
+            "label": "RAW"
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {},
+  "message": null
+}
