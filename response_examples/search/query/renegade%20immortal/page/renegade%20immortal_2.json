@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "creator": "zhadevv",
+  "data": {
+    "search": {
+      "query": "renegade immortal",
+      "title": "",
+      "results_count": 0,
+      "lists": [],
+      "pagination": {
+        "current_page": 1,
+        "total_pages": 1,
+        "has_prev": false,
+        "has_next": false,
+        "prev": {
+          "url": "",
+          "text": ""
+        },
+        "next": {
+          "url": "",
+          "text": ""
+        },
+        "pages": []
+      }
+    }
+  },
+  "metadata": {},
+  "message": null
+}

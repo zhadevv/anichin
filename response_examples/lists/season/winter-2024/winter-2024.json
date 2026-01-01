@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "creator": "zhadevv",
+  "data": {
+    "page_type": "seasons",
+    "season": {
+      "year": "",
+      "slug": "winter-2024"
+    },
+    "lists": [],
+    "pagination": {
+      "has_pagination": false,
+      "note": "Seasons page may not have standard pagination"
+    }
+  },
+  "metadata": {},
+  "message": null
+}

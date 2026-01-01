@@ -1,6 +1,18 @@
 import * as cheerio from 'cheerio';
 import axios from 'axios';
 
+const isBrowser = typeof window !== 'undefined';
+let HttpsProxyAgent: any, SocksProxyAgent: any;
+
+if (!isBrowser) {
+    try {
+        HttpsProxyAgent = require('https-proxy-agent');
+        SocksProxyAgent = require('socks-proxy-agent');
+    } catch (e) {
+      // ingore
+    }
+}
+
 export interface ApiResponse {
     success: boolean;
     creator: string;
@@ -81,27 +93,126 @@ export interface SidebarData {
     }>;
 }
 
-export class DonghuaScraper {
+export interface ScraperConfig {
+    baseUrl?: string;
+    userAgent?: string;
+    timeout?: number;
+    maxRetries?: number;
+    retryDelay?: number;
+    proxy?: {
+        host: string;
+        port: number;
+        protocol?: 'http' | 'https' | 'socks' | 'socks5';
+        auth?: {
+            username: string;
+            password: string;
+        };
+    };
+    requestDelay?: number;
+}
+
+export class AnichinScraper {
     private client: any;
-    private readonly baseUrl = 'https://anichin.cafe';
-    
-    constructor() {
-        this.client = axios.create({
+    private readonly baseUrl: string;
+    private readonly maxRetries: number;
+    private readonly retryDelay: number;
+    private readonly requestDelay: number;
+    private lastRequestTime: number = 0;
+    private userAgents: string[] = [
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0',
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15',
+    ];
+
+    constructor(config: ScraperConfig = {}) {
+        this.baseUrl = config.baseUrl || 'https://anichin.cafe';
+        this.maxRetries = config.maxRetries || 3;
+        this.retryDelay = config.retryDelay || 1000;
+        this.requestDelay = config.requestDelay || 1000;
+
+        const headers = {
+            'User-Agent': config.userAgent || this.userAgents[0],
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.5',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'same-origin',
+            'Cache-Control': 'max-age=0',
+            'Referer': this.baseUrl,
+            'Origin': this.baseUrl
+        };
+
+        const axiosConfig: any = {
             baseURL: this.baseUrl,
-            timeout: 30000,
-            headers: {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-                'Accept-Language': 'en-US,en;q=0.5',
-                'Accept-Encoding': 'gzip, deflate, br',
-                'Connection': 'keep-alive',
-                'Upgrade-Insecure-Requests': '1',
-                'Referer': this.baseUrl,
-                'Origin': this.baseUrl
+            timeout: config.timeout || 30000,
+            headers,
+            validateStatus: (status: number) => status < 500,
+        };
+
+        if (config.proxy) {
+            const { host, port, protocol = 'http', auth } = config.proxy;
+            const proxyUrl = auth
+                ? `${protocol}://${auth.username}:${auth.password}@${host}:${port}`
+                : `${protocol}://${host}:${port}`;
+
+            if (protocol.includes('socks')) {
+                axiosConfig.httpsAgent = new SocksProxyAgent(proxyUrl);
+                axiosConfig.httpAgent = new SocksProxyAgent(proxyUrl);
+            } else {
+                axiosConfig.httpsAgent = new HttpsProxyAgent(proxyUrl);
+                axiosConfig.httpAgent = new HttpsProxyAgent(proxyUrl);
             }
+        }
+
+        this.client = axios.create(axiosConfig);
+
+        this.client.interceptors.request.use(async (config: any) => {
+            await this.applyRateLimit();
+            config.headers['User-Agent'] = this.getRandomUserAgent();
+            return config;
         });
+
+        this.client.interceptors.response.use(
+            (response: any) => response,
+            async (error: any) => {
+                const config = error.config;
+                config.retryCount = config.retryCount || 0;
+
+                if (config.retryCount < this.maxRetries) {
+                    config.retryCount++;
+                    await this.delay(this.retryDelay * config.retryCount);
+                    return this.client(config);
+                }
+                return Promise.reject(error);
+            }
+        );
     }
-    
+
+    private async applyRateLimit(): Promise<void> {
+        const now = Date.now();
+        const elapsed = now - this.lastRequestTime;
+        
+        if (elapsed < this.requestDelay) {
+            await this.delay(this.requestDelay - elapsed);
+        }
+        
+        this.lastRequestTime = Date.now();
+    }
+
+    private delay(ms: number): Promise<void> {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    private getRandomUserAgent(): string {
+        return this.userAgents[Math.floor(Math.random() * this.userAgents.length)];
+    }
+
     private buildResponse(success: boolean, data: any = null, message: string | null = null, metadata: any = {}): ApiResponse {
         return {
             success,
@@ -111,22 +222,46 @@ export class DonghuaScraper {
             message
         };
     }
-    
+
     private handleError(error: any, context: string): ApiResponse {
         console.error(`Error in ${context}:`, error.message);
-        return this.buildResponse(false, null, `Failed to ${context}: ${error.message}`);
+        const message = error.response 
+            ? `HTTP ${error.response.status}: Failed to ${context}`
+            : `Failed to ${context}: ${error.message}`;
+        return this.buildResponse(false, null, message);
     }
-    
+
     private extractSlug(url: string): string {
+        if (!url) return '';
+        
         try {
-            const path = new URL(url, this.baseUrl).pathname;
-            const parts = path.split('/').filter(p => p);
-            return parts.length > 0 ? parts[parts.length - 1] : '';
+            const urlObj = new URL(url, this.baseUrl);
+            const path = urlObj.pathname;
+            
+            const patterns = [
+                /seri\/([^\/]+)/,
+                /genres\/([^\/]+)/,
+                /season\/([^\/]+)/,
+                /studio\/([^\/]+)/,
+                /network\/([^\/]+)/,
+                /country\/([^\/]+)/,
+                /([^\/]+)-episode-\d+/,
+                /([^\/]+)\/?$/
+            ];
+            
+            for (const pattern of patterns) {
+                const match = path.match(pattern);
+                if (match) {
+                    return match[1].replace(/-episode-\d+.*/, '');
+                }
+            }
+            
+            return path.split('/').filter(p => p).pop() || '';
         } catch {
             return '';
         }
     }
-    
+
     private extractPostId(url: string): string {
         try {
             const urlObj = new URL(url, this.baseUrl);
@@ -148,7 +283,7 @@ export class DonghuaScraper {
             return '';
         }
     }
-    
+
     private formatSeasonTitle(url: string): string {
         try {
             const path = new URL(url, this.baseUrl).pathname;
@@ -164,7 +299,7 @@ export class DonghuaScraper {
         }
         return 'Unknown Season';
     }
-    
+
     private parseListItem(element: any): any {
         const $ = cheerio.load(element.html() || '');
         const bsx = $('.bsx');
@@ -195,7 +330,7 @@ export class DonghuaScraper {
             url: href ? new URL(href, this.baseUrl).toString() : ''
         };
     }
-    
+
     private parsePagination($: any): any {
         const pagination: any = {
             current_page: 1,
@@ -250,7 +385,7 @@ export class DonghuaScraper {
         
         return pagination;
     }
-    
+
     async sidebar(): Promise<ApiResponse> {
         try {
             const response = await this.client.get('/');
@@ -1911,4 +2046,4 @@ export class DonghuaScraper {
     }
 }
 
-export default DonghuaScraper;
+export default AnichinScraper;

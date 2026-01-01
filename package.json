@@ -1,6 +1,6 @@
 {
   "name": "@zhadev/anichin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Unofficial Anichin Scraper.",
   "main": "dist/cjs/Anichin.js",
   "module": "dist/esm/Anichin.js",
@@ -19,14 +19,13 @@
     "build:cjs": "tsc --module commonjs --target es2020 --outDir dist/cjs",
     "build:esm": "tsc --module es2020 --target es2020 --outDir dist/esm",
     "build:browser": "npm run build:browser:dev && npm run build:browser:prod",
-    "build:browser:dev": "esbuild src/Anichin.ts --bundle --platform=browser --target=es2020 --outfile=dist/javascript/browser.js --global-name=AnichinScraper",
-    "build:browser:prod": "esbuild src/Anichin.ts --bundle --platform=browser --target=es2020 --minify --outfile=dist/javascript/browser.min.js --global-name=AnichinScraper",
+    "build:browser:dev": "esbuild src/Anichin.ts --bundle --platform=node --target=es2020 --outfile=dist/javascript/browser.js --global-name=AnichinScraper",
+    "build:browser:prod": "esbuild src/Anichin.ts --bundle --platform=node --target=es2020 --minify --outfile=dist/javascript/browser.min.js --global-name=AnichinScraper",
     "clean": "rimraf dist",
     "test": "npm run build",
     "prepublishOnly": "npm run build && npm test",
     "lint": "eslint src/**/*.ts",
-    "format": "prettier --write \"src/**/*.ts\"",
-    "examples": "npm run build && node dist/cjs/examples/generate.js"
+    "format": "prettier --write \"src/**/*.ts\""
   },
   "keywords": [
     "anichin",
@@ -55,7 +54,9 @@
     "@typescript-eslint/eslint-plugin": "^8.51.0",
     "@typescript-eslint/parser": "^8.51.0",
     "axios": "^1.13.2",
-    "cheerio": "^1.1.2"
+    "cheerio": "^1.1.2",
+    "https-proxy-agent": "^7.0.6",
+    "socks-proxy-agent": "^8.0.5"
   },
   "devDependencies": {
     "@types/axios": "^0.9.36",
