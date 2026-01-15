@@ -140,7 +140,7 @@ const episode = await scraper.watch(slug: string, episodeNumber: number); // ret
   // genres
   const action = await scraper.genres(slug: string, page?: number); // example: scrape.genres('action', 1)
   // seasons
-  const winter2024 = await scraper.season(slug: string, page?: number); // example: scrape.season('winter-2025', 1)
+  const winter2024 = await scraper.season(slug: string); // example: scrape.season('winter-2025')
   // studio
   const studio = await scraper.studio(slug: string, page?: number); // example: scrape.studio('motion-magic', 1)
   // networks
@@ -178,8 +178,7 @@ interface ApiResponse {
   success: boolean;           // Whether the request was successful
   creator: string;           // Creator name ('zhadevv')
   data: any;                // The scraped data
-  metadata: any;           // Additional metadata (pagination, etc.)
-  message: string | null; // Error message if any
+  message: string | null;  // Error message if any
 }
 ```
 

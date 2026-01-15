@@ -1,0 +1,207 @@
+{
+  "success": true,
+  "creator": "zhadevv",
+  "data": {
+    "monday": {
+      "list": [
+        {
+          "title": "IMMORTALITY SEASON 5",
+          "slug": "immortality-season-5",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/IMMORTALITY-SEASON-5.webp",
+          "countdown": {
+            "raw": "315595",
+            "formatted": "3d 15h 39m"
+          },
+          "release_time": {
+            "raw": "1768795962",
+            "formatted": "At 11:12"
+          },
+          "current_episode": "7",
+          "url": "https://anichin.cafe/seri/immortality-season-5/"
+        },
+        {
+          "title": "Hitori No Shita Season 6",
+          "slug": "hitori-no-shita-season-6",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2026/01/Hitori-No-Shita-Season-6.webp",
+          "countdown": {
+            "raw": "317241",
+            "formatted": "3d 16h 7m"
+          },
+          "release_time": {
+            "raw": "1768797608",
+            "formatted": "At 11:40"
+          },
+          "current_episode": "4",
+          "url": "https://anichin.cafe/seri/hitori-no-shita-season-6/"
+        },
+        {
+          "title": "Wonderland Season 5",
+          "slug": "wonderland-season-5",
+          "thumbnail": "https://i1.wp.com/anichin.cafe/wp-content/uploads/2023/08/Wonderland-S5-Ye-Xingyun.jpg?resize=247,350",
+          "countdown": {
+            "raw": "317548",
+            "formatted": "3d 16h 12m"
+          },
+          "release_time": {
+            "raw": "1768797915",
+            "formatted": "At 11:45"
+          },
+          "current_episode": "1",
+          "url": "https://anichin.cafe/seri/wonderland-season-5/"
+        },
+        {
+          "title": "The Legend of Sword Domain",
+          "slug": "the-legend-of-sword-domain",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/10/Sword-Domain.webp",
+          "countdown": {
+            "raw": "320450",
+            "formatted": "3d 17h 0m"
+          },
+          "release_time": {
+            "raw": "1768800817",
+            "formatted": "At 12:33"
+          },
+          "current_episode": "??",
+          "url": "https://anichin.cafe/seri/the-legend-of-sword-domain/"
+        },
+        {
+          "title": "Purgatory Walkers",
+          "slug": "purgatory-walkers",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/06/Purgatory-Walkers.webp",
+          "countdown": {
+            "raw": "321617",
+            "formatted": "3d 17h 20m"
+          },
+          "release_time": {
+            "raw": "1768801984",
+            "formatted": "At 12:53"
+          },
+          "current_episode": "??",
+          "url": "https://anichin.cafe/seri/purgatory-walkers/"
+        },
+        {
+          "title": "Against the Sky Supreme",
+          "slug": "against-the-sky-supreme",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2021/07/Against-the-Sky-Supreme.webp",
+          "countdown": {
+            "raw": "323297",
+            "formatted": "3d 17h 48m"
+          },
+          "release_time": {
+            "raw": "1768803664",
+            "formatted": "At 13:21"
+          },
+          "current_episode": "??",
+          "url": "https://anichin.cafe/seri/against-the-sky-supreme/"
+        },
+        {
+          "title": "Supreme God Emperor",
+          "slug": "supreme-god-emperor",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2020/05/Supreme-God-Emperor.webp",
+          "countdown": {
+            "raw": "324340",
+            "formatted": "3d 18h 5m"
+          },
+          "release_time": {
+            "raw": "1768804707",
+            "formatted": "At 13:38"
+          },
+          "current_episode": "??",
+          "url": "https://anichin.cafe/seri/supreme-god-emperor/"
+        },
+        {
+          "title": "Proud Swordsman",
+          "slug": "proud-swordsman",
+          "thumbnail": "https://i1.wp.com/anichin.cafe/wp-content/uploads/2023/12/Proud-Swordsman.jpg?resize=247,350",
+          "countdown": {
+            "raw": "326784",
+            "formatted": "3d 18h 46m"
+          },
+          "release_time": {
+            "raw": "1768807151",
+            "formatted": "At 14:19"
+          },
+          "current_episode": "69",
+          "url": "https://anichin.cafe/seri/proud-swordsman/"
+        },
+        {
+          "title": "Adventures in Subduing the Demons",
+          "slug": "adventures-in-subduing-the-demons",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/11/Adventures-in-Subduing-the-Demons.webp",
+          "countdown": {
+            "raw": "328658",
+            "formatted": "3d 19h 17m"
+          },
+          "release_time": {
+            "raw": "1768809025",
+            "formatted": "At 14:50"
+          },
+          "current_episode": "8",
+          "url": "https://anichin.cafe/seri/adventures-in-subduing-the-demons/"
+        },
+        {
+          "title": "Blader Soul: Origin",
+          "slug": "blader-soul-prolog",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/03/Blader-Soul-Subtitle-Indonesia.webp",
+          "countdown": {
+            "raw": "334455",
+            "formatted": "3d 20h 54m"
+          },
+          "release_time": {
+            "raw": "1768814822",
+            "formatted": "At 16:27"
+          },
+          "current_episode": "??",
+          "url": "https://anichin.cafe/seri/blader-soul-prolog/"
+        },
+        {
+          "title": "Wind of the Tang Dynasty",
+          "slug": "wind-of-the-tang-dynasty",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/Wind-of-the-Tang-Dynasty.webp",
+          "countdown": {
+            "raw": "335695",
+            "formatted": "3d 21h 14m"
+          },
+          "release_time": {
+            "raw": "1768816062",
+            "formatted": "At 16:47"
+          },
+          "current_episode": "7",
+          "url": "https://anichin.cafe/seri/wind-of-the-tang-dynasty/"
+        },
+        {
+          "title": "Swallowed Star Season 4",
+          "slug": "swallowed-star-season-4",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/10/Swallowed-Star-Season-3-atau-4.webp",
+          "countdown": {
+            "raw": "344825",
+            "formatted": "3d 23h 47m"
+          },
+          "release_time": {
+            "raw": "1768825192",
+            "formatted": "At 19:19"
+          },
+          "current_episode": "207",
+          "url": "https://anichin.cafe/seri/swallowed-star-season-4/"
+        },
+        {
+          "title": "Super Xiang",
+          "slug": "super-xiang",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/05/Super-Xiang.webp",
+          "countdown": {
+            "raw": "345926",
+            "formatted": "4d 0h 5m"
+          },
+          "release_time": {
+            "raw": "1768826293",
+            "formatted": "At 19:38"
+          },
+          "current_episode": "7",
+          "url": "https://anichin.cafe/seri/super-xiang/"
+        }
+      ]
+    }
+  },
+  "metadata": {},
+  "message": null
+}

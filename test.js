@@ -11,149 +11,120 @@ async function ensureDirectory(dir) {
 async function saveResponse(filename, response) {
     const dir = path.dirname(filename);
     await ensureDirectory(dir);
-    
     const data = JSON.stringify(response, null, 2);
     fs.writeFileSync(filename, data);
-    console.log(`✓ Saved: ${filename}`);
-}
-
-async function generateExamples() {
-    const scraper = new AnichinScraper();
-    const baseDir = 'response_examples';
-    
-    console.log('Generating response examples...\n');
-    
-    try {
-        // 1. Homepage examples
-        console.log('📺 Generating homepage examples...');
-        const homeResponse = await scraper.home();
-        await saveResponse(path.join(baseDir, 'home', 'home.json'), homeResponse);
-        
-        const homePage2 = await scraper.home(2);
-        await saveResponse(path.join(baseDir, 'home', 'page', 'home_2.json'), homePage2);
-        
-        // 2. Sidebar
-        console.log('\nGenerating sidebar example...');
-        const sidebarResponse = await scraper.sidebar();
-        await saveResponse(path.join(baseDir, 'sidebar.json'), sidebarResponse);
-        
-        // 3. Search examples
-        console.log('\nGenerating search examples...');
-        const searchResponse = await scraper.search('renegade immortal');
-        await saveResponse(
-            path.join(baseDir, 'search', 'query', 'renegade%20immortal', 'renegade%20immortal.json'), 
-            searchResponse
-        );
-        
-        const searchPage2 = await scraper.search('renegade immortal', 2);
-        await saveResponse(
-            path.join(baseDir, 'search', 'query', 'renegade%20immortal', 'page', 'renegade%20immortal_2.json'),
-            searchPage2
-        );
-        
-        // 4. Schedule examples
-        console.log('\nGenerating schedule examples...');
-        const scheduleResponse = await scraper.schedule();
-        await saveResponse(path.join(baseDir, 'schedule', 'schedule.json'), scheduleResponse);
-        
-        const mondaySchedule = await scraper.schedule('monday');
-        await saveResponse(path.join(baseDir, 'schedule', 'day', 'schedule_monday.json'), mondaySchedule);
-        
-        // 5. Series detail example
-        console.log('\nGenerating series detail examples...');
-        const seriesResponse = await scraper.series('battle-through-the-heavens-season-5');
-        await saveResponse(
-            path.join(baseDir, 'series', 'slug', 'battle-through-the-heavens-season-5', 'battle-through-the-heavens-season-5.json'),
-            seriesResponse
-        );
-        
-        // 6. Watch example
-        console.log('\nGenerating watch example...');
-        const watchResponse = await scraper.watch('renegade_immortal', 130);
-        await saveResponse(
-            path.join(baseDir, 'watch', 'slug', 'renegade_immortal', 'episode', '130.json'),
-            watchResponse
-        );
-        
-        // 7. Ongoing series
-        console.log('\n⏳enerating ongoing series examples...');
-        const ongoingResponse = await scraper.ongoing();
-        await saveResponse(path.join(baseDir, 'lists', 'ongoing', 'ongoing.json'), ongoingResponse);
-        
-        const ongoingPage2 = await scraper.ongoing(2);
-        await saveResponse(path.join(baseDir, 'lists', 'ongoing', 'page', 'ongoing_2.json'), ongoingPage2);
-        
-        // 8. Completed series
-        console.log('\nGenerating completed series examples...');
-        const completedResponse = await scraper.completed();
-        await saveResponse(path.join(baseDir, 'lists', 'completed', 'completed.json'), completedResponse);
-        
-        // 9. A-Z List
-        console.log('\nGenerating A-Z list examples...');
-        const azListResponse = await scraper.azlist();
-        await saveResponse(path.join(baseDir, 'lists', 'azlist', 'azlist.json'), azListResponse);
-        
-        const azListA = await scraper.azlist(1, 'A');
-        await saveResponse(path.join(baseDir, 'lists', 'azlist', 'letter', 'A.json'), azListA);
-        
-        // 10. Genres
-        console.log('\nGenerating genres examples...');
-        const actionGenre = await scraper.genres('action');
-        await saveResponse(path.join(baseDir, 'lists', 'genres', 'action', 'action.json'), actionGenre);
-        
-        // 11. Season
-        console.log('\nGenerating season examples...');
-        const winterSeason = await scraper.season('winter-2024');
-        await saveResponse(path.join(baseDir, 'lists', 'season', 'winter-2024', 'winter-2024.json'), winterSeason);
-        
-        // 12. Studio
-        console.log('\nGenerating studio examples...');
-        const studioResponse = await scraper.studio('motion-magic');
-        await saveResponse(path.join(baseDir, 'lists', 'studio', 'motion-magic', 'motion-magic.json'), studioResponse);
-        
-        // 13. Network
-        console.log('\nGenerating network examples...');
-        const networkResponse = await scraper.network('iqiyi');
-        await saveResponse(path.join(baseDir, 'lists', 'network', 'iqiyi', 'iqiyi.json'), networkResponse);
-        
-        // 14. Country
-        console.log('\nGenerating country examples...');
-        const chinaCountry = await scraper.country('china');
-        await saveResponse(path.join(baseDir, 'lists', 'country', 'china', 'china.json'), chinaCountry);
-        
-        // 15. Advanced Search - Text Mode
-        console.log('\nGenerating advanced search text mode...');
-        const advancedText = await scraper.advancedsearch('text');
-        await saveResponse(path.join(baseDir, 'search', 'advanced', 'text_mode.json'), advancedText);
-        
-        // 16. Advanced Search - Image Mode
-        console.log('\nGenerating advanced search image mode...');
-        const advancedImage = await scraper.advancedsearch('image');
-        await saveResponse(path.join(baseDir, 'search', 'advanced', 'image_mode.json'), advancedImage);
-        
-        // 17. Quick Filter
-        console.log('\nGenerating quick filter...');
-        const quickFilter = await scraper.quickfilter();
-        await saveResponse(path.join(baseDir, 'filters', 'quickfilter.json'), quickFilter);
-        
-        console.log('\nAll examples generated successfully!');
-        
-    } catch (error) {
-        console.error('\nError generating examples:', error);
-    }
+    console.log(`Saved ${filename}`);
 }
 
 async function main() {
+    console.log('Testing Anichin Scraper v0.0.3...');
+    
+    const scraper = new AnichinScraper({
+        baseUrl: 'https://anichin.cafe',
+        requestDelay: 2000
+    });
+    
+    await ensureDirectory('response_examples');
+    
     try {
-        await generateExamples();
+        const sidebar = await scraper.sidebar();
+        await saveResponse('response_examples/sidebar.json', sidebar);
+        
+        const quickfilter = await scraper.quickfilter();
+        await saveResponse('response_examples/quickfilter.json', quickfilter);
+        
+        const home1 = await scraper.home(1);
+        await saveResponse('response_examples/with-pagination/home/home.json', home1);
+        
+        const home2 = await scraper.home(2);
+        await saveResponse('response_examples/with-pagination/home/home-page-2.json', home2);
+        
+        const search1 = await scraper.search('A', 1);
+        await saveResponse('response_examples/with-pagination/search/query_A.json', search1);
+        
+        const search2 = await scraper.search('A', 1);
+        await saveResponse('response_examples/with-pagination/search/query_A-page-2.json', search2);
+        
+        const schedule1 = await scraper.schedule();
+        await saveResponse('response_examples/with-pagination/schedule/all.json', schedule1);
+        
+        const schedule2 = await scraper.schedule('monday');
+        await saveResponse('response_examples/with-pagination/schedule/monday.json', schedule2);
+        
+        const ongoing1 = await scraper.ongoing(1);
+        await saveResponse('response_examples/with-pagination/ongoing/ongoing.json', ongoing1);
+        
+        const ongoing2 = await scraper.ongoing(2);
+        await saveResponse('response_examples/with-pagination/ongoing/ongoing-page-2.json', ongoing2);
+        
+        const completed1 = await scraper.completed(1);
+        await saveResponse('response_examples/with-pagination/completed/completed.json', completed1);
+        
+        const completed2 = await scraper.completed(2);
+        await saveResponse('response_examples/with-pagination/completed/completed-page-2.json', completed2);
+        
+        const az1 = await scraper.azlist(1);
+        await saveResponse('response_examples/with-pagination/azlist/all-page-1.json', az1);
+        
+        const az2 = await scraper.azlist(2);
+        await saveResponse('response_examples/with-pagination/azlist/all-page-2.json', az2);
+        
+        const az3 = await scraper.azlist(1, 'A');
+        await saveResponse('response_examples/with-pagination/azlist/letter_A/A-page-1.json', az3);
+        
+        const az4 = await scraper.azlist(2, 'A');
+        await saveResponse('response_examples/with-pagination/azlist/letter_A/A-page-2.json', az4);
+        
+        const modetext = await scraper.advancedsearch('text');
+        await saveResponse('response_examples/with-pagination/advanced_search/text-mode.json', modetext);
+        
+        const modeimage1 = await scraper.advancedsearch('image');
+        await saveResponse('response_examples/with-pagination/advanced_search/image-mode/without-filter.json', modeimage1);
+        
+        const modeimage2 = await scraper.advancedsearch('image', {
+          genres: ['action', 'fantasy'], 
+          seasons: ['2025'], 
+          status: 'ongoing'
+        });
+        await saveResponse('response_examples/with-pagination/advanced_search/image-mode/with-filter.json', modeimage2);
+        
+        const series = await scraper.series('battle-through-the-heavens-season-5');
+        await saveResponse('response_examples/with-pagination/with-slug/series/battle-through-the-heavens-season-5.json', series);
+        
+        const watch = await scraper.watch('battle-through-the-heavens-season-5', 2);
+        await saveResponse('response_examples/with-pagination/with-slug/series/watch/episode-1.json', watch);
+        
+        const genres1 = await scraper.genres('action', 1);
+        await saveResponse('response_examples/with-pagination/with-slug/genres/action-page-1.json', genres1);
+        
+        const genres2 = await scraper.genres('action', 2);
+        await saveResponse('response_examples/with-pagination/with-slug/genres/action-page-2.json', genres2);
+        
+        const season1 = await scraper.season('2025');
+        await saveResponse('response_examples/with-pagination/with-slug/seasons/2025-page-1.json', season1);
+                
+        const network1 = await scraper.network('iqiyi', 1);
+        await saveResponse('response_examples/with-pagination/with-slug/networks/iqiyi-page-1.json', network1);
+        
+        const network2 = await scraper.network('iqiyi', 2);
+        await saveResponse('response_examples/with-pagination/with-slug/networks/iqiyi-page-2.json', network2);
+        
+        const studio = await scraper.studio('motion-magic', 1);
+        await saveResponse('response_examples/with-pagination/with-slug/studios/motion_magic-page-1.json', studio);
+        
+        const country1 = await scraper.country('china', 1);
+        await saveResponse('response_examples/with-pagination/with-slug/countries/china-page-1.json', country1);
+        
+        const country2 = await scraper.country('china', 2);
+        await saveResponse('response_examples/with-pagination/with-slug/countries/china-page-2.json', country2);
+        
+        console.log('Testing completed! All files saved to response_examples/');
+        
     } catch (error) {
-        console.error('Fatal error:', error);
-        process.exit(1);
+        console.error('Error:', error.message);
     }
 }
 
 if (require.main === module) {
     main();
 }
-
-module.exports = { generateExamples };

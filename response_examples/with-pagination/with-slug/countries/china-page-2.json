@@ -1,0 +1,147 @@
+{
+  "success": true,
+  "creator": "zhadevv",
+  "data": {
+    "page_type": "country",
+    "country": {
+      "name": "China",
+      "slug": "china",
+      "total_pages": 46
+    },
+    "lists": [
+      {
+        "title": "The Gate of Mystical Realm",
+        "slug": "the-gate-of-mystical-realm",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/11/The-Gate-of-Mystical-Realm.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/the-gate-of-mystical-realm/"
+      },
+      {
+        "title": "Ascendants of the Nine Suns",
+        "slug": "ascendants-of-the-nine-suns",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/11/Ascendants-of-the-Nine-Suns.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/ascendants-of-the-nine-suns/"
+      },
+      {
+        "title": "Wu Dong Qian Kun Season 6",
+        "slug": "wu-dong-qian-kun-season-6",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/11/WU-DONG-QIAN-KUN-SEASON-6.webp",
+        "episode": "Completed",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/wu-dong-qian-kun-season-6/"
+      },
+      {
+        "title": "Eat Around the Mortal World",
+        "slug": "eat-around-the-mortal-world",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/11/Eat-Around-the-Mortal-World.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/eat-around-the-mortal-world/"
+      },
+      {
+        "title": "The Ethereal Sword Immortal",
+        "slug": "the-ethereal-sword-immortal",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/11/The-Ethereal-Sword-Immortal.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/the-ethereal-sword-immortal/"
+      },
+      {
+        "title": "Return of The Immortal Emperor",
+        "slug": "return-of-the-immortal-emperor",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/Return-of-The-Immortal-Emperor.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/return-of-the-immortal-emperor/"
+      },
+      {
+        "title": "The Last Dynasty",
+        "slug": "the-last-dynasty",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/The-Last-Dynasty-1.webp",
+        "episode": "Completed",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/the-last-dynasty/"
+      },
+      {
+        "title": "Divine Manifestation",
+        "slug": "divine-manifestation",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/Divine-Manifestation.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/divine-manifestation/"
+      },
+      {
+        "title": "The Supreme Dantian",
+        "slug": "the-supreme-dantian",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/The-Supreme-Dantian.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/the-supreme-dantian/"
+      },
+      {
+        "title": "I Collect Waste in Heaven",
+        "slug": "i-collect-waste-in-heaven",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/I-Collect-Waste-in-Heaven.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/i-collect-waste-in-heaven/"
+      }
+    ],
+    "pagination": {
+      "current_page": 2,
+      "total_pages": 46,
+      "has_prev": true,
+      "has_next": true,
+      "prev": {
+        "url": "https://anichin.cafe/country/china/",
+        "text": "« Previous"
+      },
+      "next": {
+        "url": "https://anichin.cafe/country/china/page/3/",
+        "text": "Next »"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "url": "https://anichin.cafe/country/china/",
+          "is_current": false
+        },
+        {
+          "number": 2,
+          "url": "",
+          "is_current": true
+        },
+        {
+          "number": 3,
+          "url": "https://anichin.cafe/country/china/page/3/",
+          "is_current": false
+        },
+        {
+          "number": 4,
+          "url": "https://anichin.cafe/country/china/page/4/",
+          "is_current": false
+        },
+        {
+          "number": 46,
+          "url": "https://anichin.cafe/country/china/page/46/",
+          "is_current": false
+        }
+      ]
+    }
+  },
+  "metadata": {},
+  "message": null
+}

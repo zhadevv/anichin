@@ -1,0 +1,147 @@
+{
+  "success": true,
+  "creator": "zhadevv",
+  "data": {
+    "page_type": "genres",
+    "genre": {
+      "name": "Action",
+      "slug": "action",
+      "total_pages": 39
+    },
+    "lists": [
+      {
+        "title": "Against the Gods",
+        "slug": "against-the-gods",
+        "thumbnail": "https://i2.wp.com/anichin.cafe/wp-content/uploads/2023/09/Against-the-Gods.png?resize=247,350",
+        "episode": "Completed",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/against-the-gods/"
+      },
+      {
+        "title": "Against the Sky Supreme",
+        "slug": "against-the-sky-supreme",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2021/07/Against-the-Sky-Supreme.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/against-the-sky-supreme/"
+      },
+      {
+        "title": "Age of Gunslingers",
+        "slug": "age-of-gunslingers",
+        "thumbnail": "https://i0.wp.com/anichin.cafe/wp-content/uploads/2023/09/Age-of-Gunslingers.jpg?resize=247,350",
+        "episode": "Completed",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/age-of-gunslingers/"
+      },
+      {
+        "title": "Agents in Otherworld",
+        "slug": "agents-in-otherworld",
+        "thumbnail": "https://i2.wp.com/anichin.cafe/wp-content/uploads/2023/09/Agents-in-Otherworld.jpg?resize=247,350",
+        "episode": "Completed",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/agents-in-otherworld/"
+      },
+      {
+        "title": "Aku Bukan Lagi Protagonis Wanita",
+        "slug": "aku-bukan-lagi-protagonis-wanita",
+        "thumbnail": "https://i2.wp.com/anichin.cafe/wp-content/uploads/2023/10/Since-I-Wasnt-the-Heroine.jpg?resize=247,350",
+        "episode": "Completed",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/aku-bukan-lagi-protagonis-wanita/"
+      },
+      {
+        "title": "Ancient Lords",
+        "slug": "ancient-lords",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/02/Ancient-Lords.webp",
+        "episode": "Completed",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/ancient-lords/"
+      },
+      {
+        "title": "Ancient Myth",
+        "slug": "ancient-myth",
+        "thumbnail": "https://i1.wp.com/anichin.cafe/wp-content/uploads/2023/08/Ancient-Myth.jpg?resize=247,350",
+        "episode": "Completed",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/ancient-myth/"
+      },
+      {
+        "title": "Ancient Star Divine Technique",
+        "slug": "ancient-star-divine-technique",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/01/Ancient-Star-Divine-Technique.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/ancient-star-divine-technique/"
+      },
+      {
+        "title": "Ancient Supremacy",
+        "slug": "ancient-supremacy",
+        "thumbnail": "https://i1.wp.com/anichin.cafe/wp-content/uploads/2023/04/Ancient-Supremacy.jpg?resize=247,350",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/ancient-supremacy/"
+      },
+      {
+        "title": "Ancient Vengeance: Windbreaker Arc",
+        "slug": "ancient-vengeance-windbreaker-arc",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/09/Ancient-Vengeance-Windbreaker-Arc.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/ancient-vengeance-windbreaker-arc/"
+      }
+    ],
+    "pagination": {
+      "current_page": 2,
+      "total_pages": 39,
+      "has_prev": true,
+      "has_next": true,
+      "prev": {
+        "url": "https://anichin.cafe/genres/action/",
+        "text": "« Previous"
+      },
+      "next": {
+        "url": "https://anichin.cafe/genres/action/page/3/",
+        "text": "Next »"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "url": "https://anichin.cafe/genres/action/",
+          "is_current": false
+        },
+        {
+          "number": 2,
+          "url": "",
+          "is_current": true
+        },
+        {
+          "number": 3,
+          "url": "https://anichin.cafe/genres/action/page/3/",
+          "is_current": false
+        },
+        {
+          "number": 4,
+          "url": "https://anichin.cafe/genres/action/page/4/",
+          "is_current": false
+        },
+        {
+          "number": 39,
+          "url": "https://anichin.cafe/genres/action/page/39/",
+          "is_current": false
+        }
+      ]
+    }
+  },
+  "metadata": {},
+  "message": null
+}

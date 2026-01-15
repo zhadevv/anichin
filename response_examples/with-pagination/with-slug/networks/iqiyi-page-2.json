@@ -1,0 +1,147 @@
+{
+  "success": true,
+  "creator": "zhadevv",
+  "data": {
+    "page_type": "network",
+    "network": {
+      "name": "iQiYi",
+      "slug": "iqiyi",
+      "total_pages": 7
+    },
+    "lists": [
+      {
+        "title": "Little Fairy Yao",
+        "slug": "little-fairy-yao",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/04/Little-Fairy-Yao.webp",
+        "episode": "Completed",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/little-fairy-yao/"
+      },
+      {
+        "title": "Super Cube",
+        "slug": "super-cube",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/03/Super-Cube.webp",
+        "episode": "Completed",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/super-cube/"
+      },
+      {
+        "title": "Fengwu Demon Chef",
+        "slug": "fengwu-demon-chef",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/01/Fengwu-Demon-Chef.webp",
+        "episode": "Completed",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/fengwu-demon-chef/"
+      },
+      {
+        "title": "Fight For The Throne",
+        "slug": "fight-for-the-throne",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/01/Fight-For-The-Throne.webp",
+        "episode": "Completed",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/fight-for-the-throne/"
+      },
+      {
+        "title": "I Can Have Infinite Enlightenment",
+        "slug": "i-can-have-infinite-enlightenment",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/01/I-Can-Have-Infinite-Enlightenment.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/i-can-have-infinite-enlightenment/"
+      },
+      {
+        "title": "Urban Ancient Immortal Doctor",
+        "slug": "urban-ancient-immortal-doctor",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/10/Urban-Ancient-Immortal-Doctor.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/urban-ancient-immortal-doctor/"
+      },
+      {
+        "title": "Endless God Realm",
+        "slug": "endless-god-realm",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/08/Endless-God-Realm.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/endless-god-realm/"
+      },
+      {
+        "title": "My WeChat Connects to the Dragon Palace",
+        "slug": "my-wechat-connects-to-the-dragon-palace",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/08/My-WeChat-Connects-to-the-Dragon-Palace.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/my-wechat-connects-to-the-dragon-palace/"
+      },
+      {
+        "title": "The Legend of Sky Lord 3D",
+        "slug": "the-legend-of-sky-lord-3d",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/07/The-Legend-of-Sky-Lord-3D.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/the-legend-of-sky-lord-3d/"
+      },
+      {
+        "title": "Keyboard Immortal",
+        "slug": "keyboard-immortal",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/06/Keyboard-Immortal.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/keyboard-immortal/"
+      }
+    ],
+    "pagination": {
+      "current_page": 2,
+      "total_pages": 7,
+      "has_prev": true,
+      "has_next": true,
+      "prev": {
+        "url": "https://anichin.cafe/network/iqiyi/",
+        "text": "« Previous"
+      },
+      "next": {
+        "url": "https://anichin.cafe/network/iqiyi/page/3/",
+        "text": "Next »"
+      },
+      "pages": [
+        {
+          "number": 1,
+          "url": "https://anichin.cafe/network/iqiyi/",
+          "is_current": false
+        },
+        {
+          "number": 2,
+          "url": "",
+          "is_current": true
+        },
+        {
+          "number": 3,
+          "url": "https://anichin.cafe/network/iqiyi/page/3/",
+          "is_current": false
+        },
+        {
+          "number": 4,
+          "url": "https://anichin.cafe/network/iqiyi/page/4/",
+          "is_current": false
+        },
+        {
+          "number": 7,
+          "url": "https://anichin.cafe/network/iqiyi/page/7/",
+          "is_current": false
+        }
+      ]
+    }
+  },
+  "metadata": {},
+  "message": null
+}

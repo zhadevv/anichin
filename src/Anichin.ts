@@ -6,11 +6,9 @@ let HttpsProxyAgent: any, SocksProxyAgent: any;
 
 if (!isBrowser) {
     try {
-        HttpsProxyAgent = require('https-proxy-agent');
-        SocksProxyAgent = require('socks-proxy-agent');
-    } catch (e) {
-      // ingore
-    }
+        HttpsProxyAgent = require('https-proxy-agent').HttpsProxyAgent;
+        SocksProxyAgent = require('socks-proxy-agent').SocksProxyAgent;
+    } catch (e) {}
 }
 
 export interface ApiResponse {
@@ -197,11 +195,9 @@ export class AnichinScraper {
     private async applyRateLimit(): Promise<void> {
         const now = Date.now();
         const elapsed = now - this.lastRequestTime;
-        
         if (elapsed < this.requestDelay) {
             await this.delay(this.requestDelay - elapsed);
         }
-        
         this.lastRequestTime = Date.now();
     }
 
@@ -224,7 +220,6 @@ export class AnichinScraper {
     }
 
     private handleError(error: any, context: string): ApiResponse {
-        console.error(`Error in ${context}:`, error.message);
         const message = error.response 
             ? `HTTP ${error.response.status}: Failed to ${context}`
             : `Failed to ${context}: ${error.message}`;
@@ -233,100 +228,95 @@ export class AnichinScraper {
 
     private extractSlug(url: string): string {
         if (!url) return '';
-        
         try {
             const urlObj = new URL(url, this.baseUrl);
             const path = urlObj.pathname;
-            
-            const patterns = [
-                /seri\/([^\/]+)/,
-                /genres\/([^\/]+)/,
-                /season\/([^\/]+)/,
-                /studio\/([^\/]+)/,
-                /network\/([^\/]+)/,
-                /country\/([^\/]+)/,
-                /([^\/]+)-episode-\d+/,
-                /([^\/]+)\/?$/
-            ];
-            
-            for (const pattern of patterns) {
-                const match = path.match(pattern);
-                if (match) {
-                    return match[1].replace(/-episode-\d+.*/, '');
-                }
+            if (path.includes('seri/')) {
+                return path.replace('/seri/', '').replace('/', '');
+            } else if (path.includes('genres/')) {
+                return path.replace('/genres/', '').replace('/', '');
+            } else if (path.includes('season/')) {
+                return path.replace('/season/', '').replace('/', '');
+            } else if (path.includes('-episode-')) {
+                return path.replace(/-episode-\d+-subtitle-indonesia.*/, '').replace('/', '');
             }
-            
             return path.split('/').filter(p => p).pop() || '';
         } catch {
             return '';
         }
     }
 
-    private extractPostId(url: string): string {
+    private formatEpisodeNumber(episode: number): string {
+        return episode < 10 ? `0${episode}` : episode.toString();
+    }
+
+    private formatCountdown(secondsStr: string): string {
+        if (!secondsStr || !secondsStr.trim()) return "Unknown";
+        const cleanedStr = secondsStr.replace(/[^\d-]/g, '');
+        if (!cleanedStr) return "Unknown";
+        const seconds = parseInt(cleanedStr);
+        if (isNaN(seconds)) return "Unknown";
+        if (seconds < 0) return "Already released";
+        const days = Math.floor(seconds / (24 * 3600));
+        const remainingSeconds = seconds % (24 * 3600);
+        const hours = Math.floor(remainingSeconds / 3600);
+        const minutes = Math.floor((remainingSeconds % 3600) / 60);
+        if (days > 0) return `${days}d ${hours}h ${minutes}m`;
+        else if (hours > 0) return `${hours}h ${minutes}m`;
+        else return `${minutes}m`;
+    }
+
+    private formatReleaseTime(timestampStr: string): string {
+        if (!timestampStr || !timestampStr.trim()) return "Unknown";
+        const cleanedStr = timestampStr.replace(/[^\d]/g, '');
+        if (!cleanedStr) return "Unknown";
+        let timestamp = parseInt(cleanedStr);
+        if (timestamp > 253402300800) timestamp = Math.floor(timestamp / 1000);
         try {
-            const urlObj = new URL(url, this.baseUrl);
-            const query = urlObj.searchParams;
-            
-            if (query.has('p')) {
-                return query.get('p') || '';
-            }
-            
-            const match = url.match(/\/seri\/([^\/]+)\//);
-            if (match) {
-                const slug = match[1];
-                const slugMatch = slug.match(/-(\d+)$/);
-                if (slugMatch) return slugMatch[1];
-            }
-            
-            return '';
+            const dt = new Date(timestamp * 1000);
+            const hours = dt.getHours().toString().padStart(2, '0');
+            const minutes = dt.getMinutes().toString().padStart(2, '0');
+            return `At ${hours}:${minutes}`;
         } catch {
-            return '';
+            return "Unknown";
         }
     }
 
     private formatSeasonTitle(url: string): string {
+        if (!url || !url.includes('/season/')) return "Unknown Season";
         try {
-            const path = new URL(url, this.baseUrl).pathname;
-            const parts = path.split('/').filter(p => p);
-            if (parts.length > 1 && parts[0] === 'season') {
-                const seasonSlug = parts[1];
-                return seasonSlug
-                    .split('-')
-                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-                    .join(' ');
+            const seasonPart = url.split('/season/')[1].split('/')[0].trim();
+            if (!seasonPart) return "Unknown Season";
+            if (seasonPart.replace(/-/g, '').match(/^\d+$/)) return `Season ${seasonPart}`;
+            if (seasonPart.includes('-')) {
+                const parts = seasonPart.split('-');
+                if (parts.length === 2 && parts[1].match(/^\d+$/)) {
+                    const seasonName = parts[0].charAt(0).toUpperCase() + parts[0].slice(1);
+                    return `${seasonName} ${parts[1]}`;
+                }
             }
+            return `Season ${seasonPart.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}`;
         } catch {
+            return "Unknown Season";
         }
-        return 'Unknown Season';
     }
 
-    private parseListItem(element: any): any {
-        const $ = cheerio.load(element.html() || '');
-        const bsx = $('.bsx');
-        
+    private parseListItem($: any, element: any): any {
+        const bsx = $(element);
         const link = bsx.find('a.tip');
         const typez = bsx.find('.typez');
-        const bt = bsx.find('.bt');
+        const epx = bsx.find('.epx');
+        const sb = bsx.find('.sb.Sub');
         const img = bsx.find('img.ts-post-image');
-        const h2 = bsx.find('h2[itemprop="headline"]');
-        
-        const badges: Array<{type: string, text: string}> = [];
-        bt.find('span.epx').each((_: any, el: any) => {
-            badges.push({ type: 'episode', text: $(el).text().trim() });
-        });
-        bt.find('span.sb').each((_: any, el: any) => {
-            badges.push({ type: 'subtitle', text: $(el).text().trim() });
-        });
-        
+        const h2 = bsx.find('.tt h2');
         const href = link.attr('href') || '';
-        
         return {
             title: h2.text().trim() || '',
             slug: this.extractSlug(href),
             thumbnail: img.attr('src') || '',
-            badges,
+            episode: epx.text().trim() || '',
             type: typez.text().trim() || '',
-            rel_id: link.attr('rel') || '',
+            badge: sb.text().trim() || '',
             url: href ? new URL(href, this.baseUrl).toString() : ''
         };
     }
@@ -396,10 +386,7 @@ export class AnichinScraper {
             
             const quickFilter = sidebar.find('.quickfilter');
             if (quickFilter.length) {
-                data.quick_filter = {
-                    checkbox_filters: {},
-                    radio_filters: {}
-                };
+                data.quick_filter = { checkbox_filters: {}, radio_filters: {} };
                 
                 ['genre', 'studio', 'season'].forEach(filterType => {
                     const filterDiv = quickFilter.find(`.filter.dropdown:contains("${filterType.charAt(0).toUpperCase() + filterType.slice(1)}")`);
@@ -412,34 +399,18 @@ export class AnichinScraper {
                                 checked: $(el).is(':checked')
                             });
                         });
-                        
-                        data.quick_filter!.checkbox_filters[filterType] = {
-                            label: filterDiv.find('.dropdown-toggle').text().trim(),
-                            type: 'checkbox',
-                            multiple: true,
-                            items
-                        };
+                        data.quick_filter!.checkbox_filters[filterType] = { label: filterDiv.find('.dropdown-toggle').text().trim(), type: 'checkbox', multiple: true, items };
                     }
                 });
                 
-                ['status', 'type', 'order'].forEach(filterType => {
+                ['status', 'type', 'order', 'sub'].forEach(filterType => {
                     const filterDiv = quickFilter.find(`.filter.dropdown:contains("${filterType.charAt(0).toUpperCase() + filterType.slice(1)}")`);
                     if (filterDiv.length) {
                         const items: Array<{value: string, label: string, checked: boolean}> = [];
                         filterDiv.find('input[type="radio"]').each((_: any, el: any) => {
-                            items.push({
-                                value: $(el).attr('value') || '',
-                                label: $(el).next('label').text().trim(),
-                                checked: $(el).is(':checked')
-                            });
+                            items.push({ value: $(el).attr('value') || '', label: $(el).next('label').text().trim(), checked: $(el).is(':checked') });
                         });
-                        
-                        data.quick_filter!.radio_filters[filterType] = {
-                            label: filterDiv.find('.dropdown-toggle').text().trim(),
-                            type: 'radio',
-                            multiple: false,
-                            items
-                        };
+                        data.quick_filter!.radio_filters[filterType] = { label: filterDiv.find('.dropdown-toggle').text().trim(), type: 'radio', multiple: false, items };
                     }
                 });
             }
@@ -448,21 +419,14 @@ export class AnichinScraper {
             if (ongoingSection.length) {
                 data.ongoing_series = [];
                 const ongoingContainer = ongoingSection.next('.ongoingseries');
-                
                 if (ongoingContainer.length) {
                     ongoingContainer.find('li').each((_: any, el: any) => {
                         const link = $(el).find('a');
                         const title = $(el).find('.l').text().trim();
                         const episode = $(el).find('.r').text().trim();
                         const href = link.attr('href') || '';
-                        
                         if (title) {
-                            data.ongoing_series!.push({
-                                title: title,
-                                slug: this.extractSlug(href),
-                                latest_episode: episode,
-                                url: href ? new URL(href, this.baseUrl).toString() : ''
-                            });
+                            data.ongoing_series!.push({ title: title, slug: this.extractSlug(href), latest_episode: episode, url: href ? new URL(href, this.baseUrl).toString() : '' });
                         }
                     });
                 }
@@ -470,90 +434,44 @@ export class AnichinScraper {
             
             const popularContainer = sidebar.find('#wpop-items');
             if (popularContainer.length) {
-                data.popular_series = {
-                    weekly: [],
-                    monthly: [],
-                    all_time: []
-                };
-                
+                data.popular_series = { weekly: [], monthly: [], all_time: [] };
                 popularContainer.find('.wpop-weekly li').each((_: any, el: any) => {
                     const rank = $(el).find('.ctr').text().trim();
                     const titleLink = $(el).find('h4 a');
                     const img = $(el).find('img');
                     const ratingScore = $(el).find('.numscore').text().trim();
-                    
                     const genres: string[] = [];
-                    $(el).find('.leftseries span a').each((_: any, genreEl: any) => {
-                        genres.push($(genreEl).text().trim());
-                    });
-                    
+                    $(el).find('.leftseries span a').each((_: any, genreEl: any) => { genres.push($(genreEl).text().trim()); });
                     const href = titleLink.attr('href') || '';
                     const title = titleLink.text().trim();
-                    
                     if (title) {
-                        data.popular_series!.weekly.push({
-                            top: rank,
-                            title: title,
-                            slug: this.extractSlug(href),
-                            thumbnail: img.attr('src') ? new URL(img.attr('src') || '', this.baseUrl).toString() : '',
-                            genre: genres,
-                            rating: ratingScore,
-                            url: href ? new URL(href, this.baseUrl).toString() : ''
-                        });
+                        data.popular_series!.weekly.push({ top: rank, title: title, slug: this.extractSlug(href), thumbnail: img.attr('src') ? new URL(img.attr('src') || '', this.baseUrl).toString() : '', genre: genres, rating: ratingScore, url: href ? new URL(href, this.baseUrl).toString() : '' });
                     }
                 });
-                
                 popularContainer.find('.wpop-monthly li').each((_: any, el: any) => {
                     const rank = $(el).find('.ctr').text().trim();
                     const titleLink = $(el).find('h4 a');
                     const img = $(el).find('img');
                     const ratingScore = $(el).find('.numscore').text().trim();
-                    
                     const genres: string[] = [];
-                    $(el).find('.leftseries span a').each((_: any, genreEl: any) => {
-                        genres.push($(genreEl).text().trim());
-                    });
-                    
+                    $(el).find('.leftseries span a').each((_: any, genreEl: any) => { genres.push($(genreEl).text().trim()); });
                     const href = titleLink.attr('href') || '';
                     const title = titleLink.text().trim();
-                    
                     if (title) {
-                        data.popular_series!.monthly.push({
-                            top: rank,
-                            title: title,
-                            slug: this.extractSlug(href),
-                            thumbnail: img.attr('src') ? new URL(img.attr('src') || '', this.baseUrl).toString() : '',
-                            genre: genres,
-                            rating: ratingScore,
-                            url: href ? new URL(href, this.baseUrl).toString() : ''
-                        });
+                        data.popular_series!.monthly.push({ top: rank, title: title, slug: this.extractSlug(href), thumbnail: img.attr('src') ? new URL(img.attr('src') || '', this.baseUrl).toString() : '', genre: genres, rating: ratingScore, url: href ? new URL(href, this.baseUrl).toString() : '' });
                     }
                 });
-                
                 popularContainer.find('.wpop-alltime li').each((_: any, el: any) => {
                     const rank = $(el).find('.ctr').text().trim();
                     const titleLink = $(el).find('h4 a');
                     const img = $(el).find('img');
                     const ratingScore = $(el).find('.numscore').text().trim();
-                    
                     const genres: string[] = [];
-                    $(el).find('.leftseries span a').each((_: any, genreEl: any) => {
-                        genres.push($(genreEl).text().trim());
-                    });
-                    
+                    $(el).find('.leftseries span a').each((_: any, genreEl: any) => { genres.push($(genreEl).text().trim()); });
                     const href = titleLink.attr('href') || '';
                     const title = titleLink.text().trim();
-                    
                     if (title) {
-                        data.popular_series!.all_time.push({
-                            top: rank,
-                            title: title,
-                            slug: this.extractSlug(href),
-                            thumbnail: img.attr('src') ? new URL(img.attr('src') || '', this.baseUrl).toString() : '',
-                            genre: genres,
-                            rating: ratingScore,
-                            url: href ? new URL(href, this.baseUrl).toString() : ''
-                        });
+                        data.popular_series!.all_time.push({ top: rank, title: title, slug: this.extractSlug(href), thumbnail: img.attr('src') ? new URL(img.attr('src') || '', this.baseUrl).toString() : '', genre: genres, rating: ratingScore, url: href ? new URL(href, this.baseUrl).toString() : '' });
                     }
                 });
             }
@@ -562,33 +480,19 @@ export class AnichinScraper {
             if (movieSection.length) {
                 data.new_movie = [];
                 const movieContainer = movieSection.next('.serieslist');
-                
                 if (movieContainer.length) {
                     movieContainer.find('li').each((_: any, el: any) => {
                         const titleLink = $(el).find('h4 a.series');
                         const img = $(el).find('img');
                         const dateSpan = $(el).find('span').last();
-                        
                         const genres: Array<{name: string, slug: string}> = [];
                         $(el).find('a[rel="tag"]').each((_: any, genreEl: any) => {
-                            genres.push({
-                                name: $(genreEl).text().trim(),
-                                slug: this.extractSlug($(genreEl).attr('href') || '')
-                            });
+                            genres.push({ name: $(genreEl).text().trim(), slug: this.extractSlug($(genreEl).attr('href') || '') });
                         });
-                        
                         const href = titleLink.attr('href') || '';
                         const title = titleLink.text().trim();
-                        
                         if (title) {
-                            data.new_movie!.push({
-                                title: title,
-                                slug: this.extractSlug(href),
-                                thumbnail: img.attr('src') ? new URL(img.attr('src') || '', this.baseUrl).toString() : '',
-                                release_date: dateSpan.text().trim(),
-                                genres: genres,
-                                url: href ? new URL(href, this.baseUrl).toString() : ''
-                            });
+                            data.new_movie!.push({ title: title, slug: this.extractSlug(href), thumbnail: img.attr('src') ? new URL(img.attr('src') || '', this.baseUrl).toString() : '', release_date: dateSpan.text().trim(), genres: genres, url: href ? new URL(href, this.baseUrl).toString() : '' });
                         }
                     });
                 }
@@ -598,24 +502,17 @@ export class AnichinScraper {
             let genresFound = false;
             sections.each((_: any, section: any) => {
                 if (genresFound) return;
-                
                 const header = $(section).find('h3');
                 if (header.length && header.text().includes('Genres')) {
                     data.genres = [];
                     const genreContainer = $(section).next('ul.genre');
-                    
                     if (genreContainer.length) {
                         genreContainer.find('li').each((_: any, liEl: any) => {
                             const link = $(liEl).find('a');
                             const text = link.text().trim();
                             const href = link.attr('href') || '';
-                            
                             if (text) {
-                                data.genres!.push({
-                                    title: text,
-                                    slug: this.extractSlug(href),
-                                    url: href ? new URL(href, this.baseUrl).toString() : ''
-                                });
+                                data.genres!.push({ title: text, slug: this.extractSlug(href), url: href ? new URL(href, this.baseUrl).toString() : '' });
                             }
                         });
                     }
@@ -626,26 +523,18 @@ export class AnichinScraper {
             let seasonsFound = false;
             sections.each((_: any, section: any) => {
                 if (seasonsFound) return;
-                
                 const header = $(section).find('h3');
                 if (header.length && header.text().includes('Season')) {
                     data.seasons = [];
                     const seasonContainer = $(section).next('ul.season');
-                    
                     if (seasonContainer.length) {
                         seasonContainer.find('li').each((_: any, liEl: any) => {
                             const link = $(liEl).find('a');
                             const countSpan = $(liEl).find('span');
                             const href = link.attr('href') || '';
                             const seasonTitle = this.formatSeasonTitle(href);
-                            
                             if (seasonTitle !== 'Unknown Season') {
-                                data.seasons!.push({
-                                    title: seasonTitle,
-                                    slug: this.extractSlug(href),
-                                    count: countSpan.text().trim(),
-                                    url: href ? new URL(href, this.baseUrl).toString() : ''
-                                });
+                                data.seasons!.push({ title: seasonTitle, slug: this.extractSlug(href), count: countSpan.text().trim(), url: href ? new URL(href, this.baseUrl).toString() : '' });
                             }
                         });
                     }
@@ -653,16 +542,10 @@ export class AnichinScraper {
                 }
             });
             
-            if (!data.genres) {
-                data.genres = [];
-            }
-            
-            if (!data.seasons) {
-                data.seasons = [];
-            }
+            if (!data.genres) data.genres = [];
+            if (!data.seasons) data.seasons = [];
             
             return this.buildResponse(true, data);
-            
         } catch (error) {
             return this.handleError(error, 'parse sidebar');
         }
@@ -673,53 +556,44 @@ export class AnichinScraper {
             const url = page === 1 ? '/' : `/page/${page}/`;
             const response = await this.client.get(url);
             const $ = cheerio.load(response.data);
-            
-            const data: any = {
-                slider: [],
-                popular_today: [],
-                latest_release: [],
-                recommendation: {},
-                pagination: {}
-            };
+            const data: any = { slider: [], popular_today: [], latest_release: [], recommendation: {}, pagination: {} };
             
             const slider = $('#slidertwo .swiper-slide.item');
             slider.each((_: any, el: any) => {
                 const backdrop = $(el).find('.backdrop');
                 const info = $(el).find('.info');
                 const titleLink = info.find('h2 a');
-                
+                const watchElem = $(el).find('.watch');
                 const bgStyle = backdrop.attr('style') || '';
                 const bgMatch = bgStyle.match(/url\(['"]?(.*?)['"]?\)/);
-                
+                const slug = this.extractSlug(watchElem.attr('href') || '');
                 data.slider.push({
-                    title: titleLink.text().trim(),
-                    slug: this.extractSlug(titleLink.attr('href') || ''),
-                    data_title: titleLink.attr('data-jtitle') || '',
+                    title: titleLink.attr('data-jtitle') || titleLink.text().trim(),
+                    slug: slug,
                     description: info.find('p').text().trim(),
                     thumbnail: bgMatch ? bgMatch[1] : '',
-                    url: titleLink.attr('href') ? new URL(titleLink.attr('href') || '', this.baseUrl).toString() : ''
+                    url: watchElem.attr('href') ? new URL(watchElem.attr('href') || '', this.baseUrl).toString() : ''
                 });
             });
             
             const popularSection = $('.bixbox.bbnofrm:contains("Popular Today")');
             if (popularSection.length) {
-                popularSection.find('article.bs').each((_: any, el: any) => {
-                    data.popular_today.push(this.parseListItem($(el)));
+                popularSection.find('.listupd.normal .bs .bsx').each((_: any, el: any) => {
+                    data.popular_today.push(this.parseListItem($, el));
                 });
             }
             
-            const latestSection = $('.bixbox.bbnofrm:contains("Latest Release")');
+            const latestSection = $('.releases.latesthome');
             if (latestSection.length) {
-                latestSection.find('article.bs').each((_: any, el: any) => {
-                    data.latest_release.push(this.parseListItem($(el)));
+                latestSection.find('.listupd.normal .bs .bsx').each((_: any, el: any) => {
+                    data.latest_release.push(this.parseListItem($, el));
                 });
             }
             
-            const recSection = $('.bixbox.bbnofrm:contains("Recommendation")');
+            const recSection = $('.series-gen');
             if (recSection.length) {
                 data.recommendation.tabs = [];
-                data.recommendation.contents = {};
-                
+                data.recommendation.data = {};
                 recSection.find('.nav-tabs li').each((_: any, el: any) => {
                     const link = $(el).find('a');
                     data.recommendation.tabs.push({
@@ -728,13 +602,14 @@ export class AnichinScraper {
                         active: $(el).hasClass('active')
                     });
                 });
-                
                 recSection.find('.tab-pane').each((_: any, paneEl: any) => {
                     const tabId = $(paneEl).attr('id') || '';
-                    data.recommendation.contents[tabId] = [];
-                    
-                    $(paneEl).find('article.bs').each((_: any, articleEl: any) => {
-                        data.recommendation.contents[tabId].push(this.parseListItem($(articleEl)));
+                    data.recommendation.data[tabId] = [];
+                    $(paneEl).find('.bs .bsx').each((_: any, articleEl: any) => {
+                        const status = $(articleEl).find('.status').text().trim();
+                        const item = this.parseListItem($, articleEl);
+                        item.status = status;
+                        data.recommendation.data[tabId].push(item);
                     });
                 });
             }
@@ -742,7 +617,6 @@ export class AnichinScraper {
             data.pagination = this.parsePagination($);
             
             return this.buildResponse(true, { home: data });
-            
         } catch (error) {
             return this.handleError(error, 'parse home');
         }
@@ -752,37 +626,20 @@ export class AnichinScraper {
         try {
             const encodedQuery = encodeURIComponent(query);
             const url = page === 1 ? `/?s=${encodedQuery}` : `/page/${page}/?s=${encodedQuery}`;
-            
             const response = await this.client.get(url);
             const $ = cheerio.load(response.data);
+            const data: any = { query, items: [], pagination: {} };
             
-            const data: any = {
-                query,
-                title: '',
-                results_count: 0,
-                lists: [],
-                pagination: {}
-            };
-            
-            const header = $('.bixbox .releases h1 span');
-            if (header.length) {
-                data.title = header.text().trim();
-                const match = data.title.match(/Search\s+['"](.+?)['"]/);
-                if (match) {
-                    data.query = match[1];
-                }
+            const container = $('.listupd');
+            if (container.length) {
+                container.find('.bs .bsx').each((_: any, el: any) => {
+                    data.items.push(this.parseListItem($, el));
+                });
             }
-            
-            const results = $('.listupd article.bs');
-            results.each((_: any, el: any) => {
-                data.lists.push(this.parseListItem($(el)));
-            });
-            data.results_count = data.lists.length;
             
             data.pagination = this.parsePagination($);
             
             return this.buildResponse(true, { search: data });
-            
         } catch (error) {
             return this.handleError(error, 'parse search');
         }
@@ -793,120 +650,100 @@ export class AnichinScraper {
             const response = await this.client.get('/schedule/');
             const $ = cheerio.load(response.data);
             
-            const data: any = {
-                title: '',
-                notice: '',
-                days: {}
-            };
-            
-            const header = $('.bixbox .releases h1 span');
-            if (header.length) {
-                data.title = header.text().trim();
-            }
-            
-            const noticeDiv = $('.listupd[style*="line-height"]');
-            if (noticeDiv.length) {
-                data.notice = noticeDiv.text().trim();
-            }
-            
-            const days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
-            
-            if (day && days.includes(day.toLowerCase())) {
-                const daySection = $(`.bixbox.schedulepage.sch_${day.toLowerCase()}`);
-                if (daySection.length) {
-                    const dayData: any = {
-                        title: daySection.find('.releases h3 span').text().trim() || day.charAt(0).toUpperCase() + day.slice(1),
-                        lists: []
-                    };
-                    
-                    daySection.find('.bs').each((_: any, el: any) => {
-                        const bsx = $(el).find('.bsx');
-                        const link = bsx.find('a');
-                        const countdown = bsx.find('.epx.cndwn');
-                        const episodeBadge = bsx.find('.sb');
-                        const img = bsx.find('img');
-                        const tt = bsx.find('.tt');
-                        
-                        const itemData: any = {
-                            title: tt.text().trim(),
-                            slug: this.extractSlug(link.attr('href') || ''),
-                            thumbnail: img.attr('src') || '',
-                            current_episode: episodeBadge.text().trim(),
-                            url: link.attr('href') ? new URL(link.attr('href') || '', this.baseUrl).toString() : ''
-                        };
-                        
-                        if (countdown.length) {
-                            itemData.countdown = {
-                                raw: countdown.attr('data-cndwn') || '',
-                                formatted: countdown.attr('data-cndwn') ? new Date(parseInt(countdown.attr('data-cndwn') || '') * 1000).toLocaleString() : ''
-                            };
-                            
-                            itemData.release_time = {
-                                raw: countdown.attr('data-rlsdt') || '',
-                                formatted: countdown.text().trim() || ''
-                            };
-                        }
-                        
-                        dayData.lists.push(itemData);
-                    });
-                    
-                    data.days[day.toLowerCase()] = dayData;
+            if (day) {
+                const dayLower = day.toLowerCase();
+                const daySection = $(`.sch_${dayLower}`);
+                if (!daySection.length) {
+                    return this.buildResponse(false, null, `Day "${day}" not found`);
                 }
-            } else {
-                days.forEach(day => {
-                    const daySection = $(`.bixbox.schedulepage.sch_${day}`);
-                    if (daySection.length) {
-                        const dayData: any = {
-                            title: daySection.find('.releases h3 span').text().trim() || day.charAt(0).toUpperCase() + day.slice(1),
-                            lists: []
-                        };
+                
+                const dayData: any = { list: [] };
+                daySection.find('.bsx').each((_: any, item: any) => {
+                    const titleElem = $(item).find('.tt');
+                    const title = titleElem.text().trim();
+                    if (title) {
+                        const linkElem = $(item).find('a');
+                        const slug = this.extractSlug(linkElem.attr('href') || '');
+                        const thumbnailElem = $(item).find('img');
+                        const thumbnail = thumbnailElem.attr('src') || '';
+                        const countdownElem = $(item).find('.epx.cndwn');
+                        const rawCountdown = countdownElem.attr('data-cndwn') || '';
+                        const rawReleaseTime = countdownElem.attr('data-rlsdt') || '';
+                        const formattedCountdown = this.formatCountdown(rawCountdown);
+                        const formattedReleaseTime = this.formatReleaseTime(rawReleaseTime);
+                        const episodeElem = $(item).find('.sb.Sub');
+                        const currentEpisode = episodeElem.text().trim();
+                        const url = linkElem.attr('href') || '';
                         
-                        daySection.find('.bs').each((_: any, el: any) => {
-                            const bsx = $(el).find('.bsx');
-                            const link = bsx.find('a');
-                            const countdown = bsx.find('.epx.cndwn');
-                            const episodeBadge = bsx.find('.sb');
-                            const img = bsx.find('img');
-                            const tt = bsx.find('.tt');
-                            
-                            const itemData: any = {
-                                title: tt.text().trim(),
-                                slug: this.extractSlug(link.attr('href') || ''),
-                                thumbnail: img.attr('src') || '',
-                                current_episode: episodeBadge.text().trim(),
-                                url: link.attr('href') ? new URL(link.attr('href') || '', this.baseUrl).toString() : ''
-                            };
-                            
-                            if (countdown.length) {
-                                itemData.countdown = {
-                                    raw: countdown.attr('data-cndwn') || '',
-                                    text: countdown.text().trim(),
-                                    timestamp: countdown.attr('data-rlsdt') || '',
-                                    formatted: countdown.text().trim()
-                                };
-                                
-                                itemData.release_time = {
-                                    raw: countdown.attr('data-rlsdt') || '',
-                                    formatted: countdown.attr('data-rlsdt') ? 
-                                        new Date(parseInt(countdown.attr('data-rlsdt') || '') * 1000).toLocaleString() : ''
-                                };
-                            }
-                            
-                            dayData.lists.push(itemData);
+                        dayData.list.push({
+                            title: title,
+                            slug: slug,
+                            thumbnail: thumbnail ? new URL(thumbnail, this.baseUrl).toString() : '',
+                            countdown: { raw: rawCountdown, formatted: formattedCountdown },
+                            release_time: { raw: rawReleaseTime, formatted: formattedReleaseTime },
+                            current_episode: currentEpisode,
+                            url: url ? new URL(url, this.baseUrl).toString() : ''
                         });
-                        
-                        data.days[day] = dayData;
-                    } else {
-                        data.days[day] = {
-                            title: day.charAt(0).toUpperCase() + day.slice(1),
-                            lists: []
-                        };
                     }
                 });
+                
+                return this.buildResponse(true, { [dayLower]: dayData });
+            } else {
+                const data: any = {
+                    monday: { list: [] },
+                    tuesday: { list: [] },
+                    wednesday: { list: [] },
+                    thursday: { list: [] },
+                    friday: { list: [] },
+                    saturday: { list: [] },
+                    sunday: { list: [] }
+                };
+                
+                const scheduleSections = $('[class*="sch_"]');
+                scheduleSections.each((_: any, section: any) => {
+                    const classNames = $(section).attr('class')?.split(' ') || [];
+                    let dayName = null;
+                    for (const className of classNames) {
+                        if (className.startsWith('sch_')) {
+                            dayName = className.replace('sch_', '');
+                            break;
+                        }
+                    }
+                    
+                    if (dayName && data[dayName]) {
+                        $(section).find('.bsx').each((_: any, item: any) => {
+                            const titleElem = $(item).find('.tt');
+                            const title = titleElem.text().trim();
+                            if (title) {
+                                const linkElem = $(item).find('a');
+                                const slug = this.extractSlug(linkElem.attr('href') || '');
+                                const thumbnailElem = $(item).find('img');
+                                const thumbnail = thumbnailElem.attr('src') || '';
+                                const countdownElem = $(item).find('.epx.cndwn');
+                                const rawCountdown = countdownElem.attr('data-cndwn') || '';
+                                const rawReleaseTime = countdownElem.attr('data-rlsdt') || '';
+                                const formattedCountdown = this.formatCountdown(rawCountdown);
+                                const formattedReleaseTime = this.formatReleaseTime(rawReleaseTime);
+                                const episodeElem = $(item).find('.sb.Sub');
+                                const currentEpisode = episodeElem.text().trim();
+                                const url = linkElem.attr('href') || '';
+                                
+                                data[dayName].list.push({
+                                    title: title,
+                                    slug: slug,
+                                    thumbnail: thumbnail ? new URL(thumbnail, this.baseUrl).toString() : '',
+                                    countdown: { raw: rawCountdown, formatted: formattedCountdown },
+                                    release_time: { raw: rawReleaseTime, formatted: formattedReleaseTime },
+                                    current_episode: currentEpisode,
+                                    url: url ? new URL(url, this.baseUrl).toString() : ''
+                                });
+                            }
+                        });
+                    }
+                });
+                
+                return this.buildResponse(true, { schedule: data });
             }
-            
-            return this.buildResponse(true, { schedule: data });
-            
         } catch (error) {
             return this.handleError(error, 'parse schedule');
         }
@@ -917,27 +754,15 @@ export class AnichinScraper {
             const url = page === 1 ? '/ongoing/' : `/ongoing/page/${page}/`;
             const response = await this.client.get(url);
             const $ = cheerio.load(response.data);
+            const data: any = { lists: [], pagination: {} };
             
-            const data: any = {
-                page_type: 'ongoing',
-                title: '',
-                lists: [],
-                pagination: {}
-            };
-            
-            const header = $('.bixbox .releases h1 span');
-            if (header.length) {
-                data.title = header.text().trim();
-            }
-            
-            $('.page article.bs, .listupd article.bs').each((_: any, el: any) => {
-                data.lists.push(this.parseListItem($(el)));
+            $('.listupd article.bs').each((_: any, el: any) => {
+                data.lists.push(this.parseListItem($, el));
             });
             
             data.pagination = this.parsePagination($);
             
             return this.buildResponse(true, data);
-            
         } catch (error) {
             return this.handleError(error, 'parse ongoing');
         }
@@ -948,27 +773,15 @@ export class AnichinScraper {
             const url = page === 1 ? '/completed/' : `/completed/page/${page}/`;
             const response = await this.client.get(url);
             const $ = cheerio.load(response.data);
+            const data: any = { lists: [], pagination: {} };
             
-            const data: any = {
-                page_type: 'completed',
-                title: '',
-                lists: [],
-                pagination: {}
-            };
-            
-            const header = $('.bixbox .releases h1 span');
-            if (header.length) {
-                data.title = header.text().trim();
-            }
-            
-            $('.page article.bs, .listupd article.bs').each((_: any, el: any) => {
-                data.lists.push(this.parseListItem($(el)));
+            $('.listupd article.bs').each((_: any, el: any) => {
+                data.lists.push(this.parseListItem($, el));
             });
             
             data.pagination = this.parsePagination($);
             
             return this.buildResponse(true, data);
-            
         } catch (error) {
             return this.handleError(error, 'parse completed');
         }
@@ -985,48 +798,15 @@ export class AnichinScraper {
             
             const response = await this.client.get(url);
             const $ = cheerio.load(response.data);
+            const data: any = { lists: [], pagination: {} };
             
-            const data: any = {
-                page_type: 'az_list',
-                list_type: letter ? 'letter' : 'all',
-                current_letter: letter,
-                title: '',
-                alphabet: {
-                    all_letters: [],
-                    current_letter: letter
-                },
-                lists: [],
-                pagination: {}
-            };
-            
-            const header = $('.bixbox .releases h1 span');
-            if (header.length) {
-                data.title = header.text().trim();
-            }
-            
-            const alphabetNav = $('.lista');
-            if (alphabetNav.length) {
-                alphabetNav.find('a').each((_: any, el: any) => {
-                    const href = $(el).attr('href') || '';
-                    const letterMatch = href.match(/show=([^&]+)/);
-                    const linkLetter = letterMatch ? letterMatch[1] : $(el).text().trim();
-                    
-                    data.alphabet.all_letters.push({
-                        letter: linkLetter,
-                        url: new URL(href, this.baseUrl).toString(),
-                        is_current: $(el).attr('style')?.includes('background') || false
-                    });
-                });
-            }
-            
-            $('.page article.bs, .listupd article.bs').each((_: any, el: any) => {
-                data.lists.push(this.parseListItem($(el)));
+            $('.listupd article.bs').each((_: any, el: any) => {
+                data.lists.push(this.parseListItem($, el));
             });
             
             data.pagination = this.parsePagination($);
             
             return this.buildResponse(true, data);
-            
         } catch (error) {
             return this.handleError(error, 'parse A-Z list');
         }
@@ -1056,14 +836,13 @@ export class AnichinScraper {
             }
             
             $('article.bs').each((_: any, el: any) => {
-                data.lists.push(this.parseListItem($(el)));
+                data.lists.push(this.parseListItem($, el));
             });
             
             data.pagination = this.parsePagination($);
             data.genre.total_pages = data.pagination.total_pages || 1;
             
             return this.buildResponse(true, data);
-            
         } catch (error) {
             return this.handleError(error, 'parse genres');
         }
@@ -1122,7 +901,7 @@ export class AnichinScraper {
                 data.lists.push({
                     title: cardTitle.find('h2').text().trim(),
                     slug: this.extractSlug(cardLink.attr('href') || ''),
-                    post_id: this.extractPostId(cardLink.attr('href') || ''),
+                    post_id: cardLink.attr('rel') || '',
                     thumbnail: img.attr('src') || '',
                     studio: {
                         name: studioSpan.text().trim(),
@@ -1146,7 +925,6 @@ export class AnichinScraper {
             }
             
             return this.buildResponse(true, data);
-            
         } catch (error) {
             return this.handleError(error, 'parse season');
         }
@@ -1176,14 +954,13 @@ export class AnichinScraper {
             }
             
             $('article.bs').each((_: any, el: any) => {
-                data.lists.push(this.parseListItem($(el)));
+                data.lists.push(this.parseListItem($, el));
             });
             
             data.pagination = this.parsePagination($);
             data.studio.total_pages = data.pagination.total_pages || 1;
             
             return this.buildResponse(true, data);
-            
         } catch (error) {
             return this.handleError(error, 'parse studio');
         }
@@ -1213,14 +990,13 @@ export class AnichinScraper {
             }
             
             $('article.bs').each((_: any, el: any) => {
-                data.lists.push(this.parseListItem($(el)));
+                data.lists.push(this.parseListItem($, el));
             });
             
             data.pagination = this.parsePagination($);
             data.network.total_pages = data.pagination.total_pages || 1;
             
             return this.buildResponse(true, data);
-            
         } catch (error) {
             return this.handleError(error, 'parse network');
         }
@@ -1250,14 +1026,13 @@ export class AnichinScraper {
             }
             
             $('article.bs').each((_: any, el: any) => {
-                data.lists.push(this.parseListItem($(el)));
+                data.lists.push(this.parseListItem($, el));
             });
             
             data.pagination = this.parsePagination($);
             data.country.total_pages = data.pagination.total_pages || 1;
             
             return this.buildResponse(true, data);
-            
         } catch (error) {
             return this.handleError(error, 'parse country');
         }
@@ -1551,7 +1326,6 @@ export class AnichinScraper {
             }
             
             return this.buildResponse(true, { detail: data });
-            
         } catch (error) {
             return this.handleError(error, 'parse series detail');
         }
@@ -1559,7 +1333,8 @@ export class AnichinScraper {
     
     async watch(slug: string, episode: number): Promise<ApiResponse> {
         try {
-            const url = `/${slug}-episode-${episode}-subtitle-indonesia/`;
+            const episodeStr = this.formatEpisodeNumber(episode);
+            const url = `/${slug}-episode-${episodeStr}-subtitle-indonesia/`;
             const response = await this.client.get(url);
             const $ = cheerio.load(response.data);
             
@@ -1568,11 +1343,12 @@ export class AnichinScraper {
                 title: '',
                 slug: slug,
                 episode_number: episode.toString(),
+                episode_number_formatted: episodeStr,
                 thumbnail: '',
                 release_date: '',
                 posted_by: '',
                 servers: [],
-                current_server: '',
+                current_server: { server_id: '0', server_url: '' },
                 downloads: [],
                 description: '',
                 series_info: {
@@ -1609,6 +1385,14 @@ export class AnichinScraper {
                 url: new URL(url, this.baseUrl).toString()
             };
             
+            const shortLink = $('link[rel="shortlink"]').attr('href');
+            if (shortLink) {
+                const match = shortLink.match(/p=(\d+)/);
+                if (match) {
+                    data.id = match[1];
+                }
+            }
+            
             const playerSection = $('.megavid');
             if (playerSection.length) {
                 const thumbnail = playerSection.find('.tb img');
@@ -1643,6 +1427,13 @@ export class AnichinScraper {
                             });
                         }
                     });
+                    
+                    if (data.servers.length > 0) {
+                        data.current_server = {
+                            server_id: data.servers[0].server_id,
+                            server_url: data.servers[0].server_url
+                        };
+                    }
                 }
             }
             
@@ -1650,7 +1441,7 @@ export class AnichinScraper {
             if (videoContent.length) {
                 const iframe = videoContent.find('#pembed iframe');
                 if (iframe.length) {
-                    data.current_server = iframe.attr('src') || ''
+                    data.current_server.server_url = iframe.attr('src') || '';
                 }
             }
             
@@ -1784,8 +1575,7 @@ export class AnichinScraper {
                     data.episode_navigation.prev_episode.text = prevEp.text().trim();
                     const prevLink = episodeNav.find('.nvs').first().find('a');
                     if (prevLink.length) {
-                        data.episode_navigation.prev_episode.url = prevLink.attr('href') ? 
-                            new URL(prevLink.attr('href') || '', this.baseUrl).toString() : '';
+                        data.episode_navigation.prev_episode.url = prevLink.attr('href') ? new URL(prevLink.attr('href') || '', this.baseUrl).toString() : '';
                     }
                 }
                 
@@ -1793,8 +1583,7 @@ export class AnichinScraper {
                     data.episode_navigation.all_episodes.text = allEps.text().trim();
                     const allLink = episodeNav.find('.nvsc a');
                     if (allLink.length) {
-                        data.episode_navigation.all_episodes.url = allLink.attr('href') ? 
-                            new URL(allLink.attr('href') || '', this.baseUrl).toString() : '';
+                        data.episode_navigation.all_episodes.url = allLink.attr('href') ? new URL(allLink.attr('href') || '', this.baseUrl).toString() : '';
                     }
                 }
                 
@@ -1802,8 +1591,7 @@ export class AnichinScraper {
                     data.episode_navigation.next_episode.text = nextEp.text().trim();
                     const nextLink = episodeNav.find('.nvs').last().find('a');
                     if (nextLink.length) {
-                        data.episode_navigation.next_episode.url = nextLink.attr('href') ? 
-                            new URL(nextLink.attr('href') || '', this.baseUrl).toString() : '';
+                        data.episode_navigation.next_episode.url = nextLink.attr('href') ? new URL(nextLink.attr('href') || '', this.baseUrl).toString() : '';
                     }
                 }
             }
@@ -1837,73 +1625,68 @@ export class AnichinScraper {
             data.meta.publisher.name = publisherNameMeta.attr('content') || '';
             data.meta.publisher.logo = publisherLogoMeta.attr('content') || '';
             
-            const shortLink = $('link[rel="shortlink"]').attr('href');
-            if (shortLink) {
-                const match = shortLink.match(/p=(\d+)/);
-                if (match) {
-                    data.id = match[1];
-                }
-            }
-            
             return this.buildResponse(true, { watch: data });
-            
         } catch (error) {
             return this.handleError(error, 'parse watch');
         }
     }
     
-    async advancedsearch(
-        mode: 'image' | 'text' = 'image', 
-        filter?: AdvancedSearchFilter, 
-        page: number = 1, 
-        per_page?: number
-    ): Promise<ApiResponse> {
+    async advancedsearch(mode: 'image' | 'text' = 'image', filter?: AdvancedSearchFilter, page: number = 1): Promise<ApiResponse> {
         try {
             if (mode === 'text') {
                 return await this._advancedSearchTextMode();
             } else {
-                return await this._advancedSearchImageMode(filter, page, per_page);
+                return await this._advancedSearchImageMode(filter, page);
             }
         } catch (error) {
             return this.handleError(error, 'advanced search');
         }
     }
     
-    private async _advancedSearchImageMode(
-        filter?: AdvancedSearchFilter, 
-        page: number = 1, 
-        per_page?: number
-    ): Promise<ApiResponse> {
+    private async _advancedSearchImageMode(filter?: AdvancedSearchFilter, page: number = 1): Promise<ApiResponse> {
         try {
             let url = '/seri/';
+            const params = new URLSearchParams();
             
-            if (page > 1 || filter || per_page) {
-                const params = new URLSearchParams();
+            if (page > 1) {
+                params.append('page', page.toString());
+            }
+            
+            if (filter) {
+                const singleValueFilters = ['status', 'type', 'order', 'sub'];
+                singleValueFilters.forEach(key => {
+                    const value = (filter as any)[key];
+                    if (value && value.trim() !== '') {
+                        params.append(key, value);
+                    }
+                });
                 
-                if (page > 1) {
-                    params.append('page', page.toString());
-                }
-                
-                if (per_page) {
-                    params.append('per_page', per_page.toString());
-                }
-                
-                if (filter) {
-                    Object.keys(filter).forEach(key => {
-                        const value = (filter as any)[key];
-                        if (value !== undefined && value !== '') {
-                            if (Array.isArray(value)) {
-                                value.forEach(item => {
-                                    if (item) params.append(`${key}[]`, item);
-                                });
-                            } else {
-                                params.append(key, value.toString());
-                            }
+                const arrayFilters = ['genres', 'studios', 'seasons'];
+                arrayFilters.forEach(key => {
+                    const filterKey = key as keyof AdvancedSearchFilter;
+                    if (filter[filterKey] && Array.isArray(filter[filterKey])) {
+                        const filterArray = filter[filterKey] as string[];
+                        if (filterArray.length > 0) {
+                            filterArray.forEach(value => {
+                                if (value && value.trim() !== '') {
+                                    const paramKey = key === 'genres' ? 'genre[]' : 
+                                                   key === 'studios' ? 'studio[]' : 
+                                                   'season[]';
+                                    params.append(paramKey, value);
+                                }
+                            });
                         }
-                    });
-                }
+                    }
+                });
                 
-                url += `?${params.toString()}`;
+                if (filter.per_page) {
+                    params.append('per_page', filter.per_page.toString());
+                }
+            }
+            
+            const queryString = params.toString();
+            if (queryString) {
+                url += `?${queryString}`;
             }
             
             const response = await this.client.get(url);
@@ -1923,13 +1706,12 @@ export class AnichinScraper {
             }
             
             $('.listupd article.bs').each((_: any, el: any) => {
-                data.lists.push(this.parseListItem($(el)));
+                data.lists.push(this.parseListItem($, el));
             });
             
             data.pagination = this.parsePagination($);
             
             return this.buildResponse(true, data);
-            
         } catch (error) {
             return this.handleError(error, 'image mode advanced search');
         }
@@ -1978,7 +1760,6 @@ export class AnichinScraper {
             }
             
             return this.buildResponse(true, data);
-            
         } catch (error) {
             return this.handleError(error, 'text mode advanced search');
         }
@@ -2039,7 +1820,6 @@ export class AnichinScraper {
             }
             
             return this.buildResponse(true, data);
-            
         } catch (error) {
             return this.handleError(error, 'parse quickfilter');
         }
@@ -2047,3 +1827,12 @@ export class AnichinScraper {
 }
 
 export default AnichinScraper;
+
+if (typeof window !== 'undefined') {
+    (window as any).AnichinScraper = AnichinScraper;
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = AnichinScraper;
+    module.exports.default = AnichinScraper;
+}

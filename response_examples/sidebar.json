@@ -1135,6 +1135,20 @@
       "weekly": [
         {
           "top": "1",
+          "title": "The Great Ruler 3D",
+          "slug": "the-great-ruler-3d",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/07/The-Great-Ruler-3D.webp",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Romance"
+          ],
+          "rating": "9.20",
+          "url": "https://anichin.cafe/seri/the-great-ruler-3d/"
+        },
+        {
+          "top": "2",
           "title": "Renegade Immortal",
           "slug": "renegade-immortal",
           "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/09/Renegade-Immortal-sub-indo.webp",
@@ -1147,7 +1161,7 @@
           "url": "https://anichin.cafe/seri/renegade-immortal/"
         },
         {
-          "top": "2",
+          "top": "3",
           "title": "Battle Through the Heavens Season 5",
           "slug": "battle-through-the-heavens-season-5",
           "thumbnail": "https://anichin.cafe/wp-content/uploads/2022/12/BTTH.webp",
@@ -1160,7 +1174,7 @@
           "url": "https://anichin.cafe/seri/battle-through-the-heavens-season-5/"
         },
         {
-          "top": "3",
+          "top": "4",
           "title": "Tales of Herding Gods",
           "slug": "tales-of-herding-gods",
           "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/10/Tales-of-Hearding-God.webp",
@@ -1174,7 +1188,7 @@
           "url": "https://anichin.cafe/seri/tales-of-herding-gods/"
         },
         {
-          "top": "4",
+          "top": "5",
           "title": "Perfect World",
           "slug": "perfect-world",
           "thumbnail": "https://anichin.cafe/wp-content/uploads/2021/04/Perfect-World.webp",
@@ -1185,21 +1199,6 @@
           ],
           "rating": "8.00",
           "url": "https://anichin.cafe/seri/perfect-world/"
-        },
-        {
-          "top": "5",
-          "title": "Sword of Coming Season 2",
-          "slug": "sword-of-coming-season-2",
-          "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/Sword-of-Coming-Season-2.webp",
-          "genre": [
-            "Action",
-            "Adventure",
-            "Fantasy",
-            "Historical",
-            "Martial Arts"
-          ],
-          "rating": "8.83",
-          "url": "https://anichin.cafe/seri/sword-of-coming-season-2/"
         }
       ],
       "monthly": [
@@ -1231,22 +1230,6 @@
         },
         {
           "top": "3",
-          "title": "Wu Dong Qian Kun Season 6",
-          "slug": "wu-dong-qian-kun-season-6",
-          "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/11/WU-DONG-QIAN-KUN-SEASON-6.webp",
-          "genre": [
-            "Action",
-            "Adventure",
-            "Fantasy",
-            "Historical",
-            "Martial Arts",
-            "Romance"
-          ],
-          "rating": "9.60",
-          "url": "https://anichin.cafe/seri/wu-dong-qian-kun-season-6/"
-        },
-        {
-          "top": "4",
           "title": "Tales of Herding Gods",
           "slug": "tales-of-herding-gods",
           "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/10/Tales-of-Hearding-God.webp",
@@ -1260,7 +1243,7 @@
           "url": "https://anichin.cafe/seri/tales-of-herding-gods/"
         },
         {
-          "top": "5",
+          "top": "4",
           "title": "Perfect World",
           "slug": "perfect-world",
           "thumbnail": "https://anichin.cafe/wp-content/uploads/2021/04/Perfect-World.webp",
@@ -1271,6 +1254,19 @@
           ],
           "rating": "8.00",
           "url": "https://anichin.cafe/seri/perfect-world/"
+        },
+        {
+          "top": "5",
+          "title": "Soul Land 2: The Unrivaled Tang Sect",
+          "slug": "soul-land-2-the-unrivaled-tang-sect",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/06/Soul-Land-2-The-Unrivaled-Tang-Sect-1.webp",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+          ],
+          "rating": "8.83",
+          "url": "https://anichin.cafe/seri/soul-land-2-the-unrivaled-tang-sect/"
         }
       ],
       "all_time": [
