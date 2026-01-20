@@ -1130,25 +1130,192 @@
         }
       }
     },
-    "ongoing_series": [],
+    "ongoing_series": [
+      {
+        "title": "Martial Master",
+        "slug": "martial-master",
+        "episode": "Episode 618",
+        "url": "https://anichin.cafe/martial-master-episode-618-subtitle-indonesia/"
+      },
+      {
+        "title": "Transcend Evolution",
+        "slug": "transcend-evolution",
+        "episode": "Episode 07",
+        "url": "https://anichin.cafe/transcend-evolution-episode-07-subtitle-indonesia/"
+      },
+      {
+        "title": "Sword and Fairy 3",
+        "slug": "sword-and-fairy-3",
+        "episode": "Episode 06",
+        "url": "https://anichin.cafe/sword-and-fairy-3-episode-06-subtitle-indonesia/"
+      },
+      {
+        "title": "The Alchemist’s Rise",
+        "slug": "the-alchemists-rise",
+        "episode": "Episode 10",
+        "url": "https://anichin.cafe/the-alchemists-rise-episode-10-subtitle-indonesia/"
+      },
+      {
+        "title": "Lord of the Ancient God Grave",
+        "slug": "lord-of-the-ancient-god-grave",
+        "episode": "Episode 401",
+        "url": "https://anichin.cafe/lord-of-the-ancient-god-grave-episode-401-subtitle-indonesia/"
+      },
+      {
+        "title": "Apotheosis",
+        "slug": "apotheosis",
+        "episode": "Episode 112",
+        "url": "https://anichin.cafe/apotheosis-episode-112-subtitle-indonesia/"
+      },
+      {
+        "title": "Swallowed Star Season 4",
+        "slug": "swallowed-star",
+        "episode": "Episode 207",
+        "url": "https://anichin.cafe/swallowed-star-episode-207-subtitle-indonesia/"
+      },
+      {
+        "title": "Lingwu Continent",
+        "slug": "lingwu-continent",
+        "episode": "Episode 145",
+        "url": "https://anichin.cafe/lingwu-continent-episode-145-subtitle-indonesia/"
+      },
+      {
+        "title": "Supreme God Emperor",
+        "slug": "supreme-god-emperor",
+        "episode": "Episode 562",
+        "url": "https://anichin.cafe/supreme-god-emperor-episode-562-subtitle-indonesia/"
+      },
+      {
+        "title": "Against the Sky Supreme",
+        "slug": "against-the-sky-supreme",
+        "episode": "Episode 481",
+        "url": "https://anichin.cafe/against-the-sky-supreme-episode-481-subtitle-indonesia/"
+      },
+      {
+        "title": "My Sectarian Members Are Spies",
+        "slug": "my-sectarian-members-are",
+        "episode": "Episode 118",
+        "url": "https://anichin.cafe/my-sectarian-members-are-episode-118-subtitle-indonesia/"
+      },
+      {
+        "title": "I Collect Waste in Heaven",
+        "slug": "i-collect-waste-in-heaven",
+        "episode": "Episode 35",
+        "url": "https://anichin.cafe/i-collect-waste-in-heaven-episode-35-subtitle-indonesia/"
+      },
+      {
+        "title": "IMMORTALITY SEASON 5",
+        "slug": "immortality-season-5",
+        "episode": "Episode 07",
+        "url": "https://anichin.cafe/immortality-season-5-episode-07-subtitle-indonesia/"
+      },
+      {
+        "title": "Beyond Time’s Gaze",
+        "slug": "beyond-times-gaze",
+        "episode": "Episode 05",
+        "url": "https://anichin.cafe/beyond-times-gaze-episode-05-subtitle-indonesia/"
+      },
+      {
+        "title": "Renegade Immortal",
+        "slug": "renegade-immortal",
+        "episode": "Episode 124",
+        "url": "https://anichin.cafe/renegade-immortal-episode-124-subtitle-indonesia/"
+      },
+      {
+        "title": "Martial Conqueror of the Cosmos",
+        "slug": "martial-conqueror-of-the-cosmos",
+        "episode": "Episode 48",
+        "url": "https://anichin.cafe/martial-conqueror-of-the-cosmos-episode-48-subtitle-indonesia/"
+      },
+      {
+        "title": "The Other Side of Deep Space",
+        "slug": "the-other-side-of-deep-space",
+        "episode": "Episode 03",
+        "url": "https://anichin.cafe/the-other-side-of-deep-space-episode-03-subtitle-indonesia/"
+      },
+      {
+        "title": "Tales of Herding Gods",
+        "slug": "tales-of-herding-gods",
+        "episode": "Episode 66",
+        "url": "https://anichin.cafe/tales-of-herding-gods-episode-66-subtitle-indonesia/"
+      },
+      {
+        "title": "The Daily Life of the Immortal King Season 5",
+        "slug": "the-daily-life-of-the-immortal-king-season-5",
+        "episode": "Episode 07",
+        "url": "https://anichin.cafe/the-daily-life-of-the-immortal-king-season-5-episode-07-subtitle-indonesia/"
+      },
+      {
+        "title": "Battle Through the Heavens Season 5",
+        "slug": "battle-through-the-heavens-season-5",
+        "episode": "Episode 182",
+        "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-182-subtitle-indonesia/"
+      },
+      {
+        "title": "100.000 Years of Refining Qi",
+        "slug": "100-000-years-of-refining-qi",
+        "episode": "Episode 312",
+        "url": "https://anichin.cafe/100-000-years-of-refining-qi-episode-312-subtitle-indonesia/"
+      },
+      {
+        "title": "Threads of Fate: A War Untold",
+        "slug": "threads-of-fate-a-war-untold",
+        "episode": "Episode 05",
+        "url": "https://anichin.cafe/threads-of-fate-a-war-untold-episode-05-subtitle-indonesia/"
+      },
+      {
+        "title": "Ascendants of the Nine Suns",
+        "slug": "ascendants-of-the-nine-suns",
+        "episode": "Episode 11",
+        "url": "https://anichin.cafe/ascendants-of-the-nine-suns-episode-11-subtitle-indonesia/"
+      },
+      {
+        "title": "The Divine Emperor of Destiny",
+        "slug": "the-divine-emperor-of-destiny",
+        "episode": "Episode 30",
+        "url": "https://anichin.cafe/the-divine-emperor-of-destiny-episode-30-subtitle-indonesia/"
+      },
+      {
+        "title": "Legend of Martial Immortal",
+        "slug": "legend-of-martial-immortal",
+        "episode": "Episode 150",
+        "url": "https://anichin.cafe/legend-of-martial-immortal-episode-150-subtitle-indonesia/"
+      },
+      {
+        "title": "Soul Land 2: The Unrivaled Tang Sect",
+        "slug": "soul-land-2-the-unrivaled-tang-sect",
+        "episode": "Episode 136",
+        "url": "https://anichin.cafe/soul-land-2-the-unrivaled-tang-sect-episode-136-subtitle-indonesia/"
+      },
+      {
+        "title": "The Gate of Mystical Realm",
+        "slug": "the-gate-of-mystical-realm",
+        "episode": "Episode 10",
+        "url": "https://anichin.cafe/the-gate-of-mystical-realm-episode-10-subtitle-indonesia/"
+      },
+      {
+        "title": "Tomb of Fallen Gods Season 3",
+        "slug": "tomb-of-fallen-gods-season-3",
+        "episode": "Episode 25",
+        "url": "https://anichin.cafe/tomb-of-fallen-gods-season-3-episode-25-subtitle-indonesia/"
+      },
+      {
+        "title": "The Great Ruler 3D",
+        "slug": "the-great-ruler-3d",
+        "episode": "Episode 56",
+        "url": "https://anichin.cafe/the-great-ruler-3d-episode-56-subtitle-indonesia/"
+      },
+      {
+        "title": "Eat Around the Mortal World",
+        "slug": "eat-around-the-mortal-world",
+        "episode": "Episode 10",
+        "url": "https://anichin.cafe/eat-around-the-mortal-world-episode-10-subtitle-indonesia/"
+      }
+    ],
     "popular_series": {
       "weekly": [
         {
           "top": "1",
-          "title": "The Great Ruler 3D",
-          "slug": "the-great-ruler-3d",
-          "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/07/The-Great-Ruler-3D.webp",
-          "genre": [
-            "Action",
-            "Adventure",
-            "Fantasy",
-            "Romance"
-          ],
-          "rating": "9.20",
-          "url": "https://anichin.cafe/seri/the-great-ruler-3d/"
-        },
-        {
-          "top": "2",
           "title": "Renegade Immortal",
           "slug": "renegade-immortal",
           "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/09/Renegade-Immortal-sub-indo.webp",
@@ -1161,7 +1328,7 @@
           "url": "https://anichin.cafe/seri/renegade-immortal/"
         },
         {
-          "top": "3",
+          "top": "2",
           "title": "Battle Through the Heavens Season 5",
           "slug": "battle-through-the-heavens-season-5",
           "thumbnail": "https://anichin.cafe/wp-content/uploads/2022/12/BTTH.webp",
@@ -1174,7 +1341,7 @@
           "url": "https://anichin.cafe/seri/battle-through-the-heavens-season-5/"
         },
         {
-          "top": "4",
+          "top": "3",
           "title": "Tales of Herding Gods",
           "slug": "tales-of-herding-gods",
           "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/10/Tales-of-Hearding-God.webp",
@@ -1186,6 +1353,20 @@
           ],
           "rating": "",
           "url": "https://anichin.cafe/seri/tales-of-herding-gods/"
+        },
+        {
+          "top": "4",
+          "title": "The Great Ruler 3D",
+          "slug": "the-great-ruler-3d",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/07/The-Great-Ruler-3D.webp",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Romance"
+          ],
+          "rating": "9.20",
+          "url": "https://anichin.cafe/seri/the-great-ruler-3d/"
         },
         {
           "top": "5",
@@ -1712,7 +1893,110 @@
         "url": "https://anichin.cafe/genres/urban-fantasy/"
       }
     ],
-    "seasons": []
+    "seasons": [
+      {
+        "title": "2026",
+        "slug": "2026",
+        "count": "3",
+        "url": "https://anichin.cafe/season/2026/"
+      },
+      {
+        "title": "2025",
+        "slug": "2025",
+        "count": "62",
+        "url": "https://anichin.cafe/season/2025/"
+      },
+      {
+        "title": "2024",
+        "slug": "2024",
+        "count": "74",
+        "url": "https://anichin.cafe/season/2024/"
+      },
+      {
+        "title": "2023",
+        "slug": "2023",
+        "count": "81",
+        "url": "https://anichin.cafe/season/2023/"
+      },
+      {
+        "title": "2022",
+        "slug": "2022",
+        "count": "67",
+        "url": "https://anichin.cafe/season/2022/"
+      },
+      {
+        "title": "2021",
+        "slug": "2021",
+        "count": "65",
+        "url": "https://anichin.cafe/season/2021/"
+      },
+      {
+        "title": "2020",
+        "slug": "2020",
+        "count": "47",
+        "url": "https://anichin.cafe/season/2020/"
+      },
+      {
+        "title": "2019",
+        "slug": "2019",
+        "count": "29",
+        "url": "https://anichin.cafe/season/2019/"
+      },
+      {
+        "title": "2018",
+        "slug": "2018",
+        "count": "26",
+        "url": "https://anichin.cafe/season/2018/"
+      },
+      {
+        "title": "2017",
+        "slug": "2017",
+        "count": "24",
+        "url": "https://anichin.cafe/season/2017/"
+      },
+      {
+        "title": "2016",
+        "slug": "2016",
+        "count": "13",
+        "url": "https://anichin.cafe/season/2016/"
+      },
+      {
+        "title": "2015",
+        "slug": "2015",
+        "count": "6",
+        "url": "https://anichin.cafe/season/2015/"
+      },
+      {
+        "title": "014 2",
+        "slug": "2014",
+        "count": "2",
+        "url": "https://anichin.cafe/season/2014/"
+      },
+      {
+        "title": "Summer 2022",
+        "slug": "summer-2022",
+        "count": "1",
+        "url": "https://anichin.cafe/season/summer-2022/"
+      },
+      {
+        "title": "Spring 2023",
+        "slug": "spring-2023",
+        "count": "1",
+        "url": "https://anichin.cafe/season/spring-2023/"
+      },
+      {
+        "title": "Summer 2023",
+        "slug": "summer-2023",
+        "count": "1",
+        "url": "https://anichin.cafe/season/summer-2023/"
+      },
+      {
+        "title": "Winter 2023",
+        "slug": "winter-2023",
+        "count": "1",
+        "url": "https://anichin.cafe/season/winter-2023/"
+      }
+    ]
   },
   "metadata": {},
   "message": null

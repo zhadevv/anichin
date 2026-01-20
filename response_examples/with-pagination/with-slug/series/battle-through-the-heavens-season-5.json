@@ -43,7 +43,7 @@
         "total_episode": "52",
         "posted_by": "Posted by: admin",
         "released_on": "2022-12-21T19:45:43+07:00",
-        "updated_on": "2026-01-10T18:57:13+07:00"
+        "updated_on": "2026-01-17T18:59:55+07:00"
       },
       "rating": {
         "value": 9.2,
@@ -1038,19 +1038,27 @@
       ],
       "episode_nav": {
         "first_episode": {
-          "name": "First EpisodeEpisode 1",
-          "number": "Episode 1",
-          "url": "https://anichin.cafe/#"
+          "name": "Episode 1",
+          "number": "1",
+          "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-01-subtitle-indonesia/"
         },
         "new_episode": {
-          "name": "New EpisodeEpisode 181",
-          "number": "Episode 181",
-          "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-181-subtitle-indonesia/"
+          "name": "Episode 182",
+          "number": "182",
+          "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-182-subtitle-indonesia/"
         }
       },
       "episodes": [
         {
           "index": 0,
+          "number": "182",
+          "title": "Battle Through the Heavens Season 5 Episode 182 Subtitle Indonesia",
+          "subtitle": "Sub",
+          "release_date": "January 17, 2026",
+          "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-182-subtitle-indonesia/"
+        },
+        {
+          "index": 1,
           "number": "181",
           "title": "Battle Through the Heavens Season 5 Episode 181 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1058,7 +1066,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-181-subtitle-indonesia/"
         },
         {
-          "index": 1,
+          "index": 2,
           "number": "180",
           "title": "Battle Through the Heavens Season 5 Episode 180 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1066,7 +1074,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-180-subtitle-indonesia/"
         },
         {
-          "index": 2,
+          "index": 3,
           "number": "179",
           "title": "Battle Through the Heavens Season 5 Episode 179 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1074,7 +1082,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-179-subtitle-indonesia/"
         },
         {
-          "index": 3,
+          "index": 4,
           "number": "178",
           "title": "Battle Through the Heavens Season 5 Episode 178 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1082,7 +1090,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-178-subtitle-indonesia/"
         },
         {
-          "index": 4,
+          "index": 5,
           "number": "177",
           "title": "Battle Through the Heavens Season 5 Episode 177 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1090,7 +1098,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-177-subtitle-indonesia/"
         },
         {
-          "index": 5,
+          "index": 6,
           "number": "176",
           "title": "Battle Through the Heavens Season 5 Episode 176 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1098,7 +1106,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-176-subtitle-indonesia/"
         },
         {
-          "index": 6,
+          "index": 7,
           "number": "175",
           "title": "Battle Through the Heavens Season 5 Episode 175 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1106,7 +1114,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-175-subtitle-indonesia/"
         },
         {
-          "index": 7,
+          "index": 8,
           "number": "174",
           "title": "Battle Through the Heavens Season 5 Episode 174 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1114,7 +1122,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-174-subtitle-indonesia/"
         },
         {
-          "index": 8,
+          "index": 9,
           "number": "173",
           "title": "Battle Through the Heavens Season 5 Episode 173 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1122,7 +1130,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-173-subtitle-indonesia/"
         },
         {
-          "index": 9,
+          "index": 10,
           "number": "172",
           "title": "Battle Through the Heavens Season 5 Episode 172 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1130,7 +1138,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-172-subtitle-indonesia/"
         },
         {
-          "index": 10,
+          "index": 11,
           "number": "171",
           "title": "Battle Through the Heavens Season 5 Episode 171 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1138,7 +1146,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-171-subtitle-indonesia/"
         },
         {
-          "index": 11,
+          "index": 12,
           "number": "170",
           "title": "Battle Through the Heavens Season 5 Episode 170 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1146,7 +1154,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-170-subtitle-indonesia/"
         },
         {
-          "index": 12,
+          "index": 13,
           "number": "169",
           "title": "Battle Through the Heavens Season 5 Episode 169 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1154,7 +1162,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-169-subtitle-indonesia/"
         },
         {
-          "index": 13,
+          "index": 14,
           "number": "168",
           "title": "Battle Through the Heavens Season 5 Episode 168 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1162,7 +1170,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-168-subtitle-indonesia/"
         },
         {
-          "index": 14,
+          "index": 15,
           "number": "167",
           "title": "Battle Through the Heavens Season 5 Episode 167 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1170,7 +1178,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-167-subtitle-indonesia/"
         },
         {
-          "index": 15,
+          "index": 16,
           "number": "166",
           "title": "Battle Through the Heavens Season 5 Episode 166 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1178,7 +1186,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-166-subtitle-indonesia/"
         },
         {
-          "index": 16,
+          "index": 17,
           "number": "165",
           "title": "Battle Through the Heavens Season 5 Episode 165 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1186,7 +1194,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-165-subtitle-indonesia/"
         },
         {
-          "index": 17,
+          "index": 18,
           "number": "164",
           "title": "Battle Through the Heavens Season 5 Episode 164 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1194,7 +1202,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-164-subtitle-indonesia/"
         },
         {
-          "index": 18,
+          "index": 19,
           "number": "163",
           "title": "Battle Through the Heavens Season 5 Episode 163 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1202,7 +1210,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-163-subtitle-indonesia/"
         },
         {
-          "index": 19,
+          "index": 20,
           "number": "162",
           "title": "Battle Through the Heavens Season 5 Episode 162 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1210,7 +1218,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-162-subtitle-indonesia/"
         },
         {
-          "index": 20,
+          "index": 21,
           "number": "161",
           "title": "Battle Through the Heavens Season 5 Episode 161 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1218,7 +1226,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-161-subtitle-indonesia/"
         },
         {
-          "index": 21,
+          "index": 22,
           "number": "160",
           "title": "Battle Through the Heavens Season 5 Episode 160 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1226,7 +1234,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-160-subtitle-indonesia/"
         },
         {
-          "index": 22,
+          "index": 23,
           "number": "159",
           "title": "Battle Through the Heavens Season 5 Episode 159 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1234,7 +1242,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-159-subtitle-indonesia/"
         },
         {
-          "index": 23,
+          "index": 24,
           "number": "158",
           "title": "Battle Through the Heavens Season 5 Episode 158 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1242,7 +1250,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-158-subtitle-indonesia/"
         },
         {
-          "index": 24,
+          "index": 25,
           "number": "157",
           "title": "Battle Through the Heavens Season 5 Episode 157 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1250,7 +1258,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-157-subtitle-indonesia/"
         },
         {
-          "index": 25,
+          "index": 26,
           "number": "156",
           "title": "Battle Through the Heavens Season 5 Episode 156 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1258,7 +1266,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-156-subtitle-indonesia/"
         },
         {
-          "index": 26,
+          "index": 27,
           "number": "155",
           "title": "Battle Through the Heavens Season 5 Episode 155 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1266,7 +1274,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-155-subtitle-indonesia/"
         },
         {
-          "index": 27,
+          "index": 28,
           "number": "154",
           "title": "Battle Through the Heavens Season 5 Episode 154 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1274,7 +1282,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-154-subtitle-indonesia/"
         },
         {
-          "index": 28,
+          "index": 29,
           "number": "153",
           "title": "Battle Through the Heavens Season 5 Episode 153 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1282,7 +1290,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-153-subtitle-indonesia/"
         },
         {
-          "index": 29,
+          "index": 30,
           "number": "152",
           "title": "Battle Through the Heavens Season 5 Episode 152 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1290,7 +1298,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-152-subtitle-indonesia/"
         },
         {
-          "index": 30,
+          "index": 31,
           "number": "151",
           "title": "Battle Through the Heavens Season 5 Episode 151 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1298,7 +1306,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-151-subtitle-indonesia/"
         },
         {
-          "index": 31,
+          "index": 32,
           "number": "150",
           "title": "Battle Through the Heavens Season 5 Episode 150 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1306,7 +1314,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-150-subtitle-indonesia/"
         },
         {
-          "index": 32,
+          "index": 33,
           "number": "149",
           "title": "Battle Through the Heavens Season 5 Episode 149 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1314,7 +1322,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-149-subtitle-indonesia/"
         },
         {
-          "index": 33,
+          "index": 34,
           "number": "148",
           "title": "Battle Through the Heavens Season 5 Episode 148 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1322,7 +1330,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-148-subtitle-indonesia/"
         },
         {
-          "index": 34,
+          "index": 35,
           "number": "147",
           "title": "Battle Through the Heavens Season 5 Episode 147 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1330,7 +1338,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-147-subtitle-indonesia/"
         },
         {
-          "index": 35,
+          "index": 36,
           "number": "146",
           "title": "Battle Through the Heavens Season 5 Episode 146 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1338,7 +1346,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-145-subtitle-indonesia-2/"
         },
         {
-          "index": 36,
+          "index": 37,
           "number": "145",
           "title": "Battle Through the Heavens Season 5 Episode 145 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1346,7 +1354,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-145-subtitle-indonesia/"
         },
         {
-          "index": 37,
+          "index": 38,
           "number": "144",
           "title": "Battle Through the Heavens Season 5 Episode 144 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1354,7 +1362,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-144-subtitle-indonesia/"
         },
         {
-          "index": 38,
+          "index": 39,
           "number": "143",
           "title": "Battle Through the Heavens Season 5 Episode 143 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1362,7 +1370,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-143-subtitle-indonesia/"
         },
         {
-          "index": 39,
+          "index": 40,
           "number": "142",
           "title": "Battle Through the Heavens Season 5 Episode 142 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1370,7 +1378,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-142-subtitle-indonesia/"
         },
         {
-          "index": 40,
+          "index": 41,
           "number": "141",
           "title": "Battle Through the Heavens Season 5 Episode 141 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1378,7 +1386,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-141-subtitle-indonesia/"
         },
         {
-          "index": 41,
+          "index": 42,
           "number": "140",
           "title": "Battle Through the Heavens Season 5 Episode 140 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1386,7 +1394,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-140-subtitle-indonesia/"
         },
         {
-          "index": 42,
+          "index": 43,
           "number": "139",
           "title": "Battle Through the Heavens Season 5 Episode 139 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1394,7 +1402,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-139-subtitle-indonesia/"
         },
         {
-          "index": 43,
+          "index": 44,
           "number": "138",
           "title": "Battle Through the Heavens Season 5 Episode 138 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1402,7 +1410,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-138-subtitle-indonesia/"
         },
         {
-          "index": 44,
+          "index": 45,
           "number": "137",
           "title": "Battle Through the Heavens Season 5 Episode 137 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1410,7 +1418,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-137-subtitle-indonesia/"
         },
         {
-          "index": 45,
+          "index": 46,
           "number": "136",
           "title": "Battle Through the Heavens Season 5 Episode 136 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1418,7 +1426,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-136-subtitle-indonesia/"
         },
         {
-          "index": 46,
+          "index": 47,
           "number": "135",
           "title": "Battle Through the Heavens Season 5 Episode 135 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1426,7 +1434,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-135-subtitle-indonesia/"
         },
         {
-          "index": 47,
+          "index": 48,
           "number": "134",
           "title": "Battle Through the Heavens Season 5 Episode 134 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1434,7 +1442,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-134-subtitle-indonesia/"
         },
         {
-          "index": 48,
+          "index": 49,
           "number": "133",
           "title": "Battle Through the Heavens Season 5 Episode 133 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1442,7 +1450,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-133-subtitle-indonesia/"
         },
         {
-          "index": 49,
+          "index": 50,
           "number": "132",
           "title": "Battle Through the Heavens Season 5 Episode 132 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1450,7 +1458,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-132-subtitle-indonesia/"
         },
         {
-          "index": 50,
+          "index": 51,
           "number": "131",
           "title": "Battle Through the Heavens Season 5 Episode 131 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1458,7 +1466,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-131-subtitle-indonesia/"
         },
         {
-          "index": 51,
+          "index": 52,
           "number": "130",
           "title": "Battle Through the Heavens Season 5 Episode 130 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1466,7 +1474,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-130-subtitle-indonesia/"
         },
         {
-          "index": 52,
+          "index": 53,
           "number": "129",
           "title": "Battle Through the Heavens Season 5 Episode 129 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1474,7 +1482,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-129-subtitle-indonesia/"
         },
         {
-          "index": 53,
+          "index": 54,
           "number": "128",
           "title": "Battle Through the Heavens Season 5 Episode 128 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1482,7 +1490,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-128-subtitle-indonesia/"
         },
         {
-          "index": 54,
+          "index": 55,
           "number": "127",
           "title": "Battle Through the Heavens Season 5 Episode 127 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1490,7 +1498,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-127-subtitle-indonesia/"
         },
         {
-          "index": 55,
+          "index": 56,
           "number": "126",
           "title": "Battle Through the Heavens Season 5 Episode 126 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1498,7 +1506,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-126-subtitle-indonesia/"
         },
         {
-          "index": 56,
+          "index": 57,
           "number": "125",
           "title": "Battle Through the Heavens Season 5 Episode 125 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1506,7 +1514,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-125-subtitle-indonesia/"
         },
         {
-          "index": 57,
+          "index": 58,
           "number": "124",
           "title": "Battle Through the Heavens Season 5 Episode 124 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1514,7 +1522,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-124-subtitle-indonesia/"
         },
         {
-          "index": 58,
+          "index": 59,
           "number": "123",
           "title": "Battle Through the Heavens Season 5 Episode 123 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1522,7 +1530,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-123-subtitle-indonesia/"
         },
         {
-          "index": 59,
+          "index": 60,
           "number": "122",
           "title": "Battle Through the Heavens Season 5 Episode 122 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1530,7 +1538,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-122-subtitle-indonesia/"
         },
         {
-          "index": 60,
+          "index": 61,
           "number": "121",
           "title": "Battle Through the Heavens Season 5 Episode 121 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1538,7 +1546,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-121-subtitle-indonesia/"
         },
         {
-          "index": 61,
+          "index": 62,
           "number": "120",
           "title": "Battle Through the Heavens Season 5 Episode 120 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1546,7 +1554,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-120-subtitle-indonesia/"
         },
         {
-          "index": 62,
+          "index": 63,
           "number": "119",
           "title": "Battle Through the Heavens Season 5 Episode 119 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1554,7 +1562,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-119-subtitle-indonesia/"
         },
         {
-          "index": 63,
+          "index": 64,
           "number": "118",
           "title": "Battle Through the Heavens Season 5 Episode 118 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1562,7 +1570,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-118-subtitle-indonesia/"
         },
         {
-          "index": 64,
+          "index": 65,
           "number": "117",
           "title": "Battle Through the Heavens Season 5 Episode 117 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1570,7 +1578,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-117-subtitle-indonesia/"
         },
         {
-          "index": 65,
+          "index": 66,
           "number": "116",
           "title": "Battle Through the Heavens Season 5 Episode 116 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1578,7 +1586,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-116-subtitle-indonesia/"
         },
         {
-          "index": 66,
+          "index": 67,
           "number": "115",
           "title": "Battle Through the Heavens Season 5 Episode 115 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1586,7 +1594,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-115-subtitle-indonesia/"
         },
         {
-          "index": 67,
+          "index": 68,
           "number": "114",
           "title": "Battle Through the Heavens Season 5 Episode 114 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1594,7 +1602,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-114-subtitle-indonesia/"
         },
         {
-          "index": 68,
+          "index": 69,
           "number": "113",
           "title": "Battle Through the Heavens Season 5 Episode 113 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1602,7 +1610,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-113-subtitle-indonesia/"
         },
         {
-          "index": 69,
+          "index": 70,
           "number": "112",
           "title": "Battle Through the Heavens Season 5 Episode 112 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1610,7 +1618,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-112-subtitle-indonesia/"
         },
         {
-          "index": 70,
+          "index": 71,
           "number": "111",
           "title": "Battle Through the Heavens Season 5 Episode 111 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1618,7 +1626,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-111-subtitle-indonesia/"
         },
         {
-          "index": 71,
+          "index": 72,
           "number": "110",
           "title": "Battle Through the Heavens Season 5 Episode 110 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1626,7 +1634,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-110-subtitle-indonesia/"
         },
         {
-          "index": 72,
+          "index": 73,
           "number": "109",
           "title": "Battle Through the Heavens Season 5 Episode 109 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1634,7 +1642,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-109-subtitle-indonesia/"
         },
         {
-          "index": 73,
+          "index": 74,
           "number": "108",
           "title": "Battle Through the Heavens Season 5 Episode 108 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1642,7 +1650,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-108-subtitle-indonesia/"
         },
         {
-          "index": 74,
+          "index": 75,
           "number": "107",
           "title": "Battle Through the Heavens Season 5 Episode 107 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1650,7 +1658,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-107-subtitle-indonesia/"
         },
         {
-          "index": 75,
+          "index": 76,
           "number": "106",
           "title": "Battle Through the Heavens Season 5 Episode 106 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1658,7 +1666,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-106-subtitle-indonesia/"
         },
         {
-          "index": 76,
+          "index": 77,
           "number": "105",
           "title": "Battle Through the Heavens Season 5 Episode 105 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1666,7 +1674,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-105-subtitle-indonesia/"
         },
         {
-          "index": 77,
+          "index": 78,
           "number": "104",
           "title": "Battle Through the Heavens Season 5 Episode 104 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1674,7 +1682,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-104-subtitle-indonesia/"
         },
         {
-          "index": 78,
+          "index": 79,
           "number": "103",
           "title": "Battle Through the Heavens Season 5 Episode 103 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1682,7 +1690,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-103-subtitle-indonesia/"
         },
         {
-          "index": 79,
+          "index": 80,
           "number": "102",
           "title": "Battle Through the Heavens Season 5 Episode 102 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1690,7 +1698,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-102-subtitle-indonesia/"
         },
         {
-          "index": 80,
+          "index": 81,
           "number": "101",
           "title": "Battle Through the Heavens Season 5 Episode 101 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1698,7 +1706,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-101-subtitle-indonesia/"
         },
         {
-          "index": 81,
+          "index": 82,
           "number": "100",
           "title": "Battle Through the Heavens Season 5 Episode 100 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1706,7 +1714,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-100-subtitle-indonesia/"
         },
         {
-          "index": 82,
+          "index": 83,
           "number": "99",
           "title": "Battle Through the Heavens Season 5 Episode 99 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1714,7 +1722,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-99-subtitle-indonesia/"
         },
         {
-          "index": 83,
+          "index": 84,
           "number": "98",
           "title": "Battle Through the Heavens Season 5 Episode 98 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1722,7 +1730,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-98-subtitle-indonesia/"
         },
         {
-          "index": 84,
+          "index": 85,
           "number": "97",
           "title": "Battle Through the Heavens Season 5 Episode 97 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1730,7 +1738,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-97-subtitle-indonesia/"
         },
         {
-          "index": 85,
+          "index": 86,
           "number": "96",
           "title": "Battle Through the Heavens Season 5 Episode 96 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1738,7 +1746,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-96-subtitle-indonesia/"
         },
         {
-          "index": 86,
+          "index": 87,
           "number": "95",
           "title": "Battle Through the Heavens Season 5 Episode 95 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1746,7 +1754,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-95-subtitle-indonesia/"
         },
         {
-          "index": 87,
+          "index": 88,
           "number": "94",
           "title": "Battle Through the Heavens Season 5 Episode 94 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1754,7 +1762,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-94-subtitle-indonesia/"
         },
         {
-          "index": 88,
+          "index": 89,
           "number": "93",
           "title": "Battle Through the Heavens Season 5 Episode 93 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1762,7 +1770,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-93-subtitle-indonesia/"
         },
         {
-          "index": 89,
+          "index": 90,
           "number": "92",
           "title": "Battle Through the Heavens Season 5 Episode 92 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1770,7 +1778,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-92-subtitle-indonesia/"
         },
         {
-          "index": 90,
+          "index": 91,
           "number": "91",
           "title": "Battle Through the Heavens Season 5 Episode 91 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1778,7 +1786,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-91-subtitle-indonesia/"
         },
         {
-          "index": 91,
+          "index": 92,
           "number": "90",
           "title": "Battle Through the Heavens Season 5 Episode 90 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1786,7 +1794,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-90-subtitle-indonesia/"
         },
         {
-          "index": 92,
+          "index": 93,
           "number": "89",
           "title": "Battle Through the Heavens Season 5 Episode 89 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1794,7 +1802,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-89-subtitle-indonesia/"
         },
         {
-          "index": 93,
+          "index": 94,
           "number": "88",
           "title": "Battle Through the Heavens Season 5 Episode 88 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1802,7 +1810,7 @@
           "url": "https://anichin.cafe/oyen-season-5-episode-88-subtitle-indonesia/"
         },
         {
-          "index": 94,
+          "index": 95,
           "number": "87",
           "title": "Battle Through the Heavens Season 5 Episode 87 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1810,7 +1818,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-87-subtitle-indonesia/"
         },
         {
-          "index": 95,
+          "index": 96,
           "number": "86",
           "title": "Battle Through the Heavens Season 5 Episode 86 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1818,7 +1826,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-86-subtitle-indonesia/"
         },
         {
-          "index": 96,
+          "index": 97,
           "number": "85",
           "title": "Battle Through the Heavens Season 5 Episode 85 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1826,7 +1834,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-85-subtitle-indonesia/"
         },
         {
-          "index": 97,
+          "index": 98,
           "number": "84",
           "title": "Battle Through the Heavens Season 5 Episode 84 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1834,7 +1842,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-84-subtitle-indonesia/"
         },
         {
-          "index": 98,
+          "index": 99,
           "number": "83",
           "title": "Battle Through the Heavens Season 5 Episode 83 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1842,7 +1850,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-83-subtitle-indonesia/"
         },
         {
-          "index": 99,
+          "index": 100,
           "number": "82",
           "title": "Battle Through the Heavens Season 5 Episode 82 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1850,7 +1858,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-82-subtitle-indonesia/"
         },
         {
-          "index": 100,
+          "index": 101,
           "number": "81",
           "title": "Battle Through the Heavens Season 5 Episode 81 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1858,7 +1866,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-81-subtitle-indonesia/"
         },
         {
-          "index": 101,
+          "index": 102,
           "number": "80",
           "title": "Battle Through the Heavens Season 5 Episode 80 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1866,7 +1874,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-80-subtitle-indonesia/"
         },
         {
-          "index": 102,
+          "index": 103,
           "number": "79",
           "title": "Battle Through the Heavens Season 5 Episode 79 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1874,7 +1882,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-79-subtitle-indonesia/"
         },
         {
-          "index": 103,
+          "index": 104,
           "number": "78",
           "title": "Battle Through the Heavens Season 5 Episode 78 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1882,7 +1890,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-78-subtitle-indonesia/"
         },
         {
-          "index": 104,
+          "index": 105,
           "number": "77",
           "title": "Battle Through the Heavens Season 5 Episode 77 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1890,7 +1898,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-77-subtitle-indonesia/"
         },
         {
-          "index": 105,
+          "index": 106,
           "number": "76",
           "title": "Battle Through the Heavens Season 5 Episode 76 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1898,7 +1906,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-76-subtitle-indonesia/"
         },
         {
-          "index": 106,
+          "index": 107,
           "number": "75",
           "title": "Battle Through the Heavens Season 5 Episode 75 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1906,7 +1914,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-75-subtitle-indonesia/"
         },
         {
-          "index": 107,
+          "index": 108,
           "number": "74",
           "title": "Battle Through the Heavens Season 5 Episode 74 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1914,7 +1922,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-74-subtitle-indonesia/"
         },
         {
-          "index": 108,
+          "index": 109,
           "number": "73",
           "title": "Battle Through the Heavens Season 5 Episode 73 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1922,7 +1930,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-73-subtitle-indonesia/"
         },
         {
-          "index": 109,
+          "index": 110,
           "number": "72",
           "title": "Battle Through the Heavens Season 5 Episode 72 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1930,7 +1938,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-72-subtitle-indonesia/"
         },
         {
-          "index": 110,
+          "index": 111,
           "number": "71",
           "title": "Battle Through the Heavens Season 5 Episode 71 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1938,7 +1946,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-71-subtitle-indonesia/"
         },
         {
-          "index": 111,
+          "index": 112,
           "number": "70",
           "title": "Battle Through the Heavens Season 5 Episode 70 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1946,7 +1954,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-70-subtitle-indonesia/"
         },
         {
-          "index": 112,
+          "index": 113,
           "number": "69",
           "title": "Battle Through the Heavens Season 5 Episode 69 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1954,7 +1962,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-69-subtitle-indonesia/"
         },
         {
-          "index": 113,
+          "index": 114,
           "number": "68",
           "title": "Battle Through the Heavens Season 5 Episode 68 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1962,7 +1970,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-68-subtitle-indonesia/"
         },
         {
-          "index": 114,
+          "index": 115,
           "number": "67",
           "title": "Battle Through the Heavens Season 5 Episode 67 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1970,7 +1978,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-67-subtitle-indonesia/"
         },
         {
-          "index": 115,
+          "index": 116,
           "number": "66",
           "title": "Battle Through the Heavens Season 5 Episode 66 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1978,7 +1986,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-66-subtitle-indonesia/"
         },
         {
-          "index": 116,
+          "index": 117,
           "number": "65",
           "title": "Battle Through the Heavens Season 5 Episode 65 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1986,7 +1994,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-65-subtitle-indonesia/"
         },
         {
-          "index": 117,
+          "index": 118,
           "number": "64",
           "title": "Battle Through the Heavens Season 5 Episode 64 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -1994,7 +2002,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-64-subtitle-indonesia/"
         },
         {
-          "index": 118,
+          "index": 119,
           "number": "63",
           "title": "Battle Through the Heavens Season 5 Episode 63 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2002,7 +2010,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-63-subtitle-indonesia/"
         },
         {
-          "index": 119,
+          "index": 120,
           "number": "62",
           "title": "Battle Through the Heavens Season 5 Episode 62 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2010,7 +2018,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-62-subtitle-indonesia/"
         },
         {
-          "index": 120,
+          "index": 121,
           "number": "61",
           "title": "Battle Through the Heavens Season 5 Episode 61 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2018,7 +2026,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-61-subtitle-indonesia/"
         },
         {
-          "index": 121,
+          "index": 122,
           "number": "60",
           "title": "Battle Through the Heavens Season 5 Episode 60 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2026,7 +2034,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-60-subtitle-indonesia/"
         },
         {
-          "index": 122,
+          "index": 123,
           "number": "59",
           "title": "Battle Through the Heavens Season 5 Episode 59 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2034,7 +2042,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-59-subtitle-indonesia/"
         },
         {
-          "index": 123,
+          "index": 124,
           "number": "58",
           "title": "Battle Through the Heavens Season 5 Episode 58 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2042,7 +2050,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-58-subtitle-indonesia/"
         },
         {
-          "index": 124,
+          "index": 125,
           "number": "57",
           "title": "Battle Through the Heavens Season 5 Episode 57 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2050,7 +2058,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-57-subtitle-indonesia/"
         },
         {
-          "index": 125,
+          "index": 126,
           "number": "56",
           "title": "Battle Through the Heavens Season 5 Episode 56 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2058,7 +2066,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-56-subtitle-indonesia/"
         },
         {
-          "index": 126,
+          "index": 127,
           "number": "55",
           "title": "Battle Through the Heavens Season 5 Episode 55 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2066,7 +2074,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-55-subtitle-indonesia/"
         },
         {
-          "index": 127,
+          "index": 128,
           "number": "54",
           "title": "Battle Through the Heavens Season 5 Episode 54 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2074,7 +2082,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-54-subtitle-indonesia/"
         },
         {
-          "index": 128,
+          "index": 129,
           "number": "53",
           "title": "Battle Through the Heavens Season 5 Episode 53 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2082,7 +2090,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-53-subtitle-indonesia/"
         },
         {
-          "index": 129,
+          "index": 130,
           "number": "52",
           "title": "Battle Through the Heavens Season 5 Episode 52 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2090,7 +2098,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-52-subtitle-indonesia/"
         },
         {
-          "index": 130,
+          "index": 131,
           "number": "51",
           "title": "Battle Through the Heavens Season 5 Episode 51 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2098,7 +2106,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-51-subtitle-indonesia/"
         },
         {
-          "index": 131,
+          "index": 132,
           "number": "50",
           "title": "Battle Through the Heavens Season 5 Episode 50 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2106,7 +2114,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-50-subtitle-indonesia/"
         },
         {
-          "index": 132,
+          "index": 133,
           "number": "49",
           "title": "Battle Through the Heavens Season 5 Episode 49 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2114,7 +2122,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-49-subtitle-indonesia/"
         },
         {
-          "index": 133,
+          "index": 134,
           "number": "48",
           "title": "Battle Through the Heavens Season 5 Episode 48 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2122,7 +2130,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-48-subtitle-indonesia/"
         },
         {
-          "index": 134,
+          "index": 135,
           "number": "47",
           "title": "Battle Through the Heavens Season 5 Episode 47 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2130,7 +2138,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-47-subtitle-indonesia/"
         },
         {
-          "index": 135,
+          "index": 136,
           "number": "46",
           "title": "Battle Through the Heavens Season 5 Episode 46 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2138,7 +2146,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-46-subtitle-indonesia/"
         },
         {
-          "index": 136,
+          "index": 137,
           "number": "45",
           "title": "Battle Through the Heavens Season 5 Episode 45 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2146,7 +2154,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-45-subtitle-indonesia/"
         },
         {
-          "index": 137,
+          "index": 138,
           "number": "44",
           "title": "Battle Through the Heavens Season 5 Episode 44 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2154,7 +2162,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-44-subtitle-indonesia/"
         },
         {
-          "index": 138,
+          "index": 139,
           "number": "43",
           "title": "Battle Through the Heavens Season 5 Episode 43 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2162,7 +2170,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-43-subtitle-indonesia/"
         },
         {
-          "index": 139,
+          "index": 140,
           "number": "42",
           "title": "Battle Through the Heavens Season 5 Episode 42 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2170,7 +2178,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-42-subtitle-indonesia/"
         },
         {
-          "index": 140,
+          "index": 141,
           "number": "41",
           "title": "Battle Through the Heavens Season 5 Episode 41 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2178,7 +2186,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-41-subtitle-indonesia/"
         },
         {
-          "index": 141,
+          "index": 142,
           "number": "40",
           "title": "Battle Through the Heavens Season 5 Episode 40 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2186,7 +2194,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-40-subtitle-indonesia/"
         },
         {
-          "index": 142,
+          "index": 143,
           "number": "39",
           "title": "Battle Through the Heavens Season 5 Episode 39 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2194,7 +2202,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-39-subtitle-indonesia/"
         },
         {
-          "index": 143,
+          "index": 144,
           "number": "38",
           "title": "Battle Through the Heavens Season 5 Episode 38 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2202,7 +2210,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-38-subtitle-indonesia/"
         },
         {
-          "index": 144,
+          "index": 145,
           "number": "37",
           "title": "Battle Through the Heavens Season 5 Episode 37 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2210,7 +2218,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-37-subtitle-indonesia/"
         },
         {
-          "index": 145,
+          "index": 146,
           "number": "36",
           "title": "Battle Through the Heavens Season 5 Episode 36 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2218,7 +2226,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-36-subtitle-indonesia/"
         },
         {
-          "index": 146,
+          "index": 147,
           "number": "35",
           "title": "Battle Through the Heavens Season 5 Episode 35 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2226,7 +2234,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-35-subtitle-indonesia/"
         },
         {
-          "index": 147,
+          "index": 148,
           "number": "34",
           "title": "Battle Through the Heavens Season 5 Episode 34 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2234,7 +2242,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-34-subtitle-indonesia/"
         },
         {
-          "index": 148,
+          "index": 149,
           "number": "33",
           "title": "Battle Through the Heavens Season 5 Episode 33 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2242,7 +2250,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-33-subtitle-indonesia/"
         },
         {
-          "index": 149,
+          "index": 150,
           "number": "32",
           "title": "Battle Through the Heavens Season 5 Episode 32 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2250,7 +2258,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-32-subtitle-indonesia/"
         },
         {
-          "index": 150,
+          "index": 151,
           "number": "31",
           "title": "Battle Through the Heavens Season 5 Episode 31 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2258,7 +2266,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-31-subtitle-indonesia/"
         },
         {
-          "index": 151,
+          "index": 152,
           "number": "30",
           "title": "Battle Through the Heavens Season 5 Episode 30 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2266,7 +2274,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-30-subtitle-indonesia/"
         },
         {
-          "index": 152,
+          "index": 153,
           "number": "29",
           "title": "Battle Through the Heavens Season 5 Episode 29 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2274,7 +2282,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-29-subtitle-indonesia/"
         },
         {
-          "index": 153,
+          "index": 154,
           "number": "28",
           "title": "Battle Through the Heavens Season 5 Episode 28 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2282,7 +2290,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-28-subtitle-indonesia/"
         },
         {
-          "index": 154,
+          "index": 155,
           "number": "27",
           "title": "Battle Through the Heavens Season 5 Episode 27 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2290,7 +2298,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-27-subtitle-indonesia/"
         },
         {
-          "index": 155,
+          "index": 156,
           "number": "26",
           "title": "Battle Through the Heavens Season 5 Episode 26 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2298,7 +2306,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-26-subtitle-indonesia/"
         },
         {
-          "index": 156,
+          "index": 157,
           "number": "25",
           "title": "Battle Through the Heavens Season 5 Episode 25 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2306,7 +2314,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-25-subtitle-indonesia/"
         },
         {
-          "index": 157,
+          "index": 158,
           "number": "24",
           "title": "Battle Through the Heavens Season 5 Episode 24 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2314,7 +2322,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-24-subtitle-indonesia/"
         },
         {
-          "index": 158,
+          "index": 159,
           "number": "23",
           "title": "Battle Through the Heavens Season 5 Episode 23 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2322,7 +2330,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-23-subtitle-indonesia/"
         },
         {
-          "index": 159,
+          "index": 160,
           "number": "22",
           "title": "Battle Through the Heavens Season 5 Episode 22 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2330,7 +2338,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-22-subtitle-indonesia/"
         },
         {
-          "index": 160,
+          "index": 161,
           "number": "21",
           "title": "Battle Through the Heavens Season 5 Episode 21 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2338,7 +2346,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-21-subtitle-indonesia/"
         },
         {
-          "index": 161,
+          "index": 162,
           "number": "20",
           "title": "Battle Through the Heavens Season 5 Episode 20 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2346,7 +2354,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-20-subtitle-indonesia/"
         },
         {
-          "index": 162,
+          "index": 163,
           "number": "19",
           "title": "Battle Through the Heavens Season 5 Episode 19 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2354,7 +2362,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-19-subtitle-indonesia/"
         },
         {
-          "index": 163,
+          "index": 164,
           "number": "18",
           "title": "Battle Through the Heavens Season 5 Episode 18 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2362,7 +2370,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-18-subtitle-indonesia/"
         },
         {
-          "index": 164,
+          "index": 165,
           "number": "17",
           "title": "Battle Through the Heavens Season 5 Episode 17 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2370,7 +2378,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-17-subtitle-indonesia/"
         },
         {
-          "index": 165,
+          "index": 166,
           "number": "16",
           "title": "Battle Through the Heavens Season 5 Episode 16 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2378,7 +2386,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-16-subtitle-indonesia/"
         },
         {
-          "index": 166,
+          "index": 167,
           "number": "15",
           "title": "Battle Through the Heavens Season 5 Episode 15 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2386,7 +2394,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-15-subtitle-indonesia/"
         },
         {
-          "index": 167,
+          "index": 168,
           "number": "14",
           "title": "Battle Through the Heavens Season 5 Episode 14 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2394,7 +2402,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-14-subtitle-indonesia/"
         },
         {
-          "index": 168,
+          "index": 169,
           "number": "13",
           "title": "Battle Through the Heavens Season 5 Episode 13 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2402,7 +2410,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-13-subtitle-indonesia/"
         },
         {
-          "index": 169,
+          "index": 170,
           "number": "12",
           "title": "Battle Through the Heavens Season 5 Episode 12 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2410,7 +2418,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-12-subtitle-indonesia/"
         },
         {
-          "index": 170,
+          "index": 171,
           "number": "11",
           "title": "Battle Through the Heavens Season 5 Episode 11 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2418,7 +2426,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-11-subtitle-indonesia/"
         },
         {
-          "index": 171,
+          "index": 172,
           "number": "10",
           "title": "Battle Through the Heavens Season 5 Episode 10 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2426,7 +2434,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-10-subtitle-indonesia/"
         },
         {
-          "index": 172,
+          "index": 173,
           "number": "09",
           "title": "Battle Through the Heavens Season 5 Episode 09 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2434,7 +2442,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-09-subtitle-indonesia/"
         },
         {
-          "index": 173,
+          "index": 174,
           "number": "08",
           "title": "Battle Through the Heavens Season 5 Episode 08 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2442,7 +2450,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-08-subtitle-indonesia/"
         },
         {
-          "index": 174,
+          "index": 175,
           "number": "07",
           "title": "Battle Through the Heavens Season 5 Episode 07 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2450,7 +2458,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-07-subtitle-indonesia/"
         },
         {
-          "index": 175,
+          "index": 176,
           "number": "06",
           "title": "Battle Through the Heavens Season 5 Episode 06 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2458,7 +2466,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-06-subtitle-indonesia/"
         },
         {
-          "index": 176,
+          "index": 177,
           "number": "05",
           "title": "Battle Through the Heavens Season 5 Episode 05 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2466,7 +2474,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-05-subtitle-indonesia/"
         },
         {
-          "index": 177,
+          "index": 178,
           "number": "04",
           "title": "Battle Through the Heavens Season 5 Episode 04 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2474,7 +2482,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-04-subtitle-indonesia/"
         },
         {
-          "index": 178,
+          "index": 179,
           "number": "03",
           "title": "Battle Through the Heavens Season 5 Episode 03 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2482,7 +2490,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-03-subtitle-indonesia/"
         },
         {
-          "index": 179,
+          "index": 180,
           "number": "02",
           "title": "Battle Through the Heavens Season 5 Episode 02 Subtitle Indonesia",
           "subtitle": "Sub",
@@ -2490,7 +2498,7 @@
           "url": "https://anichin.cafe/battle-through-the-heavens-season-5-episode-02-subtitle-indonesia/"
         },
         {
-          "index": 180,
+          "index": 181,
           "number": "01",
           "title": "Battle Through the Heavens Season 5 Episode 01 Subtitle Indonesia",
           "subtitle": "Sub",

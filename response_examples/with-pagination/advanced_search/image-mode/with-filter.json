@@ -16,15 +16,6 @@
     },
     "lists": [
       {
-        "title": "Ancient Vengeance: Windbreaker Arc",
-        "slug": "ancient-vengeance-windbreaker-arc",
-        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/09/Ancient-Vengeance-Windbreaker-Arc.webp",
-        "episode": "Ongoing",
-        "type": "Donghua",
-        "badge": "Sub",
-        "url": "https://anichin.cafe/seri/ancient-vengeance-windbreaker-arc/"
-      },
-      {
         "title": "Ascendants of the Nine Suns",
         "slug": "ascendants-of-the-nine-suns",
         "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/11/Ascendants-of-the-Nine-Suns.webp",
@@ -194,6 +185,15 @@
         "type": "Donghua",
         "badge": "Sub",
         "url": "https://anichin.cafe/seri/the-ethereal-sword-immortal/"
+      },
+      {
+        "title": "The Gate of Mystical Realm",
+        "slug": "the-gate-of-mystical-realm",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/11/The-Gate-of-Mystical-Realm.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/the-gate-of-mystical-realm/"
       }
     ],
     "pagination": {

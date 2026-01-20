@@ -17,7 +17,7 @@ async function saveResponse(filename, response) {
 }
 
 async function main() {
-    console.log('Testing Anichin Scraper v0.0.3...');
+    console.log('Testing Anichin Scraper v0.0.4...');
     
     const scraper = new AnichinScraper({
         baseUrl: 'https://anichin.cafe',
@@ -92,7 +92,7 @@ async function main() {
         await saveResponse('response_examples/with-pagination/with-slug/series/battle-through-the-heavens-season-5.json', series);
         
         const watch = await scraper.watch('battle-through-the-heavens-season-5', 2);
-        await saveResponse('response_examples/with-pagination/with-slug/series/watch/episode-1.json', watch);
+        await saveResponse('response_examples/with-pagination/with-slug/series/watch/episode-2.json', watch);
         
         const genres1 = await scraper.genres('action', 1);
         await saveResponse('response_examples/with-pagination/with-slug/genres/action-page-1.json', genres1);

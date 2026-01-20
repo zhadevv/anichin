@@ -4,6 +4,15 @@
   "data": {
     "lists": [
       {
+        "title": "Heaven Swallowing Record",
+        "slug": "heaven-swallowing-record",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/05/Heaven-Swallowing-Record.webp",
+        "episode": "Completed",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/heaven-swallowing-record/"
+      },
+      {
         "title": "The All-Devouring Whale: Homecoming",
         "slug": "the-all-devouring-whale-homecoming",
         "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/05/The-All-Devouring-Whale-Homecoming.webp",
@@ -173,20 +182,11 @@
         "type": "Donghua",
         "badge": "Sub",
         "url": "https://anichin.cafe/seri/martial-peak/"
-      },
-      {
-        "title": "ARCANE 2",
-        "slug": "arcane-2",
-        "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/11/ARCANE-2.webp",
-        "episode": "Completed",
-        "type": "Donghua",
-        "badge": "Sub",
-        "url": "https://anichin.cafe/seri/arcane-2/"
       }
     ],
     "pagination": {
       "current_page": 2,
-      "total_pages": 19,
+      "total_pages": 20,
       "has_prev": true,
       "has_next": true,
       "prev": {
@@ -219,8 +219,8 @@
           "is_current": false
         },
         {
-          "number": 19,
-          "url": "https://anichin.cafe/completed/page/19/",
+          "number": 20,
+          "url": "https://anichin.cafe/completed/page/20/",
           "is_current": false
         }
       ]

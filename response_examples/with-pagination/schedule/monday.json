@@ -9,14 +9,14 @@
           "slug": "immortality-season-5",
           "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/IMMORTALITY-SEASON-5.webp",
           "countdown": {
-            "raw": "315595",
-            "formatted": "3d 15h 39m"
+            "raw": "493207",
+            "formatted": "5d 17h 0m"
           },
           "release_time": {
-            "raw": "1768795962",
-            "formatted": "At 11:12"
+            "raw": "1769398426",
+            "formatted": "At 10:33"
           },
-          "current_episode": "7",
+          "current_episode": "8",
           "url": "https://anichin.cafe/seri/immortality-season-5/"
         },
         {
@@ -24,11 +24,11 @@
           "slug": "hitori-no-shita-season-6",
           "thumbnail": "https://anichin.cafe/wp-content/uploads/2026/01/Hitori-No-Shita-Season-6.webp",
           "countdown": {
-            "raw": "317241",
-            "formatted": "3d 16h 7m"
+            "raw": "497189",
+            "formatted": "5d 18h 6m"
           },
           "release_time": {
-            "raw": "1768797608",
+            "raw": "1769402408",
             "formatted": "At 11:40"
           },
           "current_episode": "4",
@@ -39,11 +39,11 @@
           "slug": "wonderland-season-5",
           "thumbnail": "https://i1.wp.com/anichin.cafe/wp-content/uploads/2023/08/Wonderland-S5-Ye-Xingyun.jpg?resize=247,350",
           "countdown": {
-            "raw": "317548",
-            "formatted": "3d 16h 12m"
+            "raw": "497496",
+            "formatted": "5d 18h 11m"
           },
           "release_time": {
-            "raw": "1768797915",
+            "raw": "1769402715",
             "formatted": "At 11:45"
           },
           "current_episode": "1",
@@ -54,42 +54,72 @@
           "slug": "the-legend-of-sword-domain",
           "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/10/Sword-Domain.webp",
           "countdown": {
-            "raw": "320450",
-            "formatted": "3d 17h 0m"
+            "raw": "500398",
+            "formatted": "5d 18h 59m"
           },
           "release_time": {
-            "raw": "1768800817",
+            "raw": "1769405617",
             "formatted": "At 12:33"
           },
           "current_episode": "??",
           "url": "https://anichin.cafe/seri/the-legend-of-sword-domain/"
         },
         {
+          "title": "I Collect Waste in Heaven",
+          "slug": "i-collect-waste-in-heaven",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/I-Collect-Waste-in-Heaven.webp",
+          "countdown": {
+            "raw": "501175",
+            "formatted": "5d 19h 12m"
+          },
+          "release_time": {
+            "raw": "1769406394",
+            "formatted": "At 12:46"
+          },
+          "current_episode": "36",
+          "url": "https://anichin.cafe/seri/i-collect-waste-in-heaven/"
+        },
+        {
           "title": "Purgatory Walkers",
           "slug": "purgatory-walkers",
           "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/06/Purgatory-Walkers.webp",
           "countdown": {
-            "raw": "321617",
-            "formatted": "3d 17h 20m"
+            "raw": "501565",
+            "formatted": "5d 19h 19m"
           },
           "release_time": {
-            "raw": "1768801984",
+            "raw": "1769406784",
             "formatted": "At 12:53"
           },
           "current_episode": "??",
           "url": "https://anichin.cafe/seri/purgatory-walkers/"
         },
         {
+          "title": "My Sectarian Members Are Spies",
+          "slug": "my-sectarian-members-are-spies",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/10/My-Sectarian-Members-Are-Spies.webp",
+          "countdown": {
+            "raw": "502595",
+            "formatted": "5d 19h 36m"
+          },
+          "release_time": {
+            "raw": "1769407814",
+            "formatted": "At 13:10"
+          },
+          "current_episode": "119",
+          "url": "https://anichin.cafe/seri/my-sectarian-members-are-spies/"
+        },
+        {
           "title": "Against the Sky Supreme",
           "slug": "against-the-sky-supreme",
           "thumbnail": "https://anichin.cafe/wp-content/uploads/2021/07/Against-the-Sky-Supreme.webp",
           "countdown": {
-            "raw": "323297",
-            "formatted": "3d 17h 48m"
+            "raw": "504046",
+            "formatted": "5d 20h 0m"
           },
           "release_time": {
-            "raw": "1768803664",
-            "formatted": "At 13:21"
+            "raw": "1769409265",
+            "formatted": "At 13:34"
           },
           "current_episode": "??",
           "url": "https://anichin.cafe/seri/against-the-sky-supreme/"
@@ -99,12 +129,12 @@
           "slug": "supreme-god-emperor",
           "thumbnail": "https://anichin.cafe/wp-content/uploads/2020/05/Supreme-God-Emperor.webp",
           "countdown": {
-            "raw": "324340",
-            "formatted": "3d 18h 5m"
+            "raw": "505101",
+            "formatted": "5d 20h 18m"
           },
           "release_time": {
-            "raw": "1768804707",
-            "formatted": "At 13:38"
+            "raw": "1769410320",
+            "formatted": "At 13:52"
           },
           "current_episode": "??",
           "url": "https://anichin.cafe/seri/supreme-god-emperor/"
@@ -114,11 +144,11 @@
           "slug": "proud-swordsman",
           "thumbnail": "https://i1.wp.com/anichin.cafe/wp-content/uploads/2023/12/Proud-Swordsman.jpg?resize=247,350",
           "countdown": {
-            "raw": "326784",
-            "formatted": "3d 18h 46m"
+            "raw": "506732",
+            "formatted": "5d 20h 45m"
           },
           "release_time": {
-            "raw": "1768807151",
+            "raw": "1769411951",
             "formatted": "At 14:19"
           },
           "current_episode": "69",
@@ -129,11 +159,11 @@
           "slug": "adventures-in-subduing-the-demons",
           "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/11/Adventures-in-Subduing-the-Demons.webp",
           "countdown": {
-            "raw": "328658",
-            "formatted": "3d 19h 17m"
+            "raw": "508606",
+            "formatted": "5d 21h 16m"
           },
           "release_time": {
-            "raw": "1768809025",
+            "raw": "1769413825",
             "formatted": "At 14:50"
           },
           "current_episode": "8",
@@ -144,11 +174,11 @@
           "slug": "blader-soul-prolog",
           "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/03/Blader-Soul-Subtitle-Indonesia.webp",
           "countdown": {
-            "raw": "334455",
-            "formatted": "3d 20h 54m"
+            "raw": "514403",
+            "formatted": "5d 22h 53m"
           },
           "release_time": {
-            "raw": "1768814822",
+            "raw": "1769419622",
             "formatted": "At 16:27"
           },
           "current_episode": "??",
@@ -159,29 +189,44 @@
           "slug": "wind-of-the-tang-dynasty",
           "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/Wind-of-the-Tang-Dynasty.webp",
           "countdown": {
-            "raw": "335695",
-            "formatted": "3d 21h 14m"
+            "raw": "515643",
+            "formatted": "5d 23h 14m"
           },
           "release_time": {
-            "raw": "1768816062",
+            "raw": "1769420862",
             "formatted": "At 16:47"
           },
           "current_episode": "7",
           "url": "https://anichin.cafe/seri/wind-of-the-tang-dynasty/"
         },
         {
+          "title": "Lingwu Continent",
+          "slug": "lingwu-continent",
+          "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/07/Lingwu-Continent.webp",
+          "countdown": {
+            "raw": "520917",
+            "formatted": "6d 0h 41m"
+          },
+          "release_time": {
+            "raw": "1769426136",
+            "formatted": "At 18:15"
+          },
+          "current_episode": "??",
+          "url": "https://anichin.cafe/seri/lingwu-continent/"
+        },
+        {
           "title": "Swallowed Star Season 4",
           "slug": "swallowed-star-season-4",
           "thumbnail": "https://anichin.cafe/wp-content/uploads/2023/10/Swallowed-Star-Season-3-atau-4.webp",
           "countdown": {
-            "raw": "344825",
-            "formatted": "3d 23h 47m"
+            "raw": "524461",
+            "formatted": "6d 1h 41m"
           },
           "release_time": {
-            "raw": "1768825192",
-            "formatted": "At 19:19"
+            "raw": "1769429680",
+            "formatted": "At 19:14"
           },
-          "current_episode": "207",
+          "current_episode": "208",
           "url": "https://anichin.cafe/seri/swallowed-star-season-4/"
         },
         {
@@ -189,11 +234,11 @@
           "slug": "super-xiang",
           "thumbnail": "https://anichin.cafe/wp-content/uploads/2024/05/Super-Xiang.webp",
           "countdown": {
-            "raw": "345926",
-            "formatted": "4d 0h 5m"
+            "raw": "525874",
+            "formatted": "6d 2h 4m"
           },
           "release_time": {
-            "raw": "1768826293",
+            "raw": "1769431093",
             "formatted": "At 19:38"
           },
           "current_episode": "7",

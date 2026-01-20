@@ -4,6 +4,15 @@
   "data": {
     "lists": [
       {
+        "title": "The Other Side of Deep Space",
+        "slug": "the-other-side-of-deep-space",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2026/01/The-Other-Side-of-Deep-Space.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/the-other-side-of-deep-space/"
+      },
+      {
         "title": "Hitori No Shita Season 6",
         "slug": "hitori-no-shita-season-6",
         "thumbnail": "https://anichin.cafe/wp-content/uploads/2026/01/Hitori-No-Shita-Season-6.webp",
@@ -173,15 +182,6 @@
         "type": "Donghua",
         "badge": "Sub",
         "url": "https://anichin.cafe/seri/wind-of-the-tang-dynasty/"
-      },
-      {
-        "title": "Ancient Vengeance: Windbreaker Arc",
-        "slug": "ancient-vengeance-windbreaker-arc",
-        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/09/Ancient-Vengeance-Windbreaker-Arc.webp",
-        "episode": "Ongoing",
-        "type": "Donghua",
-        "badge": "Sub",
-        "url": "https://anichin.cafe/seri/ancient-vengeance-windbreaker-arc/"
       }
     ],
     "pagination": {

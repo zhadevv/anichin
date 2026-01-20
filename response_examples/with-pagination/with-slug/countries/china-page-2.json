@@ -10,6 +10,15 @@
     },
     "lists": [
       {
+        "title": "The Alchemist’s Rise",
+        "slug": "the-alchemists-rise",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/The-Alchemists-Rise.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/the-alchemists-rise/"
+      },
+      {
         "title": "The Gate of Mystical Realm",
         "slug": "the-gate-of-mystical-realm",
         "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/11/The-Gate-of-Mystical-Realm.webp",
@@ -89,15 +98,6 @@
         "type": "Donghua",
         "badge": "Sub",
         "url": "https://anichin.cafe/seri/the-supreme-dantian/"
-      },
-      {
-        "title": "I Collect Waste in Heaven",
-        "slug": "i-collect-waste-in-heaven",
-        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/10/I-Collect-Waste-in-Heaven.webp",
-        "episode": "Ongoing",
-        "type": "Donghua",
-        "badge": "Sub",
-        "url": "https://anichin.cafe/seri/i-collect-waste-in-heaven/"
       }
     ],
     "pagination": {

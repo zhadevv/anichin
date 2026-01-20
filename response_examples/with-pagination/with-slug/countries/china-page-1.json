@@ -10,6 +10,15 @@
     },
     "lists": [
       {
+        "title": "The Other Side of Deep Space",
+        "slug": "the-other-side-of-deep-space",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2026/01/The-Other-Side-of-Deep-Space.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/the-other-side-of-deep-space/"
+      },
+      {
         "title": "Hitori No Shita Season 6",
         "slug": "hitori-no-shita-season-6",
         "thumbnail": "https://anichin.cafe/wp-content/uploads/2026/01/Hitori-No-Shita-Season-6.webp",
@@ -89,15 +98,6 @@
         "type": "Donghua",
         "badge": "Sub",
         "url": "https://anichin.cafe/seri/the-dragon-soul/"
-      },
-      {
-        "title": "The Alchemist’s Rise",
-        "slug": "the-alchemists-rise",
-        "thumbnail": "https://anichin.cafe/wp-content/uploads/2025/12/The-Alchemists-Rise.webp",
-        "episode": "Ongoing",
-        "type": "Donghua",
-        "badge": "Sub",
-        "url": "https://anichin.cafe/seri/the-alchemists-rise/"
       }
     ],
     "pagination": {

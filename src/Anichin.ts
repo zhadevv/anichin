@@ -38,7 +38,7 @@ export interface SidebarData {
     ongoing_series?: Array<{
         title: string;
         slug: string;
-        latest_episode: string;
+        episode: string;
         url: string;
     }>;
     popular_series?: {
@@ -250,6 +250,12 @@ export class AnichinScraper {
         return episode < 10 ? `0${episode}` : episode.toString();
     }
 
+    private extractEpisodeNumber(episodeText: string): string {
+        if (!episodeText) return '';
+        const match = episodeText.match(/\d+/);
+        return match ? match[0] : '';
+    }
+
     private formatCountdown(secondsStr: string): string {
         if (!secondsStr || !secondsStr.trim()) return "Unknown";
         const cleanedStr = secondsStr.replace(/[^\d-]/g, '');
@@ -282,31 +288,12 @@ export class AnichinScraper {
         }
     }
 
-    private formatSeasonTitle(url: string): string {
-        if (!url || !url.includes('/season/')) return "Unknown Season";
-        try {
-            const seasonPart = url.split('/season/')[1].split('/')[0].trim();
-            if (!seasonPart) return "Unknown Season";
-            if (seasonPart.replace(/-/g, '').match(/^\d+$/)) return `Season ${seasonPart}`;
-            if (seasonPart.includes('-')) {
-                const parts = seasonPart.split('-');
-                if (parts.length === 2 && parts[1].match(/^\d+$/)) {
-                    const seasonName = parts[0].charAt(0).toUpperCase() + parts[0].slice(1);
-                    return `${seasonName} ${parts[1]}`;
-                }
-            }
-            return `Season ${seasonPart.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}`;
-        } catch {
-            return "Unknown Season";
-        }
-    }
-
     private parseListItem($: any, element: any): any {
         const bsx = $(element);
         const link = bsx.find('a.tip');
         const typez = bsx.find('.typez');
         const epx = bsx.find('.epx');
-        const sb = bsx.find('.sb.Sub');
+        const sb = bsx.find('.sb');
         const img = bsx.find('img.ts-post-image');
         const h2 = bsx.find('.tt h2');
         const href = link.attr('href') || '';
@@ -403,7 +390,7 @@ export class AnichinScraper {
                     }
                 });
                 
-                ['status', 'type', 'order', 'sub'].forEach(filterType => {
+                ['status', 'type', 'order'].forEach(filterType => {
                     const filterDiv = quickFilter.find(`.filter.dropdown:contains("${filterType.charAt(0).toUpperCase() + filterType.slice(1)}")`);
                     if (filterDiv.length) {
                         const items: Array<{value: string, label: string, checked: boolean}> = [];
@@ -418,15 +405,29 @@ export class AnichinScraper {
             const ongoingSection = sidebar.find('.releases:contains("Ongoing Series")');
             if (ongoingSection.length) {
                 data.ongoing_series = [];
-                const ongoingContainer = ongoingSection.next('.ongoingseries');
+                
+                const ongoingContainer = sidebar.find('.ongoingseries').first();
+                
                 if (ongoingContainer.length) {
                     ongoingContainer.find('li').each((_: any, el: any) => {
                         const link = $(el).find('a');
-                        const title = $(el).find('.l').text().trim();
-                        const episode = $(el).find('.r').text().trim();
+                        const titleSpan = $(el).find('.l');
+                        const episodeSpan = $(el).find('.r');
+                        let titleText = titleSpan.text().trim();
+                        const episodeText = episodeSpan.text().trim();
                         const href = link.attr('href') || '';
-                        if (title) {
-                            data.ongoing_series!.push({ title: title, slug: this.extractSlug(href), latest_episode: episode, url: href ? new URL(href, this.baseUrl).toString() : '' });
+                        
+                        if (titleText.includes('►') || titleText.includes('▶')) {
+                            titleText = titleText.replace(/[►▶]/g, '').trim();
+                        }
+                        
+                        if (titleText) {
+                            data.ongoing_series!.push({ 
+                                title: titleText, 
+                                slug: this.extractSlug(href), 
+                                episode: episodeText, 
+                                url: href ? new URL(href, this.baseUrl).toString() : '' 
+                            });
                         }
                     });
                 }
@@ -441,11 +442,21 @@ export class AnichinScraper {
                     const img = $(el).find('img');
                     const ratingScore = $(el).find('.numscore').text().trim();
                     const genres: string[] = [];
-                    $(el).find('.leftseries span a').each((_: any, genreEl: any) => { genres.push($(genreEl).text().trim()); });
+                    $(el).find('.leftseries span a').each((_: any, genreEl: any) => { 
+                        genres.push($(genreEl).text().trim()); 
+                    });
                     const href = titleLink.attr('href') || '';
                     const title = titleLink.text().trim();
                     if (title) {
-                        data.popular_series!.weekly.push({ top: rank, title: title, slug: this.extractSlug(href), thumbnail: img.attr('src') ? new URL(img.attr('src') || '', this.baseUrl).toString() : '', genre: genres, rating: ratingScore, url: href ? new URL(href, this.baseUrl).toString() : '' });
+                        data.popular_series!.weekly.push({ 
+                            top: rank, 
+                            title: title, 
+                            slug: this.extractSlug(href), 
+                            thumbnail: img.attr('src') ? new URL(img.attr('src') || '', this.baseUrl).toString() : '', 
+                            genre: genres, 
+                            rating: ratingScore, 
+                            url: href ? new URL(href, this.baseUrl).toString() : '' 
+                        });
                     }
                 });
                 popularContainer.find('.wpop-monthly li').each((_: any, el: any) => {
@@ -454,11 +465,21 @@ export class AnichinScraper {
                     const img = $(el).find('img');
                     const ratingScore = $(el).find('.numscore').text().trim();
                     const genres: string[] = [];
-                    $(el).find('.leftseries span a').each((_: any, genreEl: any) => { genres.push($(genreEl).text().trim()); });
+                    $(el).find('.leftseries span a').each((_: any, genreEl: any) => { 
+                        genres.push($(genreEl).text().trim()); 
+                    });
                     const href = titleLink.attr('href') || '';
                     const title = titleLink.text().trim();
                     if (title) {
-                        data.popular_series!.monthly.push({ top: rank, title: title, slug: this.extractSlug(href), thumbnail: img.attr('src') ? new URL(img.attr('src') || '', this.baseUrl).toString() : '', genre: genres, rating: ratingScore, url: href ? new URL(href, this.baseUrl).toString() : '' });
+                        data.popular_series!.monthly.push({ 
+                            top: rank, 
+                            title: title, 
+                            slug: this.extractSlug(href), 
+                            thumbnail: img.attr('src') ? new URL(img.attr('src') || '', this.baseUrl).toString() : '', 
+                            genre: genres, 
+                            rating: ratingScore, 
+                            url: href ? new URL(href, this.baseUrl).toString() : '' 
+                        });
                     }
                 });
                 popularContainer.find('.wpop-alltime li').each((_: any, el: any) => {
@@ -467,11 +488,21 @@ export class AnichinScraper {
                     const img = $(el).find('img');
                     const ratingScore = $(el).find('.numscore').text().trim();
                     const genres: string[] = [];
-                    $(el).find('.leftseries span a').each((_: any, genreEl: any) => { genres.push($(genreEl).text().trim()); });
+                    $(el).find('.leftseries span a').each((_: any, genreEl: any) => { 
+                        genres.push($(genreEl).text().trim()); 
+                    });
                     const href = titleLink.attr('href') || '';
                     const title = titleLink.text().trim();
                     if (title) {
-                        data.popular_series!.all_time.push({ top: rank, title: title, slug: this.extractSlug(href), thumbnail: img.attr('src') ? new URL(img.attr('src') || '', this.baseUrl).toString() : '', genre: genres, rating: ratingScore, url: href ? new URL(href, this.baseUrl).toString() : '' });
+                        data.popular_series!.all_time.push({ 
+                            top: rank, 
+                            title: title, 
+                            slug: this.extractSlug(href), 
+                            thumbnail: img.attr('src') ? new URL(img.attr('src') || '', this.baseUrl).toString() : '', 
+                            genre: genres, 
+                            rating: ratingScore, 
+                            url: href ? new URL(href, this.baseUrl).toString() : '' 
+                        });
                     }
                 });
             }
@@ -487,24 +518,37 @@ export class AnichinScraper {
                         const dateSpan = $(el).find('span').last();
                         const genres: Array<{name: string, slug: string}> = [];
                         $(el).find('a[rel="tag"]').each((_: any, genreEl: any) => {
-                            genres.push({ name: $(genreEl).text().trim(), slug: this.extractSlug($(genreEl).attr('href') || '') });
+                            const genreHref = $(genreEl).attr('href') || '';
+                            genres.push({ 
+                                name: $(genreEl).text().trim(), 
+                                slug: this.extractSlug(genreHref) 
+                            });
                         });
                         const href = titleLink.attr('href') || '';
                         const title = titleLink.text().trim();
                         if (title) {
-                            data.new_movie!.push({ title: title, slug: this.extractSlug(href), thumbnail: img.attr('src') ? new URL(img.attr('src') || '', this.baseUrl).toString() : '', release_date: dateSpan.text().trim(), genres: genres, url: href ? new URL(href, this.baseUrl).toString() : '' });
+                            data.new_movie!.push({ 
+                                title: title, 
+                                slug: this.extractSlug(href), 
+                                thumbnail: img.attr('src') ? new URL(img.attr('src') || '', this.baseUrl).toString() : '', 
+                                release_date: dateSpan.text().trim(), 
+                                genres: genres, 
+                                url: href ? new URL(href, this.baseUrl).toString() : '' 
+                            });
                         }
                     });
                 }
             }
             
             const sections = sidebar.find('.releases');
-            let genresFound = false;
+            data.genres = [];
+            data.seasons = [];
+            
             sections.each((_: any, section: any) => {
-                if (genresFound) return;
                 const header = $(section).find('h3');
-                if (header.length && header.text().includes('Genres')) {
-                    data.genres = [];
+                const headerText = header.text().trim();
+                
+                if (headerText.includes('Genres')) {
                     const genreContainer = $(section).next('ul.genre');
                     if (genreContainer.length) {
                         genreContainer.find('li').each((_: any, liEl: any) => {
@@ -512,38 +556,38 @@ export class AnichinScraper {
                             const text = link.text().trim();
                             const href = link.attr('href') || '';
                             if (text) {
-                                data.genres!.push({ title: text, slug: this.extractSlug(href), url: href ? new URL(href, this.baseUrl).toString() : '' });
+                                data.genres!.push({ 
+                                    title: text, 
+                                    slug: this.extractSlug(href), 
+                                    url: href ? new URL(href, this.baseUrl).toString() : '' 
+                                });
                             }
                         });
                     }
-                    genresFound = true;
                 }
-            });
-            
-            let seasonsFound = false;
-            sections.each((_: any, section: any) => {
-                if (seasonsFound) return;
-                const header = $(section).find('h3');
-                if (header.length && header.text().includes('Season')) {
-                    data.seasons = [];
-                    const seasonContainer = $(section).next('ul.season');
+                
+                if (headerText.includes('Season')) {
+                    const seasonContainer = $(section).next('.mseason').find('ul.season');
                     if (seasonContainer.length) {
                         seasonContainer.find('li').each((_: any, liEl: any) => {
                             const link = $(liEl).find('a');
                             const countSpan = $(liEl).find('span');
                             const href = link.attr('href') || '';
-                            const seasonTitle = this.formatSeasonTitle(href);
-                            if (seasonTitle !== 'Unknown Season') {
-                                data.seasons!.push({ title: seasonTitle, slug: this.extractSlug(href), count: countSpan.text().trim(), url: href ? new URL(href, this.baseUrl).toString() : '' });
+                            const seasonText = link.text().trim();
+                            const countText = countSpan.text().trim();
+                            
+                            if (seasonText) {
+                                data.seasons!.push({ 
+                                    title: seasonText.replace(countText, '').trim(), 
+                                    slug: this.extractSlug(href), 
+                                    count: countText, 
+                                    url: href ? new URL(href, this.baseUrl).toString() : '' 
+                                });
                             }
                         });
                     }
-                    seasonsFound = true;
                 }
             });
-            
-            if (!data.genres) data.genres = [];
-            if (!data.seasons) data.seasons = [];
             
             return this.buildResponse(true, data);
         } catch (error) {
@@ -583,11 +627,30 @@ export class AnichinScraper {
                 });
             }
             
-            const latestSection = $('.releases.latesthome');
-            if (latestSection.length) {
-                latestSection.find('.listupd.normal .bs .bsx').each((_: any, el: any) => {
-                    data.latest_release.push(this.parseListItem($, el));
-                });
+            const latestContainer = $('.releases.latesthome');
+            if (latestContainer.length) {
+                const viewAllElem = latestContainer.find('.vl');
+                data.pagination = {
+                    view_all: viewAllElem.attr('href') ? new URL(viewAllElem.attr('href') || '', this.baseUrl).toString() : '',
+                    prev: '',
+                    next: ''
+                };
+                
+                const itemsContainer = $('.listupd.normal');
+                if (itemsContainer.length) {
+                    itemsContainer.find('.bs .bsx').each((_: any, el: any) => {
+                        data.latest_release.push(this.parseListItem($, el));
+                    });
+                }
+                
+                const paginationContainer = $('.hpage');
+                if (paginationContainer.length) {
+                    const prevElem = paginationContainer.find('a.l');
+                    const nextElem = paginationContainer.find('a.r');
+                    
+                    data.pagination.prev = prevElem.attr('href') ? new URL(prevElem.attr('href') || '', this.baseUrl).toString() : '';
+                    data.pagination.next = nextElem.attr('href') ? new URL(nextElem.attr('href') || '', this.baseUrl).toString() : '';
+                }
             }
             
             const recSection = $('.series-gen');
@@ -671,7 +734,7 @@ export class AnichinScraper {
                         const rawReleaseTime = countdownElem.attr('data-rlsdt') || '';
                         const formattedCountdown = this.formatCountdown(rawCountdown);
                         const formattedReleaseTime = this.formatReleaseTime(rawReleaseTime);
-                        const episodeElem = $(item).find('.sb.Sub');
+                        const episodeElem = $(item).find('.sb');
                         const currentEpisode = episodeElem.text().trim();
                         const url = linkElem.attr('href') || '';
                         
@@ -724,7 +787,7 @@ export class AnichinScraper {
                                 const rawReleaseTime = countdownElem.attr('data-rlsdt') || '';
                                 const formattedCountdown = this.formatCountdown(rawCountdown);
                                 const formattedReleaseTime = this.formatReleaseTime(rawReleaseTime);
-                                const episodeElem = $(item).find('.sb.Sub');
+                                const episodeElem = $(item).find('.sb');
                                 const currentEpisode = episodeElem.text().trim();
                                 const url = linkElem.attr('href') || '';
                                 
@@ -848,9 +911,9 @@ export class AnichinScraper {
         }
     }
     
-    async season(slug: string, page: number = 1): Promise<ApiResponse> {
+    async season(slug: string): Promise<ApiResponse> {
         try {
-            const url = page === 1 ? `/season/${slug}/` : `/season/${slug}/page/${page}/`;
+            const url = `/season/${slug}/`;
             const response = await this.client.get(url);
             const $ = cheerio.load(response.data);
             
@@ -862,8 +925,8 @@ export class AnichinScraper {
                 },
                 lists: [],
                 pagination: {
-                    has_pagination: page > 1,
-                    note: "Seasons page may not have standard pagination"
+                    has_pagination: false,
+                    note: "Seasons page does not have pagination"
                 }
             };
             
@@ -888,10 +951,11 @@ export class AnichinScraper {
                 
                 const genreList: Array<{name: string, slug: string, url: string}> = [];
                 cardInfo.find('.card-info-bottom a[rel="tag"]').each((_: any, genreEl: any) => {
+                    const genreHref = $(genreEl).attr('href') || '';
                     genreList.push({
                         name: $(genreEl).text().trim(),
-                        slug: this.extractSlug($(genreEl).attr('href') || ''),
-                        url: $(genreEl).attr('href') ? new URL($(genreEl).attr('href') || '', this.baseUrl).toString() : ''
+                        slug: this.extractSlug(genreHref),
+                        url: genreHref ? new URL(genreHref, this.baseUrl).toString() : ''
                     });
                 });
                 
@@ -918,11 +982,6 @@ export class AnichinScraper {
                     url: cardLink.attr('href') ? new URL(cardLink.attr('href') || '', this.baseUrl).toString() : ''
                 });
             });
-            
-            const pagination = $('.pagination');
-            if (pagination.length) {
-                data.pagination = this.parsePagination($);
-            }
             
             return this.buildResponse(true, data);
         } catch (error) {
@@ -1274,38 +1333,46 @@ export class AnichinScraper {
                 });
             }
             
-            const episodeSection = $('.bixbox.bxcl.epcheck');
-            if (episodeSection.length) {
-                const episodeNav = episodeSection.find('.lastend');
-                if (episodeNav.length) {
-                    const firstEp = episodeNav.find('.inepcx').first();
-                    const newEp = episodeNav.find('.inepcx').last();
+            const episodeNavSection = $('.lastend');
+            if (episodeNavSection.length) {
+                const firstEp = episodeNavSection.find('.inepcx').first();
+                const newEp = episodeNavSection.find('.inepcx').last();
+                
+                if (firstEp.length) {
+                    const numberSpan = firstEp.find('.epcurfirst');
+                    const episodeNumber = numberSpan.text().trim();
+                    const episodeNum = this.extractEpisodeNumber(episodeNumber);
                     
-                    if (firstEp.length) {
-                        const name = firstEp.find('span');
-                        const number = firstEp.find('.epcurfirst');
-                        const link = firstEp.find('a');
-                        
-                        data.episode_nav.first_episode = {
-                            name: name.text().trim(),
-                            number: number.text().trim(),
-                            url: link.attr('href') ? new URL(link.attr('href') || '', this.baseUrl).toString() : ''
-                        };
+                    let firstEpisodeUrl = '#';
+                    if (episodeNum) {
+                        const formattedNum = this.formatEpisodeNumber(parseInt(episodeNum));
+                        firstEpisodeUrl = `/${slug}-episode-${formattedNum}-subtitle-indonesia/`;
                     }
                     
-                    if (newEp.length) {
-                        const name = newEp.find('span');
-                        const number = newEp.find('.epcurlast');
-                        const link = newEp.find('a');
-                        
-                        data.episode_nav.new_episode = {
-                            name: name.text().trim(),
-                            number: number.text().trim(),
-                            url: link.attr('href') ? new URL(link.attr('href') || '', this.baseUrl).toString() : ''
-                        };
-                    }
+                    data.episode_nav.first_episode = {
+                        name: episodeNumber,
+                        number: episodeNum,
+                        url: firstEpisodeUrl !== '#' ? new URL(firstEpisodeUrl, this.baseUrl).toString() : '#'
+                    };
                 }
                 
+                if (newEp.length) {
+                    const numberSpan = newEp.find('.epcurlast');
+                    const episodeNumber = numberSpan.text().trim();
+                    const episodeNum = this.extractEpisodeNumber(episodeNumber);
+                    const newEpLink = newEp.find('a');
+                    const href = newEpLink.attr('href') || '';
+                    
+                    data.episode_nav.new_episode = {
+                        name: episodeNumber,
+                        number: episodeNum,
+                        url: href ? new URL(href, this.baseUrl).toString() : ''
+                    };
+                }
+            }
+            
+            const episodeSection = $('.bixbox.bxcl.epcheck');
+            if (episodeSection.length) {
                 const episodeList = episodeSection.find('.eplister li');
                 episodeList.each((i: number, epEl: any) => {
                     const link = $(epEl).find('a');
@@ -1413,35 +1480,71 @@ export class AnichinScraper {
                 }
             }
             
-            const videoNav = $('.item.video-nav');
-            if (videoNav.length) {
-                const serverSelect = videoNav.find('select.mirror');
-                if (serverSelect.length) {
-                    serverSelect.find('option').each((i: number, el: any) => {
-                        if ($(el).attr('value')) {
-                            const serverValue = $(el).attr('value') || '';
-                            data.servers.push({
-                                server_id: i.toString(),
-                                server_name: $(el).text().trim(),
-                                server_url: serverValue
-                            });
-                        }
-                    });
-                    
-                    if (data.servers.length > 0) {
-                        data.current_server = {
-                            server_id: data.servers[0].server_id,
-                            server_url: data.servers[0].server_url
-                        };
-                    }
-                }
-            }
-            
             const videoContent = $('.video-content');
             if (videoContent.length) {
                 const iframe = videoContent.find('#pembed iframe');
                 if (iframe.length) {
-                    data.current_server.server_url = iframe.attr('src') || '';
+                    const src = iframe.attr('src') || '';
+                    data.current_server.server_url = src;
+                    data.servers.push({
+                        server_id: '0',
+                        server_name: 'Default Server',
+                        server_url: src
+                    });
+                }
+            }
+            
+            const videoNav = $('.item.video-nav');
+            if (videoNav.length) {
+                const serverSelect = videoNav.find('select.mirror');
+                if (serverSelect.length) {
+                    let serverIndex = 0;
+                    serverSelect.find('option').each((index: number, el: any) => {
+                        const optionValue = $(el).attr('value');
+                        const dataIndex = $(el).attr('data-index');
+                        
+                        if (optionValue && optionValue.trim() !== '' && dataIndex && dataIndex !== '0') {
+                            let serverUrl = '';
+                            let serverName = $(el).text().trim();
+                            
+                            if (optionValue.includes('base64,')) {
+                                const base64Match = optionValue.match(/base64,(.*)/);
+                                if (base64Match) {
+                                    try {
+                                        const decoded = atob(base64Match[1]);
+                                        const srcMatch = decoded.match(/src="([^"]+)"/);
+                                        if (srcMatch) {
+                                            serverUrl = srcMatch[1];
+                                        }
+                                    } catch (e) {}
+                                }
+                            } else if (optionValue.includes('<iframe')) {
+                                const srcMatch = optionValue.match(/src="([^"]+)"/);
+                                if (srcMatch) {
+                                    serverUrl = srcMatch[1];
+                                }
+                            } else {
+                                serverUrl = optionValue;
+                            }
+                            
+                            if (serverUrl && serverName !== 'Select Video Server') {
+                                const serverId = index.toString();
+                                data.servers.push({
+                                    server_id: serverId,
+                                    server_name: serverName,
+                                    server_url: serverUrl
+                                });
+                                
+                                if (index === 0){
+                                    data.current_server = {
+                                        server_id: serverId,
+                                        server_url: serverUrl
+                                    };
+                                }
+                                serverIndex++;
+                            }
+                        }
+                    });
                 }
             }
             
