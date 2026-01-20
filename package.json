@@ -1,6 +1,6 @@
 {
   "name": "@zhadev/anichin",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Unofficial Anichin Scraper.",
   "main": "dist/cjs/Anichin.js",
   "module": "dist/esm/Anichin.js",
