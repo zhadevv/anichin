@@ -1,0 +1,76 @@
+{
+  "success": true,
+  "creator": "zhadevv",
+  "data": {
+    "page_type": "studio",
+    "studio": {
+      "name": "Motion Magic",
+      "slug": "motion-magic",
+      "total_pages": 1
+    },
+    "lists": [
+      {
+        "title": "Battle Through the Heavens Season 2 + Special",
+        "slug": "battle-through-the-heavens-season-2-special",
+        "thumbnail": "https://i0.wp.com/anichin.cafe/wp-content/uploads/2023/08/Doupo-Cangqiong-Season-2.jpg?resize=247,350",
+        "episode": "Completed",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/battle-through-the-heavens-season-2-special/"
+      },
+      {
+        "title": "Battle Through the Heavens Season 3",
+        "slug": "battle-through-the-heavens-season-3",
+        "thumbnail": "https://i0.wp.com/anichin.cafe/wp-content/uploads/2023/08/Doupo-Cangqiong-Season-3.jpg?resize=247,350",
+        "episode": "Completed",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/battle-through-the-heavens-season-3/"
+      },
+      {
+        "title": "Battle Through the Heavens Season 5",
+        "slug": "battle-through-the-heavens-season-5",
+        "thumbnail": "https://anichin.cafe/wp-content/uploads/2022/12/BTTH.webp",
+        "episode": "Ongoing",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/battle-through-the-heavens-season-5/"
+      },
+      {
+        "title": "Battle Through the Heavens: The Origin",
+        "slug": "battle-through-the-heavens-the-origin",
+        "thumbnail": "https://i0.wp.com/anichin.cafe/wp-content/uploads/2023/08/Btth-Origin.jpg?resize=247,350",
+        "episode": "Completed",
+        "type": "Special",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/battle-through-the-heavens-the-origin/"
+      },
+      {
+        "title": "Battle Through the Heavens: Three Year Agreement",
+        "slug": "battle-through-the-heavens-three-year-agreement",
+        "thumbnail": "https://i1.wp.com/anichin.cafe/wp-content/uploads/2023/08/Doupo-Cangqiong-San-Nian-Zhi-Yue.jpg?resize=247,350",
+        "episode": "Completed",
+        "type": "Donghua",
+        "badge": "Sub",
+        "url": "https://anichin.cafe/seri/battle-through-the-heavens-three-year-agreement/"
+      }
+    ],
+    "pagination": {
+      "current_page": 1,
+      "total_pages": 1,
+      "has_prev": false,
+      "has_next": false,
+      "prev": {
+        "url": "",
+        "text": ""
+      },
+      "next": {
+        "url": "",
+        "text": ""
+      },
+      "pages": []
+    }
+  },
+  "metadata": {},
+  "message": null
+}

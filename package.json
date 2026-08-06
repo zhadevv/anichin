@@ -1,0 +1,83 @@
+{
+  "name": "@zhadev/anichin",
+  "version": "0.0.5",
+  "description": "Unofficial Anichin Scraper.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "browser": "dist/javascript/browser.js",
+  "unpkg": "dist/javascript/browser.min.js",
+  "jsdelivr": "dist/javascript/browser.min.js",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "npm run clean && npm run build:types && npm run build:cjs && npm run build:esm && npm run build:browser",
+    "build:types": "tsc --declaration --emitDeclarationOnly --outDir dist/types",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "build:browser": "npm run build:browser:dev && npm run build:browser:prod",
+    "build:browser:dev": "esbuild src/index.ts --bundle --platform=node --target=es2020 --outfile=dist/javascript/browser.js --global-name=AnichinScraper",
+    "build:browser:prod": "esbuild src/index.ts --bundle --platform=node --target=es2020 --minify --outfile=dist/javascript/browser.min.js --global-name=AnichinScraper",
+    "clean": "rimraf dist",
+    "test": "npm run typecheck && npm run test:unit",
+    "test:unit": "tsx --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build && npm test",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "devscript": "tsx devscripts/all.js",
+    "smoke": "tsx devscripts/smoke.js",
+    "benchmark": "tsx devscripts/benchmark.js",
+    "release": "node scripts/release.js",
+    "publish:npm": "node scripts/publish.js"
+  },
+  "keywords": [
+    "anichin",
+    "donghua",
+    "scraper",
+    "anime",
+    "parser",
+    "api",
+    "typescript",
+    "zhadevv"
+  ],
+  "author": "zhadevv",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhadevv/anichin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhadevv/anichin/issues"
+  },
+  "homepage": "https://github.com/zhadevv/anichin#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cheerio": "^1.1.2",
+    "https-proxy-agent": "^7.0.6",
+    "socks-proxy-agent": "^8.0.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.51.0",
+    "@typescript-eslint/parser": "^8.51.0",
+    "@types/axios": "^0.9.36",
+    "@types/cheerio": "^0.22.35",
+    "@types/node": "^22.10.2",
+    "esbuild": "^0.27.2",
+    "eslint": "^9.39.2",
+    "prettier": "^3.7.4",
+    "rimraf": "^6.1.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
